@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4928,25 +4928,6 @@
 </library>
 <library name="MISC">
 <packages>
-<package name="DEP_128064S">
-<wire x1="-30.25" y1="0" x2="-8" y2="0" width="0.254" layer="21"/>
-<wire x1="-8" y1="0" x2="8" y2="0" width="0.254" layer="21"/>
-<wire x1="8" y1="0" x2="30.25" y2="0" width="0.254" layer="21"/>
-<wire x1="30.25" y1="0" x2="30.25" y2="37" width="0.254" layer="21"/>
-<wire x1="30.25" y1="37" x2="-30.25" y2="37" width="0.254" layer="21"/>
-<wire x1="-30.25" y1="37" x2="-30.25" y2="0" width="0.254" layer="21"/>
-<wire x1="8" y1="0" x2="8" y2="-29.5" width="0.254" layer="51"/>
-<wire x1="8" y1="-29.5" x2="8" y2="-32" width="0.254" layer="51"/>
-<wire x1="8" y1="-32" x2="-8" y2="-32" width="0.254" layer="51"/>
-<wire x1="-8" y1="-32" x2="-8" y2="-29.5" width="0.254" layer="51"/>
-<wire x1="-8" y1="-29.5" x2="-8" y2="0" width="0.254" layer="51"/>
-<wire x1="-8" y1="-29.5" x2="8" y2="-29.5" width="0.254" layer="51"/>
-<wire x1="-27.5" y1="7.3" x2="-27.5" y2="34.8" width="0.254" layer="51"/>
-<wire x1="27.5" y1="7.3" x2="27.5" y2="34.8" width="0.254" layer="51"/>
-<wire x1="-27.5" y1="34.8" x2="27.5" y2="34.8" width="0.254" layer="51"/>
-<wire x1="27.5" y1="7.3" x2="-27.5" y2="7.3" width="0.254" layer="51"/>
-<text x="-30" y="38" size="1" layer="25">&gt;NAME</text>
-</package>
 <package name="MOUNTHOLE_6X3">
 <hole x="0" y="0" drill="3.3"/>
 <circle x="0" y="0" radius="3" width="0.127" layer="41"/>
@@ -4971,26 +4952,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="DEP_128064S">
-<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-20.32" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-17.78" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
-<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="10.16" size="1.778" layer="97">&gt;VALUE</text>
-</symbol>
 <symbol name="MOUNTHOLE">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <text x="0" y="3.556" size="1.27" layer="95" align="center">&gt;NAME</text>
@@ -5003,23 +4964,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DEP_128064S" prefix="SCR">
-<gates>
-<gate name="G$1" symbol="DEP_128064S" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-W" package="DEP_128064S">
-<technologies>
-<technology name="">
-<attribute name="HEIGHT" value="2.15" constant="no"/>
-<attribute name="PRICE_PER" value="14.18" constant="no"/>
-<attribute name="TME" value="DEP128064S-W" constant="no"/>
-<attribute name="VALUE" value="128x64 White OLED" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOUNTHOLE" prefix="MECH">
 <description>Mechanical mounting hole.</description>
 <gates>
@@ -6431,55 +6375,6 @@ for future use</text>
 </deviceset>
 </devicesets>
 </library>
-<library name="r_0402">
-<packages>
-<package name="0402">
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
-<text x="-0.875" y="0.5" size="0.508" layer="25">&gt;NAME</text>
-<wire x1="-0.875" y1="-0.375" x2="0.875" y2="-0.375" width="0.125" layer="21"/>
-<wire x1="0.875" y1="-0.375" x2="0.875" y2="0.375" width="0.125" layer="21"/>
-<wire x1="0.875" y1="0.375" x2="-0.875" y2="0.375" width="0.125" layer="21"/>
-<wire x1="-0.875" y1="0.375" x2="-0.875" y2="-0.375" width="0.125" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RESISTOR">
-<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ERJ-2RKF1002X" prefix="R">
-<description>10000 10k 0402 0.1W 1% thick film resistor.</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="P10.0KLCT-ND" constant="no"/>
-<attribute name="HEIGHT" value="0.4" constant="no"/>
-<attribute name="PRICE_PER" value="0.07" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="DIODES">
 <packages>
 <package name="SOD-123">
@@ -6753,7 +6648,6 @@ for future use</text>
 <part name="U$1" library="NETS" deviceset="1V2" device=""/>
 <part name="U$10" library="NETS" deviceset="1V2" device=""/>
 <part name="U$34" library="NETS" deviceset="2V5" device=""/>
-<part name="SCR1" library="MISC" deviceset="DEP_128064S" device="-W" value="128x64 White OLED"/>
 <part name="CN3" library="CONNECTORs" deviceset="3-1734839-1" device="" value="31 PIN FPC"/>
 <part name="U4" library="ICs" deviceset="TLV61046A" device="DBVR" value="TLV61046A"/>
 <part name="C2" library="CAPACITORS" deviceset="GRM188R60J475ME19D" device="" value="4.7uF 6.3V"/>
@@ -6768,7 +6662,6 @@ for future use</text>
 <part name="L2" library="INDUCTORS" deviceset="1231AS-H-150M=P3" device="" value="15uH 0.22R"/>
 <part name="R3" library="r_0603" deviceset="ERJ3EKF1003V" device="" value="100k"/>
 <part name="GND7" library="NETS" deviceset="GND" device=""/>
-<part name="U$12" library="NETS" deviceset="3V3" device=""/>
 <part name="GND9" library="NETS" deviceset="GND" device=""/>
 <part name="C4" library="CAPACITORS" deviceset="GRM188R61E225KA12D" device="" value="2.2uF 25V"/>
 <part name="GND10" library="NETS" deviceset="GND" device=""/>
@@ -6784,9 +6677,6 @@ for future use</text>
 <part name="MECH1" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH2" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH5" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH6" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U2" library="Octavo-Systems OSD32MP1" deviceset="OSD32MP157C-512M-BAA" device=""/>
 <part name="CN1" library="CONNECTORs" deviceset="12401832E402A" device="" value="USB C CON"/>
 <part name="CN5" library="CONNECTORs" deviceset="629104190121" device="" value="USB A"/>
@@ -6953,7 +6843,7 @@ for future use</text>
 <part name="U$48" library="NETS" deviceset="3V3" device=""/>
 <part name="U$49" library="NETS" deviceset="3V3" device=""/>
 <part name="U$50" library="NETS" deviceset="3V3" device=""/>
-<part name="R39" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
+<part name="R39" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="CN8" library="CONNECTORs" deviceset="TSM-103-03-T-DV" device="" value="NO FIT"/>
 <part name="GND37" library="NETS" deviceset="GND" device=""/>
 <part name="U14" library="ICs" deviceset="LMZM23600V3SILT" device="" value="3.3V BUCK"/>
@@ -6969,7 +6859,7 @@ for future use</text>
 <part name="C38" library="CAPACITORS" deviceset="C3225X7S1H106M250AB" device="" value="10uF 50V"/>
 <part name="GND71" library="NETS" deviceset="GND" device=""/>
 <part name="GND72" library="NETS" deviceset="GND" device=""/>
-<part name="R40" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
+<part name="R40" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="GND73" library="NETS" deviceset="GND" device=""/>
 <part name="D1" library="DIODES" deviceset="B0540W" device="" value="B0540W"/>
 <part name="U$53" library="NETS" deviceset="VBAT" device=""/>
@@ -11146,10 +11036,6 @@ for future use</text>
 <plain>
 </plain>
 <instances>
-<instance part="SCR1" gate="G$1" x="182.88" y="104.14" smashed="yes">
-<attribute name="NAME" x="167.64" y="116.84" size="1.778" layer="95"/>
-<attribute name="VALUE" x="167.64" y="114.3" size="1.778" layer="97"/>
-</instance>
 <instance part="CN3" gate="G$1" x="104.14" y="55.88" smashed="yes">
 <attribute name="NAME" x="101.6" y="101.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="99.06" size="1.778" layer="96"/>
@@ -11199,9 +11085,6 @@ for future use</text>
 </instance>
 <instance part="GND7" gate="G$1" x="45.72" y="40.64" smashed="yes">
 <attribute name="VALUE" x="45.72" y="38.1" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="U$12" gate="G$1" x="170.18" y="71.12" smashed="yes">
-<attribute name="VALUE" x="170.18" y="73.66" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="GND9" gate="G$1" x="170.18" y="50.8" smashed="yes">
 <attribute name="VALUE" x="170.18" y="48.26" size="1.778" layer="96" align="center"/>
@@ -11329,13 +11212,6 @@ for future use</text>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <junction x="119.38" y="60.96"/>
 <label x="134.62" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="U$12" gate="G$1" pin="3V3"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="68.58" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DSP_SPI_CS" class="0">
@@ -11489,6 +11365,12 @@ for future use</text>
 <wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <junction x="45.72" y="83.82"/>
 <pinref part="U$2" gate="G$1" pin="3V3_SLP"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="66.04" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
+<label x="187.96" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12848,15 +12730,6 @@ for future use</text>
 </instance>
 <instance part="MECH3" gate="G$1" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="12.7" y="16.256" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH4" gate="G$1" x="12.7" y="5.08" smashed="yes">
-<attribute name="NAME" x="12.7" y="8.636" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH5" gate="G$1" x="20.32" y="12.7" smashed="yes">
-<attribute name="NAME" x="20.32" y="16.256" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH6" gate="G$1" x="20.32" y="5.08" smashed="yes">
-<attribute name="NAME" x="20.32" y="8.636" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
