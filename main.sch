@@ -4903,7 +4903,6 @@
 <part name="MECH2" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH5" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH7" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH8" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="GND1" library="NETS" deviceset="GND" device=""/>
 <part name="GND2" library="NETS" deviceset="GND" device=""/>
@@ -8226,9 +8225,6 @@ VCCO_DDR = 1.5V @ ?</text>
 </instance>
 <instance part="MECH5" gate="G$1" x="20.32" y="15.24" smashed="yes">
 <attribute name="NAME" x="20.32" y="18.796" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH7" gate="G$1" x="12.7" y="7.62" smashed="yes">
-<attribute name="NAME" x="12.7" y="11.176" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="MECH8" gate="G$1" x="20.32" y="7.62" smashed="yes">
 <attribute name="NAME" x="20.32" y="11.176" size="1.27" layer="95" align="center"/>
