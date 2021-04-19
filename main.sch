@@ -4781,12 +4781,51 @@
 <circle x="0" y="0" radius="2.25" width="0.25" layer="22"/>
 <circle x="0" y="0" radius="2.25" width="0.25" layer="21"/>
 </package>
+<package name="DEP_128064S">
+<wire x1="-30.25" y1="0" x2="-8" y2="0" width="0.254" layer="21"/>
+<wire x1="-8" y1="0" x2="8" y2="0" width="0.254" layer="21"/>
+<wire x1="8" y1="0" x2="30.25" y2="0" width="0.254" layer="21"/>
+<wire x1="30.25" y1="0" x2="30.25" y2="37" width="0.254" layer="21"/>
+<wire x1="30.25" y1="37" x2="-30.25" y2="37" width="0.254" layer="21"/>
+<wire x1="-30.25" y1="37" x2="-30.25" y2="0" width="0.254" layer="21"/>
+<wire x1="8" y1="0" x2="8" y2="-29.5" width="0.254" layer="51"/>
+<wire x1="8" y1="-29.5" x2="8" y2="-32" width="0.254" layer="51"/>
+<wire x1="8" y1="-32" x2="-8" y2="-32" width="0.254" layer="51"/>
+<wire x1="-8" y1="-32" x2="-8" y2="-29.5" width="0.254" layer="51"/>
+<wire x1="-8" y1="-29.5" x2="-8" y2="0" width="0.254" layer="51"/>
+<wire x1="-8" y1="-29.5" x2="8" y2="-29.5" width="0.254" layer="51"/>
+<wire x1="-27.5" y1="7.3" x2="-27.5" y2="34.8" width="0.254" layer="51"/>
+<wire x1="27.5" y1="7.3" x2="27.5" y2="34.8" width="0.254" layer="51"/>
+<wire x1="-27.5" y1="34.8" x2="27.5" y2="34.8" width="0.254" layer="51"/>
+<wire x1="27.5" y1="7.3" x2="-27.5" y2="7.3" width="0.254" layer="51"/>
+<text x="-30" y="38" size="1" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNTHOLE">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <text x="0" y="3.556" size="1.27" layer="95" align="center">&gt;NAME</text>
 <circle x="0" y="0" radius="1.016" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DEP_128064S">
+<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-20.32" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="10.16" size="1.778" layer="97">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4813,6 +4852,23 @@
 <device name="4.5X2" package="MOUNTHOLE_4.5X2">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEP_128064S" prefix="SCR">
+<gates>
+<gate name="G$1" symbol="DEP_128064S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-W" package="DEP_128064S">
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="2.15" constant="no"/>
+<attribute name="PRICE_PER" value="14.18" constant="no"/>
+<attribute name="TME" value="DEP128064S-W" constant="no"/>
+<attribute name="VALUE" value="128x64 White OLED" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5058,6 +5114,7 @@
 <part name="GND94" library="NETS" deviceset="GND" device=""/>
 <part name="C79" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
 <part name="R9" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
+<part name="SCR1" library="MISC" deviceset="DEP_128064S" device="-W" value="128x64 White OLED"/>
 </parts>
 <sheets>
 <sheet>
@@ -6761,6 +6818,10 @@ VCCO_DDR = 1.5V @ ?</text>
 <instance part="CN2" gate="G$1" x="269.24" y="322.58" smashed="yes">
 <attribute name="NAME" x="264.16" y="332.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="264.16" y="330.2" size="1.778" layer="96"/>
+</instance>
+<instance part="SCR1" gate="G$1" x="266.7" y="251.46" smashed="yes">
+<attribute name="NAME" x="251.46" y="264.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="251.46" y="261.62" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
