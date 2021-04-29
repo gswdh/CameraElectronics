@@ -2068,6 +2068,16 @@
 <wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.125" layer="21"/>
 <wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.125" layer="21"/>
 </package>
+<package name="0603">
+<description>Standard imperial 0603.</description>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1.5" y="0.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.375" y1="0.625" x2="1.375" y2="0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="0.625" x2="1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="-0.625" x2="-1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="-1.375" y1="-0.625" x2="-1.375" y2="0.625" width="0.125" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="DIODES">
@@ -2260,6 +2270,19 @@
 <wire x1="6.75" y1="2.25" x2="-6.75" y2="2.25" width="0.15" layer="25"/>
 <wire x1="-6.75" y1="2.25" x2="-6.75" y2="-2.25" width="0.15" layer="25"/>
 <text x="-6.75" y="2.5" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="c_0402">
+<packages>
+<package name="0402">
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.875" y="0.5" size="0.508" layer="25">&gt;NAME</text>
+<wire x1="-0.875" y1="-0.375" x2="0.875" y2="-0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="-0.375" x2="0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="0.375" x2="-0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="-0.875" y1="0.375" x2="-0.875" y2="-0.375" width="0.125" layer="21"/>
 </package>
 </packages>
 </library>
@@ -4154,6 +4177,1046 @@ einem neuen Namen ab.</description>
 <attribute name="STOCK" value="201" x="-100.25" y="-16.875" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="±1%" x="-100.25" y="-16.875" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C149" library="c_0402" package="0402" value="0.1uF 10V" x="-89.375" y="-45.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-45.25" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.375" y="-45.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C150" library="c_0402" package="0402" value="4.7uF 6.3V" x="-90" y="-49" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-48.25" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-90" y="-49" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C151" library="c_0402" package="0402" value="0.1uF 10V" x="-89.375" y="-54.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-54" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.375" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C152" library="c_0402" package="0402" value="4.7uF 6.3V" x="-90" y="-52.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-51.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-90" y="-54.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C153" library="c_0402" package="0402" value="0.1uF 10V" x="-89.375" y="-60" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-59.5" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.375" y="-56.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C154" library="c_0402" package="0402" value="4.7uF 6.3V" x="-90" y="-57.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-57" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-90" y="-60" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C155" library="c_0402" package="0402" value="0.1uF 10V" x="-89.375" y="-68.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-68.25" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.375" y="-62.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C156" library="c_0402" package="0402" value="4.7uF 6.3V" x="-90" y="-63.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-62.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-90" y="-65.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C157" library="c_0402" package="0402" value="0.1uF 10V" x="-91.875" y="-68.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-91" y="-68.25" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.375" y="-67.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C158" library="c_0402" package="0402" value="4.7uF 6.3V" x="-90" y="-66.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-65.75" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-90" y="-71" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C159" library="c_1206" package="1206" value="22uF 10V" x="-90" y="-72" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-71.25" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-90" y="-72" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C160" library="c_1206" package="1206" value="22uF 10V" x="-90" y="-75.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.5" y="-74.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-90" y="-75.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C161" library="c_0402" package="0402" value="0.1uF 10V" x="-93.5" y="-84.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-92.625" y="-83.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.125" y="-77.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C162" library="c_0402" package="0402" value="4.7uF 6.3V" x="-89.75" y="-78.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.25" y="-77.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-89.75" y="-80.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C163" library="c_0402" package="0402" value="0.1uF 10V" x="-96" y="-84.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-95.125" y="-83.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.125" y="-83.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C164" library="c_0402" package="0402" value="4.7uF 6.3V" x="-94.125" y="-78.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-92.625" y="-77.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-89.75" y="-86.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C165" library="c_0402" package="0402" value="0.1uF 10V" x="-89.125" y="-87.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.25" y="-86.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.125" y="-88.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C166" library="c_0402" package="0402" value="4.7uF 6.3V" x="-89.75" y="-81.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.25" y="-81.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-89.75" y="-91.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C167" library="c_0402" package="0402" value="0.1uF 10V" x="-91.625" y="-87.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-90.75" y="-86.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.125" y="-94.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C168" library="c_0402" package="0402" value="4.7uF 6.3V" x="-94.125" y="-81.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-92.625" y="-81.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-89.75" y="-97.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C169" library="c_0402" package="0402" value="0.1uF 10V" x="-94.125" y="-87.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-93.25" y="-86.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-89.125" y="-99.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C170" library="c_0402" package="0402" value="4.7uF 6.3V" x="-89.75" y="-85.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-88.25" y="-84.375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-89.75" y="-102.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C171" library="c_0402" package="0402" value="0.1uF 10V" x="-86" y="-59.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-58.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-52.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C172" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-53.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-53.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-56.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C173" library="c_0402" package="0402" value="0.1uF 10V" x="-88.5" y="-59.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-87.625" y="-58.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C174" library="c_0402" package="0402" value="4.7uF 6.3V" x="-86.625" y="-53.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-53.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-61.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C175" library="c_0402" package="0402" value="0.1uF 10V" x="-81.625" y="-62.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-62.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-63.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C176" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-57.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-56.375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-67.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C177" library="c_0402" package="0402" value="0.1uF 10V" x="-84.125" y="-62.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-83.25" y="-62.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C178" library="c_0402" package="0402" value="4.7uF 6.3V" x="-86.625" y="-57.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-56.375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-72.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C179" library="c_0402" package="0402" value="0.1uF 10V" x="-86.625" y="-62.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.75" y="-62.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-74.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C180" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-60.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-59.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-78.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C181" library="c_1206" package="1206" value="22uF 10V" x="-83" y="-66.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-65.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-83" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C182" library="c_1206" package="1206" value="22uF 10V" x="-83" y="-70" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-68.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-83" y="-70" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C183" library="c_0402" package="0402" value="0.1uF 10V" x="-86" y="-78.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-78.375" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-72.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C184" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-73.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-72.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C185" library="c_0402" package="0402" value="0.1uF 10V" x="-88.5" y="-78.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-87.625" y="-78.375" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-77.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C186" library="c_0402" package="0402" value="4.7uF 6.3V" x="-86.625" y="-73.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-72.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-81.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C187" library="c_0402" package="0402" value="0.1uF 10V" x="-81.625" y="-82.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-81.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-83.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C188" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-76.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-75.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-86.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C189" library="c_0402" package="0402" value="0.1uF 10V" x="-84.125" y="-82.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-83.25" y="-81.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-88.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C190" library="c_0402" package="0402" value="4.7uF 6.3V" x="-86.625" y="-76.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.125" y="-75.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-92.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C191" library="c_0402" package="0402" value="0.1uF 10V" x="-86.625" y="-82.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-85.75" y="-81.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-94.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C192" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-79.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-79.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-97.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C193" library="c_0402" package="0402" value="0.1uF 10V" x="-81.625" y="-87.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-87.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-81.625" y="-84.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C194" library="c_0402" package="0402" value="4.7uF 6.3V" x="-82.25" y="-85.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-80.75" y="-84.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-82.25" y="-87.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C195" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-47.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-46" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-47.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C196" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-50.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-49.75" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-50.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C197" library="c_0402" package="0402" value="0.1uF 10V" x="-106.875" y="-64" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-63.5" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-106.875" y="-53.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C198" library="c_0402" package="0402" value="4.7uF 6.3V" x="-107.5" y="-61.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-61" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-107.5" y="-56.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C199" library="c_0402" package="0402" value="0.1uF 10V" x="-109.375" y="-64" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-108.5" y="-63.5" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-106.875" y="-58.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C200" library="c_0402" package="0402" value="4.7uF 6.3V" x="-111.875" y="-61.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-110.375" y="-61" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-107.5" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C201" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-54.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-53.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-65.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C202" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-58.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-57.25" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-69.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C203" library="c_0402" package="0402" value="0.1uF 10V" x="-106.875" y="-73.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-72.75" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-106.875" y="-66.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C204" library="c_0402" package="0402" value="4.7uF 6.3V" x="-107.5" y="-71" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-70.25" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-107.5" y="-69.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C205" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-67.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-66.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-73.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C206" library="c_0402" package="0402" value="0.1uF 10V" x="-106.875" y="-82.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-82" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-106.875" y="-75.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C207" library="c_0402" package="0402" value="4.7uF 6.3V" x="-107.5" y="-80.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-79.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-107.5" y="-78.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C208" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-76.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-75.75" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-82.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C209" library="c_0402" package="0402" value="0.1uF 10V" x="-99.375" y="-55" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-54.5" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-99.375" y="-48" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C210" library="c_0402" package="0402" value="4.7uF 6.3V" x="-100" y="-52.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-52" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-100" y="-51.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C211" library="c_1206" package="1206" value="22uF 10V" x="-108.25" y="-86.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-106" y="-85" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-108.25" y="-91.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C212" library="c_0402" package="0402" value="0.1uF 10V" x="-99.375" y="-64.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-63.75" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-99.375" y="-57.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C213" library="c_0402" package="0402" value="4.7uF 6.3V" x="-100" y="-62" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-61.25" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-100" y="-60.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C214" library="c_1206" package="1206" value="22uF 10V" x="-100.75" y="-58.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-57.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-100.75" y="-64.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C215" library="c_0402" package="0402" value="0.1uF 10V" x="-99.375" y="-73.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-73" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-99.375" y="-66.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C216" library="c_0402" package="0402" value="4.7uF 6.3V" x="-100" y="-71.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-70.5" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-100" y="-69.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C217" library="c_1206" package="1206" value="22uF 10V" x="-100.75" y="-67.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-66.75" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-100.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C218" library="c_0402" package="0402" value="0.1uF 10V" x="-99.375" y="-82.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-82.25" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-99.375" y="-75.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C219" library="c_0402" package="0402" value="4.7uF 6.3V" x="-100" y="-80.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-79.75" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-100" y="-79" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C220" library="c_1206" package="1206" value="22uF 10V" x="-100.75" y="-77.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-98.5" y="-76" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-100.75" y="-82.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C221" library="c_0402" package="0402" value="0.1uF 10V" x="-121.25" y="-62.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-61.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-121.25" y="-55.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C222" library="c_0402" package="0402" value="4.7uF 6.3V" x="-121.875" y="-59.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-59.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-121.875" y="-58.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C223" library="c_1206" package="1206" value="22uF 10V" x="-122.625" y="-56.5" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-55.375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-122.625" y="-62" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C224" library="c_0402" package="0402" value="0.1uF 10V" x="-121.25" y="-71.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-70.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-121.25" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C225" library="c_0402" package="0402" value="4.7uF 6.3V" x="-121.875" y="-69.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-68.375" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-121.875" y="-67.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C226" library="c_1206" package="1206" value="22uF 10V" x="-122.625" y="-65.75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-64.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-122.625" y="-71.25" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C227" library="c_0402" package="0402" value="0.1uF 10V" x="-121.25" y="-80.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-80.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-121.25" y="-73.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C228" library="c_0402" package="0402" value="4.7uF 6.3V" x="-121.875" y="-78.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-77.625" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-121.875" y="-76.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C229" library="c_1206" package="1206" value="22uF 10V" x="-122.625" y="-75" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-73.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-122.625" y="-80.5" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C230" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-53.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-52.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-46.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C231" library="c_0402" package="0402" value="4.7uF 6.3V" x="-121.875" y="-87.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10669-1-ND" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-86.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.26000" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="39486" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="6.3V" x="-121.875" y="-86.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C232" library="c_1206" package="1206" value="22uF 10V" x="-122.625" y="-84.25" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-12252-1-ND" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-120.375" y="-83.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.49000" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="2000" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-122.625" y="-89.75" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C233" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-55.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-54.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-55.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C234" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-57.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-57.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-57.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C235" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-59.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-59.375" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-59.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C236" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-62.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-61.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-62.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C237" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-64.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-63.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-64.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C238" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-66.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-66.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-66.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C239" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-68.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-68.375" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-68.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C240" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-71.125" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-70.625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-71.125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C241" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-73.375" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-72.875" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-73.375" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C242" library="c_0402" package="0402" value="0.1uF 10V" x="-113.75" y="-75.625" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-1129-1-ND" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-75.125" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.07000" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="7866945" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-113.75" y="-75.625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R54" library="RESISTORS" package="0603" value="0R" x="-114.375" y="-78.875" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="541-0.0GCT-ND" x="-114.375" y="-78.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="0.5" x="-114.375" y="-78.875" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-112.875" y="-78.125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.08" x="-114.375" y="-78.875" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5102,64 +6165,210 @@ einem neuen Namen ab.</description>
 <contactref element="C138" pad="1"/>
 <contactref element="C136" pad="1"/>
 <contactref element="C147" pad="2"/>
-<wire x1="-133.5" y1="-28" x2="-133.5" y2="-31.875" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.25" y1="-23.625" x2="-133.5" y2="-28" width="0" layer="19" extent="1-1"/>
-<wire x1="-135.05" y1="-18.625" x2="-136.25" y2="-23.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.375" y1="-18.025" x2="-135.05" y2="-18.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.375" y1="-17.425" x2="-136.375" y2="-18.025" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.25" y1="-14.375" x2="-136.375" y2="-17.425" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.25" y1="-11.125" x2="-136.25" y2="-14.375" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.25" y1="-4.625" x2="-136.25" y2="-11.125" width="0" layer="19" extent="1-1"/>
-<wire x1="-136.25" y1="-1.375" x2="-136.25" y2="-4.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-133.5" y1="5.25" x2="-136.25" y2="-1.375" width="0" layer="19" extent="1-1"/>
-<wire x1="-133.5" y1="9.125" x2="-133.5" y2="5.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-118.75" y1="9.75" x2="-133.5" y2="9.125" width="0" layer="19" extent="1-1"/>
-<wire x1="-118.75" y1="13.5" x2="-118.75" y2="9.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-112.375" y1="14" x2="-118.75" y2="13.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="12.375" x2="-112.375" y2="14" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="9.125" x2="-101" y2="12.375" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="5.875" x2="-101" y2="9.125" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="2.625" x2="-101" y2="5.875" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="-0.625" x2="-101" y2="2.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="-3.875" x2="-101" y2="-0.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="-7.125" x2="-101" y2="-3.875" width="0" layer="19" extent="1-1"/>
-<wire x1="-101" y1="15.625" x2="-101" y2="12.375" width="0" layer="19" extent="1-1"/>
-<wire x1="-99.5" y1="-10.375" x2="-101" y2="-7.125" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.125" y1="-12.5" x2="-99.5" y2="-10.375" width="0" layer="19" extent="1-1"/>
-<wire x1="-99.5" y1="-13.625" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="-15.75" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="-9.25" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="-6" x2="-95.625" y2="-9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.125" y1="-2.75" x2="-95.625" y2="-6" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="0.5" x2="-97.125" y2="-2.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="3.75" x2="-95.625" y2="0.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.625" y1="7" x2="-95.625" y2="3.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.75" y1="-17.75" x2="-95.625" y2="-15.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.75" y1="-21" x2="-89.75" y2="-17.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-89" y1="-8.025" x2="-95.625" y2="-9.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.75" y1="11.25" x2="-95.625" y2="7" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.55" y1="16.25" x2="-89.75" y2="11.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.875" y1="16.85" x2="-88.55" y2="16.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.875" y1="17.45" x2="-89.875" y2="16.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-89" y1="20.5" x2="-89.875" y2="17.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-87" y1="6.875" x2="-89.75" y2="11.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-87" y1="3" x2="-87" y2="6.875" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="7.75" x2="-87" y2="6.875" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="4.5" x2="-81.5" y2="7.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="1.25" x2="-81.5" y2="4.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-2" x2="-81.5" y2="1.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-5.25" x2="-81.5" y2="-2" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-8.5" x2="-81.5" y2="-5.25" width="0" layer="19" extent="1-1"/>
+<contactref element="C149" pad="1"/>
+<contactref element="C150" pad="1"/>
+<contactref element="C151" pad="1"/>
+<contactref element="C152" pad="1"/>
+<contactref element="C153" pad="1"/>
+<contactref element="C154" pad="1"/>
+<contactref element="C155" pad="1"/>
+<contactref element="C156" pad="1"/>
+<contactref element="C157" pad="1"/>
+<contactref element="C158" pad="1"/>
+<contactref element="C159" pad="1"/>
+<contactref element="C160" pad="1"/>
+<contactref element="C161" pad="1"/>
+<contactref element="C162" pad="1"/>
+<contactref element="C163" pad="1"/>
+<contactref element="C164" pad="1"/>
+<contactref element="C165" pad="1"/>
+<contactref element="C166" pad="1"/>
+<contactref element="C167" pad="1"/>
+<contactref element="C168" pad="1"/>
+<contactref element="C169" pad="1"/>
+<contactref element="C170" pad="1"/>
+<contactref element="C171" pad="1"/>
+<contactref element="C172" pad="1"/>
+<contactref element="C173" pad="1"/>
+<contactref element="C174" pad="1"/>
+<contactref element="C175" pad="1"/>
+<contactref element="C176" pad="1"/>
+<contactref element="C177" pad="1"/>
+<contactref element="C178" pad="1"/>
+<contactref element="C179" pad="1"/>
+<contactref element="C180" pad="1"/>
+<contactref element="C181" pad="1"/>
+<contactref element="C182" pad="1"/>
+<contactref element="C183" pad="1"/>
+<contactref element="C184" pad="1"/>
+<contactref element="C185" pad="1"/>
+<contactref element="C186" pad="1"/>
+<contactref element="C187" pad="1"/>
+<contactref element="C188" pad="1"/>
+<contactref element="C189" pad="1"/>
+<contactref element="C190" pad="1"/>
+<contactref element="C191" pad="1"/>
+<contactref element="C192" pad="1"/>
+<contactref element="C193" pad="1"/>
+<contactref element="C194" pad="1"/>
+<contactref element="C195" pad="1"/>
+<contactref element="C196" pad="1"/>
+<contactref element="C197" pad="1"/>
+<contactref element="C198" pad="1"/>
+<contactref element="C199" pad="1"/>
+<contactref element="C200" pad="1"/>
+<contactref element="C201" pad="1"/>
+<contactref element="C202" pad="1"/>
+<contactref element="C203" pad="1"/>
+<contactref element="C204" pad="1"/>
+<contactref element="C205" pad="1"/>
+<contactref element="C206" pad="1"/>
+<contactref element="C207" pad="1"/>
+<contactref element="C208" pad="1"/>
+<contactref element="C209" pad="1"/>
+<contactref element="C210" pad="1"/>
+<contactref element="C211" pad="1"/>
+<contactref element="C212" pad="1"/>
+<contactref element="C213" pad="1"/>
+<contactref element="C214" pad="1"/>
+<contactref element="C215" pad="1"/>
+<contactref element="C216" pad="1"/>
+<contactref element="C217" pad="1"/>
+<contactref element="C218" pad="1"/>
+<contactref element="C219" pad="1"/>
+<contactref element="C220" pad="1"/>
+<contactref element="C221" pad="1"/>
+<contactref element="C222" pad="1"/>
+<contactref element="C223" pad="1"/>
+<contactref element="C224" pad="1"/>
+<contactref element="C225" pad="1"/>
+<contactref element="C226" pad="1"/>
+<contactref element="C227" pad="1"/>
+<contactref element="C228" pad="1"/>
+<contactref element="C229" pad="1"/>
+<contactref element="C230" pad="1"/>
+<contactref element="C231" pad="1"/>
+<contactref element="C232" pad="1"/>
+<contactref element="C241" pad="2"/>
+<contactref element="C240" pad="2"/>
+<contactref element="C239" pad="2"/>
+<contactref element="C238" pad="2"/>
+<contactref element="C237" pad="2"/>
+<contactref element="C236" pad="2"/>
+<contactref element="C235" pad="2"/>
+<wire x1="-124.125" y1="-84.25" x2="-121.375" y2="-87.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-120.75" y1="-80.625" x2="-124.125" y2="-84.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.375" y1="-78.375" x2="-120.75" y2="-80.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-124.125" y1="-75" x2="-121.375" y2="-78.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-120.75" y1="-71.375" x2="-124.125" y2="-75" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.375" y1="-69.125" x2="-120.75" y2="-71.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-124.125" y1="-65.75" x2="-121.375" y2="-69.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-120.75" y1="-62.125" x2="-124.125" y2="-65.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.375" y1="-59.875" x2="-120.75" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-124.125" y1="-56.5" x2="-121.375" y2="-59.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-62.125" x2="-120.75" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-64.375" x2="-114.25" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-66.625" x2="-114.25" y2="-64.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-68.875" x2="-114.25" y2="-66.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-71.125" x2="-114.25" y2="-68.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-73.375" x2="-114.25" y2="-71.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-59.875" x2="-114.25" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-111.375" y1="-61.75" x2="-114.25" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-108.875" y1="-64" x2="-111.375" y2="-61.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.375" y1="-64" x2="-108.875" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-107" y1="-61.75" x2="-106.375" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-67.625" x2="-108.875" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-58.375" x2="-111.375" y2="-61.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-54.625" x2="-109.75" y2="-58.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-50.875" x2="-109.75" y2="-54.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-47.125" x2="-109.75" y2="-50.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-113.25" y1="-53.125" x2="-109.75" y2="-54.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-107" y1="-71" x2="-109.75" y2="-67.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.375" y1="-73.25" x2="-107" y2="-71" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-76.875" x2="-106.375" y2="-73.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-107" y1="-80.25" x2="-109.75" y2="-76.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.375" y1="-82.5" x2="-107" y2="-80.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-109.75" y1="-86.125" x2="-106.375" y2="-82.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-102.25" y1="-77.125" x2="-106.375" y2="-73.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.5" y1="-80.5" x2="-102.25" y2="-77.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.875" y1="-82.75" x2="-99.5" y2="-80.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-95.5" y1="-84.125" x2="-98.875" y2="-82.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-93" y1="-84.125" x2="-95.5" y2="-84.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-93.625" y1="-81.875" x2="-93" y2="-84.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-93.625" y1="-78.625" x2="-93.625" y2="-81.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-93.625" y1="-87.375" x2="-93" y2="-84.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-91.125" y1="-87.375" x2="-93.625" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.625" y1="-87.375" x2="-91.125" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.25" y1="-85.125" x2="-88.625" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.25" y1="-81.875" x2="-89.25" y2="-85.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-82.125" x2="-89.25" y2="-81.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-83.625" y1="-82.125" x2="-86.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.125" y1="-82.125" x2="-83.625" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-79.875" x2="-81.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.25" y1="-78.625" x2="-89.25" y2="-81.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-88" y1="-78.875" x2="-89.25" y2="-78.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-85.5" y1="-78.875" x2="-88" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-76.625" x2="-85.5" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-76.625" x2="-81.75" y2="-79.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-73.375" x2="-86.125" y2="-76.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-73.375" x2="-81.75" y2="-76.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-85.375" x2="-81.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.125" y1="-87.625" x2="-81.75" y2="-85.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-84.5" y1="-70" x2="-86.125" y2="-73.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-84.5" y1="-66.25" x2="-84.5" y2="-70" width="0" layer="19" extent="16-16"/>
+<wire x1="-83.625" y1="-62.625" x2="-84.5" y2="-66.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-62.625" x2="-83.625" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.125" y1="-62.625" x2="-83.625" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-60.375" x2="-81.125" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-57.125" x2="-81.75" y2="-60.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.75" y1="-53.875" x2="-81.75" y2="-57.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-85.5" y1="-59.375" x2="-86.125" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-57.125" x2="-85.5" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-88" y1="-59.375" x2="-85.5" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.875" y1="-60" x2="-88" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.5" y1="-57.75" x2="-88" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.125" y1="-53.875" x2="-86.125" y2="-57.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.875" y1="-54.5" x2="-86.125" y2="-53.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.5" y1="-52.25" x2="-88.875" y2="-54.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.5" y1="-49" x2="-89.5" y2="-52.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.5" y1="-63.25" x2="-88.875" y2="-60" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.5" y1="-66.5" x2="-89.5" y2="-63.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.875" y1="-68.75" x2="-89.5" y2="-66.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-91.375" y1="-68.75" x2="-88.875" y2="-68.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-91.5" y1="-72" x2="-91.375" y2="-68.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-91.5" y1="-75.25" x2="-91.5" y2="-72" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.875" y1="-45.75" x2="-89.5" y2="-49" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.875" y1="-73.5" x2="-102.25" y2="-77.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.5" y1="-71.25" x2="-98.875" y2="-73.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-102.25" y1="-67.875" x2="-99.5" y2="-71.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.875" y1="-64.25" x2="-102.25" y2="-67.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.5" y1="-62" x2="-98.875" y2="-64.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-102.25" y1="-58.625" x2="-99.5" y2="-62" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.875" y1="-55" x2="-102.25" y2="-58.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.5" y1="-52.75" x2="-98.875" y2="-55" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.5" y1="-28" x2="-88.875" y2="-45.75" width="0" layer="19" extent="1-16"/>
+<wire x1="-81.5" y1="-24.75" x2="-81.5" y2="-28" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-21.5" x2="-81.5" y2="-24.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-18.25" x2="-81.5" y2="-21.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-15" x2="-81.5" y2="-18.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-8.5" x2="-81.5" y2="-15" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-5.25" x2="-81.5" y2="-8.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="-2" x2="-81.5" y2="-5.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="1.25" x2="-81.5" y2="-2" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="4.5" x2="-81.5" y2="1.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.5" y1="7.75" x2="-81.5" y2="4.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-81.5" y1="11" x2="-81.5" y2="7.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.5" y1="13.875" x2="-81.5" y2="11" width="0" layer="19" extent="1-1"/>
 <wire x1="-79" y1="13.875" x2="-80.5" y2="13.875" width="0" layer="19" extent="1-1"/>
 <wire x1="-77.25" y1="15.625" x2="-79" y2="13.875" width="0" layer="19" extent="1-1"/>
 <wire x1="-79" y1="18.875" x2="-77.25" y2="15.625" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-15" x2="-81.5" y2="-8.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-18.25" x2="-81.5" y2="-15" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-21.5" x2="-81.5" y2="-18.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-24.75" x2="-81.5" y2="-21.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-81.5" y1="-28" x2="-81.5" y2="-24.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-87" y1="6.875" x2="-81.5" y2="7.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-87" y1="3" x2="-87" y2="6.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.75" y1="11.25" x2="-87" y2="6.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.55" y1="16.25" x2="-89.75" y2="11.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.875" y1="16.85" x2="-88.55" y2="16.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.875" y1="17.45" x2="-89.875" y2="16.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-89" y1="20.5" x2="-89.875" y2="17.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.5" y1="-27.625" x2="-81.5" y2="-28" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.5" y1="-24.375" x2="-74.5" y2="-27.625" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.5" y1="-21.125" x2="-74.5" y2="-24.375" width="0" layer="19" extent="1-1"/>
@@ -5171,8 +6380,44 @@ einem neuen Namen ab.</description>
 <wire x1="-68.25" y1="-5.625" x2="-72.5" y2="-1.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.75" y1="-2.375" x2="-68.25" y2="-5.625" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.75" y1="0.875" x2="-66.75" y2="-2.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="7" x2="-89.75" y2="11.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="3.75" x2="-95.625" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="0.5" x2="-95.625" y2="3.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.125" y1="-2.75" x2="-95.625" y2="0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="-6" x2="-97.125" y2="-2.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="-9.25" x2="-95.625" y2="-6" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.125" y1="-12.5" x2="-95.625" y2="-9.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.5" y1="-13.625" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.5" y1="-10.375" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.625" y1="-15.75" x2="-97.125" y2="-12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="-7.125" x2="-99.5" y2="-10.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="-3.875" x2="-101" y2="-7.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="-0.625" x2="-101" y2="-3.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="2.625" x2="-101" y2="-0.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="5.875" x2="-101" y2="2.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="9.125" x2="-101" y2="5.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="12.375" x2="-101" y2="9.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-101" y1="15.625" x2="-101" y2="12.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.75" y1="-17.75" x2="-95.625" y2="-15.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.75" y1="-21" x2="-89.75" y2="-17.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-89" y1="-8.025" x2="-95.625" y2="-9.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-109.125" y1="-0.625" x2="-101" y2="-0.625" width="0" layer="19" extent="1-1"/>
 <wire x1="-99.75" y1="-23.375" x2="-95.625" y2="-15.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-112.375" y1="14" x2="-101" y2="12.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-118.75" y1="13.5" x2="-112.375" y2="14" width="0" layer="19" extent="1-1"/>
+<wire x1="-118.75" y1="9.75" x2="-118.75" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-133.5" y1="9.125" x2="-118.75" y2="9.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-133.5" y1="5.25" x2="-133.5" y2="9.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.25" y1="-1.375" x2="-133.5" y2="5.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.25" y1="-4.625" x2="-136.25" y2="-1.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.25" y1="-11.125" x2="-136.25" y2="-4.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.25" y1="-14.375" x2="-136.25" y2="-11.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.375" y1="-17.425" x2="-136.25" y2="-14.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.375" y1="-18.025" x2="-136.375" y2="-17.425" width="0" layer="19" extent="1-1"/>
+<wire x1="-135.05" y1="-18.625" x2="-136.375" y2="-18.025" width="0" layer="19" extent="1-1"/>
+<wire x1="-136.25" y1="-23.625" x2="-135.05" y2="-18.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-133.5" y1="-28" x2="-136.25" y2="-23.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-133.5" y1="-31.875" x2="-133.5" y2="-28" width="0" layer="19" extent="1-1"/>
 <wire x1="-114.67" y1="-24" x2="-99.75" y2="-23.375" width="0" layer="19" extent="1-1"/>
 <wire x1="-119.75" y1="-18.125" x2="-114.67" y2="-24" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.125" y1="-12.75" x2="-119.75" y2="-18.125" width="0" layer="19" extent="1-1"/>
@@ -7448,6 +8693,324 @@ einem neuen Namen ab.</description>
 <wire x1="-97.125" y1="7" x2="-97.125" y2="3.75" width="0" layer="19" extent="1-1"/>
 <wire x1="32.7" y1="12.63" x2="-97.125" y2="7" width="0" layer="19" extent="1-16"/>
 <wire x1="44.3" y1="12.63" x2="32.7" y2="12.63" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="SEN_VDD33A">
+<contactref element="R54" pad="2"/>
+<contactref element="C233" pad="2"/>
+<contactref element="C234" pad="2"/>
+<contactref element="C242" pad="2"/>
+<wire x1="-114.25" y1="-75.625" x2="-115.125" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-57.625" x2="-114.25" y2="-75.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-55.375" x2="-114.25" y2="-57.625" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="SEN_PWR_1V3A">
+<contactref element="U2" pad="T13"/>
+<contactref element="U2" pad="T7"/>
+<contactref element="U2" pad="C17"/>
+<contactref element="U2" pad="J2"/>
+<contactref element="U2" pad="A10"/>
+<contactref element="U2" pad="D16"/>
+<contactref element="C183" pad="2"/>
+<contactref element="C184" pad="2"/>
+<contactref element="C185" pad="2"/>
+<contactref element="C186" pad="2"/>
+<contactref element="C187" pad="2"/>
+<contactref element="C188" pad="2"/>
+<contactref element="C189" pad="2"/>
+<contactref element="C190" pad="2"/>
+<contactref element="C191" pad="2"/>
+<contactref element="C192" pad="2"/>
+<contactref element="C193" pad="2"/>
+<contactref element="C194" pad="2"/>
+<contactref element="C195" pad="2"/>
+<contactref element="C196" pad="2"/>
+<wire x1="-86.5" y1="-78.875" x2="-89" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-76.625" x2="-86.5" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-73.375" x2="-87.125" y2="-76.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-82.125" x2="-86.5" y2="-78.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-84.625" y1="-82.125" x2="-87.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.125" y1="-82.125" x2="-84.625" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-79.875" x2="-82.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-76.625" x2="-82.75" y2="-79.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-73.375" x2="-82.75" y2="-76.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-85.375" x2="-82.125" y2="-82.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.125" y1="-87.625" x2="-82.75" y2="-85.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-50.875" x2="-87.125" y2="-73.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-47.125" x2="-106.75" y2="-50.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-2" y1="-7.5" x2="-82.75" y2="-73.375" width="0" layer="19" extent="1-16"/>
+<wire x1="4" y1="-7.5" x2="-2" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="-0.5" x2="-2" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="7.5" x2="-7" y2="-0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="4.5" x2="1" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="5.5" x2="7" y2="4.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SEN_PWR_1V3D">
+<contactref element="U2" pad="H16"/>
+<contactref element="U2" pad="T11"/>
+<contactref element="U2" pad="K2"/>
+<contactref element="U2" pad="T5"/>
+<contactref element="U2" pad="J6"/>
+<contactref element="U2" pad="G6"/>
+<contactref element="U2" pad="H2"/>
+<contactref element="U2" pad="F16"/>
+<contactref element="U2" pad="A8"/>
+<contactref element="U2" pad="P17"/>
+<contactref element="C161" pad="2"/>
+<contactref element="C162" pad="2"/>
+<contactref element="C163" pad="2"/>
+<contactref element="C164" pad="2"/>
+<contactref element="C165" pad="2"/>
+<contactref element="C166" pad="2"/>
+<contactref element="C167" pad="2"/>
+<contactref element="C168" pad="2"/>
+<contactref element="C169" pad="2"/>
+<contactref element="C170" pad="2"/>
+<contactref element="C171" pad="2"/>
+<contactref element="C172" pad="2"/>
+<contactref element="C173" pad="2"/>
+<contactref element="C174" pad="2"/>
+<contactref element="C175" pad="2"/>
+<contactref element="C176" pad="2"/>
+<contactref element="C177" pad="2"/>
+<contactref element="C178" pad="2"/>
+<contactref element="C179" pad="2"/>
+<contactref element="C180" pad="2"/>
+<contactref element="C181" pad="2"/>
+<contactref element="C182" pad="2"/>
+<wire x1="-92.125" y1="-87.375" x2="-94.625" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.625" y1="-87.375" x2="-92.125" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.25" y1="-85.125" x2="-89.625" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.25" y1="-81.875" x2="-90.25" y2="-85.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.25" y1="-78.625" x2="-90.25" y2="-81.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-94" y1="-84.125" x2="-94.625" y2="-87.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-94.625" y1="-81.875" x2="-94" y2="-84.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-96.5" y1="-84.125" x2="-94" y2="-84.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-94.625" y1="-78.625" x2="-94.625" y2="-81.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.5" y1="-70" x2="-90.25" y2="-78.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-81.5" y1="-66.25" x2="-81.5" y2="-70" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.125" y1="-62.625" x2="-81.5" y2="-66.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-60.375" x2="-82.125" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-84.625" y1="-62.625" x2="-82.125" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-62.625" x2="-84.625" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-57.125" x2="-82.75" y2="-60.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-82.75" y1="-53.875" x2="-82.75" y2="-57.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-86.5" y1="-59.375" x2="-87.125" y2="-62.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-57.125" x2="-86.5" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-89" y1="-59.375" x2="-86.5" y2="-59.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-87.125" y1="-53.875" x2="-87.125" y2="-57.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-4" y1="-7.5" x2="-82.75" y2="-53.875" width="0" layer="19" extent="1-16"/>
+<wire x1="2" y1="-7.5" x2="-4" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="-5.5" x2="2" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="0.5" x2="8" y2="-5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="2.5" x2="7" y2="0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="-1.5" x2="-4" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="0.5" x2="-7" y2="-1.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-3" y1="-0.5" x2="-7" y2="-1.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="-0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-1" y1="7.5" x2="-3" y2="1.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SEN_PWR_0V7">
+<contactref element="U2" pad="M17"/>
+<contactref element="C214" pad="2"/>
+<contactref element="C213" pad="2"/>
+<contactref element="C212" pad="2"/>
+<wire x1="-100.5" y1="-62" x2="-99.875" y2="-64.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.25" y1="-58.625" x2="-100.5" y2="-62" width="0" layer="19" extent="16-16"/>
+<wire x1="8" y1="-3.5" x2="-99.25" y2="-58.625" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="SEN_PWR_-1V3">
+<contactref element="U2" pad="F17"/>
+<contactref element="U2" pad="H17"/>
+<contactref element="C218" pad="2"/>
+<contactref element="C219" pad="2"/>
+<contactref element="C220" pad="2"/>
+<contactref element="C221" pad="2"/>
+<contactref element="C222" pad="2"/>
+<contactref element="C223" pad="2"/>
+<contactref element="U2" pad="D17"/>
+<contactref element="C203" pad="2"/>
+<contactref element="C204" pad="2"/>
+<contactref element="C205" pad="2"/>
+<wire x1="-100.5" y1="-80.5" x2="-99.875" y2="-82.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.25" y1="-77.125" x2="-100.5" y2="-80.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-107.375" y1="-73.25" x2="-99.25" y2="-77.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-108" y1="-71" x2="-107.375" y2="-73.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-67.625" x2="-108" y2="-71" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.75" y1="-62.125" x2="-106.75" y2="-67.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-122.375" y1="-59.875" x2="-121.75" y2="-62.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.125" y1="-56.5" x2="-122.375" y2="-59.875" width="0" layer="19" extent="16-16"/>
+<wire x1="8" y1="0.5" x2="-99.25" y2="-77.125" width="0" layer="19" extent="1-16"/>
+<wire x1="8" y1="2.5" x2="8" y2="0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="4.5" x2="8" y2="2.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SEN_PWR_3V3D">
+<contactref element="U2" pad="J16"/>
+<contactref element="U2" pad="K13"/>
+<contactref element="C197" pad="2"/>
+<contactref element="C198" pad="2"/>
+<contactref element="C199" pad="2"/>
+<contactref element="C200" pad="2"/>
+<contactref element="C201" pad="2"/>
+<contactref element="C202" pad="2"/>
+<wire x1="-107.375" y1="-64" x2="-109.875" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-108" y1="-61.75" x2="-107.375" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-112.375" y1="-61.75" x2="-109.875" y2="-64" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-58.375" x2="-108" y2="-61.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-54.625" x2="-106.75" y2="-58.375" width="0" layer="19" extent="16-16"/>
+<wire x1="4" y1="-1.5" x2="-106.75" y2="-54.625" width="0" layer="19" extent="1-16"/>
+<wire x1="7" y1="-0.5" x2="4" y2="-1.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SEN_PWR_3V6">
+<contactref element="U2" pad="A14"/>
+<contactref element="U2" pad="T15"/>
+<contactref element="U2" pad="N17"/>
+<contactref element="C215" pad="2"/>
+<contactref element="C216" pad="2"/>
+<contactref element="C217" pad="2"/>
+<contactref element="C227" pad="2"/>
+<contactref element="C228" pad="2"/>
+<contactref element="C229" pad="2"/>
+<contactref element="C230" pad="2"/>
+<contactref element="C231" pad="2"/>
+<contactref element="C232" pad="2"/>
+<contactref element="U2" pad="J17"/>
+<contactref element="U2" pad="G17"/>
+<contactref element="C226" pad="2"/>
+<contactref element="C225" pad="2"/>
+<contactref element="C224" pad="2"/>
+<wire x1="-121.125" y1="-84.25" x2="-122.375" y2="-87.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.75" y1="-80.625" x2="-121.125" y2="-84.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-122.375" y1="-78.375" x2="-121.75" y2="-80.625" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.125" y1="-75" x2="-122.375" y2="-78.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.75" y1="-71.375" x2="-121.125" y2="-75" width="0" layer="19" extent="16-16"/>
+<wire x1="-122.375" y1="-69.125" x2="-121.75" y2="-71.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-121.125" y1="-65.75" x2="-122.375" y2="-69.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-114.25" y1="-53.125" x2="-121.125" y2="-65.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-100.5" y1="-71.25" x2="-121.125" y2="-75" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.875" y1="-73.5" x2="-100.5" y2="-71.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.25" y1="-67.875" x2="-100.5" y2="-71.25" width="0" layer="19" extent="16-16"/>
+<wire x1="6" y1="-7.5" x2="-99.25" y2="-67.875" width="0" layer="19" extent="1-16"/>
+<wire x1="8" y1="-4.5" x2="6" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="-0.5" x2="8" y2="-4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="1.5" x2="8" y2="-0.5" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="7.5" x2="8" y2="1.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$60">
+<contactref element="U2" pad="E1"/>
+<contactref element="C233" pad="1"/>
+<wire x1="-8" y1="3.5" x2="-113.25" y2="-55.375" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$71">
+<contactref element="U2" pad="P1"/>
+<contactref element="C235" pad="1"/>
+<wire x1="-8" y1="-5.5" x2="-113.25" y2="-59.875" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$72">
+<contactref element="U2" pad="M1"/>
+<contactref element="C236" pad="1"/>
+<wire x1="-8" y1="-3.5" x2="-113.25" y2="-62.125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$73">
+<contactref element="U2" pad="G2"/>
+<contactref element="C237" pad="1"/>
+<wire x1="-7" y1="1.5" x2="-113.25" y2="-64.375" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$74">
+<contactref element="U2" pad="D1"/>
+<contactref element="C238" pad="1"/>
+<wire x1="-8" y1="4.5" x2="-113.25" y2="-66.625" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$75">
+<contactref element="U2" pad="C2"/>
+<contactref element="C239" pad="1"/>
+<wire x1="-7" y1="5.5" x2="-113.25" y2="-68.875" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$76">
+<contactref element="U2" pad="C1"/>
+<contactref element="C240" pad="1"/>
+<wire x1="-8" y1="5.5" x2="-113.25" y2="-71.125" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$77">
+<contactref element="U2" pad="A3"/>
+<contactref element="C241" pad="1"/>
+<wire x1="-6" y1="7.5" x2="-113.25" y2="-73.375" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$78">
+<contactref element="U2" pad="D2"/>
+<contactref element="C242" pad="1"/>
+<wire x1="-7" y1="4.5" x2="-113.25" y2="-75.625" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$70">
+<contactref element="U2" pad="A4"/>
+<contactref element="R54" pad="1"/>
+<wire x1="-5" y1="7.5" x2="-113.625" y2="-78.875" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$79">
+<contactref element="U2" pad="E2"/>
+<contactref element="C234" pad="1"/>
+<wire x1="-7" y1="3.5" x2="-113.25" y2="-57.625" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="SEN_PWR_3V3A">
+<contactref element="U2" pad="M16"/>
+<contactref element="U2" pad="G1"/>
+<contactref element="U2" pad="A5"/>
+<contactref element="U2" pad="F1"/>
+<contactref element="U2" pad="A12"/>
+<contactref element="U2" pad="L6"/>
+<contactref element="U2" pad="L2"/>
+<contactref element="U2" pad="K16"/>
+<contactref element="U2" pad="A15"/>
+<contactref element="U2" pad="T9"/>
+<contactref element="C149" pad="2"/>
+<contactref element="C150" pad="2"/>
+<contactref element="C151" pad="2"/>
+<contactref element="C152" pad="2"/>
+<contactref element="C153" pad="2"/>
+<contactref element="C154" pad="2"/>
+<contactref element="C155" pad="2"/>
+<contactref element="C156" pad="2"/>
+<contactref element="C157" pad="2"/>
+<contactref element="C158" pad="2"/>
+<contactref element="C159" pad="2"/>
+<contactref element="C160" pad="2"/>
+<wire x1="-89.875" y1="-68.75" x2="-92.375" y2="-68.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.5" y1="-66.5" x2="-89.875" y2="-68.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.5" y1="-63.25" x2="-90.5" y2="-66.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.875" y1="-60" x2="-90.5" y2="-63.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.5" y1="-57.75" x2="-89.875" y2="-60" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.875" y1="-54.5" x2="-90.5" y2="-57.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.5" y1="-52.25" x2="-89.875" y2="-54.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-90.5" y1="-49" x2="-90.5" y2="-52.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-89.875" y1="-45.75" x2="-90.5" y2="-49" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.5" y1="-72" x2="-89.875" y2="-68.75" width="0" layer="19" extent="16-16"/>
+<wire x1="-88.5" y1="-75.25" x2="-88.5" y2="-72" width="0" layer="19" extent="16-16"/>
+<wire x1="-7" y1="-2.5" x2="-89.875" y2="-45.75" width="0" layer="19" extent="1-16"/>
+<wire x1="-3" y1="-2.5" x2="-7" y2="-2.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="1.5" x2="-7" y2="-2.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="2.5" x2="-8" y2="1.5" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-7.5" x2="-3" y2="-2.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-4" y1="7.5" x2="-8" y2="2.5" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="7.5" x2="-4" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="7.5" x2="3" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="-3.5" x2="0" y2="-7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="-1.5" x2="7" y2="-3.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SEN_PWR_4V1">
+<contactref element="U2" pad="L17"/>
+<contactref element="U2" pad="E17"/>
+<contactref element="C206" pad="2"/>
+<contactref element="C207" pad="2"/>
+<contactref element="C208" pad="2"/>
+<contactref element="C209" pad="2"/>
+<contactref element="C210" pad="2"/>
+<contactref element="C211" pad="2"/>
+<wire x1="-107.375" y1="-82.5" x2="-106.75" y2="-86.125" width="0" layer="19" extent="16-16"/>
+<wire x1="-108" y1="-80.25" x2="-107.375" y2="-82.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-106.75" y1="-76.875" x2="-108" y2="-80.25" width="0" layer="19" extent="16-16"/>
+<wire x1="-99.875" y1="-55" x2="-106.75" y2="-76.875" width="0" layer="19" extent="16-16"/>
+<wire x1="-100.5" y1="-52.75" x2="-99.875" y2="-55" width="0" layer="19" extent="16-16"/>
+<wire x1="8" y1="-2.5" x2="-100.5" y2="-52.75" width="0" layer="19" extent="1-16"/>
+<wire x1="8" y1="3.5" x2="8" y2="-2.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
