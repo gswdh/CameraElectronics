@@ -6067,24 +6067,24 @@ and SHA-256 Authentication</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SIR800ADP-T1-RE3" prefix="Q">
-<description>N Channel, 177A, 20V, 0.0046ohm @ 2.5V</description>
+<deviceset name="IRLML6244TRPBF" prefix="Q">
+<description>MOSFET Transistor, N Channel, 6.3 A, 20 V, 21 mohm, 4.5 V, 0.9 V</description>
 <gates>
 <gate name="G$1" symbol="N_FET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SO8_POWERPAK">
+<device name="" package="SOT23-3">
 <connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="SIR800ADP-T1-RE3" constant="no"/>
-<attribute name="HEIGHT" value="1.5" constant="no"/>
-<attribute name="PRICE_PER" value="0.68" constant="no"/>
-<attribute name="VALUE" value="SIR800ADP-T1-RE3" constant="no"/>
+<attribute name="DIGIKEY" value="IRLML6244TRPBFCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.194" constant="no"/>
+<attribute name="VALUE" value="IRLML6244" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6702,58 +6702,6 @@ and SHA-256 Authentication</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="FUSES">
-<packages>
-<package name="0678H">
-<smd name="1" x="-4.5" y="0" dx="4" dy="4" layer="1"/>
-<smd name="2" x="4.5" y="0" dx="4" dy="4" layer="1"/>
-<wire x1="-6.75" y1="-2.25" x2="6.75" y2="-2.25" width="0.15" layer="25"/>
-<wire x1="6.75" y1="-2.25" x2="6.75" y2="2.25" width="0.15" layer="25"/>
-<wire x1="6.75" y1="2.25" x2="-6.75" y2="2.25" width="0.15" layer="25"/>
-<wire x1="-6.75" y1="2.25" x2="-6.75" y2="-2.25" width="0.15" layer="25"/>
-<text x="-6.75" y="2.5" size="1" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="FUSE">
-<pin name="1" x="-5.08" y="0" visible="pad" length="short"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="3.81" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="2.032" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0678H9200-02" prefix="F">
-<description>20A 250V AC 125V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block</description>
-<gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0678H">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="507-2252-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="4" constant="no"/>
-<attribute name="PRICE_PER" value="0.83" constant="no"/>
-<attribute name="VALUE" value="20A" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="c_0402">
 <packages>
 <package name="0402">
@@ -6830,6 +6778,58 @@ and SHA-256 Authentication</description>
 <attribute name="TOLERANCE" value="±10%" constant="no"/>
 <attribute name="VALUE" value="4.7uF 6.3V" constant="no"/>
 <attribute name="VOLTAGE" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="FUSES">
+<packages>
+<package name="1206">
+<smd name="1" x="1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<text x="-2" y="1.25" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.125" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSE">
+<pin name="1" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SF-1206F100-2" prefix="F">
+<description>1A  AC 63V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 1206 (3216 Metric)</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SF-1206F100-2CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.36" constant="no"/>
+<attribute name="VALUE" value="1A Fast" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7214,8 +7214,7 @@ and SHA-256 Authentication</description>
 <part name="GND155" library="NETS" deviceset="GND" device=""/>
 <part name="R39" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="Q5" library="TRANSISTORs" deviceset="2N7002" device="P,215" value="2N7002"/>
-<part name="F1" library="FUSES" deviceset="0678H9200-02" device="" value="20A"/>
-<part name="Q6" library="TRANSISTORs" deviceset="SIR800ADP-T1-RE3" device="" value="SIR800ADP-T1-RE3"/>
+<part name="Q6" library="TRANSISTORs" deviceset="IRLML6244TRPBF" device="" value="IRLML6244"/>
 <part name="U17" library="ICs" deviceset="MAX17320" device="G20+" value="MAX17320G20+"/>
 <part name="C122" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
 <part name="C123" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
@@ -7247,7 +7246,7 @@ and SHA-256 Authentication</description>
 <part name="U$32" library="NETS" deviceset="PGND" device=""/>
 <part name="GND156" library="NETS" deviceset="GND" device=""/>
 <part name="GND157" library="NETS" deviceset="GND" device=""/>
-<part name="Q7" library="TRANSISTORs" deviceset="SIR800ADP-T1-RE3" device="" value="SIR800ADP-T1-RE3"/>
+<part name="Q7" library="TRANSISTORs" deviceset="IRLML6244TRPBF" device="" value="IRLML6244"/>
 <part name="R53" library="r_0603" deviceset="ERJ3EKF1000V" device="" value="100R"/>
 <part name="CN5" library="CONNECTORs" deviceset="046866761000846+" device="" value="61 PIN 0.2mm FFC"/>
 <part name="C130" library="c_0603" deviceset="CL10A475KA8NQNC" device="" value="4.7uF 25V"/>
@@ -7458,6 +7457,7 @@ and SHA-256 Authentication</description>
 <part name="C241" library="c_0402" deviceset="0402ZD104KAT2A" device="" value="0.1uF 10V"/>
 <part name="C242" library="c_0402" deviceset="0402ZD104KAT2A" device="" value="0.1uF 10V"/>
 <part name="R54" library="RESISTORS" deviceset="CRCW06030000Z0EA" device="" value="0R"/>
+<part name="F1" library="FUSES" deviceset="SF-1206F100-2" device="" value="1A Fast"/>
 </parts>
 <sheets>
 <sheet>
@@ -7499,6 +7499,17 @@ VDD33A
 SUpply Array
 1ms (min)
 SYS_RST_N</text>
+<text x="-149.86" y="147.32" size="5.08" layer="91">Supply Voltage (V) Peak Current (mA)
+VDD33A 3.3 80
+VDD13D 1.3 250
+VDDIO 3.3 3
+VDD13AD 1.3 160
+VG_RSTH 4.1 25
+VDDPIX 3.6 85
+VDDCL 0.7 10
+VTXH 3.6 75
+VTXL -1.3 60
+VGRSTL -1.3 15</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="124.46" y="-2.54" smashed="yes">
@@ -13287,7 +13298,6 @@ VCCO_DDR = 1.5V @ ?</text>
 <wire x1="416.56" y1="309.88" x2="416.56" y2="279.4" width="0.1524" layer="114"/>
 <wire x1="401.32" y1="294.64" x2="431.8" y2="294.64" width="0.1524" layer="114"/>
 <text x="251.46" y="-167.64" size="1.778" layer="91">TODO: Replace with NTC</text>
-<text x="144.78" y="-45.72" size="1.778" layer="91" rot="R180">TODO: Fit correct value fuse</text>
 <wire x1="-406.4" y1="-292.1" x2="406.4" y2="-292.1" width="0.1524" layer="97"/>
 <wire x1="-406.4" y1="292.1" x2="-406.4" y2="-292.1" width="0.1524" layer="97"/>
 <wire x1="406.4" y1="292.1" x2="-406.4" y2="292.1" width="0.1524" layer="97"/>
@@ -13653,10 +13663,6 @@ VCCO_DDR = 1.5V @ ?</text>
 <attribute name="NAME" x="313.69" y="109.22" size="1.27" layer="95"/>
 <attribute name="VALUE" x="313.69" y="106.68" size="1.27" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="149.86" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.05" y="-53.34" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="147.828" y="-53.34" size="1.27" layer="96" rot="R90"/>
-</instance>
 <instance part="Q6" gate="G$1" x="208.28" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="205.74" y="-31.75" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="208.28" y="-31.75" size="1.27" layer="96" rot="R90"/>
@@ -13780,6 +13786,10 @@ VCCO_DDR = 1.5V @ ?</text>
 <instance part="R53" gate="G$1" x="193.04" y="-45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="190.5" y="-45.72" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="195.58" y="-45.72" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="F1" gate="G$1" x="149.86" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="147.32" y="-50.8" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="152.4" y="-50.8" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -14788,7 +14798,6 @@ VCCO_DDR = 1.5V @ ?</text>
 <net name="N$36" class="0">
 <segment>
 <wire x1="147.32" y1="-109.22" x2="149.86" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="-55.88" x2="149.86" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="-86.36" x2="149.86" y2="-109.22" width="0.1524" layer="91"/>
@@ -14797,6 +14806,7 @@ VCCO_DDR = 1.5V @ ?</text>
 <pinref part="R47" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="-86.36" x2="149.86" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="149.86" y="-86.36"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -14874,10 +14884,10 @@ VCCO_DDR = 1.5V @ ?</text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="-33.02" x2="149.86" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-33.02" x2="149.86" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
+<pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$43" class="0">
