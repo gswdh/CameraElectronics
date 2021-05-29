@@ -3064,6 +3064,19 @@
 <text x="12.7" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="12.7" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS70918">
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="2.54" length="middle"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="middle"/>
+<pin name="GND" x="0" y="-10.16" visible="pad" length="middle" rot="R90"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.778" layer="94" align="center">GND</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="STM32L431RB" prefix="U">
@@ -4506,6 +4519,30 @@ and SHA-256 Authentication</description>
 <attribute name="HEIGHT" value="1.45" constant="no"/>
 <attribute name="PRICE_PER" value="1.65" constant="no"/>
 <attribute name="VALUE" value="LM2731X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS70918" prefix="U">
+<description>TPS709xx 150-mA, 30-V, 1-µA IQ Voltage Regulators with Enable</description>
+<gates>
+<gate name="G$1" symbol="TPS70918" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBVT" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-35676-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.92" constant="no"/>
+<attribute name="VALUE" value="TPS70918" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7809,6 +7846,60 @@ and SHA-256 Authentication</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="C0402C105K4PAC7867" prefix="C">
+<description>1000000 16V 1µF ±10% X5R 0402</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-12289-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET" constant="no"/>
+<attribute name="PRICE_PER" value="0.09000" constant="no"/>
+<attribute name="STOCK" value="89132" constant="no"/>
+<attribute name="TEMP_CO" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uF 16V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0402C225K9PAC7867" prefix="C">
+<description>2200000 6.3V 2.2µF ±10% X5R 0402</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-11617-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET" constant="no"/>
+<attribute name="PRICE_PER" value="0.15000" constant="no"/>
+<attribute name="STOCK" value="32394" constant="no"/>
+<attribute name="TEMP_CO" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2uF 6.3V" constant="no"/>
+<attribute name="VOLTAGE" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="FUSES">
@@ -8108,8 +8199,6 @@ and SHA-256 Authentication</description>
 <part name="C65" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
 <part name="GND71" library="NETS" deviceset="GND" device=""/>
 <part name="CN2" library="CONNECTORs" deviceset="629104190121" device="" value="USB A"/>
-<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH10" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U6" library="ICs" deviceset="FT602Q" device="" value="USB UVC Bridge"/>
 <part name="GND20" library="NETS" deviceset="GND" device=""/>
 <part name="C66" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
@@ -8176,17 +8265,15 @@ and SHA-256 Authentication</description>
 <part name="R20" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="R26" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="GND109" library="NETS" deviceset="GND" device=""/>
-<part name="C85" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C85" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND110" library="NETS" deviceset="GND" device=""/>
-<part name="C86" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="GND111" library="NETS" deviceset="GND" device=""/>
-<part name="C87" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C86" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND112" library="NETS" deviceset="GND" device=""/>
-<part name="C88" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C88" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND113" library="NETS" deviceset="GND" device=""/>
-<part name="C89" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C89" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND114" library="NETS" deviceset="GND" device=""/>
-<part name="C90" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C90" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="U11" library="ICs" deviceset="TPS65262" device="" value="TPS65262"/>
 <part name="GND115" library="NETS" deviceset="GND" device=""/>
 <part name="GND116" library="NETS" deviceset="GND" device=""/>
@@ -8246,7 +8333,6 @@ and SHA-256 Authentication</description>
 <part name="GND140" library="NETS" deviceset="GND" device=""/>
 <part name="C110" library="CAPACITORS" deviceset="C3225X7S1H106M250AB" device="" value="10uF 50V"/>
 <part name="GND141" library="NETS" deviceset="GND" device=""/>
-<part name="C111" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="GND142" library="NETS" deviceset="GND" device=""/>
 <part name="U14" library="ICs" deviceset="LMZM23600V3SILT" device="" value="3.3V BUCK"/>
 <part name="GND143" library="NETS" deviceset="GND" device=""/>
@@ -8698,6 +8784,13 @@ and SHA-256 Authentication</description>
 <part name="GND321" library="NETS" deviceset="GND" device=""/>
 <part name="GND322" library="NETS" deviceset="GND" device=""/>
 <part name="C285" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="U29" library="ICs" deviceset="TPS70918" device="DBVT" value="TPS70918"/>
+<part name="C87" library="c_0402" deviceset="C0402C105K4PAC7867" device="" value="1uF 16V"/>
+<part name="C286" library="c_0402" deviceset="C0402C225K9PAC7867" device="" value="2.2uF 6.3V"/>
+<part name="GND111" library="NETS" deviceset="GND" device=""/>
+<part name="GND323" library="NETS" deviceset="GND" device=""/>
+<part name="GND324" library="NETS" deviceset="GND" device=""/>
+<part name="R93" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15514,8 +15607,8 @@ Bank address width = 3 </text>
 <attribute name="NAME" x="254" y="80.772" size="1.27" layer="95"/>
 <attribute name="VALUE" x="254" y="78.74" size="1.27" layer="96"/>
 </instance>
-<instance part="GND107" gate="G$1" x="251.46" y="71.12" smashed="yes">
-<attribute name="VALUE" x="251.46" y="68.58" size="1.778" layer="96" align="center"/>
+<instance part="GND107" gate="G$1" x="251.46" y="60.96" smashed="yes">
+<attribute name="VALUE" x="251.46" y="58.42" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="GND108" gate="G$1" x="236.22" y="60.96" smashed="yes">
 <attribute name="VALUE" x="236.22" y="58.42" size="1.778" layer="96" align="center"/>
@@ -15541,13 +15634,6 @@ Bank address width = 3 </text>
 <instance part="C86" gate="G$1" x="226.06" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="223.52" y="55.88" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="228.6" y="55.88" size="1.27" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="GND111" gate="G$1" x="218.44" y="45.72" smashed="yes">
-<attribute name="VALUE" x="218.44" y="43.18" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="C87" gate="G$1" x="218.44" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="215.9" y="55.88" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="220.98" y="55.88" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="GND112" gate="G$1" x="322.58" y="45.72" smashed="yes">
 <attribute name="VALUE" x="322.58" y="43.18" size="1.778" layer="96" align="center"/>
@@ -15619,12 +15705,33 @@ Bank address width = 3 </text>
 <instance part="GND141" gate="G$1" x="241.3" y="116.84" smashed="yes">
 <attribute name="VALUE" x="241.3" y="114.3" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C111" gate="G$1" x="233.68" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="231.14" y="127" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="236.22" y="127" size="1.27" layer="96" rot="R90" align="center"/>
-</instance>
 <instance part="GND142" gate="G$1" x="233.68" y="116.84" smashed="yes">
 <attribute name="VALUE" x="233.68" y="114.3" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="U29" gate="G$1" x="330.2" y="101.6" smashed="yes">
+<attribute name="NAME" x="322.58" y="111.76" size="1.778" layer="95"/>
+<attribute name="VALUE" x="322.58" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="C87" gate="G$1" x="314.96" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="312.42" y="96.52" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="317.5" y="96.52" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C286" gate="G$1" x="345.44" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="342.9" y="96.52" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="347.98" y="96.52" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND111" gate="G$1" x="314.96" y="86.36" smashed="yes">
+<attribute name="VALUE" x="314.96" y="83.82" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND323" gate="G$1" x="330.2" y="86.36" smashed="yes">
+<attribute name="VALUE" x="330.2" y="83.82" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND324" gate="G$1" x="345.44" y="86.36" smashed="yes">
+<attribute name="VALUE" x="345.44" y="83.82" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="R93" gate="G$1" x="233.68" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="231.14" y="127" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="236.22" y="127" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -15825,6 +15932,7 @@ Bank address width = 3 </text>
 <segment>
 <pinref part="Q3" gate="G$1" pin="E"/>
 <pinref part="GND107" gate="G$1" pin="GND"/>
+<wire x1="251.46" y1="63.5" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND108" gate="G$1" pin="GND"/>
@@ -15840,11 +15948,6 @@ Bank address width = 3 </text>
 <pinref part="GND110" gate="G$1" pin="GND"/>
 <wire x1="226.06" y1="48.26" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C86" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="GND111" gate="G$1" pin="GND"/>
-<wire x1="218.44" y1="48.26" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C87" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND112" gate="G$1" pin="GND"/>
@@ -15898,9 +16001,24 @@ Bank address width = 3 </text>
 <wire x1="241.3" y1="119.38" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C111" gate="G$1" pin="1"/>
 <pinref part="GND142" gate="G$1" pin="GND"/>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R93" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C87" gate="G$1" pin="1"/>
+<pinref part="GND111" gate="G$1" pin="GND"/>
+<wire x1="314.96" y1="88.9" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U29" gate="G$1" pin="GND"/>
+<pinref part="GND323" gate="G$1" pin="GND"/>
+<wire x1="330.2" y1="88.9" x2="330.2" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C286" gate="G$1" pin="1"/>
+<pinref part="GND324" gate="G$1" pin="GND"/>
+<wire x1="345.44" y1="88.9" x2="345.44" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROC_3V3" class="0">
@@ -16044,12 +16162,19 @@ Bank address width = 3 </text>
 <segment>
 <pinref part="C86" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="60.96" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C87" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="60.96" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<junction x="218.44" y="63.5"/>
+<wire x1="226.06" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="198.12" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U29" gate="G$1" pin="VIN"/>
+<wire x1="317.5" y1="104.14" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C87" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="101.6" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<junction x="314.96" y="104.14"/>
+<pinref part="U29" gate="G$1" pin="EN"/>
+<wire x1="317.5" y1="101.6" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<label x="292.1" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16352,6 +16477,15 @@ Bank address width = 3 </text>
 <junction x="314.96" y="63.5"/>
 <label x="294.64" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U29" gate="G$1" pin="VOUT"/>
+<wire x1="342.9" y1="104.14" x2="345.44" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="104.14" x2="370.84" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C286" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="101.6" x2="345.44" y2="104.14" width="0.1524" layer="91"/>
+<junction x="345.44" y="104.14"/>
+<label x="347.98" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$91" class="0">
 <segment>
@@ -16413,11 +16547,11 @@ Bank address width = 3 </text>
 <segment>
 <pinref part="U13" gate="G$1" pin="EN"/>
 <wire x1="251.46" y1="134.62" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C111" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="132.08" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
 <junction x="233.68" y="134.62"/>
 <label x="205.74" y="134.62" size="1.778" layer="95"/>
+<pinref part="R93" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="CPEN"/>
@@ -18382,12 +18516,6 @@ Bank address width = 3 </text>
 </instance>
 <instance part="MECH6" gate="G$1" x="5.08" y="7.62" smashed="yes">
 <attribute name="NAME" x="5.08" y="11.176" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH4" gate="G$1" x="35.56" y="15.24" smashed="yes">
-<attribute name="NAME" x="35.56" y="18.796" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH10" gate="G$1" x="43.18" y="15.24" smashed="yes">
-<attribute name="NAME" x="43.18" y="18.796" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
