@@ -5351,28 +5351,6 @@ and SHA-256 Authentication</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="06031A100FAT2A" prefix="C">
-<description>10pF 100V C0G/NP0 1% 0603 MLCC.</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="478-5769-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="1" constant="no"/>
-<attribute name="PRICE_PER" value="0.23" constant="no"/>
-<attribute name="VALUE" value="10pF 100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GRM188R71E474KA12D" prefix="C">
 <description>470nF 25V X7R 10% 0603 MLCC.</description>
 <gates>
@@ -6481,16 +6459,6 @@ and SHA-256 Authentication</description>
 <wire x1="3.125" y1="1.5" x2="-3.125" y2="1.5" width="0.15" layer="21"/>
 <wire x1="-3.125" y1="1.5" x2="-3.125" y2="-1.5" width="0.15" layer="21"/>
 </package>
-<package name="SOT23-3">
-<smd name="1" x="-1" y="-1" dx="0.8" dy="1" layer="1"/>
-<smd name="3" x="1" y="-1" dx="0.8" dy="1" layer="1"/>
-<smd name="2" x="0" y="1" dx="0.8" dy="1" layer="1"/>
-<text x="-1.75" y="1.875" size="1" layer="25">&gt;NAME</text>
-<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.122" layer="21"/>
-<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.122" layer="21"/>
-<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.122" layer="21"/>
-<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.122" layer="21"/>
-</package>
 <package name="SOD-323">
 <smd name="A" x="-1.25" y="0" dx="1" dy="1.25" layer="1" rot="R180"/>
 <smd name="K" x="1.25" y="0" dx="1" dy="1.25" layer="1" rot="R180"/>
@@ -6589,28 +6557,6 @@ and SHA-256 Authentication</description>
 <attribute name="HEIGHT" value="2.5" constant="no"/>
 <attribute name="PRICE_PER" value="0.29" constant="no"/>
 <attribute name="VALUE" value="20V TVS" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BZX84-C3V0" prefix="D">
-<description>Zener Diode 3V 250mW ±5% Surface Mount TO-236AB</description>
-<gates>
-<gate name="G$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="K" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1727-5032-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="1" constant="no"/>
-<attribute name="PRICE_PER" value="0.09" constant="no"/>
-<attribute name="VALUE" value="Zener 3.0V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7103,33 +7049,6 @@ and SHA-256 Authentication</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="06033A330JAT2A" prefix="C">
-<description>33 25V 33pF ±5% C0G, NP0 0603</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="478-10278-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="-" constant="no"/>
-<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
-<attribute name="PRICE_PER" value="0.07000" constant="no"/>
-<attribute name="STOCK" value="54812" constant="no"/>
-<attribute name="TEMP_CO" value="C0G, NP0" constant="no"/>
-<attribute name="TOLERANCE" value="±5%" constant="no"/>
-<attribute name="VALUE" value="33pF 25V" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="0603YC473KAT2A" prefix="C">
 <description>47000 16V 0.047µF ±10% X7R 0603</description>
 <gates>
@@ -7809,6 +7728,87 @@ and SHA-256 Authentication</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="0402ZC104KAT2A" prefix="C">
+<description>100000 10V 0.1µF ±10% X7R 0402</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-7891-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="PRICE_PER" value="0.07000" constant="no"/>
+<attribute name="STOCK" value="639" constant="no"/>
+<attribute name="TEMP_CO" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF 10V" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0402YA100KAT2A" prefix="C">
+<description>10 16V 10pF ±10% C0G, NP0 0402</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-12649-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="PRICE_PER" value="0.07000" constant="no"/>
+<attribute name="STOCK" value="3076" constant="no"/>
+<attribute name="TEMP_CO" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10pF 16V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="04023A330JAT2A" prefix="C">
+<description>33 25V 33pF ±5% C0G, NP0 0402</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NON_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-12613-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="-" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="PRICE_PER" value="0.07000" constant="no"/>
+<attribute name="STOCK" value="19081" constant="no"/>
+<attribute name="TEMP_CO" value="C0G, NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="33pF 25V" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="FUSES">
@@ -7856,6 +7856,55 @@ and SHA-256 Authentication</description>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="0.36" constant="no"/>
 <attribute name="VALUE" value="1A Fast" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="r_0402">
+<packages>
+<package name="0402">
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.875" y="0.5" size="0.508" layer="25">&gt;NAME</text>
+<wire x1="-0.875" y1="-0.375" x2="0.875" y2="-0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="-0.375" x2="0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="0.375" x2="-0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="-0.875" y1="0.375" x2="-0.875" y2="-0.375" width="0.125" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ERJ-2RKF1002X" prefix="R">
+<description>10000 10k 0402 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P10.0KLCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8063,40 +8112,38 @@ and SHA-256 Authentication</description>
 <part name="MECH10" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U6" library="ICs" deviceset="FT602Q" device="" value="USB UVC Bridge"/>
 <part name="GND20" library="NETS" deviceset="GND" device=""/>
-<part name="C66" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="C67" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C66" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="C67" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND57" library="NETS" deviceset="GND" device=""/>
 <part name="GND74" library="NETS" deviceset="GND" device=""/>
-<part name="C68" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C68" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND75" library="NETS" deviceset="GND" device=""/>
-<part name="C69" library="CAPACITORS" deviceset="CL10B475KQ8NQNC" device="" value="4.7uF 6.3V"/>
+<part name="C69" library="c_0402" deviceset="04026D475KAT2A" device="" value="4.7uF 6.3V"/>
 <part name="GND76" library="NETS" deviceset="GND" device=""/>
-<part name="C70" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="C71" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C70" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="C71" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND77" library="NETS" deviceset="GND" device=""/>
 <part name="GND78" library="NETS" deviceset="GND" device=""/>
-<part name="C72" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C72" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND80" library="NETS" deviceset="GND" device=""/>
-<part name="C73" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="C74" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C73" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="C74" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND87" library="NETS" deviceset="GND" device=""/>
 <part name="GND88" library="NETS" deviceset="GND" device=""/>
-<part name="C75" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C75" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND89" library="NETS" deviceset="GND" device=""/>
-<part name="D1" library="DIODES" deviceset="BZX84-C3V0" device="" value="Zener 3.0V"/>
 <part name="GND90" library="NETS" deviceset="GND" device=""/>
-<part name="C76" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="GND91" library="NETS" deviceset="GND" device=""/>
+<part name="C76" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="R7" library="r_0603" deviceset="ERJ3EKF3301V" device="" value="3.3k"/>
 <part name="D2" library="DIODES" deviceset="PESD5Z3.3" device="" value="PESD5Z3.3"/>
 <part name="GND92" library="NETS" deviceset="GND" device=""/>
-<part name="C77" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="C78" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
+<part name="C77" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="C78" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="R8" library="r_0603" deviceset="ERJ3EKF1601V" device="" value="1.6k"/>
 <part name="GND93" library="NETS" deviceset="GND" device=""/>
 <part name="GND94" library="NETS" deviceset="GND" device=""/>
-<part name="C79" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="R9" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
+<part name="C79" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="R9" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
 <part name="SCR1" library="MISC" deviceset="DEP_128064S" device="-W" value="128x64 White OLED"/>
 <part name="U8" library="ICs" deviceset="LMZM23600V3SILT" device="" value="3.3V BUCK"/>
 <part name="GND95" library="NETS" deviceset="GND" device=""/>
@@ -8117,8 +8164,8 @@ and SHA-256 Authentication</description>
 <part name="GND105" library="NETS" deviceset="GND" device=""/>
 <part name="XTAL1" library="CRYSTALS" deviceset="7A-24.000MAAJ-T" device="" value="24MHz"/>
 <part name="R19" library="r_0603" deviceset="ERJ3EKF1004V" device="" value="1.0M"/>
-<part name="C83" library="c_0603" deviceset="06033A330JAT2A" device="" value="33pF 25V"/>
-<part name="C84" library="c_0603" deviceset="06033A330JAT2A" device="" value="33pF 25V"/>
+<part name="C83" library="c_0402" deviceset="04023A330JAT2A" device="" value="33pF 25V"/>
+<part name="C84" library="c_0402" deviceset="04023A330JAT2A" device="" value="33pF 25V"/>
 <part name="GND106" library="NETS" deviceset="GND" device=""/>
 <part name="R11" library="r_0603" deviceset="CRCW06038K06FKEA" device="" value="8.06k"/>
 <part name="Q1" library="TRANSISTORs" deviceset="FDN302P" device="" value="FDN302P"/>
@@ -8213,13 +8260,13 @@ and SHA-256 Authentication</description>
 <part name="D3" library="DIODES" deviceset="PMEG4010BEA" device="" value="PMEG4010BEA"/>
 <part name="D4" library="DIODES" deviceset="PMEG4010BEA" device="" value="PMEG4010BEA"/>
 <part name="XTAL2" library="CRYSTALS" deviceset="XRCGB30M000F3M00R0" device="" value="30MHz 6pF"/>
-<part name="C115" library="CAPACITORS" deviceset="06031A100FAT2A" device="" value="10pF 100V"/>
-<part name="C116" library="CAPACITORS" deviceset="06031A100FAT2A" device="" value="10pF 100V"/>
+<part name="C115" library="c_0402" deviceset="0402YA100KAT2A" device="" value="10pF 16V"/>
+<part name="C116" library="c_0402" deviceset="0402YA100KAT2A" device="" value="10pF 16V"/>
 <part name="GND149" library="NETS" deviceset="GND" device=""/>
-<part name="R33" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
-<part name="R34" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
-<part name="R35" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
-<part name="R36" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="NO FIT"/>
+<part name="R33" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
+<part name="R34" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
+<part name="R35" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="10k"/>
+<part name="R36" library="r_0402" deviceset="ERJ-2RKF1002X" device="" value="NO FIT"/>
 <part name="L4" library="INDUCTORS" deviceset="SRN6045TA-4R7M" device="" value="4.7uH"/>
 <part name="L5" library="INDUCTORS" deviceset="SRN6045TA-4R7M" device="" value="4.7uH"/>
 <part name="GND150" library="NETS" deviceset="GND" device=""/>
@@ -8645,6 +8692,12 @@ and SHA-256 Authentication</description>
 <part name="GND319" library="NETS" deviceset="GND" device=""/>
 <part name="C282" library="CAPACITORS" deviceset="C3225X7S1H106M250AB" device="" value="10uF 50V"/>
 <part name="GND320" library="NETS" deviceset="GND" device=""/>
+<part name="GND91" library="NETS" deviceset="GND" device=""/>
+<part name="C283" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="C284" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND321" library="NETS" deviceset="GND" device=""/>
+<part name="GND322" library="NETS" deviceset="GND" device=""/>
+<part name="C285" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 </parts>
 <sheets>
 <sheet>
@@ -11691,6 +11744,24 @@ VCCO_DDR = 1.5V @ ?</text>
 <wire x1="-406.4" y1="292.1" x2="-406.4" y2="-292.1" width="0.1524" layer="97"/>
 <wire x1="406.4" y1="292.1" x2="-406.4" y2="292.1" width="0.1524" layer="97"/>
 <wire x1="406.4" y1="292.1" x2="406.4" y2="-292.1" width="0.1524" layer="97"/>
+<text x="330.2" y="139.7" size="1.778" layer="91">Memory settings
+
+
+tCKE = 5ns
+tFAW = 35ns
+tRAS = 34ns
+tRCD = 13.91ns
+tREFI = 7.8us
+tRFC = 350ns
+tRP = 13.91ns
+tRRD = 6ns
+tRTP = 7.5ns
+tWTR = 7.5ns
+
+
+Row address width = 16
+Column address width = 10
+Bank address width = 3 </text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0" smashed="yes">
@@ -11924,23 +11995,16 @@ VCCO_DDR = 1.5V @ ?</text>
 <instance part="GND89" gate="G$1" x="251.46" y="-200.66" smashed="yes">
 <attribute name="VALUE" x="251.46" y="-203.2" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="D1" gate="G$1" x="223.52" y="-58.42" smashed="yes" rot="R90">
+<instance part="GND90" gate="G$1" x="223.52" y="-68.58" smashed="yes">
+<attribute name="VALUE" x="223.52" y="-71.12" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C76" gate="G$1" x="223.52" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.98" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="226.06" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND90" gate="G$1" x="215.9" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="215.9" y="-71.12" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="C76" gate="G$1" x="215.9" y="-58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="213.36" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="218.44" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="GND91" gate="G$1" x="223.52" y="-68.58" smashed="yes">
-<attribute name="VALUE" x="223.52" y="-71.12" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R7" gate="G$1" x="208.28" y="-50.8" smashed="yes">
-<attribute name="NAME" x="208.28" y="-48.26" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="208.28" y="-53.34" size="1.27" layer="96" align="center"/>
+<instance part="R7" gate="G$1" x="215.9" y="-50.8" smashed="yes">
+<attribute name="NAME" x="215.9" y="-48.26" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="215.9" y="-53.34" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="D2" gate="G$1" x="231.14" y="-58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="228.6" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
@@ -11964,16 +12028,16 @@ VCCO_DDR = 1.5V @ ?</text>
 <instance part="GND93" gate="G$1" x="218.44" y="-111.76" smashed="yes">
 <attribute name="VALUE" x="218.44" y="-114.3" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND94" gate="G$1" x="335.28" y="-35.56" smashed="yes">
-<attribute name="VALUE" x="335.28" y="-38.1" size="1.778" layer="96" align="center"/>
+<instance part="GND94" gate="G$1" x="320.04" y="-71.12" smashed="yes">
+<attribute name="VALUE" x="320.04" y="-73.66" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C79" gate="G$1" x="335.28" y="-25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="332.74" y="-25.4" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="337.82" y="-25.4" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="C79" gate="G$1" x="320.04" y="-60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="317.5" y="-60.96" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="322.58" y="-60.96" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R9" gate="G$1" x="335.28" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="332.74" y="-10.16" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="337.82" y="-10.16" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="R9" gate="G$1" x="320.04" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="317.5" y="-45.72" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="322.58" y="-45.72" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="U11" gate="G$1" x="-276.86" y="121.92" smashed="yes">
 <attribute name="NAME" x="-289.56" y="241.3" size="1.778" layer="95"/>
@@ -12527,6 +12591,27 @@ VCCO_DDR = 1.5V @ ?</text>
 <instance part="GND315" gate="G$1" x="-304.8" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="-304.8" y="-10.16" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="GND91" gate="G$1" x="215.9" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="215.9" y="-25.4" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C283" gate="G$1" x="215.9" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="213.36" y="-12.7" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="218.44" y="-12.7" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C284" gate="G$1" x="302.26" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="299.72" y="-12.7" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="304.8" y="-12.7" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND321" gate="G$1" x="302.26" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="302.26" y="-25.4" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND322" gate="G$1" x="309.88" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="309.88" y="-25.4" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C285" gate="G$1" x="309.88" y="-12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="307.34" y="-12.7" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="312.42" y="-12.7" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12708,13 +12793,8 @@ VCCO_DDR = 1.5V @ ?</text>
 </segment>
 <segment>
 <pinref part="GND90" gate="G$1" pin="GND"/>
-<wire x1="215.9" y1="-66.04" x2="215.9" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-66.04" x2="223.52" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="C76" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="GND91" gate="G$1" pin="GND"/>
-<wire x1="223.52" y1="-63.5" x2="223.52" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -12729,7 +12809,7 @@ VCCO_DDR = 1.5V @ ?</text>
 </segment>
 <segment>
 <pinref part="GND94" gate="G$1" pin="GND"/>
-<wire x1="335.28" y1="-33.02" x2="335.28" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-68.58" x2="320.04" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="C79" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13148,6 +13228,21 @@ VCCO_DDR = 1.5V @ ?</text>
 <pinref part="GND315" gate="G$1" pin="GND"/>
 <wire x1="-304.8" y1="-5.08" x2="-304.8" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND91" gate="G$1" pin="GND"/>
+<wire x1="215.9" y1="-20.32" x2="215.9" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C283" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C284" gate="G$1" pin="1"/>
+<pinref part="GND321" gate="G$1" pin="GND"/>
+<wire x1="302.26" y1="-20.32" x2="302.26" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND322" gate="G$1" pin="GND"/>
+<wire x1="309.88" y1="-20.32" x2="309.88" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="C285" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="FPGA_PWR_1V8" class="0">
 <segment>
@@ -13224,7 +13319,7 @@ VCCO_DDR = 1.5V @ ?</text>
 <junction x="-220.98" y="226.06"/>
 </segment>
 </net>
-<net name="FPGA_1V2" class="0">
+<net name="FPGA_PWR_1V2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="MGTAVTT"/>
 <wire x1="43.18" y1="238.76" x2="76.2" y2="238.76" width="0.1524" layer="91"/>
@@ -13741,7 +13836,8 @@ VCCO_DDR = 1.5V @ ?</text>
 <pinref part="C66" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="-5.08" x2="231.14" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="-5.08" x2="198.12" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-5.08" x2="215.9" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-5.08" x2="190.5" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="-7.62" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="223.52" y="-5.08"/>
 <pinref part="C67" gate="G$1" pin="2"/>
@@ -13750,7 +13846,10 @@ VCCO_DDR = 1.5V @ ?</text>
 <pinref part="C68" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="-7.62" x2="238.76" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="238.76" y="-5.08"/>
-<label x="200.66" y="-5.08" size="1.778" layer="95"/>
+<label x="193.04" y="-5.08" size="1.778" layer="95"/>
+<pinref part="C283" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="-7.62" x2="215.9" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="215.9" y="-5.08"/>
 </segment>
 </net>
 <net name="UVC_PWR_3V3" class="0">
@@ -13777,7 +13876,9 @@ VCCO_DDR = 1.5V @ ?</text>
 <wire x1="271.78" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-5.08" x2="287.02" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="-5.08" x2="294.64" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="-5.08" x2="320.04" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="-5.08" x2="302.26" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="-5.08" x2="309.88" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="-5.08" x2="335.28" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="-7.62" x2="294.64" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="294.64" y="-5.08"/>
 <pinref part="C74" gate="G$1" pin="2"/>
@@ -13792,13 +13893,19 @@ VCCO_DDR = 1.5V @ ?</text>
 <pinref part="C71" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="-7.62" x2="264.16" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="264.16" y="-5.08"/>
-<label x="297.18" y="-5.08" size="1.778" layer="95"/>
+<label x="312.42" y="-5.08" size="1.778" layer="95"/>
+<pinref part="C285" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="-7.62" x2="309.88" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="309.88" y="-5.08"/>
+<pinref part="C284" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="-7.62" x2="302.26" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="302.26" y="-5.08"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="-5.08" x2="335.28" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="-2.54" x2="360.68" y2="-2.54" width="0.1524" layer="91"/>
-<label x="337.82" y="-2.54" size="1.778" layer="95"/>
+<wire x1="320.04" y1="-40.64" x2="320.04" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-38.1" x2="345.44" y2="-38.1" width="0.1524" layer="91"/>
+<label x="322.58" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VOUT"/>
@@ -13836,6 +13943,11 @@ VCCO_DDR = 1.5V @ ?</text>
 <junction x="200.66" y="-142.24"/>
 <label x="167.64" y="-142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<label x="185.42" y="-50.8" size="1.778" layer="95"/>
+<wire x1="210.82" y1="-50.8" x2="182.88" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -13843,11 +13955,7 @@ VCCO_DDR = 1.5V @ ?</text>
 <wire x1="233.68" y1="-50.8" x2="231.14" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="C76" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="-50.8" x2="223.52" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="-50.8" x2="215.9" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-50.8" x2="213.36" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-53.34" x2="215.9" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="215.9" y="-50.8"/>
-<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="223.52" y1="-50.8" x2="220.98" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="-53.34" x2="223.52" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="223.52" y="-50.8"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -13856,33 +13964,26 @@ VCCO_DDR = 1.5V @ ?</text>
 <junction x="231.14" y="-50.8"/>
 </segment>
 </net>
-<net name="USBC_VBUS_SWD" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<label x="177.8" y="-50.8" size="1.778" layer="95"/>
-<wire x1="203.2" y1="-50.8" x2="175.26" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="USBC_D_P" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DP"/>
-<wire x1="233.68" y1="-76.2" x2="170.18" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-76.2" x2="165.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="124.46" y="-76.2" size="1.778" layer="95"/>
-<pinref part="U16" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="-76.2" x2="121.92" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-101.6" x2="170.18" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="170.18" y="-76.2"/>
+<wire x1="165.1" y1="-76.2" x2="121.92" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="U16" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="-101.6" x2="165.1" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="165.1" y="-76.2"/>
 </segment>
 </net>
 <net name="USBC_D_N" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="DM"/>
-<wire x1="233.68" y1="-78.74" x2="165.1" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-78.74" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
 <label x="124.46" y="-78.74" size="1.778" layer="95"/>
-<pinref part="U16" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="-78.74" x2="121.92" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-101.6" x2="165.1" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="165.1" y="-78.74"/>
+<pinref part="U16" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="-78.74" x2="121.92" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-101.6" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="170.18" y="-78.74"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -13911,23 +14012,23 @@ VCCO_DDR = 1.5V @ ?</text>
 <net name="USBC_RX_P" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="RIDP"/>
-<wire x1="233.68" y1="-96.52" x2="185.42" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-96.52" x2="190.5" y2="-96.52" width="0.1524" layer="91"/>
 <label x="124.46" y="-96.52" size="1.778" layer="95"/>
-<pinref part="U16" gate="G$1" pin="7"/>
-<wire x1="185.42" y1="-96.52" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-101.6" x2="185.42" y2="-96.52" width="0.1524" layer="91"/>
-<junction x="185.42" y="-96.52"/>
+<wire x1="190.5" y1="-96.52" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="U16" gate="G$1" pin="8"/>
+<wire x1="190.5" y1="-101.6" x2="190.5" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="190.5" y="-96.52"/>
 </segment>
 </net>
 <net name="USBC_RX_N" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="RIDN"/>
-<wire x1="233.68" y1="-99.06" x2="190.5" y2="-99.06" width="0.1524" layer="91"/>
 <label x="124.46" y="-99.06" size="1.778" layer="95"/>
-<pinref part="U16" gate="G$1" pin="8"/>
-<wire x1="190.5" y1="-99.06" x2="121.92" y2="-99.06" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-101.6" x2="190.5" y2="-99.06" width="0.1524" layer="91"/>
-<junction x="190.5" y="-99.06"/>
+<wire x1="233.68" y1="-99.06" x2="185.42" y2="-99.06" width="0.1524" layer="91"/>
+<pinref part="U16" gate="G$1" pin="7"/>
+<wire x1="185.42" y1="-99.06" x2="121.92" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-101.6" x2="185.42" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="185.42" y="-99.06"/>
 </segment>
 </net>
 <net name="UVC_!RST" class="0">
@@ -13939,11 +14040,11 @@ VCCO_DDR = 1.5V @ ?</text>
 <segment>
 <pinref part="C79" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="-15.24" x2="335.28" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="-17.78" x2="335.28" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="-17.78" x2="360.68" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="335.28" y="-17.78"/>
-<label x="337.82" y="-17.78" size="1.778" layer="95"/>
+<wire x1="320.04" y1="-50.8" x2="320.04" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-53.34" x2="320.04" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="-53.34" x2="345.44" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="320.04" y="-53.34"/>
+<label x="322.58" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UVC_CLK" class="0">
