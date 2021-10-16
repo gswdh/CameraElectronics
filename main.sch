@@ -4711,6 +4711,16 @@ and SHA-256 Authentication</description>
 <wire x1="-7" y1="2.875" x2="-7" y2="-1" width="0.1524" layer="21"/>
 <text x="-7" y="3" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="3PIN_HEADER">
+<pad name="3" x="0" y="-2.5" drill="1" diameter="1.5"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.5"/>
+<pad name="1" x="0" y="2.5" drill="1" diameter="1.5" shape="square"/>
+<wire x1="-1.25" y1="3.77" x2="1.25" y2="3.77" width="0.15" layer="21"/>
+<wire x1="1.25" y1="3.77" x2="1.25" y2="-3.73" width="0.15" layer="21"/>
+<wire x1="1.25" y1="-3.73" x2="-1.25" y2="-3.73" width="0.15" layer="21"/>
+<wire x1="-1.25" y1="-3.73" x2="-1.25" y2="3.77" width="0.15" layer="21"/>
+<text x="-1.25" y="4.02" size="1" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USBC">
@@ -4828,6 +4838,17 @@ and SHA-256 Authentication</description>
 <pin name="59" x="12.7" y="-71.12" length="middle" rot="R180"/>
 <pin name="60" x="12.7" y="-73.66" length="middle" rot="R180"/>
 <pin name="61" x="12.7" y="-76.2" length="middle" rot="R180"/>
+</symbol>
+<symbol name="3PIN">
+<text x="-2.54" y="8.89" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="6.35" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="3" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4985,6 +5006,26 @@ and SHA-256 Authentication</description>
 <attribute name="HEGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="1.51" constant="no"/>
 <attribute name="VALUE" value="61 PIN 0.2mm FFC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X3_HEADER" prefix="CN" uservalue="yes">
+<description>A 1 row, 3 column, 3 pin 0.1" header.</description>
+<gates>
+<gate name="G$1" symbol="3PIN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="3PIN_HEADER">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="1 X 3 HEADER" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8705,6 +8746,7 @@ and SHA-256 Authentication</description>
 <part name="R95" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 <part name="C137" library="c_0402" deviceset="0402ZD104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND235" library="NETS" deviceset="GND" device=""/>
+<part name="CN3" library="CONNECTORs" deviceset="1X3_HEADER" device="" value="1 X 3 HEADER"/>
 </parts>
 <sheets>
 <sheet>
@@ -15965,11 +16007,21 @@ Bank address width = 3 </text>
 <wire x1="142.24" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
 <label x="111.76" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PA13_(JTMS/SWDIO)"/>
+<wire x1="-25.4" y1="114.3" x2="-66.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="-63.5" y="114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PROC_JTAG_TCK" class="0">
 <segment>
 <wire x1="142.24" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
 <label x="111.76" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PA14_(JTCK/SWCLK)"/>
+<wire x1="-25.4" y1="111.76" x2="-66.04" y2="111.76" width="0.1524" layer="91"/>
+<label x="-63.5" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PROC_JTAG_TDI" class="0">
@@ -15977,11 +16029,21 @@ Bank address width = 3 </text>
 <wire x1="142.24" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <label x="111.76" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PA15_(JTDI)"/>
+<wire x1="-25.4" y1="109.22" x2="-66.04" y2="109.22" width="0.1524" layer="91"/>
+<label x="-63.5" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PROC_JTAG_TDO" class="0">
 <segment>
 <wire x1="142.24" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
 <label x="111.76" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PB3_(JTDO/TRACESWO)"/>
+<wire x1="-25.4" y1="96.52" x2="-66.04" y2="96.52" width="0.1524" layer="91"/>
+<label x="-63.5" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PROC_JTAG_TRST" class="0">
@@ -16032,90 +16094,6 @@ Bank address width = 3 </text>
 <wire x1="284.48" y1="-35.56" x2="284.48" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="284.48" y="-38.1"/>
 <pinref part="C84" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="ULPI_D7" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D7"/>
-<wire x1="281.94" y1="-2.54" x2="314.96" y2="-2.54" width="0.1524" layer="91"/>
-<label x="284.48" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D6" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D6"/>
-<wire x1="281.94" y1="0" x2="314.96" y2="0" width="0.1524" layer="91"/>
-<label x="284.48" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D5" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D5"/>
-<wire x1="281.94" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91"/>
-<label x="284.48" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D4" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D4"/>
-<wire x1="281.94" y1="5.08" x2="314.96" y2="5.08" width="0.1524" layer="91"/>
-<label x="284.48" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D3" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D3"/>
-<wire x1="281.94" y1="7.62" x2="314.96" y2="7.62" width="0.1524" layer="91"/>
-<label x="284.48" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D2" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D2"/>
-<wire x1="281.94" y1="10.16" x2="314.96" y2="10.16" width="0.1524" layer="91"/>
-<label x="284.48" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D1" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D1"/>
-<wire x1="281.94" y1="12.7" x2="314.96" y2="12.7" width="0.1524" layer="91"/>
-<label x="284.48" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_D0" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="D0"/>
-<wire x1="281.94" y1="15.24" x2="314.96" y2="15.24" width="0.1524" layer="91"/>
-<label x="284.48" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_CLKOUT" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="CLKOUT"/>
-<wire x1="281.94" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
-<label x="284.48" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_STP" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="STP"/>
-<wire x1="281.94" y1="22.86" x2="314.96" y2="22.86" width="0.1524" layer="91"/>
-<label x="284.48" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_DIR" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="DIR"/>
-<wire x1="281.94" y1="25.4" x2="314.96" y2="25.4" width="0.1524" layer="91"/>
-<label x="284.48" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULPI_NXT" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="NXT"/>
-<wire x1="281.94" y1="27.94" x2="314.96" y2="27.94" width="0.1524" layer="91"/>
-<label x="284.48" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ULPI_!RESET" class="0">
@@ -16302,6 +16280,283 @@ Bank address width = 3 </text>
 <pinref part="U10" gate="G$1" pin="D-_IN"/>
 <wire x1="185.42" y1="17.78" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="17.78" x2="198.12" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D0" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PA3"/>
+<wire x1="-25.4" y1="139.7" x2="-66.04" y2="139.7" width="0.1524" layer="91"/>
+<label x="-63.5" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D0"/>
+<wire x1="281.94" y1="15.24" x2="314.96" y2="15.24" width="0.1524" layer="91"/>
+<label x="284.48" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_CK" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PA5"/>
+<wire x1="-25.4" y1="134.62" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
+<label x="-63.5" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="CLKOUT"/>
+<wire x1="281.94" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="284.48" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D1" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB0"/>
+<wire x1="-25.4" y1="104.14" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
+<label x="-63.5" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D1"/>
+<wire x1="281.94" y1="12.7" x2="314.96" y2="12.7" width="0.1524" layer="91"/>
+<label x="284.48" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D2" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB1"/>
+<wire x1="-25.4" y1="101.6" x2="-66.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="-63.5" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D2"/>
+<wire x1="281.94" y1="10.16" x2="314.96" y2="10.16" width="0.1524" layer="91"/>
+<label x="284.48" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PROC_JTAG_RST" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB4_(NJTRST)"/>
+<wire x1="-25.4" y1="93.98" x2="-66.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="-63.5" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D7" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB5"/>
+<wire x1="-25.4" y1="91.44" x2="-66.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="-63.5" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D7"/>
+<wire x1="281.94" y1="-2.54" x2="314.96" y2="-2.54" width="0.1524" layer="91"/>
+<label x="284.48" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_!CE" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB6"/>
+<wire x1="-25.4" y1="88.9" x2="-66.04" y2="88.9" width="0.1524" layer="91"/>
+<label x="-63.5" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D3" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB10"/>
+<wire x1="-25.4" y1="78.74" x2="-66.04" y2="78.74" width="0.1524" layer="91"/>
+<label x="-63.5" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D3"/>
+<wire x1="281.94" y1="7.62" x2="314.96" y2="7.62" width="0.1524" layer="91"/>
+<label x="284.48" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D4" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB11"/>
+<wire x1="-25.4" y1="76.2" x2="-66.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="-63.5" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D4"/>
+<wire x1="281.94" y1="5.08" x2="314.96" y2="5.08" width="0.1524" layer="91"/>
+<label x="284.48" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D5" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB12"/>
+<wire x1="-25.4" y1="73.66" x2="-66.04" y2="73.66" width="0.1524" layer="91"/>
+<label x="-63.5" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D5"/>
+<wire x1="281.94" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91"/>
+<label x="284.48" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_D6" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PB13"/>
+<wire x1="-25.4" y1="71.12" x2="-66.04" y2="71.12" width="0.1524" layer="91"/>
+<label x="-63.5" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="D6"/>
+<wire x1="281.94" y1="0" x2="314.96" y2="0" width="0.1524" layer="91"/>
+<label x="284.48" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_STP" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PC0"/>
+<wire x1="-25.4" y1="60.96" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
+<label x="-63.5" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="STP"/>
+<wire x1="281.94" y1="22.86" x2="314.96" y2="22.86" width="0.1524" layer="91"/>
+<label x="284.48" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_NXT" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PC3"/>
+<wire x1="-25.4" y1="50.8" x2="-66.04" y2="50.8" width="0.1524" layer="91"/>
+<label x="-63.5" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="NXT"/>
+<wire x1="281.94" y1="27.94" x2="314.96" y2="27.94" width="0.1524" layer="91"/>
+<label x="284.48" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D0" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PC9"/>
+<wire x1="-25.4" y1="33.02" x2="-66.04" y2="33.02" width="0.1524" layer="91"/>
+<label x="-63.5" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D1" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PC10"/>
+<wire x1="-25.4" y1="30.48" x2="-66.04" y2="30.48" width="0.1524" layer="91"/>
+<label x="-63.5" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D2" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PE2"/>
+<wire x1="-25.4" y1="-35.56" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-63.5" y="-35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D3" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PF6"/>
+<wire x1="-25.4" y1="-88.9" x2="-66.04" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-63.5" y="-88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_CK" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PF10"/>
+<wire x1="-25.4" y1="-99.06" x2="-66.04" y2="-99.06" width="0.1524" layer="91"/>
+<label x="-63.5" y="-99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D7" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PG14"/>
+<wire x1="-25.4" y1="-152.4" x2="-66.04" y2="-152.4" width="0.1524" layer="91"/>
+<label x="-63.5" y="-152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D4" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PH2"/>
+<wire x1="25.4" y1="-12.7" x2="66.04" y2="-12.7" width="0.1524" layer="91"/>
+<label x="27.94" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D5" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PH3"/>
+<wire x1="25.4" y1="-15.24" x2="66.04" y2="-15.24" width="0.1524" layer="91"/>
+<label x="27.94" y="-15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_HS_ULPI_DIR" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PI11"/>
+<wire x1="25.4" y1="-78.74" x2="66.04" y2="-78.74" width="0.1524" layer="91"/>
+<label x="27.94" y="-78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="DIR"/>
+<wire x1="281.94" y1="25.4" x2="314.96" y2="25.4" width="0.1524" layer="91"/>
+<label x="284.48" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_QSPI_D6" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PG9"/>
+<wire x1="-25.4" y1="-139.7" x2="-66.04" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-63.5" y="-139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_SPI_MISO" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PA6"/>
+<wire x1="-25.4" y1="132.08" x2="-66.04" y2="132.08" width="0.1524" layer="91"/>
+<label x="-63.5" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_SPI_MOSI" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD7"/>
+<wire x1="-25.4" y1="-5.08" x2="-66.04" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-63.5" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_SPI_!CS" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PG10"/>
+<wire x1="-25.4" y1="-142.24" x2="-66.04" y2="-142.24" width="0.1524" layer="91"/>
+<label x="-63.5" y="-142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_SPI_SCLK" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PG11"/>
+<wire x1="-25.4" y1="-144.78" x2="-66.04" y2="-144.78" width="0.1524" layer="91"/>
+<label x="-63.5" y="-144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_UART_CTS" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD3"/>
+<wire x1="-25.4" y1="5.08" x2="-66.04" y2="5.08" width="0.1524" layer="91"/>
+<label x="-63.5" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_UART_RTS" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD4"/>
+<wire x1="-25.4" y1="2.54" x2="-66.04" y2="2.54" width="0.1524" layer="91"/>
+<label x="-63.5" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_UART_TX" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD5"/>
+<wire x1="-25.4" y1="0" x2="-66.04" y2="0" width="0.1524" layer="91"/>
+<label x="-63.5" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_UART_RX" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD6"/>
+<wire x1="-25.4" y1="-2.54" x2="-66.04" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-63.5" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -16717,9 +16972,9 @@ Bank address width = 3 </text>
 <attribute name="NAME" x="157.48" y="-106.68" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="157.48" y="-111.76" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="R47" gate="G$1" x="162.56" y="-86.36" smashed="yes">
-<attribute name="NAME" x="162.56" y="-83.82" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="162.56" y="-88.9" size="1.27" layer="96" align="center"/>
+<instance part="R47" gate="G$1" x="157.48" y="-86.36" smashed="yes">
+<attribute name="NAME" x="157.48" y="-83.82" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="157.48" y="-88.9" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="R48" gate="G$1" x="177.8" y="-68.58" smashed="yes">
 <attribute name="NAME" x="177.8" y="-66.04" size="1.27" layer="95" align="center"/>
@@ -16777,8 +17032,8 @@ Bank address width = 3 </text>
 <instance part="U$27" gate="G$1" x="165.1" y="-175.26" smashed="yes">
 <attribute name="VALUE" x="165.1" y="-177.8" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="U$28" gate="G$1" x="149.86" y="-175.26" smashed="yes">
-<attribute name="VALUE" x="149.86" y="-177.8" size="1.778" layer="96" align="center"/>
+<instance part="U$28" gate="G$1" x="147.32" y="-175.26" smashed="yes">
+<attribute name="VALUE" x="147.32" y="-177.8" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R52" gate="G$1" x="238.76" y="-167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="236.22" y="-167.64" size="1.27" layer="95" rot="R90" align="center"/>
@@ -16801,9 +17056,9 @@ Bank address width = 3 </text>
 <attribute name="NAME" x="190.5" y="-45.72" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="195.58" y="-45.72" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="149.86" y="-50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.32" y="-50.8" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="152.4" y="-50.8" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="F1" gate="G$1" x="147.32" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="144.78" y="-50.8" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="149.86" y="-50.8" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="U28" gate="G$1" x="0" y="-203.2" smashed="yes">
 <attribute name="NAME" x="-10.16" y="-187.96" size="1.778" layer="95"/>
@@ -16835,6 +17090,10 @@ Bank address width = 3 </text>
 </instance>
 <instance part="GND320" gate="G$1" x="-25.4" y="-215.9" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="-218.44" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="CN3" gate="G$1" x="124.46" y="-139.7" smashed="yes">
+<attribute name="NAME" x="121.92" y="-130.81" size="1.27" layer="95"/>
+<attribute name="VALUE" x="121.92" y="-133.35" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17875,16 +18134,18 @@ Bank address width = 3 </text>
 </net>
 <net name="N$36" class="0">
 <segment>
-<wire x1="147.32" y1="-109.22" x2="149.86" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-55.88" x2="149.86" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-55.88" x2="147.32" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-86.36" x2="149.86" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="-109.22" x2="149.86" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="149.86" y="-109.22"/>
+<wire x1="147.32" y1="-86.36" x2="147.32" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-109.22" x2="147.32" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="147.32" y="-109.22"/>
 <pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="-86.36" x2="149.86" y2="-86.36" width="0.1524" layer="91"/>
-<junction x="149.86" y="-86.36"/>
+<wire x1="152.4" y1="-86.36" x2="147.32" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="147.32" y="-86.36"/>
 <pinref part="F1" gate="G$1" pin="1"/>
+<pinref part="CN3" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="-137.16" x2="147.32" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-137.16" x2="147.32" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -17893,7 +18154,7 @@ Bank address width = 3 </text>
 <wire x1="172.72" y1="-78.74" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-78.74" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="-86.36" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-86.36" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U17" gate="G$1" pin="IN"/>
 <wire x1="185.42" y1="-86.36" x2="170.18" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="170.18" y="-86.36"/>
@@ -17945,12 +18206,12 @@ Bank address width = 3 </text>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="-124.46" x2="149.86" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-124.46" x2="147.32" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-154.94" x2="149.86" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-154.94" x2="152.4" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-124.46" x2="149.86" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="149.86" y="-124.46"/>
-<junction x="149.86" y="-154.94"/>
+<wire x1="149.86" y1="-124.46" x2="149.86" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="-139.7" x2="149.86" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-139.7" x2="149.86" y2="-139.7" width="0.1524" layer="91"/>
+<junction x="149.86" y="-139.7"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -17962,8 +18223,8 @@ Bank address width = 3 </text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="149.86" y1="-33.02" x2="149.86" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-33.02" x2="149.86" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-33.02" x2="147.32" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-33.02" x2="147.32" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
@@ -18068,9 +18329,10 @@ Bank address width = 3 </text>
 <junction x="218.44" y="-165.1"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="-170.18" x2="149.86" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="U$28" gate="G$1" pin="PGND"/>
-<wire x1="149.86" y1="-170.18" x2="149.86" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="G$1" pin="3"/>
+<wire x1="134.62" y1="-142.24" x2="147.32" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-142.24" x2="147.32" y2="-172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$27" gate="G$1" pin="PGND"/>
