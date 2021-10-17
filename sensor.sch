@@ -1167,7 +1167,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="175-MAX25300BATA/V+-ND" constant="no"/>
+<attribute name="DIGIKEY" value="175-MAX38902BATA+TCT-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="0.6" constant="no"/>
 <attribute name="VALUE" value="MAX25300B" constant="no"/>
@@ -1176,26 +1176,26 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC5271YM5-TR" prefix="U">
-<description>Linear Voltage Regulator IC Negative Adjustable 1 Output  100mA SOT-23-5</description>
+<deviceset name="MAX1735EUK50+T" prefix="U">
+<description>Linear Voltage Regulator IC Negative Adjustable (Fixed) 1 Output  200mA SOT-23-5</description>
 <gates>
 <gate name="G$1" symbol="REG_NEG_EN_FB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-5">
 <connects>
-<connect gate="G$1" pin="EN" pad="1"/>
-<connect gate="G$1" pin="FB" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VIN" pad="5"/>
-<connect gate="G$1" pin="VOUT" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="MIC5271YM5-TR" constant="no"/>
+<attribute name="DIGIKEY" value="MAX1735EUK50+TCT-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
-<attribute name="PRICE_PER" value="1.27" constant="no"/>
-<attribute name="VALUE" value="MIC5271" constant="no"/>
+<attribute name="PRICE_PER" value="2.20" constant="no"/>
+<attribute name="VALUE" value="MAX1735" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1501,8 +1501,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0603390RFKEA" prefix="R">
-<description>390 ±1% 390 Ohms Thick Film 0.1W, 1/10W 0603</description>
+<deviceset name="CRCW06033K90FKEA" prefix="R">
+<description>3900 ±1% 3.9k Thick Film 0.1W, 1/10W 0603</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1514,14 +1514,14 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="541-390HCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="541-3.90KHCT-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="PRICE_PER" value="0.07000" constant="no"/>
-<attribute name="STOCK" value="1304" constant="no"/>
+<attribute name="STOCK" value="5" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="390R" constant="no"/>
+<attribute name="VALUE" value="3.9k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1631,8 +1631,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW06034K70FKEA" prefix="R">
-<description>4700 ±1% 4.7k Thick Film 0.1W, 1/10W 0603</description>
+<deviceset name="CRCW0603100KFKEB" prefix="R">
+<description>100000 ±1% 100k Thick Film 0.1W, 1/10W 0603</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1644,14 +1644,14 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="541-4.70KHCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="541-2972-1-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
 <attribute name="PRICE_PER" value="0.07000" constant="no"/>
-<attribute name="STOCK" value="325155" constant="no"/>
+<attribute name="STOCK" value="201" constant="no"/>
 <attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="4.7k" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2740,8 +2740,8 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND259" library="NETS" deviceset="GND" device=""/>
 <part name="C244" library="c_0603" deviceset="C0603C105K8PAC7411" device="" value="1uF 10V"/>
 <part name="C245" library="c_0603" deviceset="C0603C105K8PAC7411" device="" value="1uF 10V"/>
-<part name="R55" library="r_0603" deviceset="CRCW0603390RFKEA" device="" value="390R"/>
-<part name="R56" library="r_0603" deviceset="CRCW06034K70FKEA" device="" value="4.7k"/>
+<part name="R55" library="r_0603" deviceset="CRCW06033K90FKEA" device="" value="3.9k"/>
+<part name="R56" library="r_0603" deviceset="CRCW0603100KFKEB" device="" value="100k"/>
 <part name="R57" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 <part name="U20" library="ICs" deviceset="MAX25300BATA/V+" device="" value="MAX25300B"/>
 <part name="GND260" library="NETS" deviceset="GND" device=""/>
@@ -2795,7 +2795,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="R68" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 <part name="R69" library="r_0603" deviceset="CRCW06031K69FKEA" device="" value="1.69k"/>
 <part name="GND283" library="NETS" deviceset="GND" device=""/>
-<part name="U18" library="ICs" deviceset="MIC5271YM5-TR" device="" value="MIC5271"/>
+<part name="U18" library="ICs" deviceset="MAX1735EUK50+T" device="" value="MAX1735"/>
 <part name="U24" library="ICs" deviceset="LMZM23600V3SILT" device="" value="3.3V BUCK"/>
 <part name="GND284" library="NETS" deviceset="GND" device=""/>
 <part name="GND285" library="NETS" deviceset="GND" device=""/>
