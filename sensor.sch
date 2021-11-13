@@ -2855,12 +2855,12 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <sheet>
 <description>TITLE</description>
 <plain>
-<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2021.09.29 - ZONE OS LTD.
-ANGLE MEASUREMENT DEVICE
+<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2021.10.18 - GSWDH LTD.
+IMAGE SENSOR MODULE
 
-REVISION 2.1.0
-DESIGN BY GEORGE WALLER AT ZONE OS LTD.
-GEORGE@ZONEOS.IO
+REVISION 1.0.0
+DESIGN BY GEORGE WALLER AT GSWDH LTD.
+GEORGEWALLER@GSWDH.CO.UK
 
 CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="292.1" x2="177.8" y2="292.1" width="0.1524" layer="97"/>
