@@ -984,6 +984,7 @@ and SHA-256 Authentication</description>
 <part name="C2" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
 <part name="CN3" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
 <part name="CN5" library="CONNECTORs" deviceset="SFV15R-1STE1HLF" device="" value="15PIN 0.5MM"/>
+<part name="GND4" library="NETS" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1012,7 +1013,6 @@ georgewaller@gswdh.co.uk</text>
 <plain>
 <wire x1="416.56" y1="309.88" x2="416.56" y2="279.4" width="0.1524" layer="114"/>
 <wire x1="401.32" y1="294.64" x2="431.8" y2="294.64" width="0.1524" layer="114"/>
-<text x="50.8" y="-43.18" size="1.778" layer="91">TODO: Replace with NTC</text>
 <wire x1="-406.4" y1="-292.1" x2="406.4" y2="-292.1" width="0.1524" layer="97"/>
 <wire x1="-406.4" y1="292.1" x2="-406.4" y2="-292.1" width="0.1524" layer="97"/>
 <wire x1="406.4" y1="292.1" x2="-406.4" y2="292.1" width="0.1524" layer="97"/>
@@ -1187,9 +1187,12 @@ georgewaller@gswdh.co.uk</text>
 <attribute name="NAME" x="-54.61" y="-22.86" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-46.99" y="-22.86" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN5" gate="G$1" x="114.3" y="7.62" smashed="yes">
-<attribute name="NAME" x="109.22" y="33.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.22" y="30.48" size="1.778" layer="96"/>
+<instance part="CN5" gate="G$1" x="91.44" y="22.86" smashed="yes">
+<attribute name="NAME" x="86.36" y="48.26" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="G$1" x="101.6" y="0" smashed="yes">
+<attribute name="VALUE" x="101.6" y="-2.54" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -1216,19 +1219,31 @@ georgewaller@gswdh.co.uk</text>
 <pinref part="GND157" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="20.32" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="VBAT" class="0">
 <segment>
-<wire x1="10.16" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="48.26" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
-<junction x="43.18" y="91.44"/>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="48.26" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
-<junction x="35.56" y="91.44"/>
-<wire x1="43.18" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="11"/>
+<wire x1="99.06" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="12"/>
+<wire x1="101.6" y1="12.7" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="7.62" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="12.7" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<junction x="101.6" y="12.7"/>
+<pinref part="CN5" gate="G$1" pin="14"/>
+<wire x1="99.06" y1="7.62" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
+<junction x="101.6" y="7.62"/>
+<pinref part="CN5" gate="G$1" pin="13"/>
+<wire x1="99.06" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
+<junction x="101.6" y="10.16"/>
+<pinref part="CN5" gate="G$1" pin="15"/>
+<wire x1="99.06" y1="5.08" x2="101.6" y2="5.08" width="0.1524" layer="91"/>
+<junction x="101.6" y="5.08"/>
+<pinref part="GND4" gate="G$1" pin="GND"/>
+<pinref part="CN5" gate="G$1" pin="10"/>
+<wire x1="99.06" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<junction x="101.6" y="15.24"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -1456,18 +1471,16 @@ georgewaller@gswdh.co.uk</text>
 <wire x1="-7.62" y1="73.66" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BMS_!ALRT" class="0">
-<segment>
-<pinref part="U17" gate="G$1" pin="ALRT"/>
-<wire x1="15.24" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
-<label x="17.78" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BMS_I2C_SCL" class="0">
 <segment>
 <pinref part="U17" gate="G$1" pin="SCL/OD"/>
 <wire x1="15.24" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <label x="17.78" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN5" gate="G$1" pin="5"/>
+<wire x1="99.06" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="104.14" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BMS_I2C_SDA" class="0">
@@ -1475,6 +1488,11 @@ georgewaller@gswdh.co.uk</text>
 <pinref part="U17" gate="G$1" pin="SDA/DQ"/>
 <wire x1="15.24" y1="-17.78" x2="50.8" y2="-17.78" width="0.1524" layer="91"/>
 <label x="17.78" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN5" gate="G$1" pin="6"/>
+<wire x1="99.06" y1="27.94" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="104.14" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1536,6 +1554,65 @@ georgewaller@gswdh.co.uk</text>
 <pinref part="CN3" gate="G$1" pin="V+"/>
 <wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-15.24"/>
+</segment>
+</net>
+<net name="PWR_VPACK" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="38.1" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<junction x="101.6" y="40.64"/>
+<pinref part="CN5" gate="G$1" pin="3"/>
+<wire x1="99.06" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="101.6" y="38.1"/>
+<pinref part="CN5" gate="G$1" pin="4"/>
+<wire x1="99.06" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<junction x="101.6" y="35.56"/>
+<label x="104.14" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="10.16" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="48.26" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<junction x="43.18" y="91.44"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="48.26" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<junction x="35.56" y="91.44"/>
+<wire x1="43.18" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<label x="83.82" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BMS_NALERT" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="7"/>
+<wire x1="99.06" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="104.14" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U17" gate="G$1" pin="ALRT"/>
+<wire x1="15.24" y1="-20.32" x2="50.8" y2="-20.32" width="0.1524" layer="91"/>
+<label x="17.78" y="-20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BMS_BUS_RSVD_1" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="8"/>
+<wire x1="99.06" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<label x="104.14" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BMS_BUS_RSVD_2" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="9"/>
+<wire x1="99.06" y1="20.32" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
+<label x="104.14" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
