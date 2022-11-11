@@ -2723,69 +2723,6 @@
 </library>
 <library name="CONNECTORs">
 <packages>
-<package name="12401832E402A">
-<smd name="A1" x="-2.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A2" x="-2.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A3" x="-1.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A4" x="-1.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A5" x="-0.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A6" x="-0.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A7" x="0.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A8" x="0.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A9" x="1.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A10" x="1.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A11" x="2.25" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="A12" x="2.75" y="4.91" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B1" x="2.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B2" x="2" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B3" x="1.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B4" x="1" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B5" x="0.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B6" x="0" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B7" x="-0.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B8" x="-1" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B9" x="-1.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B10" x="-2" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B11" x="-2.5" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="B12" x="-3" y="3.21" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<hole x="-3.6" y="4.25" drill="0.65"/>
-<hole x="3.6" y="4.25" drill="0.65"/>
-<hole x="3.75" y="4.25" drill="0.65"/>
-<hole x="3.45" y="4.25" drill="0.65"/>
-<pad name="P$1" x="-4.13" y="3" drill="0.5"/>
-<pad name="P$2" x="-4.13" y="3.1" drill="0.5"/>
-<pad name="P$3" x="-4.13" y="3.2" drill="0.5"/>
-<pad name="P$4" x="-4.13" y="3.3" drill="0.5"/>
-<pad name="P$5" x="-4.13" y="2.9" drill="0.5"/>
-<pad name="P$6" x="-4.13" y="2.8" drill="0.5"/>
-<pad name="P$7" x="-4.13" y="2.7" drill="0.5"/>
-<pad name="P$8" x="4.13" y="3" drill="0.5"/>
-<pad name="P$9" x="4.13" y="3.1" drill="0.5"/>
-<pad name="P$10" x="4.13" y="3.2" drill="0.5"/>
-<pad name="P$11" x="4.13" y="3.3" drill="0.5"/>
-<pad name="P$12" x="4.13" y="2.9" drill="0.5"/>
-<pad name="P$13" x="4.13" y="2.8" drill="0.5"/>
-<pad name="P$14" x="4.13" y="2.7" drill="0.5"/>
-<pad name="P$15" x="-4.5" y="-2.95" drill="0.5"/>
-<pad name="P$16" x="-4.5" y="-2.85" drill="0.5"/>
-<pad name="P$17" x="-4.5" y="-2.75" drill="0.5"/>
-<pad name="P$18" x="-4.5" y="-2.65" drill="0.5"/>
-<pad name="P$19" x="-4.5" y="-3.05" drill="0.5"/>
-<pad name="P$20" x="-4.5" y="-3.15" drill="0.5"/>
-<pad name="P$21" x="-4.5" y="-3.25" drill="0.5"/>
-<pad name="P$22" x="4.5" y="-2.95" drill="0.5"/>
-<pad name="P$23" x="4.5" y="-2.85" drill="0.5"/>
-<pad name="P$24" x="4.5" y="-2.75" drill="0.5"/>
-<pad name="P$25" x="4.5" y="-2.65" drill="0.5"/>
-<pad name="P$26" x="4.5" y="-3.05" drill="0.5"/>
-<pad name="P$27" x="4.5" y="-3.15" drill="0.5"/>
-<pad name="P$28" x="4.5" y="-3.25" drill="0.5"/>
-<wire x1="-5.25" y1="-5.5" x2="5.25" y2="-5.5" width="0.15" layer="21"/>
-<wire x1="5.25" y1="-5.5" x2="5.25" y2="5.5" width="0.15" layer="21"/>
-<wire x1="5.25" y1="5.5" x2="-5.25" y2="5.5" width="0.15" layer="21"/>
-<wire x1="-5.25" y1="5.5" x2="-5.25" y2="-5.5" width="0.15" layer="21"/>
-<text x="-5.25" y="5.625" size="1" layer="25">&gt;NAME</text>
-</package>
 <package name="FH52E-60S-0.5SH">
 <smd name="P1" x="-14.75" y="2.5" dx="0.25" dy="0.85" layer="1"/>
 <smd name="P2" x="-14.25" y="2.5" dx="0.25" dy="0.85" layer="1"/>
@@ -2955,33 +2892,51 @@
 <wire x1="10.75" y1="-3.85" x2="-10.75" y2="-3.85" width="0.25" layer="51"/>
 <text x="-10.75" y="1.25" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="CONN_632723X0001_WRE">
+<pad name="B1" x="2.794" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B2" x="2.3876" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="25" x="2.0066" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B3" x="1.6002" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="B4" x="1.1938" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B5" x="0.7874" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="B6" x="0.4064" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B7" x="-0.4064" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B8" x="-0.7874" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="B9" x="-1.1938" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B10" x="-1.6002" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="26" x="-2.0066" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<pad name="B11" x="-2.3876" y="3.683" drill="0.4064" diameter="0.6604"/>
+<pad name="B12" x="-2.794" y="4.3942" drill="0.4064" diameter="0.6604"/>
+<smd name="A1" x="-2.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A12" x="2.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A2" x="-2.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A3" x="-1.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A4" x="-1.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A11" x="2.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A10" x="1.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A9" x="1.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A5" x="-0.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A8" x="0.75" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A6" x="-0.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="A7" x="0.25" y="5.63495625" dx="1.1938" dy="0.3048" layer="1" rot="R90"/>
+<smd name="32" x="0" y="-2.032" dx="0.2032" dy="0.9906" layer="1"/>
+<smd name="31" x="0" y="1.068" dx="0.2032" dy="0.9906" layer="1"/>
+<text x="-5.375" y="6.5" size="1" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<pad name="1" x="-4.27" y="3.25" drill="1.2"/>
+<pad name="2" x="-4.27" y="-1.5" drill="1.2"/>
+<pad name="3" x="4.27" y="3.25" drill="1.2"/>
+<pad name="4" x="4.27" y="-1.5" drill="1.2"/>
+<wire x1="-4.37" y1="-2.5" x2="-4.37" y2="-5.9" width="0.15" layer="21"/>
+<wire x1="-4.37" y1="-5.9" x2="4.37" y2="-5.9" width="0.15" layer="21"/>
+<wire x1="4.37" y1="-5.9" x2="4.37" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="4.37" y1="-5.9" x2="5.375" y2="-5.9" width="0.15" layer="21"/>
+<wire x1="5.375" y1="-5.9" x2="5.375" y2="6.375" width="0.15" layer="21"/>
+<wire x1="5.375" y1="6.375" x2="-5.375" y2="6.375" width="0.15" layer="21"/>
+<wire x1="-5.375" y1="6.375" x2="-5.375" y2="-5.9" width="0.15" layer="21"/>
+<wire x1="-5.375" y1="-5.9" x2="-3.75" y2="-5.9" width="0.15" layer="21"/>
+</package>
 </packages>
 <symbols>
-<symbol name="USBC">
-<pin name="GND" x="-5.08" y="-33.02" length="middle" rot="R90"/>
-<pin name="TX1+" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="TX1-" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="VBUS" x="12.7" y="25.4" length="middle" rot="R180"/>
-<pin name="CC1" x="12.7" y="17.78" length="middle" rot="R180"/>
-<pin name="D+" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="D-" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="SBU1" x="12.7" y="10.16" length="middle" rot="R180"/>
-<pin name="RX2-" x="12.7" y="-25.4" length="middle" rot="R180"/>
-<pin name="RX2+" x="12.7" y="-22.86" length="middle" rot="R180"/>
-<pin name="RX1+" x="12.7" y="-10.16" length="middle" rot="R180"/>
-<pin name="RX1-" x="12.7" y="-12.7" length="middle" rot="R180"/>
-<pin name="SBU2" x="12.7" y="7.62" length="middle" rot="R180"/>
-<pin name="CC2" x="12.7" y="15.24" length="middle" rot="R180"/>
-<pin name="TX2+" x="12.7" y="-17.78" length="middle" rot="R180"/>
-<pin name="TX2-" x="12.7" y="-20.32" length="middle" rot="R180"/>
-<pin name="SHELL" x="-2.54" y="-33.02" length="middle" rot="R90"/>
-<wire x1="-7.62" y1="-27.94" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
-<wire x1="7.62" y1="27.94" x2="-7.62" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
-<text x="-7.62" y="33.02" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="30.48" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="60PIN_CONNECTOR">
 <pin name="P1" x="12.7" y="73.66" length="middle" rot="R180"/>
 <pin name="P2" x="12.7" y="71.12" length="middle" rot="R180"/>
@@ -3132,45 +3087,33 @@
 <pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
 <pin name="31" x="12.7" y="-38.1" length="middle" rot="R180"/>
 </symbol>
+<symbol name="USBC">
+<pin name="GND" x="-5.08" y="-33.02" length="middle" rot="R90"/>
+<pin name="TX1+" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="TX1-" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="VBUS" x="12.7" y="25.4" length="middle" rot="R180"/>
+<pin name="CC1" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="D+" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="D-" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SBU1" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="RX2-" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2+" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="RX1+" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="RX1-" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="SBU2" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="CC2" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="TX2+" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="TX2-" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="SHELL" x="-2.54" y="-33.02" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="-27.94" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="-7.62" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<text x="-7.62" y="33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="12401832E402A" prefix="CN">
-<description>USB - C (Type - C) USB 3.1 (USB 3.1 Gen 2, Superspeed+) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole</description>
-<gates>
-<gate name="G$1" symbol="USBC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="12401832E402A">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
-<connect gate="G$1" pin="RX1+" pad="B11"/>
-<connect gate="G$1" pin="RX1-" pad="B10"/>
-<connect gate="G$1" pin="RX2+" pad="A11"/>
-<connect gate="G$1" pin="RX2-" pad="A10"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHELL" pad="P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28"/>
-<connect gate="G$1" pin="TX1+" pad="A2"/>
-<connect gate="G$1" pin="TX1-" pad="A3"/>
-<connect gate="G$1" pin="TX2+" pad="B2"/>
-<connect gate="G$1" pin="TX2-" pad="B3"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="12401832E402ACT-ND" constant="no"/>
-<attribute name="HEIGHT" value="3.3" constant="no"/>
-<attribute name="PRICE_PER" value="2.17" constant="no"/>
-<attribute name="VALUE" value="USB C CON" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FH52E-60S-0.5SH" prefix="CN">
 <description>60 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle</description>
 <gates>
@@ -3364,6 +3307,43 @@
 <attribute name="HEIGHT" value="2.05" constant="no"/>
 <attribute name="PRICE_PER" value="1.37" constant="no"/>
 <attribute name="VALUE" value="31 PIN FPC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="632723300011" prefix="CN">
+<description>USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole</description>
+<gates>
+<gate name="A" symbol="USBC" x="-0.125" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_632723X0001_WRE">
+<connects>
+<connect gate="A" pin="CC1" pad="A5"/>
+<connect gate="A" pin="CC2" pad="B5"/>
+<connect gate="A" pin="D+" pad="A6 B6"/>
+<connect gate="A" pin="D-" pad="A7 B7"/>
+<connect gate="A" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="A" pin="RX1+" pad="B11"/>
+<connect gate="A" pin="RX1-" pad="B10"/>
+<connect gate="A" pin="RX2+" pad="A11"/>
+<connect gate="A" pin="RX2-" pad="A10"/>
+<connect gate="A" pin="SBU1" pad="A8"/>
+<connect gate="A" pin="SBU2" pad="B8"/>
+<connect gate="A" pin="SHELL" pad="1 2 3 4"/>
+<connect gate="A" pin="TX1+" pad="A2"/>
+<connect gate="A" pin="TX1-" pad="A3"/>
+<connect gate="A" pin="TX2+" pad="B2"/>
+<connect gate="A" pin="TX2-" pad="B3"/>
+<connect gate="A" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-9618-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="3.81" constant="no"/>
+<attribute name="VALUE" value="632723300011" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5684,7 +5664,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 </class>
 </classes>
 <parts>
-<part name="CN3" library="CONNECTORs" deviceset="12401832E402A" device="" value="USB C CON"/>
 <part name="U5" library="ICs" deviceset="STM32L431RB" device="T6" value="STM32L431RBT"/>
 <part name="U7" library="ICs" deviceset="ACT2861" device="" value="ACT2861"/>
 <part name="GND6" library="NETS" deviceset="GND" device=""/>
@@ -6159,6 +6138,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND178" library="NETS" deviceset="GND" device=""/>
 <part name="C148" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND179" library="NETS" deviceset="GND" device=""/>
+<part name="CN3" library="CONNECTORs" deviceset="632723300011" device="" value="632723300011"/>
 </parts>
 <sheets>
 <sheet>
@@ -12529,10 +12509,6 @@ AP63200WU-7
 <instance part="GND54" gate="G$1" x="-142.24" y="165.1" smashed="yes">
 <attribute name="VALUE" x="-142.24" y="162.56" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="CN3" gate="G$1" x="-137.16" y="208.28" smashed="yes">
-<attribute name="NAME" x="-144.78" y="241.3" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-144.78" y="238.76" size="1.778" layer="96"/>
-</instance>
 <instance part="GND72" gate="G$1" x="-96.52" y="-236.22" smashed="yes">
 <attribute name="VALUE" x="-96.52" y="-238.76" size="1.778" layer="96" align="center"/>
 </instance>
@@ -13088,6 +13064,10 @@ AP63200WU-7
 <attribute name="NAME" x="137.16" y="-251.46" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="142.24" y="-251.46" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
+<instance part="CN3" gate="A" x="-137.16" y="208.28" smashed="yes">
+<attribute name="NAME" x="-144.78" y="241.3" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-144.78" y="238.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13180,14 +13160,14 @@ AP63200WU-7
 <label x="-134.62" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN3" gate="G$1" pin="GND"/>
 <pinref part="GND54" gate="G$1" pin="GND"/>
 <wire x1="-142.24" y1="175.26" x2="-142.24" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="CN3" gate="G$1" pin="SHELL"/>
 <wire x1="-142.24" y1="170.18" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="175.26" x2="-139.7" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="170.18" x2="-142.24" y2="170.18" width="0.1524" layer="91"/>
 <junction x="-142.24" y="170.18"/>
+<pinref part="CN3" gate="A" pin="GND"/>
+<pinref part="CN3" gate="A" pin="SHELL"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VSSA"/>
@@ -13787,15 +13767,15 @@ AP63200WU-7
 <net name="USBC_D_P" class="0">
 <segment>
 <wire x1="-124.46" y1="210.82" x2="-96.52" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="CN3" gate="G$1" pin="D+"/>
 <label x="-119.38" y="210.82" size="1.778" layer="95"/>
+<pinref part="CN3" gate="A" pin="D+"/>
 </segment>
 </net>
 <net name="PWR_USBC_VBUS" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="VBUS"/>
 <wire x1="-124.46" y1="233.68" x2="-96.52" y2="233.68" width="0.1524" layer="91"/>
 <label x="-119.38" y="233.68" size="1.778" layer="95"/>
+<pinref part="CN3" gate="A" pin="VBUS"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VDD"/>
@@ -13825,9 +13805,9 @@ AP63200WU-7
 </net>
 <net name="USBC_CC1" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="CC1"/>
 <wire x1="-124.46" y1="226.06" x2="-96.52" y2="226.06" width="0.1524" layer="91"/>
 <label x="-119.38" y="226.06" size="1.778" layer="95"/>
+<pinref part="CN3" gate="A" pin="CC1"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="180.34" x2="73.66" y2="180.34" width="0.1524" layer="91"/>
@@ -13846,9 +13826,9 @@ AP63200WU-7
 </net>
 <net name="USBC_CC2" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="CC2"/>
 <wire x1="-124.46" y1="223.52" x2="-96.52" y2="223.52" width="0.1524" layer="91"/>
 <label x="-119.38" y="223.52" size="1.778" layer="95"/>
+<pinref part="CN3" gate="A" pin="CC2"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
@@ -13867,9 +13847,9 @@ AP63200WU-7
 </net>
 <net name="USBC_D_N" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="D-"/>
 <wire x1="-124.46" y1="208.28" x2="-96.52" y2="208.28" width="0.1524" layer="91"/>
 <label x="-119.38" y="208.28" size="1.778" layer="95"/>
+<pinref part="CN3" gate="A" pin="D-"/>
 </segment>
 </net>
 <net name="STP_SWDIO" class="0">
@@ -14046,58 +14026,58 @@ AP63200WU-7
 </net>
 <net name="N$107" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="TX2+"/>
 <pinref part="U6" gate="G$1" pin="C0_P"/>
 <wire x1="-76.2" y1="190.5" x2="-124.46" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="TX2+"/>
 </segment>
 </net>
 <net name="N$109" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="TX2-"/>
 <pinref part="U6" gate="G$1" pin="C0_N"/>
 <wire x1="-76.2" y1="187.96" x2="-124.46" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="TX2-"/>
 </segment>
 </net>
 <net name="N$110" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="RX2+"/>
 <pinref part="U6" gate="G$1" pin="C1_P"/>
 <wire x1="-76.2" y1="185.42" x2="-124.46" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="RX2+"/>
 </segment>
 </net>
 <net name="N$111" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="RX2-"/>
 <pinref part="U6" gate="G$1" pin="C1_N"/>
 <wire x1="-76.2" y1="182.88" x2="-124.46" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="RX2-"/>
 </segment>
 </net>
 <net name="N$112" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="TX1+"/>
 <pinref part="U6" gate="G$1" pin="B0_P"/>
 <wire x1="-76.2" y1="203.2" x2="-124.46" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="TX1+"/>
 </segment>
 </net>
 <net name="N$113" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="TX1-"/>
 <pinref part="U6" gate="G$1" pin="B0_N"/>
 <wire x1="-76.2" y1="200.66" x2="-124.46" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="TX1-"/>
 </segment>
 </net>
 <net name="N$114" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="RX1+"/>
 <pinref part="U6" gate="G$1" pin="B1_P"/>
 <wire x1="-76.2" y1="198.12" x2="-124.46" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="RX1+"/>
 </segment>
 </net>
 <net name="N$115" class="0">
 <segment>
-<pinref part="CN3" gate="G$1" pin="RX1-"/>
 <pinref part="U6" gate="G$1" pin="B1_N"/>
 <wire x1="-76.2" y1="195.58" x2="-124.46" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="CN3" gate="A" pin="RX1-"/>
 </segment>
 </net>
 <net name="USBC_ORI_SEL" class="0">
