@@ -2741,6 +2741,30 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="TPS70950DBVT" prefix="U">
+<description>LDO Voltage Regulator, Fixed, 2.7V to 30V input, 690 mV drop., 5 V/150 mA out, SOT-23-5</description>
+<gates>
+<gate name="G$1" symbol="TPS70918" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-37567-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="1.21" constant="no"/>
+<attribute name="VALUE" value="TPS70950" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="CONNECTORs">
@@ -4640,6 +4664,32 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="CRCW06031R00FKTA" prefix="R">
+<description>1 ±1% 1 Ohms Thick Film 0.1W, 1/10W 0603</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-CRCW06031R00FKTACT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
+<attribute name="PRICE_PER" value="0.12000" constant="no"/>
+<attribute name="STOCK" value="4195" constant="no"/>
+<attribute name="TOLERANCE" value="±1%" constant="no"/>
+<attribute name="VALUE" value="1R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="RESISTORS">
@@ -6376,7 +6426,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND135" library="NETS" deviceset="GND" device=""/>
 <part name="GND136" library="NETS" deviceset="GND" device=""/>
 <part name="C115" library="c_0603" deviceset="CL10A475KQ8NNNC" device="" value="4.7uF 6.3V"/>
-<part name="R72" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 <part name="C116" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="C117" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="R74" library="r_0603" deviceset="CRCW06031K60FKEA" device="" value="1.6k"/>
@@ -6613,6 +6662,16 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="MECH8" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH9" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH10" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
+<part name="C153" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND197" library="NETS" deviceset="GND" device=""/>
+<part name="U22" library="ICs" deviceset="TPS70950DBVT" device="" value="TPS70950"/>
+<part name="C154" library="c_0603" deviceset="06035D105KAT2A" device="" value="1uF 50V"/>
+<part name="C155" library="c_0603" deviceset="CL10A225KP8NNNC" device="" value="2.2uF 10V"/>
+<part name="GND198" library="NETS" deviceset="GND" device=""/>
+<part name="GND199" library="NETS" deviceset="GND" device=""/>
+<part name="GND200" library="NETS" deviceset="GND" device=""/>
+<part name="R72" library="r_0603" deviceset="CRCW06031R00FKTA" device="" value="1R"/>
+<part name="R102" library="r_0603" deviceset="CRCW06031R00FKTA" device="" value="NO FIT"/>
 </parts>
 <sheets>
 <sheet>
@@ -7550,10 +7609,21 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$66" class="0">
+<net name="PWR_SYS_2V5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCCO_34"/>
 <wire x1="-43.18" y1="129.54" x2="-88.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="-86.36" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCCO_35"/>
+<wire x1="-43.18" y1="-10.16" x2="-88.9" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-86.36" y="-10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCCO_13"/>
+<wire x1="-43.18" y1="-149.86" x2="-88.9" y2="-149.86" width="0.1524" layer="91"/>
+<label x="-86.36" y="-149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -7856,12 +7926,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="0" x2="-88.9" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$138" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VCCO_35"/>
-<wire x1="-43.18" y1="-10.16" x2="-88.9" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$139" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_0_35"/>
@@ -7880,16 +7944,18 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="-20.32" x2="-88.9" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$142" class="0">
+<net name="SEN_T_D0_P" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L2P_T0_AD8P_35"/>
 <wire x1="-43.18" y1="-22.86" x2="-88.9" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-86.36" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$143" class="0">
+<net name="SEN_T_D0_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L2N_T0_AD8N_35"/>
 <wire x1="-43.18" y1="-25.4" x2="-88.9" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-86.36" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$144" class="0">
@@ -8160,12 +8226,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_25_35"/>
 <wire x1="-43.18" y1="-139.7" x2="-88.9" y2="-139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$189" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VCCO_13"/>
-<wire x1="-43.18" y1="-149.86" x2="-88.9" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$191" class="0">
@@ -11374,7 +11434,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="292.1" x2="-203.2" y2="266.7" width="0.1524" layer="97" curve="90"/>
 <text x="0" y="-279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
 <text x="0" y="279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
-<text x="76.2" y="144.78" size="1.778" layer="91">ADD CROWBAR</text>
 <text x="-160.02" y="218.44" size="1.778" layer="91">FOR DISPLAY
 NHD-4.3-800480CF-ASXP-CTP</text>
 </plain>
@@ -11513,10 +11572,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <attribute name="NAME" x="63.5" y="193.04" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="68.58" y="193.04" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R72" gate="G$1" x="73.66" y="152.4" smashed="yes">
-<attribute name="NAME" x="73.66" y="154.94" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="73.66" y="149.86" size="1.27" layer="96" align="center"/>
-</instance>
 <instance part="C116" gate="G$1" x="73.66" y="119.38" smashed="yes">
 <attribute name="NAME" x="73.66" y="121.92" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="73.66" y="116.84" size="1.27" layer="96" align="center"/>
@@ -11628,6 +11683,42 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <instance part="CN7" gate="G$1" x="-154.94" y="157.48" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-160.02" y="213.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-160.02" y="210.82" size="1.778" layer="96"/>
+</instance>
+<instance part="C153" gate="G$1" x="137.16" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="134.62" y="190.5" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="139.7" y="190.5" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND197" gate="G$1" x="137.16" y="180.34" smashed="yes">
+<attribute name="VALUE" x="137.16" y="177.8" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="U22" gate="G$1" x="78.74" y="149.86" smashed="yes">
+<attribute name="NAME" x="71.12" y="160.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="71.12" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="C154" gate="G$1" x="63.5" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.96" y="144.78" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="66.04" y="144.78" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C155" gate="G$1" x="93.98" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="144.78" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="96.52" y="144.78" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND198" gate="G$1" x="63.5" y="134.62" smashed="yes">
+<attribute name="VALUE" x="63.5" y="132.08" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND199" gate="G$1" x="78.74" y="134.62" smashed="yes">
+<attribute name="VALUE" x="78.74" y="132.08" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND200" gate="G$1" x="93.98" y="134.62" smashed="yes">
+<attribute name="VALUE" x="93.98" y="132.08" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="R72" gate="G$1" x="55.88" y="152.4" smashed="yes">
+<attribute name="NAME" x="55.88" y="154.94" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="55.88" y="149.86" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="R102" gate="G$1" x="55.88" y="160.02" smashed="yes">
+<attribute name="NAME" x="55.88" y="162.56" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="55.88" y="157.48" size="1.27" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -11840,6 +11931,26 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="-144.78" y1="134.62" x2="-109.22" y2="134.62" width="0.1524" layer="91"/>
 <label x="-142.24" y="134.62" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="12"/>
+</segment>
+<segment>
+<pinref part="C153" gate="G$1" pin="1"/>
+<pinref part="GND197" gate="G$1" pin="GND"/>
+<wire x1="137.16" y1="182.88" x2="137.16" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C154" gate="G$1" pin="1"/>
+<pinref part="GND198" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="137.16" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND199" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="137.16" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U22" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C155" gate="G$1" pin="1"/>
+<pinref part="GND200" gate="G$1" pin="GND"/>
+<wire x1="93.98" y1="137.16" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SEN_T_D0_P" class="0">
@@ -12309,9 +12420,10 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <segment>
 <pinref part="C106" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="195.58" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="198.12" x2="137.16" y2="198.12" width="0.1524" layer="91"/>
 <junction x="129.54" y="198.12"/>
-<label x="132.08" y="198.12" size="1.778" layer="95"/>
+<label x="144.78" y="198.12" size="1.778" layer="95"/>
+<wire x1="137.16" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="170.18" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="172.72" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
@@ -12320,6 +12432,9 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <junction x="121.92" y="172.72"/>
 <pinref part="U3" gate="G$1" pin="VCC33"/>
 <pinref part="U3" gate="G$1" pin="VDDA"/>
+<pinref part="C153" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="195.58" x2="137.16" y2="198.12" width="0.1524" layer="91"/>
+<junction x="137.16" y="198.12"/>
 </segment>
 <segment>
 <pinref part="CN8" gate="G$1" pin="1"/>
@@ -12388,8 +12503,8 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 </net>
 <net name="PWR_USBC_VBUS" class="0">
 <segment>
-<label x="43.18" y="152.4" size="1.778" layer="95"/>
-<wire x1="68.58" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="20.32" y="152.4" size="1.778" layer="95"/>
+<wire x1="50.8" y1="152.4" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R72" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -12427,13 +12542,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="66.04" y1="198.12" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
 <junction x="66.04" y="200.66"/>
 <label x="43.18" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="VBUS"/>
-<wire x1="96.52" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R72" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -13219,6 +13327,41 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="-40.64" y1="195.58" x2="-40.64" y2="198.12" width="0.1524" layer="91"/>
 <junction x="-40.64" y="198.12"/>
 <pinref part="D8" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U22" gate="G$1" pin="VOUT"/>
+<pinref part="U3" gate="G$1" pin="VBUS"/>
+<wire x1="91.44" y1="152.4" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C155" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="149.86" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<junction x="93.98" y="152.4"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="U22" gate="G$1" pin="VIN"/>
+<wire x1="66.04" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U22" gate="G$1" pin="EN"/>
+<wire x1="66.04" y1="149.86" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
+<junction x="63.5" y="152.4"/>
+<pinref part="C154" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
+<junction x="63.5" y="152.4"/>
+<wire x1="63.5" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R72" gate="G$1" pin="2"/>
+<pinref part="R102" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="160.02" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWR_USBC_VBUS_SW" class="0">
+<segment>
+<pinref part="R102" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="160.02" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
+<label x="20.32" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
