@@ -73,7 +73,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -6148,6 +6148,8 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <class number="1" name="USB" width="0.25" drill="0.25">
 <clearance class="1" value="1"/>
 </class>
+<class number="2" name="DDR" width="0.1016" drill="0.2">
+</class>
 </classes>
 <parts>
 <part name="U5" library="ICs" deviceset="STM32L431RB" device="T6" value="STM32L431RBT"/>
@@ -8718,385 +8720,385 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="132.08" y="-157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CLK_P" class="0">
+<net name="DDR_CLK_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_CKP_502"/>
 <wire x1="43.18" y1="15.24" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
 <label x="48.26" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CLK_N" class="0">
+<net name="DDR_CLK_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_CKN_502"/>
 <wire x1="43.18" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <label x="48.26" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CKE" class="0">
+<net name="DDR_CKE" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_CKE_502"/>
 <wire x1="43.18" y1="7.62" x2="88.9" y2="7.62" width="0.1524" layer="91"/>
 <label x="48.26" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A0" class="0">
+<net name="DDR_A0" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A0_502"/>
 <wire x1="43.18" y1="2.54" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
 <label x="48.26" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A1" class="0">
+<net name="DDR_A1" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A1_502"/>
 <wire x1="43.18" y1="0" x2="88.9" y2="0" width="0.1524" layer="91"/>
 <label x="48.26" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A2" class="0">
+<net name="DDR_A2" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A2_502"/>
 <wire x1="43.18" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
 <label x="48.26" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A3" class="0">
+<net name="DDR_A3" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A3_502"/>
 <wire x1="43.18" y1="-5.08" x2="88.9" y2="-5.08" width="0.1524" layer="91"/>
 <label x="48.26" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A4" class="0">
+<net name="DDR_A4" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A4_502"/>
 <wire x1="43.18" y1="-7.62" x2="88.9" y2="-7.62" width="0.1524" layer="91"/>
 <label x="48.26" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A5" class="0">
+<net name="DDR_A5" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A5_502"/>
 <wire x1="43.18" y1="-10.16" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
 <label x="48.26" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A6" class="0">
+<net name="DDR_A6" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A6_502"/>
 <wire x1="43.18" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
 <label x="48.26" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A7" class="0">
+<net name="DDR_A7" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A7_502"/>
 <wire x1="43.18" y1="-15.24" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
 <label x="48.26" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A8" class="0">
+<net name="DDR_A8" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A8_502"/>
 <wire x1="43.18" y1="-17.78" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 <label x="48.26" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A9" class="0">
+<net name="DDR_A9" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A9_502"/>
 <wire x1="43.18" y1="-20.32" x2="88.9" y2="-20.32" width="0.1524" layer="91"/>
 <label x="48.26" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A10" class="0">
+<net name="DDR_A10" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A10_502"/>
 <wire x1="43.18" y1="-22.86" x2="88.9" y2="-22.86" width="0.1524" layer="91"/>
 <label x="48.26" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A11" class="0">
+<net name="DDR_A11" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A11_502"/>
 <wire x1="43.18" y1="-25.4" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
 <label x="48.26" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A12" class="0">
+<net name="DDR_A12" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A12_502"/>
 <wire x1="43.18" y1="-27.94" x2="88.9" y2="-27.94" width="0.1524" layer="91"/>
 <label x="48.26" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A13" class="0">
+<net name="DDR_A13" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A13_502"/>
 <wire x1="43.18" y1="-30.48" x2="88.9" y2="-30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A14" class="0">
+<net name="DDR_A14" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_A14_502"/>
 <wire x1="43.18" y1="-33.02" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
 <label x="48.26" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA0" class="0">
+<net name="DDR_BA0" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_BA0_502"/>
 <wire x1="43.18" y1="-38.1" x2="88.9" y2="-38.1" width="0.1524" layer="91"/>
 <label x="48.26" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA1" class="0">
+<net name="DDR_BA1" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_BA1_502"/>
 <wire x1="43.18" y1="-40.64" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
 <label x="48.26" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA2" class="0">
+<net name="DDR_BA2" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_BA2_502"/>
 <wire x1="43.18" y1="-43.18" x2="88.9" y2="-43.18" width="0.1524" layer="91"/>
 <label x="48.26" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NCS" class="0">
+<net name="DDR_NCS" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_CS_B_502"/>
 <wire x1="43.18" y1="-48.26" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
 <label x="48.26" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NWE" class="0">
+<net name="DDR_NWE" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_WE_B_502"/>
 <wire x1="43.18" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
 <label x="48.26" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_ODT" class="0">
+<net name="DDR_ODT" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_ODT_502"/>
 <wire x1="43.18" y1="-53.34" x2="88.9" y2="-53.34" width="0.1524" layer="91"/>
 <label x="48.26" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NRAS" class="0">
+<net name="DDR_NRAS" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_RAS_B_502"/>
 <wire x1="43.18" y1="-55.88" x2="88.9" y2="-55.88" width="0.1524" layer="91"/>
 <label x="48.26" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NCAS" class="0">
+<net name="DDR_NCAS" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_CAS_B_502"/>
 <wire x1="43.18" y1="-58.42" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
 <label x="48.26" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D0" class="0">
+<net name="DDR_D0" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ0_502"/>
 <wire x1="43.18" y1="-63.5" x2="88.9" y2="-63.5" width="0.1524" layer="91"/>
 <label x="48.26" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D1" class="0">
+<net name="DDR_D1" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ1_502"/>
 <wire x1="43.18" y1="-66.04" x2="88.9" y2="-66.04" width="0.1524" layer="91"/>
 <label x="48.26" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D2" class="0">
+<net name="DDR_D2" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ2_502"/>
 <wire x1="43.18" y1="-68.58" x2="88.9" y2="-68.58" width="0.1524" layer="91"/>
 <label x="48.26" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D3" class="0">
+<net name="DDR_D3" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ3_502"/>
 <wire x1="43.18" y1="-71.12" x2="88.9" y2="-71.12" width="0.1524" layer="91"/>
 <label x="48.26" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D4" class="0">
+<net name="DDR_D4" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ4_502"/>
 <wire x1="43.18" y1="-73.66" x2="88.9" y2="-73.66" width="0.1524" layer="91"/>
 <label x="48.26" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D5" class="0">
+<net name="DDR_D5" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ5_502"/>
 <wire x1="43.18" y1="-76.2" x2="88.9" y2="-76.2" width="0.1524" layer="91"/>
 <label x="48.26" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D6" class="0">
+<net name="DDR_D6" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ6_502"/>
 <wire x1="43.18" y1="-78.74" x2="88.9" y2="-78.74" width="0.1524" layer="91"/>
 <label x="48.26" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D7" class="0">
+<net name="DDR_D7" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ7_502"/>
 <wire x1="43.18" y1="-81.28" x2="88.9" y2="-81.28" width="0.1524" layer="91"/>
 <label x="48.26" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D8" class="0">
+<net name="DDR_D8" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ8_502"/>
 <wire x1="43.18" y1="-83.82" x2="88.9" y2="-83.82" width="0.1524" layer="91"/>
 <label x="48.26" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D9" class="0">
+<net name="DDR_D9" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ9_502"/>
 <wire x1="43.18" y1="-86.36" x2="88.9" y2="-86.36" width="0.1524" layer="91"/>
 <label x="48.26" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D10" class="0">
+<net name="DDR_D10" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ10_502"/>
 <wire x1="43.18" y1="-88.9" x2="88.9" y2="-88.9" width="0.1524" layer="91"/>
 <label x="48.26" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D13" class="0">
+<net name="DDR_D13" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ13_502"/>
 <wire x1="43.18" y1="-96.52" x2="88.9" y2="-96.52" width="0.1524" layer="91"/>
 <label x="48.26" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D14" class="0">
+<net name="DDR_D14" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ14_502"/>
 <wire x1="43.18" y1="-99.06" x2="88.9" y2="-99.06" width="0.1524" layer="91"/>
 <label x="48.26" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D15" class="0">
+<net name="DDR_D15" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ15_502"/>
 <wire x1="43.18" y1="-101.6" x2="88.9" y2="-101.6" width="0.1524" layer="91"/>
 <label x="48.26" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D16" class="0">
+<net name="DDR_D16" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ16_502"/>
 <wire x1="43.18" y1="-104.14" x2="88.9" y2="-104.14" width="0.1524" layer="91"/>
 <label x="48.26" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D17" class="0">
+<net name="DDR_D17" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ17_502"/>
 <wire x1="43.18" y1="-106.68" x2="88.9" y2="-106.68" width="0.1524" layer="91"/>
 <label x="48.26" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D18" class="0">
+<net name="DDR_D18" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ18_502"/>
 <wire x1="43.18" y1="-109.22" x2="88.9" y2="-109.22" width="0.1524" layer="91"/>
 <label x="48.26" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D19" class="0">
+<net name="DDR_D19" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ19_502"/>
 <wire x1="43.18" y1="-111.76" x2="88.9" y2="-111.76" width="0.1524" layer="91"/>
 <label x="48.26" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D20" class="0">
+<net name="DDR_D20" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ20_502"/>
 <wire x1="43.18" y1="-114.3" x2="88.9" y2="-114.3" width="0.1524" layer="91"/>
 <label x="48.26" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D21" class="0">
+<net name="DDR_D21" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ21_502"/>
 <wire x1="43.18" y1="-116.84" x2="88.9" y2="-116.84" width="0.1524" layer="91"/>
 <label x="48.26" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D22" class="0">
+<net name="DDR_D22" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ22_502"/>
 <wire x1="43.18" y1="-119.38" x2="88.9" y2="-119.38" width="0.1524" layer="91"/>
 <label x="48.26" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D23" class="0">
+<net name="DDR_D23" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ23_502"/>
 <wire x1="43.18" y1="-121.92" x2="88.9" y2="-121.92" width="0.1524" layer="91"/>
 <label x="48.26" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D24" class="0">
+<net name="DDR_D24" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ24_502"/>
 <wire x1="43.18" y1="-124.46" x2="88.9" y2="-124.46" width="0.1524" layer="91"/>
 <label x="48.26" y="-124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D25" class="0">
+<net name="DDR_D25" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ25_502"/>
 <wire x1="43.18" y1="-127" x2="88.9" y2="-127" width="0.1524" layer="91"/>
 <label x="48.26" y="-127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D26" class="0">
+<net name="DDR_D26" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ26_502"/>
 <wire x1="43.18" y1="-129.54" x2="88.9" y2="-129.54" width="0.1524" layer="91"/>
 <label x="48.26" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D27" class="0">
+<net name="DDR_D27" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ27_502"/>
 <wire x1="43.18" y1="-132.08" x2="88.9" y2="-132.08" width="0.1524" layer="91"/>
 <label x="48.26" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D28" class="0">
+<net name="DDR_D28" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ28_502"/>
 <wire x1="43.18" y1="-134.62" x2="88.9" y2="-134.62" width="0.1524" layer="91"/>
 <label x="48.26" y="-134.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D29" class="0">
+<net name="DDR_D29" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ29_502"/>
 <wire x1="43.18" y1="-137.16" x2="88.9" y2="-137.16" width="0.1524" layer="91"/>
 <label x="48.26" y="-137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D30" class="0">
+<net name="DDR_D30" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ30_502"/>
 <wire x1="43.18" y1="-139.7" x2="88.9" y2="-139.7" width="0.1524" layer="91"/>
@@ -9110,14 +9112,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="48.26" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM0" class="0">
+<net name="DDR_DM0" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DM0_502"/>
 <wire x1="43.18" y1="-147.32" x2="88.9" y2="-147.32" width="0.1524" layer="91"/>
 <label x="48.26" y="-147.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM1" class="0">
+<net name="DDR_DM1" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DM1_502"/>
 <wire x1="43.18" y1="-149.86" x2="88.9" y2="-149.86" width="0.1524" layer="91"/>
@@ -9131,14 +9133,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="48.26" y="-152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM3" class="0">
+<net name="DDR_DM3" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DM3_502"/>
 <wire x1="43.18" y1="-154.94" x2="88.9" y2="-154.94" width="0.1524" layer="91"/>
 <label x="48.26" y="-154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_VTTREF" class="0">
+<net name="DDR_VTTREF" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_VREF0_502"/>
 <wire x1="43.18" y1="-160.02" x2="88.9" y2="-160.02" width="0.1524" layer="91"/>
@@ -9160,7 +9162,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="144.78" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NRESET" class="0">
+<net name="DDR_NRESET" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DRST_B_502"/>
 <wire x1="43.18" y1="-167.64" x2="88.9" y2="-167.64" width="0.1524" layer="91"/>
@@ -9183,70 +9185,70 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="R80" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="DDR_DQS0_P" class="0">
+<net name="DDR_DQS0_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_P0_502"/>
 <wire x1="43.18" y1="-180.34" x2="88.9" y2="-180.34" width="0.1524" layer="91"/>
 <label x="48.26" y="-180.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS0_N" class="0">
+<net name="DDR_DQS0_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_N0_502"/>
 <wire x1="43.18" y1="-182.88" x2="88.9" y2="-182.88" width="0.1524" layer="91"/>
 <label x="48.26" y="-182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS1_P" class="0">
+<net name="DDR_DQS1_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_P1_502"/>
 <wire x1="43.18" y1="-185.42" x2="88.9" y2="-185.42" width="0.1524" layer="91"/>
 <label x="48.26" y="-185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS1_N" class="0">
+<net name="DDR_DQS1_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_N1_502"/>
 <wire x1="43.18" y1="-187.96" x2="88.9" y2="-187.96" width="0.1524" layer="91"/>
 <label x="48.26" y="-187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS2_P" class="0">
+<net name="DDR_DQS2_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_P2_502"/>
 <wire x1="43.18" y1="-190.5" x2="88.9" y2="-190.5" width="0.1524" layer="91"/>
 <label x="48.26" y="-190.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS2_N" class="0">
+<net name="DDR_DQS2_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_N2_502"/>
 <wire x1="43.18" y1="-193.04" x2="88.9" y2="-193.04" width="0.1524" layer="91"/>
 <label x="48.26" y="-193.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS3_P" class="0">
+<net name="DDR_DQS3_P" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_P3_502"/>
 <wire x1="43.18" y1="-195.58" x2="88.9" y2="-195.58" width="0.1524" layer="91"/>
 <label x="48.26" y="-195.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS3_N" class="0">
+<net name="DDR_DQS3_N" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQS_N3_502"/>
 <wire x1="43.18" y1="-198.12" x2="88.9" y2="-198.12" width="0.1524" layer="91"/>
 <label x="48.26" y="-198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D11" class="0">
+<net name="DDR_D11" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ11_502"/>
 <wire x1="43.18" y1="-91.44" x2="88.9" y2="-91.44" width="0.1524" layer="91"/>
 <label x="48.26" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D12" class="0">
+<net name="DDR_D12" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS_DDR_DQ12_502"/>
 <wire x1="43.18" y1="-93.98" x2="88.9" y2="-93.98" width="0.1524" layer="91"/>
@@ -9926,6 +9928,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </instance>
 </instances>
 <busses>
+<bus name="DDR_D31,DDR_DM3,DDR_DQS2_N,DDR_DQS2_P,DDR_D29,DDR_D26,DDR_D25,DDR_D24,DDR_D23,DDR_D22,DDR_D20,DDR_D19,DDR_D18,DDR_D17,DDR_BA1,DDR_A14,DDR_DQS3_P,DDR_A13,DDR_D27,DDR_A11,DDR_D16,DDR_A7,DDR_A6,DDR_A5,DDR_A12,DDR_A4,DDR_A3,DDR_DQS3_N,DDR_A9,DDR_A2,DDR_A8,DDR_A1,DDR_BA0,DDR_A0,DDR_DM2,DDR_NWE,DDR_NCAS,DDR_NCS,DDR_BA2,DDR_CLK_N,DDR_A10,DDR_CLK_P,DDR_D28,DDR_CKE,DDR_D21,DDR_NRAS,DDR_NRESET,DDR_D30,DDR_ODT">
+<segment>
+<wire x1="132.08" y1="12.7" x2="149.86" y2="12.7" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
@@ -10417,154 +10424,154 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-63.5" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D0" class="0">
+<net name="DDR_D0" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ0"/>
 <wire x1="-53.34" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <label x="-50.8" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D2" class="0">
+<net name="DDR_D2" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ2"/>
 <wire x1="-53.34" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
 <label x="-50.8" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D4" class="0">
+<net name="DDR_D4" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ4"/>
 <wire x1="-53.34" y1="27.94" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
 <label x="-50.8" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D3" class="0">
+<net name="DDR_D3" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ3"/>
 <wire x1="-53.34" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
 <label x="-50.8" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D5" class="0">
+<net name="DDR_D5" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ5"/>
 <wire x1="-53.34" y1="25.4" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
 <label x="-50.8" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D6" class="0">
+<net name="DDR_D6" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ6"/>
 <wire x1="-53.34" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
 <label x="-50.8" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D7" class="0">
+<net name="DDR_D7" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ7"/>
 <wire x1="-53.34" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
 <label x="-50.8" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D8" class="0">
+<net name="DDR_D8" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ8"/>
 <wire x1="-53.34" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
 <label x="-50.8" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D9" class="0">
+<net name="DDR_D9" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ9"/>
 <wire x1="-53.34" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="-50.8" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D10" class="0">
+<net name="DDR_D10" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ10"/>
 <wire x1="-53.34" y1="12.7" x2="-20.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="-50.8" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D11" class="0">
+<net name="DDR_D11" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ11"/>
 <wire x1="-53.34" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
 <label x="-50.8" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D12" class="0">
+<net name="DDR_D12" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ12"/>
 <wire x1="-53.34" y1="7.62" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="-50.8" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D13" class="0">
+<net name="DDR_D13" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ13"/>
 <wire x1="-53.34" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="-50.8" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D14" class="0">
+<net name="DDR_D14" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ14"/>
 <wire x1="-53.34" y1="2.54" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
 <label x="-50.8" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D15" class="0">
+<net name="DDR_D15" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ15"/>
 <wire x1="-53.34" y1="0" x2="-20.32" y2="0" width="0.1524" layer="91"/>
 <label x="-50.8" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS1_P" class="0">
+<net name="DDR_DQS1_P" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="UDQS"/>
 <wire x1="-53.34" y1="-5.08" x2="-20.32" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-50.8" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS1_N" class="0">
+<net name="DDR_DQS1_N" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!UDQS"/>
 <wire x1="-53.34" y1="-7.62" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-50.8" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS0_P" class="0">
+<net name="DDR_DQS0_P" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="LDQS"/>
 <wire x1="-53.34" y1="-12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-50.8" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS0_N" class="0">
+<net name="DDR_DQS0_N" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!LDQS"/>
 <wire x1="-53.34" y1="-15.24" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-50.8" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM1" class="0">
+<net name="DDR_DM1" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="UDM"/>
 <wire x1="-53.34" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-50.8" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM0" class="0">
+<net name="DDR_DM0" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="LDM"/>
 <wire x1="-53.34" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-50.8" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_VTTREF" class="0">
+<net name="DDR_VTTREF" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="VREFCA"/>
 <wire x1="-53.34" y1="-27.94" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
@@ -10599,7 +10606,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <junction x="17.78" y="165.1"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="N$47" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="ZQ"/>
 <wire x1="-53.34" y1="-30.48" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
@@ -10607,7 +10614,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="-38.1" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DDR_ODT" class="0">
+<net name="DDR_ODT" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="ODT"/>
 <wire x1="-53.34" y1="-33.02" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
@@ -10625,7 +10632,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="101.6" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NRESET" class="0">
+<net name="DDR_NRESET" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!RESET"/>
 <wire x1="-88.9" y1="38.1" x2="-121.92" y2="38.1" width="0.1524" layer="91"/>
@@ -10643,7 +10650,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CKE" class="0">
+<net name="DDR_CKE" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="CKE"/>
 <wire x1="-88.9" y1="33.02" x2="-121.92" y2="33.02" width="0.1524" layer="91"/>
@@ -10661,7 +10668,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CLK_P" class="0">
+<net name="DDR_CLK_P" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="CK"/>
 <wire x1="-88.9" y1="30.48" x2="-121.92" y2="30.48" width="0.1524" layer="91"/>
@@ -10679,7 +10686,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_CLK_N" class="0">
+<net name="DDR_CLK_N" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!CK"/>
 <wire x1="-88.9" y1="27.94" x2="-121.92" y2="27.94" width="0.1524" layer="91"/>
@@ -10697,7 +10704,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NCS" class="0">
+<net name="DDR_NCS" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!CS"/>
 <wire x1="-88.9" y1="22.86" x2="-121.92" y2="22.86" width="0.1524" layer="91"/>
@@ -10715,7 +10722,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NCAS" class="0">
+<net name="DDR_NCAS" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!CAS"/>
 <wire x1="-88.9" y1="20.32" x2="-121.92" y2="20.32" width="0.1524" layer="91"/>
@@ -10733,7 +10740,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NWE" class="0">
+<net name="DDR_NWE" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!WE"/>
 <wire x1="-88.9" y1="17.78" x2="-121.92" y2="17.78" width="0.1524" layer="91"/>
@@ -10751,7 +10758,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_NRAS" class="0">
+<net name="DDR_NRAS" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="!RAS"/>
 <wire x1="-88.9" y1="15.24" x2="-121.92" y2="15.24" width="0.1524" layer="91"/>
@@ -10769,7 +10776,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A0" class="0">
+<net name="DDR_A0" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A0"/>
 <wire x1="-88.9" y1="10.16" x2="-121.92" y2="10.16" width="0.1524" layer="91"/>
@@ -10787,7 +10794,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A1" class="0">
+<net name="DDR_A1" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A1"/>
 <wire x1="-88.9" y1="7.62" x2="-121.92" y2="7.62" width="0.1524" layer="91"/>
@@ -10805,7 +10812,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A2" class="0">
+<net name="DDR_A2" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A2"/>
 <wire x1="-88.9" y1="5.08" x2="-121.92" y2="5.08" width="0.1524" layer="91"/>
@@ -10823,7 +10830,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A3" class="0">
+<net name="DDR_A3" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A3"/>
 <wire x1="-88.9" y1="2.54" x2="-121.92" y2="2.54" width="0.1524" layer="91"/>
@@ -10841,7 +10848,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A4" class="0">
+<net name="DDR_A4" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A4"/>
 <wire x1="-88.9" y1="0" x2="-121.92" y2="0" width="0.1524" layer="91"/>
@@ -10859,7 +10866,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A5" class="0">
+<net name="DDR_A5" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A5"/>
 <wire x1="-88.9" y1="-2.54" x2="-121.92" y2="-2.54" width="0.1524" layer="91"/>
@@ -10877,7 +10884,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A6" class="0">
+<net name="DDR_A6" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A6"/>
 <wire x1="-88.9" y1="-5.08" x2="-121.92" y2="-5.08" width="0.1524" layer="91"/>
@@ -10895,7 +10902,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A7" class="0">
+<net name="DDR_A7" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A7"/>
 <wire x1="-88.9" y1="-7.62" x2="-121.92" y2="-7.62" width="0.1524" layer="91"/>
@@ -10913,7 +10920,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A8" class="0">
+<net name="DDR_A8" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A8"/>
 <wire x1="-88.9" y1="-10.16" x2="-121.92" y2="-10.16" width="0.1524" layer="91"/>
@@ -10931,7 +10938,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A9" class="0">
+<net name="DDR_A9" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A9"/>
 <wire x1="-88.9" y1="-12.7" x2="-121.92" y2="-12.7" width="0.1524" layer="91"/>
@@ -10949,7 +10956,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A10" class="0">
+<net name="DDR_A10" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A10/AP"/>
 <wire x1="-88.9" y1="-15.24" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
@@ -10967,7 +10974,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A11" class="0">
+<net name="DDR_A11" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A11"/>
 <wire x1="-88.9" y1="-17.78" x2="-121.92" y2="-17.78" width="0.1524" layer="91"/>
@@ -10985,7 +10992,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A12" class="0">
+<net name="DDR_A12" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A12/!BC"/>
 <wire x1="-88.9" y1="-20.32" x2="-121.92" y2="-20.32" width="0.1524" layer="91"/>
@@ -11003,7 +11010,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A13" class="0">
+<net name="DDR_A13" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A13"/>
 <wire x1="-88.9" y1="-22.86" x2="-121.92" y2="-22.86" width="0.1524" layer="91"/>
@@ -11021,7 +11028,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_A14" class="0">
+<net name="DDR_A14" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="A14"/>
 <wire x1="-88.9" y1="-25.4" x2="-121.92" y2="-25.4" width="0.1524" layer="91"/>
@@ -11039,7 +11046,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA0" class="0">
+<net name="DDR_BA0" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="BA0"/>
 <wire x1="-88.9" y1="-30.48" x2="-121.92" y2="-30.48" width="0.1524" layer="91"/>
@@ -11057,7 +11064,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA1" class="0">
+<net name="DDR_BA1" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="BA1"/>
 <wire x1="-88.9" y1="-33.02" x2="-121.92" y2="-33.02" width="0.1524" layer="91"/>
@@ -11075,7 +11082,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_BA2" class="0">
+<net name="DDR_BA2" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="BA2"/>
 <wire x1="-88.9" y1="-35.56" x2="-121.92" y2="-35.56" width="0.1524" layer="91"/>
@@ -11093,147 +11100,147 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="22.86" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D1" class="0">
+<net name="DDR_D1" class="2">
 <segment>
 <pinref part="U2" gate="A" pin="DQ1"/>
 <wire x1="-53.34" y1="35.56" x2="-20.32" y2="35.56" width="0.1524" layer="91"/>
 <label x="-50.8" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D16" class="0">
+<net name="DDR_D16" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ0"/>
 <wire x1="88.9" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 <label x="91.44" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D17" class="0">
+<net name="DDR_D17" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ1"/>
 <wire x1="88.9" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
 <label x="91.44" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D18" class="0">
+<net name="DDR_D18" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ2"/>
 <wire x1="88.9" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <label x="91.44" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D19" class="0">
+<net name="DDR_D19" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ3"/>
 <wire x1="88.9" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <label x="91.44" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D20" class="0">
+<net name="DDR_D20" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ4"/>
 <wire x1="88.9" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="91.44" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D21" class="0">
+<net name="DDR_D21" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ5"/>
 <wire x1="88.9" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D22" class="0">
+<net name="DDR_D22" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ6"/>
 <wire x1="88.9" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="91.44" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D23" class="0">
+<net name="DDR_D23" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ7"/>
 <wire x1="88.9" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
 <label x="91.44" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D24" class="0">
+<net name="DDR_D24" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ8"/>
 <wire x1="88.9" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
 <label x="91.44" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D25" class="0">
+<net name="DDR_D25" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ9"/>
 <wire x1="88.9" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 <label x="91.44" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D26" class="0">
+<net name="DDR_D26" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ10"/>
 <wire x1="88.9" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
 <label x="91.44" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D27" class="0">
+<net name="DDR_D27" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ11"/>
 <wire x1="88.9" y1="10.16" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
 <label x="91.44" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D28" class="0">
+<net name="DDR_D28" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ12"/>
 <wire x1="88.9" y1="7.62" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
 <label x="91.44" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D29" class="0">
+<net name="DDR_D29" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ13"/>
 <wire x1="88.9" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
 <label x="91.44" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_D30" class="0">
+<net name="DDR_D30" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="DQ14"/>
 <wire x1="88.9" y1="2.54" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
 <label x="91.44" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS3_P" class="0">
+<net name="DDR_DQS3_P" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="UDQS"/>
 <wire x1="88.9" y1="-5.08" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
 <label x="91.44" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS3_N" class="0">
+<net name="DDR_DQS3_N" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="!UDQS"/>
 <wire x1="88.9" y1="-7.62" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
 <label x="91.44" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS2_P" class="0">
+<net name="DDR_DQS2_P" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="LDQS"/>
 <wire x1="88.9" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
 <label x="91.44" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DQS2_N" class="0">
+<net name="DDR_DQS2_N" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="!LDQS"/>
 <wire x1="88.9" y1="-15.24" x2="121.92" y2="-15.24" width="0.1524" layer="91"/>
 <label x="91.44" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DDR_DM3" class="0">
+<net name="DDR_DM3" class="2">
 <segment>
 <pinref part="U10" gate="A" pin="UDM"/>
 <wire x1="88.9" y1="-20.32" x2="121.92" y2="-20.32" width="0.1524" layer="91"/>
