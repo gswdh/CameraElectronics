@@ -6679,7 +6679,7 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <sheet>
 <description>TITLE</description>
 <plain>
-<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2022.11.07 - GSWDH LTD.
+<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">YYYY.MM.DD - GSWDH LTD.
 CAMERA MAIN PCB
 
 REVISION 1.x.x
