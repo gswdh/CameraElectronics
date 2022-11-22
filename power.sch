@@ -985,6 +985,8 @@ and SHA-256 Authentication</description>
 <part name="CN3" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
 <part name="CN5" library="CONNECTORs" deviceset="SFV15R-1STE1HLF" device="" value="15PIN 0.5MM"/>
 <part name="GND4" library="NETS" deviceset="GND" device=""/>
+<part name="MECH5" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
+<part name="MECH6" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 </parts>
 <sheets>
 <sheet>
@@ -1193,6 +1195,12 @@ georgewaller@gswdh.co.uk</text>
 </instance>
 <instance part="GND4" gate="G$1" x="101.6" y="0" smashed="yes">
 <attribute name="VALUE" x="101.6" y="-2.54" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="MECH5" gate="G$1" x="-246.38" y="-109.22" smashed="yes">
+<attribute name="NAME" x="-246.38" y="-105.664" size="1.27" layer="95" align="center"/>
+</instance>
+<instance part="MECH6" gate="G$1" x="-198.12" y="-109.22" smashed="yes">
+<attribute name="NAME" x="-198.12" y="-105.664" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>

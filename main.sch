@@ -2835,9 +2835,14 @@
 <smd name="P59" x="14.25" y="2.5" dx="0.25" dy="0.85" layer="1"/>
 <smd name="P60" x="14.75" y="2.5" dx="0.25" dy="0.85" layer="1"/>
 <smd name="SH3" x="17.05" y="-2.025" dx="1.8" dy="2" layer="1" rot="R90"/>
-<wire x1="-18.25" y1="-3.125" x2="18.25" y2="-3.125" width="0.1524" layer="21"/>
+<wire x1="-18.25" y1="-3.125" x2="-15.25" y2="-3.125" width="0.1524" layer="21"/>
+<wire x1="-15.25" y1="-3.125" x2="15.25" y2="-3.125" width="0.1524" layer="21"/>
+<wire x1="15.25" y1="-3.125" x2="18.25" y2="-3.125" width="0.1524" layer="21"/>
 <wire x1="18.25" y1="-3.125" x2="18.25" y2="3.125" width="0.1524" layer="21"/>
 <wire x1="18.25" y1="3.125" x2="-13.25" y2="3.125" width="0.1524" layer="21"/>
+<wire x1="-15.25" y1="-3.125" x2="-15.25" y2="1.325" width="0.1524" layer="21"/>
+<wire x1="-15.25" y1="1.325" x2="15.25" y2="1.325" width="0.1524" layer="21"/>
+<wire x1="15.25" y1="1.325" x2="15.25" y2="-3.125" width="0.1524" layer="21"/>
 </package>
 <package name="SFV15R-1STE1HLF">
 <smd name="SH1" x="-5.275" y="-0.625" dx="2.3" dy="2.65" layer="1" rot="R90"/>
@@ -6094,6 +6099,18 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <wire x1="-4.25" y1="2.625" x2="-4.25" y2="-2.75" width="0.15" layer="21"/>
 <text x="-4.25" y="2.75" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="CS11043.8F180">
+<smd name="1" x="-3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-4.75" y1="-2.5" x2="4.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="-2.5" x2="4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="2.5" x2="-4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4.75" y1="2.5" x2="-4.75" y2="-2.5" width="0.15" layer="21"/>
+<circle x="-2.25" y="1.5" radius="0.25" width="0.15" layer="21"/>
+<text x="-4.75" y="2.75" size="1" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RELAY_CONTACT_SPDT">
@@ -6109,6 +6126,18 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <circle x="2.54" y="-2.54" radius="0.254" width="0.254" layer="94"/>
 <circle x="-2.54" y="0" radius="0.254" width="0.254" layer="94"/>
 <circle x="2.54" y="2.54" radius="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SM_TACT">
+<text x="2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="0.254" width="0.254" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6130,6 +6159,28 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <attribute name="HEIGHT" value="1.5" constant="no"/>
 <attribute name="PRICE_PER" value="0.86" constant="no"/>
 <attribute name="VALUE" value="SLIDE SPDT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CS11043.8F180" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CS11043.8F180">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="3.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.2" constant="no"/>
+<attribute name="VALUE" value="SM TACT" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6310,10 +6361,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="R25" library="r_0402" deviceset="ERJ-2RKD40R2X" device="" value="40.2"/>
 <part name="R26" library="r_0402" deviceset="ERJ-2RHD4701X" device="" value="4.7k"/>
 <part name="R27" library="r_0402" deviceset="ERJ-2RKD40R2X" device="" value="40.2"/>
-<part name="MECH1" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH2" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U10" library="ICs" deviceset="MT41K256M16HA-125:E" device="" value="MT41K256M16HA-125:E"/>
 <part name="GND80" library="NETS" deviceset="GND" device=""/>
 <part name="C70" library="CAPACITORS" deviceset="GRM31CR61A476ME15L" device="" value="47uF 10V"/>
@@ -6656,6 +6703,15 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND200" library="NETS" deviceset="GND" device=""/>
 <part name="R72" library="r_0603" deviceset="CRCW06031R00FKTA" device="" value="1R"/>
 <part name="R102" library="r_0603" deviceset="CRCW06031R00FKTA" device="" value="NO FIT"/>
+<part name="SW2" library="ELECTROMECH" deviceset="CS11043.8F180" device="" value="SM TACT"/>
+<part name="SW3" library="ELECTROMECH" deviceset="CS11043.8F180" device="" value="SM TACT"/>
+<part name="SW4" library="ELECTROMECH" deviceset="CS11043.8F180" device="" value="SM TACT"/>
+<part name="GND12" library="NETS" deviceset="GND" device=""/>
+<part name="GND22" library="NETS" deviceset="GND" device=""/>
+<part name="GND30" library="NETS" deviceset="GND" device=""/>
+<part name="SW5" library="ELECTROMECH" deviceset="CS11043.8F180" device="" value="SM TACT"/>
+<part name="GND37" library="NETS" deviceset="GND" device=""/>
+<part name="CN9" library="CONNECTORs" deviceset="FH52E-60S-0.5SH" device="" value="FH52E-60S-0.5SH"/>
 </parts>
 <sheets>
 <sheet>
@@ -11601,6 +11657,38 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <attribute name="NAME" x="55.88" y="162.56" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="55.88" y="157.48" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SW2" gate="G$1" x="-106.68" y="-170.18" smashed="yes">
+<attribute name="NAME" x="-104.14" y="-162.56" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-104.14" y="-165.1" size="1.27" layer="96"/>
+</instance>
+<instance part="SW3" gate="G$1" x="-93.98" y="-170.18" smashed="yes">
+<attribute name="NAME" x="-91.44" y="-162.56" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-91.44" y="-165.1" size="1.27" layer="96"/>
+</instance>
+<instance part="SW4" gate="G$1" x="-81.28" y="-170.18" smashed="yes">
+<attribute name="NAME" x="-78.74" y="-162.56" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-78.74" y="-165.1" size="1.27" layer="96"/>
+</instance>
+<instance part="GND12" gate="G$1" x="-106.68" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-106.68" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND22" gate="G$1" x="-93.98" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-93.98" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND30" gate="G$1" x="-81.28" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-81.28" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SW5" gate="G$1" x="-68.58" y="-170.18" smashed="yes">
+<attribute name="NAME" x="-66.04" y="-162.56" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-66.04" y="-165.1" size="1.27" layer="96"/>
+</instance>
+<instance part="GND37" gate="G$1" x="-68.58" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-68.58" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="CN9" gate="G$1" x="-177.8" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-180.34" y="48.26" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-180.34" y="45.72" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11837,6 +11925,26 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="-144.78" y1="116.84" x2="-109.22" y2="116.84" width="0.1524" layer="91"/>
 <label x="-142.24" y="116.84" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="SW2" gate="G$1" pin="2"/>
+<wire x1="-106.68" y1="-175.26" x2="-106.68" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SW3" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-175.26" x2="-93.98" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SW4" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-175.26" x2="-81.28" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SW5" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="-175.26" x2="-68.58" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="GND37" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="SEN_T_D0_P" class="0">
@@ -13243,6 +13351,38 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <label x="20.32" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="BTN_SHUTTER" class="0">
+<segment>
+<pinref part="SW2" gate="G$1" pin="1"/>
+<wire x1="-106.68" y1="-165.1" x2="-106.68" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-160.02" x2="-139.7" y2="-160.02" width="0.1524" layer="91"/>
+<label x="-137.16" y="-160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_ZOOM" class="0">
+<segment>
+<pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="-165.1" x2="-93.98" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="-157.48" x2="-139.7" y2="-157.48" width="0.1524" layer="91"/>
+<label x="-137.16" y="-157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_ONOFF" class="0">
+<segment>
+<pinref part="SW4" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="-165.1" x2="-81.28" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-154.94" x2="-139.7" y2="-154.94" width="0.1524" layer="91"/>
+<label x="-137.16" y="-154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_MANAUTO" class="0">
+<segment>
+<pinref part="SW5" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="-165.1" x2="-68.58" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-152.4" x2="-139.7" y2="-152.4" width="0.1524" layer="91"/>
+<label x="-137.16" y="-152.4" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13599,18 +13739,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 </instance>
 <instance part="GND31" gate="G$1" x="-139.7" y="10.16" smashed="yes">
 <attribute name="VALUE" x="-139.7" y="7.62" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="MECH1" gate="G$1" x="167.64" y="-274.32" smashed="yes">
-<attribute name="NAME" x="167.64" y="-270.764" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH3" gate="G$1" x="175.26" y="-274.32" smashed="yes">
-<attribute name="NAME" x="175.26" y="-270.764" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH2" gate="G$1" x="167.64" y="-281.94" smashed="yes">
-<attribute name="NAME" x="167.64" y="-278.384" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH4" gate="G$1" x="175.26" y="-281.94" smashed="yes">
-<attribute name="NAME" x="175.26" y="-278.384" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="CN3" gate="A" x="-35.56" y="213.36" smashed="yes">
 <attribute name="NAME" x="-43.18" y="246.38" size="1.778" layer="95"/>
