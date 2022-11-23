@@ -2898,7 +2898,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH1" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="CN1" library="CONNECTORs" deviceset="FH52E-60S-0.5SH" device="" value="FH52E-60S-0.5SH"/>
 <part name="U2" library="ICs" deviceset="STM32L031G6" device="" value="STM32L031G6"/>
 <part name="C5" library="c_0402" deviceset="0402ZD104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND6" library="NETS" deviceset="GND" device=""/>
@@ -2998,10 +2997,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-144.78" y="66.04" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-139.7" y="66.04" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN1" gate="G$1" x="81.28" y="0" smashed="yes">
-<attribute name="NAME" x="78.74" y="81.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="78.74" y="78.74" size="1.778" layer="96"/>
-</instance>
 <instance part="U2" gate="G$1" x="78.74" y="165.1" smashed="yes">
 <attribute name="NAME" x="86.36" y="203.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="200.66" size="1.778" layer="95"/>
@@ -3052,9 +3047,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-152.4" y="66.04" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-147.32" y="66.04" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN3" gate="G$1" x="81.28" y="-5.08" smashed="yes" rot="MR180">
-<attribute name="NAME" x="78.74" y="-86.36" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="78.74" y="-83.82" size="1.778" layer="96" rot="MR180"/>
+<instance part="CN3" gate="G$1" x="81.28" y="-2.54" smashed="yes" rot="MR180">
+<attribute name="NAME" x="78.74" y="-83.82" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="78.74" y="-81.28" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -3072,74 +3067,54 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U10" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P4"/>
 <wire x1="93.98" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="96.52" y="66.04" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P58"/>
-<junction x="93.98" y="66.04"/>
+<pinref part="CN3" gate="G$1" pin="P57"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P5"/>
 <wire x1="93.98" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <label x="96.52" y="63.5" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P57"/>
-<junction x="93.98" y="63.5"/>
+<pinref part="CN3" gate="G$1" pin="P56"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P6"/>
 <wire x1="93.98" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="96.52" y="60.96" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P56"/>
-<junction x="93.98" y="60.96"/>
+<pinref part="CN3" gate="G$1" pin="P55"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P19"/>
 <wire x1="93.98" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
 <label x="96.52" y="27.94" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P43"/>
-<junction x="93.98" y="27.94"/>
+<pinref part="CN3" gate="G$1" pin="P42"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P20"/>
 <wire x1="93.98" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
 <label x="96.52" y="25.4" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P42"/>
-<junction x="93.98" y="25.4"/>
+<pinref part="CN3" gate="G$1" pin="P41"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P60"/>
 <wire x1="93.98" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <label x="96.52" y="-76.2" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P2"/>
-<junction x="93.98" y="-76.2"/>
+<pinref part="CN3" gate="G$1" pin="P1"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P59"/>
 <wire x1="93.98" y1="-73.66" x2="129.54" y2="-73.66" width="0.1524" layer="91"/>
 <label x="96.52" y="-73.66" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P3"/>
-<junction x="93.98" y="-73.66"/>
+<pinref part="CN3" gate="G$1" pin="P2"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P22"/>
 <wire x1="93.98" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <label x="96.52" y="20.32" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P40"/>
-<junction x="93.98" y="20.32"/>
+<pinref part="CN3" gate="G$1" pin="P39"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P23"/>
 <wire x1="93.98" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
 <label x="96.52" y="17.78" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P39"/>
-<junction x="93.98" y="17.78"/>
+<pinref part="CN3" gate="G$1" pin="P38"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P58"/>
 <wire x1="93.98" y1="-71.12" x2="129.54" y2="-71.12" width="0.1524" layer="91"/>
 <label x="96.52" y="-71.12" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P4"/>
-<junction x="93.98" y="-71.12"/>
+<pinref part="CN3" gate="G$1" pin="P3"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -3198,11 +3173,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <junction x="-149.86" y="83.82"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P7"/>
 <wire x1="93.98" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <label x="96.52" y="58.42" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P55"/>
-<junction x="93.98" y="58.42"/>
+<pinref part="CN3" gate="G$1" pin="P54"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD"/>
@@ -3242,11 +3215,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P24"/>
 <wire x1="93.98" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <label x="96.52" y="15.24" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P38"/>
-<junction x="93.98" y="15.24"/>
+<pinref part="CN3" gate="G$1" pin="P37"/>
 </segment>
 </net>
 <net name="SEN_T_D0_N" class="0">
@@ -3256,11 +3227,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P25"/>
 <wire x1="93.98" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <label x="96.52" y="12.7" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P37"/>
-<junction x="93.98" y="12.7"/>
+<pinref part="CN3" gate="G$1" pin="P36"/>
 </segment>
 </net>
 <net name="SEN_T_D6_P" class="0">
@@ -3270,11 +3239,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P30"/>
 <wire x1="93.98" y1="0" x2="129.54" y2="0" width="0.1524" layer="91"/>
 <label x="96.52" y="0" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P32"/>
-<junction x="93.98" y="0"/>
+<pinref part="CN3" gate="G$1" pin="P31"/>
 </segment>
 </net>
 <net name="SEN_T_D6_N" class="0">
@@ -3284,11 +3251,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P31"/>
 <wire x1="93.98" y1="-2.54" x2="129.54" y2="-2.54" width="0.1524" layer="91"/>
 <label x="96.52" y="-2.54" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P31"/>
-<junction x="93.98" y="-2.54"/>
+<pinref part="CN3" gate="G$1" pin="P30"/>
 </segment>
 </net>
 <net name="SEN_T_D12_P" class="0">
@@ -3298,11 +3263,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P39"/>
 <wire x1="93.98" y1="-22.86" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
 <label x="96.52" y="-22.86" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P23"/>
-<junction x="93.98" y="-22.86"/>
+<pinref part="CN3" gate="G$1" pin="P22"/>
 </segment>
 </net>
 <net name="SEN_T_D12_N" class="0">
@@ -3312,11 +3275,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P38"/>
 <wire x1="93.98" y1="-20.32" x2="129.54" y2="-20.32" width="0.1524" layer="91"/>
 <label x="96.52" y="-20.32" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P24"/>
-<junction x="93.98" y="-20.32"/>
+<pinref part="CN3" gate="G$1" pin="P23"/>
 </segment>
 </net>
 <net name="SEN_T_D18_P" class="0">
@@ -3326,11 +3287,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P48"/>
 <wire x1="93.98" y1="-45.72" x2="129.54" y2="-45.72" width="0.1524" layer="91"/>
 <label x="96.52" y="-45.72" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P14"/>
-<junction x="93.98" y="-45.72"/>
+<pinref part="CN3" gate="G$1" pin="P13"/>
 </segment>
 </net>
 <net name="SEN_T_D18_N" class="0">
@@ -3340,11 +3299,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P49"/>
 <wire x1="93.98" y1="-48.26" x2="129.54" y2="-48.26" width="0.1524" layer="91"/>
 <label x="96.52" y="-48.26" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P13"/>
-<junction x="93.98" y="-48.26"/>
+<pinref part="CN3" gate="G$1" pin="P12"/>
 </segment>
 </net>
 <net name="SEN_B_D0_P" class="0">
@@ -3354,11 +3311,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P32"/>
 <wire x1="93.98" y1="-5.08" x2="129.54" y2="-5.08" width="0.1524" layer="91"/>
 <label x="96.52" y="-5.08" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P30"/>
-<junction x="93.98" y="-5.08"/>
+<pinref part="CN3" gate="G$1" pin="P29"/>
 </segment>
 </net>
 <net name="SEN_B_D0_N" class="0">
@@ -3368,11 +3323,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P33"/>
 <wire x1="93.98" y1="-7.62" x2="129.54" y2="-7.62" width="0.1524" layer="91"/>
 <label x="96.52" y="-7.62" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P29"/>
-<junction x="93.98" y="-7.62"/>
+<pinref part="CN3" gate="G$1" pin="P28"/>
 </segment>
 </net>
 <net name="SEN_B_D6_P" class="0">
@@ -3382,11 +3335,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P29"/>
 <wire x1="93.98" y1="2.54" x2="129.54" y2="2.54" width="0.1524" layer="91"/>
 <label x="96.52" y="2.54" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P33"/>
-<junction x="93.98" y="2.54"/>
+<pinref part="CN3" gate="G$1" pin="P32"/>
 </segment>
 </net>
 <net name="SEN_B_D6_N" class="0">
@@ -3396,11 +3347,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P28"/>
 <wire x1="93.98" y1="5.08" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
 <label x="96.52" y="5.08" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P34"/>
-<junction x="93.98" y="5.08"/>
+<pinref part="CN3" gate="G$1" pin="P33"/>
 </segment>
 </net>
 <net name="SEN_B_D12_P" class="0">
@@ -3410,11 +3359,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P40"/>
 <wire x1="93.98" y1="-25.4" x2="129.54" y2="-25.4" width="0.1524" layer="91"/>
 <label x="96.52" y="-25.4" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P22"/>
-<junction x="93.98" y="-25.4"/>
+<pinref part="CN3" gate="G$1" pin="P21"/>
 </segment>
 </net>
 <net name="SEN_B_D12_N" class="0">
@@ -3424,11 +3371,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P41"/>
 <wire x1="93.98" y1="-27.94" x2="129.54" y2="-27.94" width="0.1524" layer="91"/>
 <label x="96.52" y="-27.94" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P21"/>
-<junction x="93.98" y="-27.94"/>
+<pinref part="CN3" gate="G$1" pin="P20"/>
 </segment>
 </net>
 <net name="SEN_B_D18_P" class="0">
@@ -3438,11 +3383,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P47"/>
 <wire x1="93.98" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91"/>
 <label x="96.52" y="-43.18" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P15"/>
-<junction x="93.98" y="-43.18"/>
+<pinref part="CN3" gate="G$1" pin="P14"/>
 </segment>
 </net>
 <net name="SEN_B_D18_N" class="0">
@@ -3452,11 +3395,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P46"/>
 <wire x1="93.98" y1="-40.64" x2="129.54" y2="-40.64" width="0.1524" layer="91"/>
 <label x="96.52" y="-40.64" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P16"/>
-<junction x="93.98" y="-40.64"/>
+<pinref part="CN3" gate="G$1" pin="P15"/>
 </segment>
 </net>
 <net name="SEN_CLK_P" class="0">
@@ -3466,11 +3407,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P57"/>
 <wire x1="93.98" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="-68.58" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P5"/>
-<junction x="93.98" y="-68.58"/>
+<pinref part="CN3" gate="G$1" pin="P4"/>
 </segment>
 </net>
 <net name="SEN_CLK_N" class="0">
@@ -3480,11 +3419,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P56"/>
 <wire x1="93.98" y1="-66.04" x2="129.54" y2="-66.04" width="0.1524" layer="91"/>
 <label x="96.52" y="-66.04" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P6"/>
-<junction x="93.98" y="-66.04"/>
+<pinref part="CN3" gate="G$1" pin="P5"/>
 </segment>
 </net>
 <net name="SEN_T_D3_P" class="0">
@@ -3494,11 +3431,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P27"/>
 <wire x1="93.98" y1="7.62" x2="129.54" y2="7.62" width="0.1524" layer="91"/>
 <label x="96.52" y="7.62" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P35"/>
-<junction x="93.98" y="7.62"/>
+<pinref part="CN3" gate="G$1" pin="P34"/>
 </segment>
 </net>
 <net name="SEN_T_D3_N" class="0">
@@ -3508,11 +3443,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P26"/>
 <wire x1="93.98" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
 <label x="96.52" y="10.16" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P36"/>
-<junction x="93.98" y="10.16"/>
+<pinref part="CN3" gate="G$1" pin="P35"/>
 </segment>
 </net>
 <net name="SEN_T_D9_P" class="0">
@@ -3522,11 +3455,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P43"/>
 <wire x1="93.98" y1="-33.02" x2="129.54" y2="-33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="-33.02" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P19"/>
-<junction x="93.98" y="-33.02"/>
+<pinref part="CN3" gate="G$1" pin="P18"/>
 </segment>
 </net>
 <net name="SEN_T_D9_N" class="0">
@@ -3536,11 +3467,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P42"/>
 <wire x1="93.98" y1="-30.48" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
 <label x="96.52" y="-30.48" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P20"/>
-<junction x="93.98" y="-30.48"/>
+<pinref part="CN3" gate="G$1" pin="P19"/>
 </segment>
 </net>
 <net name="SEN_T_D15_P" class="0">
@@ -3550,11 +3479,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P53"/>
 <wire x1="93.98" y1="-58.42" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
 <label x="96.52" y="-58.42" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P9"/>
-<junction x="93.98" y="-58.42"/>
+<pinref part="CN3" gate="G$1" pin="P8"/>
 </segment>
 </net>
 <net name="SEN_T_D15_N" class="0">
@@ -3564,11 +3491,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P52"/>
 <wire x1="93.98" y1="-55.88" x2="129.54" y2="-55.88" width="0.1524" layer="91"/>
 <label x="96.52" y="-55.88" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P10"/>
-<junction x="93.98" y="-55.88"/>
+<pinref part="CN3" gate="G$1" pin="P9"/>
 </segment>
 </net>
 <net name="SEN_T_D21_P" class="0">
@@ -3578,11 +3503,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P55"/>
 <wire x1="93.98" y1="-63.5" x2="129.54" y2="-63.5" width="0.1524" layer="91"/>
 <label x="96.52" y="-63.5" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P7"/>
-<junction x="93.98" y="-63.5"/>
+<pinref part="CN3" gate="G$1" pin="P6"/>
 </segment>
 </net>
 <net name="SEN_T_D21_N" class="0">
@@ -3592,11 +3515,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P54"/>
 <wire x1="93.98" y1="-60.96" x2="129.54" y2="-60.96" width="0.1524" layer="91"/>
 <label x="96.52" y="-60.96" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P8"/>
-<junction x="93.98" y="-60.96"/>
+<pinref part="CN3" gate="G$1" pin="P7"/>
 </segment>
 </net>
 <net name="SEN_B_D3_P" class="0">
@@ -3606,11 +3527,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P34"/>
 <wire x1="93.98" y1="-10.16" x2="129.54" y2="-10.16" width="0.1524" layer="91"/>
 <label x="96.52" y="-10.16" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P28"/>
-<junction x="93.98" y="-10.16"/>
+<pinref part="CN3" gate="G$1" pin="P27"/>
 </segment>
 </net>
 <net name="SEN_B_D3_N" class="0">
@@ -3620,11 +3539,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P35"/>
 <wire x1="93.98" y1="-12.7" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
 <label x="96.52" y="-12.7" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P27"/>
-<junction x="93.98" y="-12.7"/>
+<pinref part="CN3" gate="G$1" pin="P26"/>
 </segment>
 </net>
 <net name="SEN_B_D9_P" class="0">
@@ -3634,11 +3551,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P37"/>
 <wire x1="93.98" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
 <label x="96.52" y="-17.78" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P25"/>
-<junction x="93.98" y="-17.78"/>
+<pinref part="CN3" gate="G$1" pin="P24"/>
 </segment>
 </net>
 <net name="SEN_B_D9_N" class="0">
@@ -3648,11 +3563,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P36"/>
 <wire x1="93.98" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
 <label x="96.52" y="-15.24" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P26"/>
-<junction x="93.98" y="-15.24"/>
+<pinref part="CN3" gate="G$1" pin="P25"/>
 </segment>
 </net>
 <net name="SEN_B_D15_P" class="0">
@@ -3662,11 +3575,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P44"/>
 <wire x1="93.98" y1="-35.56" x2="129.54" y2="-35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="-35.56" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P18"/>
-<junction x="93.98" y="-35.56"/>
+<pinref part="CN3" gate="G$1" pin="P17"/>
 </segment>
 </net>
 <net name="SEN_B_D15_N" class="0">
@@ -3676,11 +3587,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P45"/>
 <wire x1="93.98" y1="-38.1" x2="129.54" y2="-38.1" width="0.1524" layer="91"/>
 <label x="96.52" y="-38.1" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P17"/>
-<junction x="93.98" y="-38.1"/>
+<pinref part="CN3" gate="G$1" pin="P16"/>
 </segment>
 </net>
 <net name="SEN_B_D21_P" class="0">
@@ -3690,11 +3599,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P51"/>
 <wire x1="93.98" y1="-53.34" x2="129.54" y2="-53.34" width="0.1524" layer="91"/>
 <label x="96.52" y="-53.34" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P11"/>
-<junction x="93.98" y="-53.34"/>
+<pinref part="CN3" gate="G$1" pin="P10"/>
 </segment>
 </net>
 <net name="SEN_B_D21_N" class="0">
@@ -3704,11 +3611,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-60.96" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P50"/>
 <wire x1="93.98" y1="-50.8" x2="129.54" y2="-50.8" width="0.1524" layer="91"/>
 <label x="96.52" y="-50.8" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P12"/>
-<junction x="93.98" y="-50.8"/>
+<pinref part="CN3" gate="G$1" pin="P11"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -3752,11 +3657,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P15"/>
 <wire x1="93.98" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <label x="96.52" y="38.1" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P47"/>
-<junction x="93.98" y="38.1"/>
+<pinref part="CN3" gate="G$1" pin="P46"/>
 </segment>
 </net>
 <net name="SEN_TDIG0" class="0">
@@ -3766,11 +3669,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P9"/>
 <wire x1="93.98" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <label x="96.52" y="53.34" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P53"/>
-<junction x="93.98" y="53.34"/>
+<pinref part="CN3" gate="G$1" pin="P52"/>
 </segment>
 </net>
 <net name="SEN_TDIG1" class="0">
@@ -3780,11 +3681,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P10"/>
 <wire x1="93.98" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
 <label x="96.52" y="50.8" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P52"/>
-<junction x="93.98" y="50.8"/>
+<pinref part="CN3" gate="G$1" pin="P51"/>
 </segment>
 </net>
 <net name="SEN_TEXP0" class="0">
@@ -3794,11 +3693,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P13"/>
 <wire x1="93.98" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <label x="96.52" y="43.18" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P49"/>
-<junction x="93.98" y="43.18"/>
+<pinref part="CN3" gate="G$1" pin="P48"/>
 </segment>
 </net>
 <net name="SEN_TEMP1" class="0">
@@ -3808,11 +3705,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P14"/>
 <wire x1="93.98" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 <label x="96.52" y="40.64" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P48"/>
-<junction x="93.98" y="40.64"/>
+<pinref part="CN3" gate="G$1" pin="P47"/>
 </segment>
 </net>
 <net name="SEN_SPI_!CS" class="0">
@@ -3826,11 +3721,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <junction x="-114.3" y="101.6"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P16"/>
 <wire x1="93.98" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P46"/>
-<junction x="93.98" y="35.56"/>
+<pinref part="CN3" gate="G$1" pin="P45"/>
 </segment>
 </net>
 <net name="SEN_SPI_SCLK" class="0">
@@ -3840,11 +3733,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P11"/>
 <wire x1="93.98" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <label x="96.52" y="48.26" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P51"/>
-<junction x="93.98" y="48.26"/>
+<pinref part="CN3" gate="G$1" pin="P50"/>
 </segment>
 </net>
 <net name="SEN_SPI_MOSI" class="0">
@@ -3854,11 +3745,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P18"/>
 <wire x1="93.98" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="96.52" y="30.48" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P44"/>
-<junction x="93.98" y="30.48"/>
+<pinref part="CN3" gate="G$1" pin="P43"/>
 </segment>
 </net>
 <net name="SEN_SPI_MISO" class="0">
@@ -3868,11 +3757,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-142.24" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P17"/>
 <wire x1="93.98" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="33.02" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P45"/>
-<junction x="93.98" y="33.02"/>
+<pinref part="CN3" gate="G$1" pin="P44"/>
 </segment>
 </net>
 <net name="TMP_I2C_SCL" class="0">
@@ -3889,34 +3776,26 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </net>
 <net name="SYS_PWR_5V" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="P1"/>
 <wire x1="93.98" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="96.52" y="73.66" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="GND"/>
-<junction x="93.98" y="73.66"/>
+<pinref part="CN3" gate="G$1" pin="P60"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P2"/>
 <wire x1="93.98" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 <label x="96.52" y="71.12" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P60"/>
-<junction x="93.98" y="71.12"/>
+<pinref part="CN3" gate="G$1" pin="P59"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P3"/>
 <wire x1="93.98" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="68.58" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P59"/>
-<junction x="93.98" y="68.58"/>
+<pinref part="CN3" gate="G$1" pin="P58"/>
 </segment>
 </net>
 <net name="SEN_PWR_EN" class="0">
 <segment>
-<pinref part="CN1" gate="G$1" pin="P21"/>
 <wire x1="93.98" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="96.52" y="22.86" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P41"/>
-<junction x="93.98" y="22.86"/>
+<pinref part="CN3" gate="G$1" pin="P40"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA6"/>
@@ -4020,11 +3899,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="99.06" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P8"/>
 <wire x1="93.98" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <label x="96.52" y="55.88" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P54"/>
-<junction x="93.98" y="55.88"/>
+<pinref part="CN3" gate="G$1" pin="P53"/>
 </segment>
 </net>
 <net name="SEN_UART_RX" class="0">
@@ -4034,11 +3911,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="99.06" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P12"/>
 <wire x1="93.98" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
 <label x="96.52" y="45.72" size="1.778" layer="95"/>
-<pinref part="CN3" gate="G$1" pin="P50"/>
-<junction x="93.98" y="45.72"/>
+<pinref part="CN3" gate="G$1" pin="P49"/>
 </segment>
 </net>
 <net name="TMP_ALERT" class="0">
@@ -4073,12 +3948,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-149.86" y1="53.34" x2="-134.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="60.96" x2="-149.86" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-149.86" y="53.34"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="CN1" gate="G$1" pin="GND"/>
-<pinref part="CN3" gate="G$1" pin="P1"/>
 </segment>
 </net>
 </nets>
