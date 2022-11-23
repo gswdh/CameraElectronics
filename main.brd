@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="11" fill="1" visible="no" active="yes"/>
@@ -1489,6 +1489,70 @@
 <wire x1="5.375" y1="6.375" x2="-5.375" y2="6.375" width="0.15" layer="21"/>
 <wire x1="-5.375" y1="6.375" x2="-5.375" y2="-5.9" width="0.15" layer="21"/>
 <wire x1="-5.375" y1="-5.9" x2="-3.75" y2="-5.9" width="0.15" layer="21"/>
+</package>
+<package name="686106183522">
+<smd name="P$1" x="-5.275" y="0" dx="1.3" dy="1.65" layer="1" rot="R90"/>
+<smd name="P$2" x="5.275" y="0" dx="1.3" dy="1.65" layer="1" rot="R90"/>
+<smd name="1" x="-2.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="-0.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="2.5" y="1.9" dx="1" dy="0.5" layer="1" rot="R90"/>
+<wire x1="-6.25" y1="2.5" x2="6.25" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="2.5" x2="6.25" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="-2.5" x2="-6.25" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="2.5" x2="-6.25" y2="-2.5" width="0.1524" layer="21"/>
+<text x="-6.25" y="2.625" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="XF2M40151A">
+<smd name="1" x="9.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="PAD1" x="-11.5" y="-1.5" dx="1.7" dy="1.5" layer="1"/>
+<smd name="PAD2" x="11.5" y="-1.5" dx="1.7" dy="1.5" layer="1"/>
+<smd name="2" x="9.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="3" x="8.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="4" x="8.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="5" x="7.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="6" x="7.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="7" x="6.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="8" x="6.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="9" x="5.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="10" x="5.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="11" x="4.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="12" x="4.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="13" x="3.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="14" x="3.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="15" x="2.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="16" x="2.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="17" x="1.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="18" x="1.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="19" x="0.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="20" x="0.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="21" x="-0.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="22" x="-0.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="23" x="-1.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="24" x="-1.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="25" x="-2.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="26" x="-2.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="27" x="-3.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="28" x="-3.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="29" x="-4.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="30" x="-4.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="31" x="-5.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="32" x="-5.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="33" x="-6.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="34" x="-6.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="35" x="-7.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="36" x="-7.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="37" x="-8.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="38" x="-8.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="39" x="-9.25" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<smd name="40" x="-9.75" y="2.75" dx="0.25" dy="1.5" layer="1"/>
+<wire x1="-12.5" y1="-3" x2="12.5" y2="-3" width="0.15" layer="21"/>
+<wire x1="12.5" y1="-3" x2="12.5" y2="3.75" width="0.15" layer="21"/>
+<wire x1="12.5" y1="3.75" x2="-12.5" y2="3.75" width="0.15" layer="21"/>
+<wire x1="-12.5" y1="3.75" x2="-12.5" y2="-3" width="0.15" layer="21"/>
+<text x="-12.5" y="4" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -4640,6 +4704,18 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="25.4" y="-51.9" size="1" layer="21" rot="R90"/>
 <attribute name="PRICE_PER" value="4.9282" x="29.6" y="-48.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="CN8" library="CONNECTORs" package="686106183522" value="686106183522" x="-0.375" y="-56.375" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="732-11327-1-ND" x="-0.375" y="-65.375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1.2" x="-0.375" y="-65.375" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-6.625" y="-59" size="1" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="1.39" x="-0.375" y="-65.375" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="CN7" library="CONNECTORs" package="XF2M40151A" value="40PIN FPC" x="21" y="-53.625" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="OR729CT-ND" x="21" y="-46.875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="2" x="21" y="-46.875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="8.5" y="-57.625" size="1.27" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="2.07" x="21" y="-46.875" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5763,10 +5839,12 @@ einem neuen Namen ab.</description>
 <contactref element="U23" pad="49"/>
 <contactref element="U23" pad="32"/>
 <contactref element="U23" pad="TAB"/>
-<wire x1="49.5" y1="57.625" x2="57" y2="57.625" width="0" layer="19" extent="16-16"/>
-<wire x1="50" y1="49.875" x2="49.5" y2="57.625" width="0" layer="19" extent="16-16"/>
-<wire x1="42.5" y1="49.875" x2="50" y2="49.875" width="0" layer="19" extent="16-16"/>
-<wire x1="43.5" y1="45" x2="42.5" y2="49.875" width="0" layer="19" extent="16-16"/>
+<contactref element="CN7" pad="38"/>
+<contactref element="CN8" pad="2"/>
+<contactref element="CN7" pad="12"/>
+<wire x1="25.25" y1="-56.375" x2="-1.875" y2="-58.275" width="0" layer="19" extent="16-16"/>
+<wire x1="12.25" y1="-56.375" x2="25.25" y2="-56.375" width="0" layer="19" extent="16-16"/>
+<wire x1="-55.875" y1="-65.875" x2="12.25" y2="-56.375" width="0" layer="19" extent="16-16"/>
 <wire x1="-42" y1="-41.2" x2="-41.6" y2="-40.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.2" y1="-44.4" x2="-44.8" y2="-42.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.875" y1="43" x2="-46.75" y2="44.25" width="0" layer="19" extent="1-16"/>
@@ -5776,6 +5854,7 @@ einem neuen Namen ab.</description>
 <wire x1="47.5" y1="42.125" x2="44.375" y2="40" width="0" layer="19" extent="16-16"/>
 <wire x1="31" y1="-44.9" x2="29.6" y2="-48.4" width="0" layer="19" extent="1-1"/>
 <wire x1="36" y1="-55.95" x2="31.3" y2="-55.4" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="49.875" x2="43.5" y2="45" width="0" layer="19" extent="16-16"/>
 <wire x1="-41.375" y1="43" x2="-46.25" y2="42" width="0" layer="19" extent="1-16"/>
 <wire x1="-54.415" y1="65.06" x2="-51.75" y2="59.625" width="0" layer="19" extent="16-16"/>
 <wire x1="-60" y1="-13" x2="-53.4" y2="-15.1" width="0" layer="19" extent="1-1"/>
@@ -5783,7 +5862,10 @@ einem neuen Namen ab.</description>
 <wire x1="-60" y1="-10.5" x2="-60" y2="-11" width="0" layer="19" extent="1-1"/>
 <wire x1="-60" y1="-18.5" x2="-60" y2="-13" width="0" layer="19" extent="1-1"/>
 <wire x1="-60" y1="-21.5" x2="-60" y2="-18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="50" y1="49.875" x2="42.5" y2="49.875" width="0" layer="19" extent="16-16"/>
 <wire x1="55" y1="42.125" x2="47.5" y2="42.125" width="0" layer="19" extent="16-16"/>
+<wire x1="49.5" y1="57.625" x2="50" y2="49.875" width="0" layer="19" extent="16-16"/>
+<wire x1="57" y1="57.625" x2="49.5" y2="57.625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ACT_I2C_SCL">
 <contactref element="U7" pad="7"/>
@@ -7073,6 +7155,8 @@ einem neuen Namen ab.</description>
 <contactref element="U23" pad="52"/>
 <contactref element="U23" pad="44"/>
 <contactref element="U23" pad="38"/>
+<contactref element="CN7" pad="37"/>
+<wire x1="-48" y1="-48" x2="12.75" y2="-56.375" width="0" layer="19" extent="16-16"/>
 <wire x1="-47.2" y1="-45.6" x2="-47.6" y2="-47.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.4" y1="-43.2" x2="-46.8" y2="-45.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.6" y1="-40.8" x2="-46" y2="-42.8" width="0" layer="19" extent="1-1"/>
@@ -10187,6 +10271,8 @@ einem neuen Namen ab.</description>
 <contactref element="U23" pad="15"/>
 <contactref element="U23" pad="30"/>
 <contactref element="U23" pad="22"/>
+<contactref element="CN8" pad="1"/>
+<wire x1="-58.125" y1="-64" x2="-2.875" y2="-58.275" width="0" layer="19" extent="1-16"/>
 <wire x1="-54.125" y1="-64.05" x2="-58.125" y2="-64" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.875" y1="-39.125" x2="-54.125" y2="-62.125" width="0" layer="19" extent="16-16"/>
 <wire x1="-57.875" y1="-37.125" x2="-57.875" y2="-39.125" width="0" layer="19" extent="16-16"/>
@@ -11371,6 +11457,8 @@ einem neuen Namen ab.</description>
 <wire x1="58.05" y1="-57.6" x2="58.05" y2="-54.475" width="0.5" layer="1"/>
 <wire x1="58.05" y1="-57.6" x2="56.325" y2="-59.325" width="0.5" layer="1"/>
 <wire x1="54.125" y1="-59.325" x2="56.325" y2="-59.325" width="0.5" layer="1"/>
+<contactref element="CN7" pad="40"/>
+<wire x1="54.05" y1="-60.725" x2="11.25" y2="-56.375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TFT_LED_A">
 <contactref element="U15" pad="5"/>
@@ -11384,6 +11472,8 @@ einem neuen Namen ab.</description>
 <wire x1="56.8" y1="-53.35" x2="51.8" y2="-53.35" width="0.5" layer="1"/>
 <via x="56.8" y="-53.35" extent="1-16" drill="0.5"/>
 <wire x1="51.8" y1="-53.35" x2="50.425" y2="-54.725" width="0.5" layer="1"/>
+<contactref element="CN7" pad="39"/>
+<wire x1="50.425" y1="-56.725" x2="11.75" y2="-56.375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="TFT_BL_PWM">
 <contactref element="U15" pad="4"/>
@@ -11940,6 +12030,108 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="FT_GPIO1">
 <contactref element="U23" pad="13"/>
+</signal>
+<signal name="TFT_R0">
+<contactref element="CN7" pad="36"/>
+</signal>
+<signal name="TFT_R2">
+<contactref element="CN7" pad="34"/>
+</signal>
+<signal name="TFT_R1">
+<contactref element="CN7" pad="35"/>
+</signal>
+<signal name="TFT_R3">
+<contactref element="CN7" pad="33"/>
+</signal>
+<signal name="TFT_R4">
+<contactref element="CN7" pad="32"/>
+</signal>
+<signal name="TFT_R5">
+<contactref element="CN7" pad="31"/>
+</signal>
+<signal name="TFT_R6">
+<contactref element="CN7" pad="30"/>
+</signal>
+<signal name="TFT_R7">
+<contactref element="CN7" pad="29"/>
+</signal>
+<signal name="TFT_G0">
+<contactref element="CN7" pad="28"/>
+</signal>
+<signal name="TFT_G1">
+<contactref element="CN7" pad="27"/>
+</signal>
+<signal name="TFT_G2">
+<contactref element="CN7" pad="26"/>
+</signal>
+<signal name="TFT_G3">
+<contactref element="CN7" pad="25"/>
+</signal>
+<signal name="TFT_G4">
+<contactref element="CN7" pad="24"/>
+</signal>
+<signal name="TFT_G5">
+<contactref element="CN7" pad="23"/>
+</signal>
+<signal name="TFT_G6">
+<contactref element="CN7" pad="22"/>
+</signal>
+<signal name="TFT_G7">
+<contactref element="CN7" pad="21"/>
+</signal>
+<signal name="TFT_B0">
+<contactref element="CN7" pad="20"/>
+</signal>
+<signal name="TFT_B1">
+<contactref element="CN7" pad="19"/>
+</signal>
+<signal name="TFT_B2">
+<contactref element="CN7" pad="18"/>
+</signal>
+<signal name="TFT_B3">
+<contactref element="CN7" pad="17"/>
+</signal>
+<signal name="TFT_B4">
+<contactref element="CN7" pad="16"/>
+</signal>
+<signal name="TFT_B5">
+<contactref element="CN7" pad="15"/>
+</signal>
+<signal name="TFT_B6">
+<contactref element="CN7" pad="14"/>
+</signal>
+<signal name="TFT_B7">
+<contactref element="CN7" pad="13"/>
+</signal>
+<signal name="TFT_CLK">
+<contactref element="CN7" pad="11"/>
+</signal>
+<signal name="TFT_HSYNC">
+<contactref element="CN7" pad="9"/>
+</signal>
+<signal name="TFT_DISP">
+<contactref element="CN7" pad="10"/>
+</signal>
+<signal name="TFT_VSYNC">
+<contactref element="CN7" pad="8"/>
+</signal>
+<signal name="TFT_DEN">
+<contactref element="CN7" pad="7"/>
+</signal>
+<signal name="TFT_GND">
+<contactref element="CN7" pad="5"/>
+</signal>
+<signal name="TFT_CTP_I2C_SCL">
+<contactref element="CN8" pad="3"/>
+</signal>
+<signal name="TFT_CTP_I2C_SDA">
+<contactref element="CN8" pad="4"/>
+</signal>
+<signal name="TFT_CTP_NINT">
+<contactref element="CN8" pad="5"/>
+</signal>
+<signal name="TFT_CTP_NRESET">
+<contactref element="CN8" pad="6"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
