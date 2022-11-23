@@ -2670,8 +2670,8 @@
 <connect gate="G$1" pin="D7" pad="42"/>
 <connect gate="G$1" pin="D8" pad="45"/>
 <connect gate="G$1" pin="D9" pad="46"/>
-<connect gate="G$1" pin="DN" pad="18"/>
-<connect gate="G$1" pin="DP" pad="20"/>
+<connect gate="G$1" pin="DN" pad="20"/>
+<connect gate="G$1" pin="DP" pad="18"/>
 <connect gate="G$1" pin="DV10" pad="31"/>
 <connect gate="G$1" pin="GND" pad="32 49 51 TAB"/>
 <connect gate="G$1" pin="GPIO_0" pad="12"/>
@@ -6383,8 +6383,6 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="GND75" library="NETS" deviceset="GND" device=""/>
 <part name="C109" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND76" library="NETS" deviceset="GND" device=""/>
-<part name="C110" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
-<part name="GND77" library="NETS" deviceset="GND" device=""/>
 <part name="C111" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND78" library="NETS" deviceset="GND" device=""/>
 <part name="C112" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
@@ -11396,13 +11394,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <instance part="GND76" gate="G$1" x="93.98" y="208.28" smashed="yes">
 <attribute name="VALUE" x="93.98" y="205.74" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C110" gate="G$1" x="86.36" y="218.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.82" y="218.44" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="88.9" y="218.44" size="1.27" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="GND77" gate="G$1" x="86.36" y="208.28" smashed="yes">
-<attribute name="VALUE" x="86.36" y="205.74" size="1.778" layer="96" align="center"/>
-</instance>
 <instance part="C111" gate="G$1" x="96.52" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="193.04" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="99.06" y="193.04" size="1.27" layer="96" rot="R90" align="center"/>
@@ -11738,11 +11729,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <pinref part="C109" gate="G$1" pin="1"/>
 <pinref part="GND76" gate="G$1" pin="GND"/>
 <wire x1="93.98" y1="210.82" x2="93.98" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C110" gate="G$1" pin="1"/>
-<pinref part="GND77" gate="G$1" pin="GND"/>
-<wire x1="86.36" y1="210.82" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C111" gate="G$1" pin="1"/>
@@ -12392,13 +12378,9 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="116.84" y1="170.18" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="226.06" x2="109.22" y2="226.06" width="0.1524" layer="91"/>
 <label x="43.18" y="226.06" size="1.778" layer="95"/>
-<pinref part="C110" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="226.06" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="226.06" x2="93.98" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="226.06" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="223.52" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
-<junction x="86.36" y="226.06"/>
+<wire x1="93.98" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C109" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="223.52" x2="93.98" y2="226.06" width="0.1524" layer="91"/>
 <junction x="93.98" y="226.06"/>
