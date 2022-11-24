@@ -6645,6 +6645,8 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <part name="U23" library="ICs" deviceset="FT600" device="Q-T" value="FT600"/>
 <part name="CN8" library="CONNECTORs" deviceset="686106183522" device="" value="686106183522"/>
 <part name="CN7" library="CONNECTORs" deviceset="XF2M40151A" device="" value="40PIN FPC"/>
+<part name="C18" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND77" library="NETS" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11674,6 +11676,13 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <attribute name="NAME" x="-165.1" y="215.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-165.1" y="213.36" size="1.778" layer="96"/>
 </instance>
+<instance part="C18" gate="G$1" x="144.78" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="142.24" y="190.5" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="147.32" y="190.5" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND77" gate="G$1" x="144.78" y="180.34" smashed="yes">
+<attribute name="VALUE" x="144.78" y="177.8" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11930,6 +11939,11 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="-149.86" y1="119.38" x2="-114.3" y2="119.38" width="0.1524" layer="91"/>
 <label x="-147.32" y="119.38" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="GND77" gate="G$1" pin="GND"/>
+<wire x1="144.78" y1="182.88" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SEN_T_D0_P" class="0">
@@ -12401,8 +12415,9 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="129.54" y1="195.58" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="198.12" x2="137.16" y2="198.12" width="0.1524" layer="91"/>
 <junction x="129.54" y="198.12"/>
-<label x="144.78" y="198.12" size="1.778" layer="95"/>
-<wire x1="137.16" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
+<label x="147.32" y="198.12" size="1.778" layer="95"/>
+<wire x1="137.16" y1="198.12" x2="144.78" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="170.18" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="172.72" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
@@ -12414,6 +12429,9 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <junction x="137.16" y="198.12"/>
 <pinref part="U23" gate="G$1" pin="VCC_33"/>
 <pinref part="U23" gate="G$1" pin="VDDA"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="195.58" x2="144.78" y2="198.12" width="0.1524" layer="91"/>
+<junction x="144.78" y="198.12"/>
 </segment>
 <segment>
 <pinref part="CN8" gate="G$1" pin="1"/>
