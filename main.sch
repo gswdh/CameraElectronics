@@ -6973,6 +6973,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </instance>
 </instances>
 <busses>
+<bus name="FT_D14,TFT_HSYNC,TFT_VSYNC,TFT_B7,TFT_B5,N$124,FT_NWR,TFT_B1,FT_NTXE,FT_D15,FT_D10,FT_D11,N$126,TFT_DEN,N$88,FT_NOE,FT_BE0,FT_BE1,N$91,N$89,N$86,N$68,TFT_B2,N$83,FT_D13,N$79,N$123,N$80,N$70,FT_D9,FT_NRESET,N$76,N$75,N$84,TFT_B3,TFT_B4,FT_D12,FT_NRXF,FT_NRD,N$74,N$73,N$72,N$87,N$129,N$71,TFT_B6,N$77,N$69,TFT_CLK,N$78">
+<segment>
+<wire x1="-119.38" y1="91.44" x2="-116.84" y2="91.44" width="0.762" layer="92"/>
+<wire x1="-116.84" y1="91.44" x2="-116.84" y2="66.04" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
@@ -7551,10 +7557,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="-149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$67" class="0">
+<net name="FT_D12" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_0_34"/>
 <wire x1="-43.18" y1="124.46" x2="-88.9" y2="124.46" width="0.1524" layer="91"/>
+<label x="-86.36" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -7563,40 +7570,46 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="121.92" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$69" class="0">
+<net name="TFT_R1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L1N_T0_34"/>
 <wire x1="-43.18" y1="119.38" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="-86.36" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$70" class="0">
+<net name="TFT_R2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L2P_T0_34"/>
 <wire x1="-43.18" y1="116.84" x2="-88.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="-86.36" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$71" class="0">
+<net name="TFT_R3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L2N_T0_34"/>
 <wire x1="-43.18" y1="114.3" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
+<label x="-86.36" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$72" class="0">
+<net name="TFT_G0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L3P_T0_DQS_PUDC_B_34"/>
 <wire x1="-43.18" y1="111.76" x2="-88.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="-86.36" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$73" class="0">
+<net name="TFT_R7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L3N_T0_DQS_34"/>
 <wire x1="-43.18" y1="109.22" x2="-88.9" y2="109.22" width="0.1524" layer="91"/>
+<label x="-86.36" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$74" class="0">
+<net name="TFT_R6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L4P_T0_34"/>
 <wire x1="-43.18" y1="106.68" x2="-88.9" y2="106.68" width="0.1524" layer="91"/>
+<label x="-86.36" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -7605,28 +7618,32 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$76" class="0">
+<net name="TFT_G1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L5P_T0_34"/>
 <wire x1="-43.18" y1="101.6" x2="-88.9" y2="101.6" width="0.1524" layer="91"/>
+<label x="-86.36" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$77" class="0">
+<net name="TFT_G4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L5N_T0_34"/>
 <wire x1="-43.18" y1="99.06" x2="-88.9" y2="99.06" width="0.1524" layer="91"/>
+<label x="-86.36" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$78" class="0">
+<net name="TFT_R5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L6P_T0_34"/>
 <wire x1="-43.18" y1="96.52" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
+<label x="-86.36" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$79" class="0">
+<net name="TFT_R4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L6N_T0_VREF_34"/>
 <wire x1="-43.18" y1="93.98" x2="-88.9" y2="93.98" width="0.1524" layer="91"/>
+<label x="-86.36" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -7635,10 +7652,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="91.44" x2="-88.9" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$82" class="0">
+<net name="FT_NRESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L7N_T1_34"/>
 <wire x1="-43.18" y1="88.9" x2="-88.9" y2="88.9" width="0.1524" layer="91"/>
+<label x="-86.36" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -7653,22 +7671,25 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$85" class="0">
+<net name="TFT_B4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L9P_T1_DQS_34"/>
 <wire x1="-88.9" y1="81.28" x2="-43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="-86.36" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$86" class="0">
+<net name="TFT_G7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L9N_T1_DQS_34"/>
 <wire x1="-43.18" y1="78.74" x2="-88.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="-86.36" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$87" class="0">
+<net name="TFT_G3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L10P_T1_34"/>
 <wire x1="-43.18" y1="76.2" x2="-88.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="-86.36" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -7677,106 +7698,123 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="73.66" x2="-88.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="TFT_G2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L11P_T1_SRCC_34"/>
 <wire x1="-43.18" y1="71.12" x2="-88.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="-86.36" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$91" class="0">
+<net name="TFT_G5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L11N_T1_SRCC_34"/>
 <wire x1="-43.18" y1="68.58" x2="-88.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="-86.36" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$93" class="0">
+<net name="TFT_B3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L12P_T1_MRCC_34"/>
 <wire x1="-43.18" y1="66.04" x2="-88.9" y2="66.04" width="0.1524" layer="91"/>
+<label x="-86.36" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$94" class="0">
+<net name="FT_BE0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L12N_T1_MRCC_34"/>
 <wire x1="-43.18" y1="63.5" x2="-88.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="-86.36" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$96" class="0">
+<net name="TFT_DEN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L13P_T2_MRCC_34"/>
 <wire x1="-43.18" y1="60.96" x2="-88.9" y2="60.96" width="0.1524" layer="91"/>
+<label x="-86.36" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$97" class="0">
+<net name="FT_D11" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L13N_T2_MRCC_34"/>
 <wire x1="-43.18" y1="58.42" x2="-88.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="-86.36" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$98" class="0">
+<net name="FT_D9" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L14P_T2_SRCC_34"/>
 <wire x1="-43.18" y1="55.88" x2="-88.9" y2="55.88" width="0.1524" layer="91"/>
+<label x="-86.36" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$116" class="0">
+<net name="FT_D10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L14N_T2_SRCC_34"/>
 <wire x1="-43.18" y1="53.34" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
+<label x="-86.36" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$117" class="0">
+<net name="FT_D13" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L15P_T2_DQS_34"/>
 <wire x1="-43.18" y1="50.8" x2="-88.9" y2="50.8" width="0.1524" layer="91"/>
+<label x="-86.36" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$118" class="0">
+<net name="FT_D15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L15N_T2_DQS_34"/>
 <wire x1="-43.18" y1="48.26" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="-86.36" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$119" class="0">
+<net name="FT_BE1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L16P_T2_34"/>
 <wire x1="-43.18" y1="45.72" x2="-88.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="-86.36" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$120" class="0">
+<net name="FT_NTXE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L16N_T2_34"/>
 <wire x1="-43.18" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="-86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$121" class="0">
+<net name="FT_NOE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L17P_T2_34"/>
 <wire x1="-43.18" y1="40.64" x2="-88.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="-86.36" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$122" class="0">
+<net name="FT_NWR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L17N_T2_34"/>
 <wire x1="-43.18" y1="38.1" x2="-88.9" y2="38.1" width="0.1524" layer="91"/>
+<label x="-86.36" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$123" class="0">
+<net name="TFT_G6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L18P_T2_34"/>
 <wire x1="-43.18" y1="35.56" x2="-88.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="-86.36" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$124" class="0">
+<net name="TFT_R0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L18N_T2_34"/>
 <wire x1="-43.18" y1="33.02" x2="-88.9" y2="33.02" width="0.1524" layer="91"/>
+<label x="-86.36" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$125" class="0">
+<net name="TFT_B6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L19P_T3_34"/>
 <wire x1="-43.18" y1="30.48" x2="-88.9" y2="30.48" width="0.1524" layer="91"/>
+<label x="-86.36" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$126" class="0">
@@ -7785,70 +7823,81 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-43.18" y1="27.94" x2="-88.9" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$127" class="0">
+<net name="TFT_B7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L20P_T3_34"/>
 <wire x1="-43.18" y1="25.4" x2="-88.9" y2="25.4" width="0.1524" layer="91"/>
+<label x="-86.36" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$128" class="0">
+<net name="TFT_CLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L20N_T3_34"/>
 <wire x1="-43.18" y1="22.86" x2="-88.9" y2="22.86" width="0.1524" layer="91"/>
+<label x="-86.36" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$129" class="0">
+<net name="TFT_B0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L21P_T3_DQS_34"/>
 <wire x1="-43.18" y1="20.32" x2="-88.9" y2="20.32" width="0.1524" layer="91"/>
+<label x="-86.36" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$130" class="0">
+<net name="TFT_B1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L21N_T3_DQS_34"/>
 <wire x1="-43.18" y1="17.78" x2="-88.9" y2="17.78" width="0.1524" layer="91"/>
+<label x="-86.36" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$131" class="0">
+<net name="FT_NRD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L22P_T3_34"/>
 <wire x1="-43.18" y1="15.24" x2="-88.9" y2="15.24" width="0.1524" layer="91"/>
+<label x="-86.36" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$132" class="0">
+<net name="FT_NRXF" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L22N_T3_34"/>
 <wire x1="-43.18" y1="12.7" x2="-88.9" y2="12.7" width="0.1524" layer="91"/>
+<label x="-86.36" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$133" class="0">
+<net name="TFT_VSYNC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L23P_T3_34"/>
 <wire x1="-43.18" y1="10.16" x2="-88.9" y2="10.16" width="0.1524" layer="91"/>
+<label x="-86.36" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$134" class="0">
+<net name="TFT_HSYNC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L23N_T3_34"/>
 <wire x1="-43.18" y1="7.62" x2="-88.9" y2="7.62" width="0.1524" layer="91"/>
+<label x="-86.36" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$135" class="0">
+<net name="TFT_B2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L24P_T3_34"/>
 <wire x1="-43.18" y1="5.08" x2="-88.9" y2="5.08" width="0.1524" layer="91"/>
+<label x="-86.36" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$136" class="0">
+<net name="TFT_B5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L24N_T3_34"/>
 <wire x1="-43.18" y1="2.54" x2="-88.9" y2="2.54" width="0.1524" layer="91"/>
+<label x="-86.36" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$137" class="0">
+<net name="FT_D14" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_25_34"/>
 <wire x1="-43.18" y1="0" x2="-88.9" y2="0" width="0.1524" layer="91"/>
+<label x="-86.36" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$191" class="0">
@@ -9085,16 +9134,18 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$114" class="0">
+<net name="FT_D8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L7P_T1_AD2P_35"/>
 <wire x1="-43.18" y1="-48.26" x2="-88.9" y2="-48.26" width="0.1524" layer="91"/>
+<label x="-86.36" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$115" class="0">
+<net name="FT_CLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L7N_T1_AD2N_35"/>
 <wire x1="-43.18" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-86.36" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SEN_T_D3_P" class="0">
@@ -9111,28 +9162,32 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$140" class="0">
+<net name="FT_D7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L9P_T1_DQS_AD3P_35"/>
 <wire x1="-43.18" y1="-58.42" x2="-88.9" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-86.36" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$141" class="0">
+<net name="FT_D6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L9N_T1_DQS_AD3N_35"/>
 <wire x1="-43.18" y1="-60.96" x2="-88.9" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-86.36" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$142" class="0">
+<net name="FT_D5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L10P_T1_AD11P_35"/>
 <wire x1="-43.18" y1="-63.5" x2="-88.9" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-86.36" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$143" class="0">
+<net name="FT_D3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L10N_T1_AD11N_35"/>
 <wire x1="-43.18" y1="-66.04" x2="-88.9" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-86.36" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SEN_T_D6_P" class="0">
@@ -9219,28 +9274,32 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$156" class="0">
+<net name="FT_D4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L17P_T2_AD5P_35"/>
 <wire x1="-88.9" y1="-99.06" x2="-43.18" y2="-99.06" width="0.1524" layer="91"/>
+<label x="-86.36" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$157" class="0">
+<net name="FT_D2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L17N_T2_AD5N_35"/>
 <wire x1="-88.9" y1="-101.6" x2="-43.18" y2="-101.6" width="0.1524" layer="91"/>
+<label x="-86.36" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$158" class="0">
+<net name="FT_D0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L18P_T2_AD13P_35"/>
 <wire x1="-88.9" y1="-104.14" x2="-43.18" y2="-104.14" width="0.1524" layer="91"/>
+<label x="-86.36" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$159" class="0">
+<net name="FT_D1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L18N_T2_AD13N_35"/>
 <wire x1="-88.9" y1="-106.68" x2="-43.18" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-86.36" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SEN_T_D9_P" class="0">
@@ -9811,11 +9870,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </instance>
 </instances>
 <busses>
-<bus name="DDR_D31,DDR_DM3,DDR_DQS2_N,DDR_DQS2_P,DDR_D29,DDR_D26,DDR_D25,DDR_D24,DDR_D23,DDR_D22,DDR_D20,DDR_D19,DDR_D18,DDR_D17,DDR_BA1,DDR_A14,DDR_DQS3_P,DDR_A13,DDR_D27,DDR_A11,DDR_D16,DDR_A7,DDR_A6,DDR_A5,DDR_A12,DDR_A4,DDR_A3,DDR_DQS3_N,DDR_A9,DDR_A2,DDR_A8,DDR_A1,DDR_BA0,DDR_A0,DDR_DM2,DDR_NWE,DDR_NCAS,DDR_NCS,DDR_BA2,DDR_CLK_N,DDR_A10,DDR_CLK_P,DDR_D28,DDR_CKE,DDR_D21,DDR_NRAS,DDR_NRESET,DDR_D30,DDR_ODT">
-<segment>
-<wire x1="132.08" y1="12.7" x2="149.86" y2="12.7" width="0.762" layer="92"/>
-</segment>
-</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
@@ -11872,6 +11926,11 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <label x="-147.32" y="137.16" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="12"/>
 </segment>
+<segment>
+<wire x1="-149.86" y1="119.38" x2="-114.3" y2="119.38" width="0.1524" layer="91"/>
+<label x="-147.32" y="119.38" size="1.778" layer="95"/>
+<pinref part="CN7" gate="G$1" pin="5"/>
+</segment>
 </net>
 <net name="SEN_T_D0_P" class="0">
 <segment>
@@ -13153,13 +13212,6 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="-149.86" y1="124.46" x2="-114.3" y2="124.46" width="0.1524" layer="91"/>
 <label x="-147.32" y="124.46" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="7"/>
-</segment>
-</net>
-<net name="TFT_GND" class="0">
-<segment>
-<wire x1="-149.86" y1="119.38" x2="-114.3" y2="119.38" width="0.1524" layer="91"/>
-<label x="-147.32" y="119.38" size="1.778" layer="95"/>
-<pinref part="CN7" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="TFT_CTP_I2C_SCL" class="0">
