@@ -9045,13 +9045,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-175.26" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SEN_PWR_EN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_0_35"/>
-<wire x1="-43.18" y1="-15.24" x2="-88.9" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-86.36" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SEN_CLK_P" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L1P_T0_AD0P_35"/>
@@ -9393,6 +9386,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U1" gate="G$1" pin="IO_L23N_T3_35"/>
 <wire x1="-88.9" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
 <label x="-86.36" y="-132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_0_35"/>
+<wire x1="-43.18" y1="-15.24" x2="-88.9" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
