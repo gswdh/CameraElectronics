@@ -6975,12 +6975,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </instance>
 </instances>
 <busses>
-<bus name="FT_D14,TFT_HSYNC,TFT_VSYNC,TFT_B7,TFT_B5,N$124,FT_NWR,TFT_B1,FT_NTXE,FT_D15,FT_D10,FT_D11,N$126,TFT_DEN,N$88,FT_NOE,FT_BE0,FT_BE1,N$91,N$89,N$86,N$68,TFT_B2,N$83,FT_D13,N$79,N$123,N$80,N$70,FT_D9,FT_NRESET,N$76,N$75,N$84,TFT_B3,TFT_B4,FT_D12,FT_NRXF,FT_NRD,N$74,N$73,N$72,N$87,N$129,N$71,TFT_B6,N$77,N$69,TFT_CLK,N$78">
-<segment>
-<wire x1="-119.38" y1="91.44" x2="-116.84" y2="91.44" width="0.762" layer="92"/>
-<wire x1="-116.84" y1="91.44" x2="-116.84" y2="66.04" width="0.762" layer="92"/>
-</segment>
-</bus>
 </busses>
 <nets>
 <net name="GND" class="0">
