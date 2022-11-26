@@ -5797,6 +5797,18 @@
 <wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1524" layer="21"/>
 <text x="-1.25" y="1.25" size="1" layer="21">&gt;NAME</text>
 </package>
+<package name="KC2016Z">
+<smd name="1" x="-0.9" y="-0.6" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.9" y="-0.6" dx="0.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.9" y="0.6" dx="0.8" dy="0.6" layer="1" rot="R270"/>
+<smd name="4" x="-0.9" y="0.6" dx="0.8" dy="0.6" layer="1" rot="R270"/>
+<wire x1="-1.375" y1="-1.125" x2="1.375" y2="-1.125" width="0.15" layer="21"/>
+<wire x1="1.375" y1="-1.125" x2="1.375" y2="1.125" width="0.15" layer="21"/>
+<wire x1="1.375" y1="1.125" x2="-1.375" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="1.125" x2="-1.375" y2="-1.125" width="0.15" layer="21"/>
+<circle x="-0.375" y="-0.625" radius="0.125" width="0.15" layer="21"/>
+<text x="-1.375" y="1.25" size="1" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -5814,6 +5826,18 @@
 <wire x1="0.9525" y1="0" x2="0.9525" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-0.9525" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="0.9525" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="CRYSTAL_OSCIALLTOR">
+<text x="-7.62" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<pin name="VCC" x="-12.7" y="7.62" length="middle"/>
+<pin name="GND" x="-12.7" y="-7.62" length="middle"/>
+<pin name="OUT" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="!ST" x="12.7" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5834,6 +5858,30 @@
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="0.24" constant="no"/>
 <attribute name="VALUE" value="30MHz 6pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KC2016Z33.0000C15XXK" prefix="OSC">
+<description>33 MHz XO (Standard) CMOS Oscillator 1.71V ~ 3.63V Standby (Power Down) 4-SMD, No Lead</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL_OSCIALLTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KC2016Z">
+<connects>
+<connect gate="G$1" pin="!ST" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-KC2016Z33.0000C15XXKCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.98" constant="no"/>
+<attribute name="VALUE" value="33MHz" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6485,6 +6533,11 @@
 <part name="GND77" library="NETS" deviceset="GND" device=""/>
 <part name="R103" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
 <part name="GND31" library="NETS" deviceset="GND" device=""/>
+<part name="R104" library="r_0603" deviceset="ERJ3EKF1002V" device="" value="10k"/>
+<part name="OSC1" library="CRYSTALS" deviceset="KC2016Z33.0000C15XXK" device="" value="33MHz"/>
+<part name="C19" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND97" library="NETS" deviceset="GND" device=""/>
+<part name="R105" library="r_0402" deviceset="ERJ-2RKD40R2X" device="" value="40.2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6811,6 +6864,21 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <instance part="GND179" gate="G$1" x="-58.42" y="238.76" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="236.22" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="OSC1" gate="G$1" x="144.78" y="-10.16" smashed="yes">
+<attribute name="NAME" x="137.16" y="5.08" size="1.27" layer="95"/>
+<attribute name="VALUE" x="137.16" y="2.54" size="1.27" layer="96"/>
+</instance>
+<instance part="C19" gate="G$1" x="129.54" y="-10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="-10.16" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="132.08" y="-10.16" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND97" gate="G$1" x="129.54" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="129.54" y="-25.4" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="R105" gate="G$1" x="165.1" y="-2.54" smashed="yes">
+<attribute name="NAME" x="165.1" y="0" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="165.1" y="-5.08" size="1.27" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7005,6 +7073,15 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="C148" gate="G$1" pin="1"/>
 <pinref part="GND179" gate="G$1" pin="GND"/>
 <wire x1="-58.42" y1="241.3" x2="-58.42" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="GND97" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="-20.32" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="OSC1" gate="G$1" pin="GND"/>
+<wire x1="129.54" y1="-17.78" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="129.54" y="-17.78"/>
 </segment>
 </net>
 <net name="PWR_FPGA_1V0" class="0">
@@ -7249,6 +7326,20 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 <junction x="134.62" y="53.34"/>
 <label x="106.68" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OSC1" gate="G$1" pin="VCC"/>
+<wire x1="132.08" y1="-2.54" x2="129.54" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-5.08" x2="129.54" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="129.54" y="-2.54"/>
+<label x="104.14" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="187.96" y1="-17.78" x2="157.48" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="OSC1" gate="G$1" pin="!ST"/>
+<label x="160.02" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_TCK" class="0">
@@ -7834,6 +7925,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U1" gate="G$1" pin="PS_CLK_500"/>
 <wire x1="43.18" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 <label x="48.26" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="172.72" y="-2.54" size="1.778" layer="95"/>
+<wire x1="170.18" y1="-2.54" x2="195.58" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="R105" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SEN_SPI_SCLK" class="0">
@@ -8672,13 +8768,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-175.26" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DEBUG_GPIO_1" class="0">
-<segment>
-<pinref part="CN6" gate="G$1" pin="31"/>
-<wire x1="-177.8" y1="38.1" x2="-137.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="-175.26" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="Q8" gate="G$1" pin="G"/>
@@ -9092,6 +9181,20 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U1" gate="G$1" pin="PS_MIO37_501"/>
 <wire x1="43.18" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <label x="48.26" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="STP_NRESET" class="0">
+<segment>
+<pinref part="CN6" gate="G$1" pin="31"/>
+<wire x1="-177.8" y1="38.1" x2="-137.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="-175.26" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="R105" gate="G$1" pin="1"/>
+<pinref part="OSC1" gate="G$1" pin="OUT"/>
+<wire x1="160.02" y1="-2.54" x2="157.48" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13762,6 +13865,10 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <instance part="GND31" gate="G$1" x="-182.88" y="33.02" smashed="yes">
 <attribute name="VALUE" x="-182.88" y="30.48" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="R104" gate="G$1" x="-172.72" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="-175.26" y="30.48" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-170.18" y="30.48" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14864,6 +14971,12 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <wire x1="2.54" y1="152.4" x2="2.54" y2="154.94" width="0.1524" layer="91"/>
 <junction x="2.54" y="154.94"/>
 </segment>
+<segment>
+<pinref part="R104" gate="G$1" pin="2"/>
+<wire x1="-172.72" y1="35.56" x2="-172.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="38.1" x2="-142.24" y2="38.1" width="0.1524" layer="91"/>
+<label x="-170.18" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$37" class="0">
 <segment>
@@ -15094,8 +15207,14 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <net name="STP_NRESET" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="NRST"/>
-<wire x1="-142.24" y1="66.04" x2="-170.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="-167.64" y="66.04" size="1.778" layer="95"/>
+<wire x1="-142.24" y1="66.04" x2="-177.8" y2="66.04" width="0.1524" layer="91"/>
+<label x="-175.26" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R104" gate="G$1" pin="1"/>
+<wire x1="-172.72" y1="25.4" x2="-172.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="22.86" x2="-142.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="-170.18" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STP_SWCLK" class="0">
