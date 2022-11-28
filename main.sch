@@ -7489,12 +7489,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L1P_T0_34"/>
-<wire x1="-43.18" y1="121.92" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TFT_R1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L1N_T0_34"/>
@@ -7537,12 +7531,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L4N_T0_34"/>
-<wire x1="-43.18" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TFT_G1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L5P_T0_34"/>
@@ -7571,29 +7559,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$80" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L7P_T1_34"/>
-<wire x1="-43.18" y1="91.44" x2="-88.9" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="FT_NRESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO_L7N_T1_34"/>
 <wire x1="-43.18" y1="88.9" x2="-88.9" y2="88.9" width="0.1524" layer="91"/>
 <label x="-86.36" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$83" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L8P_T1_34"/>
-<wire x1="-43.18" y1="86.36" x2="-88.9" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$84" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L8N_T1_34"/>
-<wire x1="-43.18" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TFT_B4" class="0">
@@ -7615,12 +7585,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U1" gate="G$1" pin="IO_L10P_T1_34"/>
 <wire x1="-43.18" y1="76.2" x2="-88.9" y2="76.2" width="0.1524" layer="91"/>
 <label x="-86.36" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$88" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO_L10N_T1_34"/>
-<wire x1="-43.18" y1="73.66" x2="-88.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TFT_G2" class="0">
@@ -8662,12 +8626,22 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="83.82" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
 <label x="-175.26" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L7P_T1_34"/>
+<wire x1="-43.18" y1="91.44" x2="-88.9" y2="91.44" width="0.1524" layer="91"/>
+<label x="-86.36" y="91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FPGA_DEBUG_EN" class="0">
 <segment>
 <pinref part="CN6" gate="G$1" pin="14"/>
 <wire x1="-177.8" y1="81.28" x2="-137.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="-175.26" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L10N_T1_34"/>
+<wire x1="-43.18" y1="73.66" x2="-88.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="-86.36" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_DEBUG_D0" class="0">
@@ -8676,12 +8650,22 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="78.74" x2="-137.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="-175.26" y="78.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L8P_T1_34"/>
+<wire x1="-43.18" y1="86.36" x2="-88.9" y2="86.36" width="0.1524" layer="91"/>
+<label x="-86.36" y="86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FPGA_DEBUG_D1" class="0">
 <segment>
 <pinref part="CN6" gate="G$1" pin="16"/>
 <wire x1="-177.8" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="-175.26" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L8N_T1_34"/>
+<wire x1="-43.18" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
+<label x="-86.36" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_DEBUG_D2" class="0">
@@ -8690,6 +8674,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="73.66" x2="-137.16" y2="73.66" width="0.1524" layer="91"/>
 <label x="-175.26" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L4N_T0_34"/>
+<wire x1="-43.18" y1="104.14" x2="-88.9" y2="104.14" width="0.1524" layer="91"/>
+<label x="-86.36" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FPGA_DEBUG_D3" class="0">
 <segment>
@@ -8697,33 +8686,10 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="71.12" x2="-137.16" y2="71.12" width="0.1524" layer="91"/>
 <label x="-175.26" y="71.12" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="FPGA_DEBUG_D4" class="0">
 <segment>
-<pinref part="CN6" gate="G$1" pin="19"/>
-<wire x1="-177.8" y1="68.58" x2="-137.16" y2="68.58" width="0.1524" layer="91"/>
-<label x="-175.26" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FPGA_DEBUG_D5" class="0">
-<segment>
-<pinref part="CN6" gate="G$1" pin="20"/>
-<wire x1="-177.8" y1="66.04" x2="-137.16" y2="66.04" width="0.1524" layer="91"/>
-<label x="-175.26" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FPGA_DEBUG_D6" class="0">
-<segment>
-<pinref part="CN6" gate="G$1" pin="21"/>
-<wire x1="-177.8" y1="63.5" x2="-137.16" y2="63.5" width="0.1524" layer="91"/>
-<label x="-175.26" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FPGA_DEBUG_D7" class="0">
-<segment>
-<pinref part="CN6" gate="G$1" pin="22"/>
-<wire x1="-177.8" y1="60.96" x2="-137.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="-175.26" y="60.96" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IO_L1P_T0_34"/>
+<wire x1="-43.18" y1="121.92" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="-86.36" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_3V3_SLP" class="0">
