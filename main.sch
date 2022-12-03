@@ -6384,7 +6384,7 @@
 <part name="R78" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
 <part name="C120" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND139" library="NETS" deviceset="GND" device=""/>
-<part name="U1" library="ICs" deviceset="XC7Z010-1CLG400C" device="" value="XC7Z010-1CLG400C"/>
+<part name="U1" library="ICs" deviceset="XC7Z010-1CLG400C" device="" value="XC7Z014S-2CLG400I"/>
 <part name="GND1" library="NETS" deviceset="GND" device=""/>
 <part name="FB1" library="INDUCTORS" deviceset="742792651" device="" value="600R"/>
 <part name="C121" library="c_0603" deviceset="CL10A106KQ8NNWC" device="" value="10uF 6.3V"/>
@@ -6669,7 +6669,7 @@
 CAMERA MAIN PCB
 
 REVISION 1.x.x
-DESIGN BY GEORGE WALLER AT GSWDH LTD.
+DESIGN BY GEORGE WALLER, GSWDH LTD.
 GEORGEWALLER@GSWDH.CO.UK
 
 CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
@@ -6704,7 +6704,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="292.1" x2="-203.2" y2="266.7" width="0.1524" layer="97" curve="90"/>
 <text x="0" y="-279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
 <text x="0" y="279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
-<text x="137.16" y="-170.18" size="1.778" layer="91">IS VREFN AND VREFP CONNECTED CORRECTLY?</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0" smashed="yes">
@@ -7835,9 +7834,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </net>
 <net name="TFT_R1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IO_L1N_T0_34"/>
-<wire x1="-43.18" y1="119.38" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
-<label x="-86.36" y="119.38" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IO_L1P_T0_34"/>
+<wire x1="-43.18" y1="121.92" x2="-88.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="-86.36" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TFT_R2" class="0">
@@ -9687,6 +9686,20 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U1" gate="G$1" pin="IO_L15N_T2_DQS_AD12N_35"/>
 <wire x1="-88.9" y1="-91.44" x2="-43.18" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-86.36" y="-91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FT_BE3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L1N_T0_34"/>
+<wire x1="-43.18" y1="119.38" x2="-88.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="-86.36" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FT_BE2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IO_L7N_T1_AD2N_35"/>
+<wire x1="-43.18" y1="-50.8" x2="-88.9" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-86.36" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
