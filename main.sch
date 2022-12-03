@@ -6660,6 +6660,15 @@
 <part name="C164" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND213" library="NETS" deviceset="GND" device=""/>
 <part name="U3" library="ICs" deviceset="FT601Q" device="" value="FT601Q"/>
+<part name="R35" library="r_0603" deviceset="CRCW06034K99FKTA" device="" value="4.99k"/>
+<part name="R107" library="r_0603" deviceset="CRCW06034K99FKTA" device="" value="4.99k"/>
+<part name="R108" library="r_0603" deviceset="CRCW06034K99FKTA" device="" value="4.99k"/>
+<part name="C137" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND168" library="NETS" deviceset="GND" device=""/>
+<part name="C144" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND175" library="NETS" deviceset="GND" device=""/>
+<part name="C165" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND214" library="NETS" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9702,6 +9711,27 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-86.36" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="BTN_SHUTTER" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PS_MIO24_501"/>
+<wire x1="43.18" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
+<label x="48.26" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_MANAUTO" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PS_MIO20_501"/>
+<wire x1="43.18" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="48.26" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BTN_ZOOM" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PS_MIO22_501"/>
+<wire x1="43.18" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="48.26" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11990,6 +12020,39 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <attribute name="NAME" x="129.54" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="160.02" size="1.778" layer="96"/>
 </instance>
+<instance part="R35" gate="G$1" x="-106.68" y="-144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-109.22" y="-144.78" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-104.14" y="-144.78" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="R107" gate="G$1" x="-93.98" y="-144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-96.52" y="-144.78" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-91.44" y="-144.78" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="R108" gate="G$1" x="-68.58" y="-144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-71.12" y="-144.78" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-66.04" y="-144.78" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C137" gate="G$1" x="-137.16" y="-170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-139.7" y="-170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-134.62" y="-170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND168" gate="G$1" x="-137.16" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C144" gate="G$1" x="-129.54" y="-170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-132.08" y="-170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-127" y="-170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND175" gate="G$1" x="-129.54" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-129.54" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C165" gate="G$1" x="-121.92" y="-170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-124.46" y="-170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-119.38" y="-170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND214" gate="G$1" x="-121.92" y="-180.34" smashed="yes">
+<attribute name="VALUE" x="-121.92" y="-182.88" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12251,6 +12314,21 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="GND77" gate="G$1" pin="GND"/>
 <wire x1="144.78" y1="182.88" x2="144.78" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C137" gate="G$1" pin="1"/>
+<pinref part="GND168" gate="G$1" pin="GND"/>
+<wire x1="-137.16" y1="-177.8" x2="-137.16" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C144" gate="G$1" pin="1"/>
+<pinref part="GND175" gate="G$1" pin="GND"/>
+<wire x1="-129.54" y1="-177.8" x2="-129.54" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C165" gate="G$1" pin="1"/>
+<pinref part="GND214" gate="G$1" pin="GND"/>
+<wire x1="-121.92" y1="-177.8" x2="-121.92" y2="-175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SEN_T_D0_P" class="0">
@@ -12800,6 +12878,20 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <label x="-147.32" y="200.66" size="1.778" layer="95"/>
 <pinref part="CN7" gate="G$1" pin="37"/>
 </segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="-106.68" y1="-139.7" x2="-106.68" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-137.16" x2="-93.98" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="R107" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="-137.16" x2="-68.58" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-137.16" x2="-45.72" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="-139.7" x2="-93.98" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="-93.98" y="-137.16"/>
+<pinref part="R108" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="-139.7" x2="-68.58" y2="-137.16" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-137.16"/>
+<label x="-66.04" y="-137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWR_USBC_VBUS" class="0">
 <segment>
@@ -13308,32 +13400,53 @@ NHD-4.3-800480CF-ASXP-CTP</text>
 <segment>
 <pinref part="SW2" gate="G$1" pin="1"/>
 <wire x1="-106.68" y1="-165.1" x2="-106.68" y2="-160.02" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-160.02" x2="-139.7" y2="-160.02" width="0.1524" layer="91"/>
-<label x="-137.16" y="-160.02" size="1.778" layer="95"/>
+<wire x1="-106.68" y1="-160.02" x2="-137.16" y2="-160.02" width="0.1524" layer="91"/>
+<label x="-167.64" y="-160.02" size="1.778" layer="95"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="-160.02" x2="-170.18" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-149.86" x2="-106.68" y2="-160.02" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-160.02"/>
+<pinref part="C137" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="-165.1" x2="-137.16" y2="-160.02" width="0.1524" layer="91"/>
+<junction x="-137.16" y="-160.02"/>
 </segment>
 </net>
 <net name="BTN_ZOOM" class="0">
 <segment>
 <pinref part="SW3" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="-165.1" x2="-93.98" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-157.48" x2="-139.7" y2="-157.48" width="0.1524" layer="91"/>
-<label x="-137.16" y="-157.48" size="1.778" layer="95"/>
+<wire x1="-93.98" y1="-157.48" x2="-129.54" y2="-157.48" width="0.1524" layer="91"/>
+<label x="-167.64" y="-157.48" size="1.778" layer="95"/>
+<pinref part="C144" gate="G$1" pin="2"/>
+<wire x1="-129.54" y1="-157.48" x2="-170.18" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-165.1" x2="-129.54" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="-129.54" y="-157.48"/>
+<pinref part="R107" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="-149.86" x2="-93.98" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="-93.98" y="-157.48"/>
 </segment>
 </net>
 <net name="BTN_ONOFF" class="0">
 <segment>
 <pinref part="SW4" gate="G$1" pin="1"/>
 <wire x1="-81.28" y1="-165.1" x2="-81.28" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-154.94" x2="-139.7" y2="-154.94" width="0.1524" layer="91"/>
-<label x="-137.16" y="-154.94" size="1.778" layer="95"/>
+<wire x1="-81.28" y1="-154.94" x2="-170.18" y2="-154.94" width="0.1524" layer="91"/>
+<label x="-167.64" y="-154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN_MANAUTO" class="0">
 <segment>
 <pinref part="SW5" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="-165.1" x2="-68.58" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-152.4" x2="-139.7" y2="-152.4" width="0.1524" layer="91"/>
-<label x="-137.16" y="-152.4" size="1.778" layer="95"/>
+<wire x1="-68.58" y1="-152.4" x2="-121.92" y2="-152.4" width="0.1524" layer="91"/>
+<label x="-167.64" y="-152.4" size="1.778" layer="95"/>
+<pinref part="R108" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="-152.4" x2="-170.18" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-149.86" x2="-68.58" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-152.4"/>
+<pinref part="C165" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="-165.1" x2="-121.92" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="-121.92" y="-152.4"/>
 </segment>
 </net>
 <net name="TFT_R0" class="0">
