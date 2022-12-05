@@ -32,7 +32,7 @@
 "1";"1uF 50V";"12065C105KAT2A";"1206";"C145";"1000000 50V 1µF ±10% X7R 1206";"478-5177-1-ND";"";"-";"AVX Corporation";"";"0.31000";"192969";"X7R";"±10%";"1uF 50V";"50V";
 "2";"2.2pF 10V";"C0402C229D8GAC7867";"0402";"C118, C119";"2 10V 2.2pF ±0.5pF C0G, NP0 0402";"399-14898-1-ND";"";"-";"KEMET";"";"0.28000";"1641";"C0G, NP0";"±0.5pF";"2.2pF 10V";"10V";
 "2";"2.2uF 10V";"CL10A225KP8NNNC";"0603";"C46, C155";"2200000 10V 2.2µF ±10% X5R 0603";"1276-1085-1-ND";"";"-";"Samsung Electro-Mechanics";"";"0.07000";"1580888";"X5R";"±10%";"2.2uF 10V";"10V";
-"2";"2.2uH 3.5A";"SRN5040-2R2Y"";"SRN5040";"L7, L9";"2.2 µH Semi-Shielded Drum Core, Wirewound Inductor 3.5 A 21mOhm Max Nonstandard";"SRN5040-2R2YCT-ND";"";"4";"";"";"0.46";"";"";"";"2.2uH 3.5A";"";
+"2";"2.2uH 3.5A";"SRN5040-2R2Y";"SRN5040";"L7, L9";"2.2 µH Semi-Shielded Drum Core, Wirewound Inductor 3.5 A 21mOhm Max Nonstandard";"SRN5040-2R2YCT-ND";"";"4";"";"";"0.46";"";"";"";"2.2uH 3.5A";"";
 "1";"2.55k";"CRCW06032K55FKEA";"0603";"R52";"2550 ±1% 2.55k Thick Film 0.1W, 1/10W 0603";"541-2.55KHCT-ND";"";"1";"Vishay Dale";"0.1W, 1/10W";"0.07000";"60";"";"±1%";"2.55k";"";
 "1";"20V TVS";"SMAJ20CA-E3/61";"DO214AC";"D2";"32.4V Clamp 12.3A Ipp Tvs Diode Surface Mount DO-214AC (SMA)";"SMAJ20CA-E3/61GICT-ND";"";"2.5";"";"";"0.29";"";"";"";"20V TVS";"";
 "5";"20k";"CRCW060320K0FKEA";"0603";"R88, R89, R90, R94, R95";"20000 ±1% 20k Thick Film 0.1W, 1/10W 0603";"541-20.0KHCT-ND";"";"1";"Vishay Dale";"0.1W, 1/10W";"0.07000";"25018";"";"±1%";"20k";"";

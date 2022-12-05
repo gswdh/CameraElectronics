@@ -4087,7 +4087,7 @@
 <gate name="G$1" symbol="CORE_INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;" package="SRN5040">
+<device name="" package="SRN5040">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6494,7 +6494,7 @@
 <part name="GND147" library="NETS" deviceset="GND" device=""/>
 <part name="GND150" library="NETS" deviceset="GND" device=""/>
 <part name="C61" library="c_0603" deviceset="0603ZC104KAT2A" device="" value="0.1uF 10V"/>
-<part name="L7" library="INDUCTORS" deviceset="SRN5040-2R2Y" device="&quot;" value="2.2uH 3.5A"/>
+<part name="L7" library="INDUCTORS" deviceset="SRN5040-2R2Y" device="" value="2.2uH 3.5A"/>
 <part name="C62" library="c_1206" deviceset="12066D226KAT2A" device="" value="22uF 6.3V"/>
 <part name="C63" library="c_1206" deviceset="12066D226KAT2A" device="" value="22uF 6.3V"/>
 <part name="R60" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>
@@ -6509,7 +6509,7 @@
 <part name="GND191" library="NETS" deviceset="GND" device=""/>
 <part name="GND192" library="NETS" deviceset="GND" device=""/>
 <part name="C69" library="c_0603" deviceset="0603ZC104KAT2A" device="" value="0.1uF 10V"/>
-<part name="L9" library="INDUCTORS" deviceset="SRN5040-2R2Y" device="&quot;" value="2.2uH 3.5A"/>
+<part name="L9" library="INDUCTORS" deviceset="SRN5040-2R2Y" device="" value="2.2uH 3.5A"/>
 <part name="C150" library="c_1206" deviceset="12066D226KAT2A" device="" value="22uF 6.3V"/>
 <part name="C151" library="c_1206" deviceset="12066D226KAT2A" device="" value="22uF 6.3V"/>
 <part name="R73" library="r_0603" deviceset="CRCW060310K0FKTA" device="" value="10k"/>

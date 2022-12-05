@@ -13016,7 +13016,6 @@ einem neuen Namen ab.</description>
 <wire x1="18" y1="31.625" x2="18.625" y2="31.625" width="0.1016" layer="16"/>
 <wire x1="18.625" y1="31.625" x2="21.25" y2="29" width="0.1016" layer="16"/>
 <wire x1="21.25" y1="29" x2="28.75" y2="29" width="0.1016" layer="16"/>
-<wire x1="29" y1="29" x2="28.75" y2="29" width="0.1016" layer="16"/>
 </signal>
 <signal name="SYS_WAKE">
 <contactref element="Q3" pad="3"/>
@@ -13214,9 +13213,8 @@ einem neuen Namen ab.</description>
 <wire x1="44.63571875" y1="22.26071875" x2="52" y2="14.8964375" width="0.1016" layer="16"/>
 <wire x1="52" y1="14.8964375" x2="52" y2="-7.9785625" width="0.1016" layer="16"/>
 <wire x1="52" y1="-7.9785625" x2="18.8535625" y2="-41.125" width="0.1016" layer="16"/>
-<wire x1="36.75" y1="47" x2="36.75" y2="45.375" width="0.1016" layer="16"/>
 <contactref element="U1" pad="A17"/>
-<wire x1="36.75" y1="45.375" x2="36.75" y2="30.125" width="0.1016" layer="16"/>
+<wire x1="36.75" y1="47.375" x2="36.75" y2="30.125" width="0.1016" layer="16"/>
 <wire x1="-32.4" y1="-45.2" x2="-31.05" y2="-45.2" width="0.1016" layer="1"/>
 <wire x1="-31.05" y1="-45.2" x2="-30.875" y2="-45.375" width="0.1016" layer="1"/>
 <wire x1="-30.875" y1="-45.375" x2="-28" y2="-45.375" width="0.1016" layer="1"/>
@@ -13231,9 +13229,8 @@ einem neuen Namen ab.</description>
 <wire x1="38.125" y1="28.75" x2="38.125" y2="25.625" width="0.1016" layer="16"/>
 <wire x1="41.48928125" y1="22.26071875" x2="44.63571875" y2="22.26071875" width="0.1016" layer="16"/>
 <wire x1="38.125" y1="25.625" x2="41.48928125" y2="22.26071875" width="0.1016" layer="16"/>
-<wire x1="36.75" y1="47" x2="36.75" y2="47.375" width="0.1016" layer="16"/>
 <wire x1="36.75" y1="47.375" x2="38.375" y2="49" width="0.1016" layer="16"/>
-<wire x1="39.625" y1="49" x2="41.25" y2="49" width="0" layer="19" extent="16-16"/>
+<wire x1="41.25" y1="49" x2="39.625" y2="49" width="0.1016" layer="16"/>
 </signal>
 <signal name="FT_BE0">
 <wire x1="9" y1="-56.625" x2="25.875" y2="-56.625" width="0.1016" layer="1"/>
