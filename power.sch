@@ -986,6 +986,7 @@ and SHA-256 Authentication</description>
 <part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="MECH6" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U$2" library="NETS" deviceset="PGND" device=""/>
+<part name="R13" library="r_0603" deviceset="ERJ3EKF10R0V" device="" value="10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -1048,9 +1049,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-38.1" y="7.62" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-33.02" y="7.62" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R8" gate="G$1" x="0" y="-73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="0" y="-76.2" size="1.27" layer="95" rot="R180" align="center"/>
-<attribute name="VALUE" x="0" y="-71.12" size="1.27" layer="96" rot="R180" align="center"/>
+<instance part="R8" gate="G$1" x="0" y="-86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="0" y="-88.9" size="1.27" layer="95" rot="R180" align="center"/>
+<attribute name="VALUE" x="0" y="-83.82" size="1.27" layer="96" rot="R180" align="center"/>
 </instance>
 <instance part="C5" gate="G$1" x="-30.48" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-33.02" y="30.48" size="1.27" layer="95" rot="R90" align="center"/>
@@ -1100,11 +1101,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="22.86" y="2.54" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="22.86" y="-2.54" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="U$20" gate="G$1" x="-7.62" y="-78.74" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-81.28" size="1.778" layer="96" align="center"/>
+<instance part="U$20" gate="G$1" x="-7.62" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="-7.62" y="-93.98" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND2" gate="G$1" x="7.62" y="-78.74" smashed="yes">
-<attribute name="VALUE" x="7.62" y="-81.28" size="1.778" layer="96" align="center"/>
+<instance part="GND2" gate="G$1" x="7.62" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="7.62" y="-93.98" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="U$21" gate="G$1" x="-30.48" y="20.32" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="17.78" size="1.778" layer="96" align="center"/>
@@ -1210,6 +1211,10 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <instance part="U$2" gate="G$1" x="43.18" y="17.78" smashed="yes">
 <attribute name="VALUE" x="43.18" y="15.24" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="R13" gate="G$1" x="-7.62" y="-78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="-10.16" y="-78.74" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-5.08" y="-78.74" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1217,12 +1222,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="-73.66" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-86.36" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CSN"/>
-<wire x1="7.62" y1="-71.12" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="7.62" y="-73.66"/>
+<wire x1="7.62" y1="-71.12" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="7.62" y="-86.36"/>
 <pinref part="GND2" gate="G$1" pin="GND"/>
-<wire x1="7.62" y1="-76.2" x2="7.62" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-88.9" x2="7.62" y2="-86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN5" gate="G$1" pin="11"/>
@@ -1375,12 +1380,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="PGND" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-73.66" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="CSP"/>
-<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-7.62" y="-73.66"/>
+<wire x1="-5.08" y1="-86.36" x2="-7.62" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-7.62" y="-86.36"/>
 <pinref part="U$20" gate="G$1" pin="PGND"/>
-<wire x1="-7.62" y1="-76.2" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-88.9" x2="-7.62" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="-83.82" x2="-7.62" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -1627,6 +1632,13 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="CN5" gate="G$1" pin="9"/>
 <wire x1="99.06" y1="20.32" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
 <label x="104.14" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CSP"/>
+<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
