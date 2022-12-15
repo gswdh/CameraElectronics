@@ -2120,25 +2120,25 @@ einem neuen Namen ab.</description>
 <element name="U7" library="ICs" package="QFN32-ACT2861" value="ACT2861" x="12.625" y="43.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="1488-1114-1-ND" x="12.625" y="43.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1" x="12.625" y="43.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.425" y="45.125" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="10" y="45.925" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="2.76" x="12.625" y="43.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C37" library="CAPACITORS" package="0603" value="47nF 16V" x="17" y="42" smashed="yes">
 <attribute name="DIGIKEY" value="1276-2079-1-ND" x="17" y="42" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1" x="17" y="42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.5" y="41.375" size="0.5" layer="25"/>
+<attribute name="NAME" x="18.5" y="41.625" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.08" x="17" y="42" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C39" library="CAPACITORS" package="0603" value="47nF 16V" x="8.5" y="42" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="1276-2079-1-ND" x="8.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="8.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7" y="42.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="7.125" y="42.75" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.08" x="8.5" y="42" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R29" library="RESISTORS" package="1206" value="0R01" x="19.5" y="40.375" smashed="yes">
 <attribute name="DIGIKEY" value="CRF1206-FZ-R010ELFCT-ND" x="19.5" y="40.375" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.65" x="19.5" y="40.375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.875" y="39.625" size="0.5" layer="25"/>
+<attribute name="NAME" x="21.875" y="39.375" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.42" x="19.5" y="40.375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R34" library="r_0603" package="0603" value="33R" x="18.75" y="38" smashed="yes" rot="R270">
@@ -2150,7 +2150,7 @@ einem neuen Namen ab.</description>
 <element name="R33" library="r_0603" package="0603" value="33R" x="20.25" y="38" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="P33.0HCT-ND" x="20.25" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FARNELL" value="" x="20.25" y="38" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22" y="39.25" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="21.5" y="39.25" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.10000" x="20.25" y="38" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C32" library="CAPACITORS" package="0603" value="100nF 16V" x="19.5" y="36" smashed="yes">
@@ -2168,31 +2168,31 @@ einem neuen Namen ab.</description>
 <element name="C26" library="CAPACITORS" package="1206" value="47uF 25V" x="16.25" y="39.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="445-8047-1-ND" x="16.25" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.8" x="16.25" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.25" y="36.75" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="17.25" y="36.75" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="1.00" x="16.25" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C33" library="CAPACITORS" package="0603" value="1uF 25V" x="11.875" y="48.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="1276-1102-1-ND" x="11.875" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1" x="11.875" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11.125" y="46.875" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.375" y="49.625" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.08" x="11.875" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C30" library="CAPACITORS" package="0603" value="100nF 16V" x="13.125" y="48.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="1276-6582-1-ND" x="13.125" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1" x="13.125" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.875" y="49.5" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="13.625" y="49.625" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.08" x="13.125" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="r_0603" package="0603" value="20k" x="8.5" y="44.125" smashed="yes">
 <attribute name="DIGIKEY" value="P20.0KHCT-ND" x="8.5" y="44.125" size="1.778" layer="27" display="off"/>
 <attribute name="FARNELL" value="" x="8.5" y="44.125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="7" y="44.875" size="0.5" layer="25"/>
+<attribute name="NAME" x="8.375" y="44.875" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.10000" x="8.5" y="44.125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R31" library="r_0603" package="0603" value="33k" x="17" y="43.75" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="P33.0KHCT-ND" x="17" y="43.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FARNELL" value="" x="17" y="43.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.5" y="43.125" size="0.5" layer="25"/>
+<attribute name="NAME" x="18.5" y="43.25" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.10000" x="17" y="43.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C24" library="CAPACITORS" package="0603" value="10nF 250V" x="17.5" y="45.75" smashed="yes" rot="R270">
@@ -2222,13 +2222,13 @@ einem neuen Namen ab.</description>
 <element name="C41" library="CAPACITORS" package="0603" value="10nF 50V" x="10.625" y="39.125" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="1276-1921-1-ND" x="10.625" y="39.125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1" x="10.625" y="39.125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.375" y="40.375" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="11.375" y="39" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.08" x="10.625" y="39.125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C42" library="CAPACITORS" package="1206" value="47uF 25V" x="9" y="39.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="445-8047-1-ND" x="9" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.8" x="9" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8" y="36.75" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="10" y="36.75" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="1.00" x="9" y="39.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R40" library="RESISTORS" package="1206" value="0R01" x="5.75" y="40.375" smashed="yes">
@@ -2240,7 +2240,7 @@ einem neuen Namen ab.</description>
 <element name="C40" library="CAPACITORS" package="0603" value="100nF 16V" x="5.75" y="36" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="1276-6582-1-ND" x="5.75" y="36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="5.75" y="36" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.25" y="35.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="4.25" y="35.875" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.08" x="5.75" y="36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R38" library="r_0603" package="0603" value="33R" x="6.5" y="38" smashed="yes" rot="R90">
@@ -2252,7 +2252,7 @@ einem neuen Namen ab.</description>
 <element name="R37" library="r_0603" package="0603" value="33R" x="5" y="38" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="P33.0HCT-ND" x="5" y="38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="" x="5" y="38" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.25" y="36.625" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="3.75" y="36.625" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.10000" x="5" y="38" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C21" library="CAPACITORS" package="1206" value="47uF 25V" x="21" y="47.25" smashed="yes" rot="R90">
@@ -2264,7 +2264,7 @@ einem neuen Namen ab.</description>
 <element name="C43" library="CAPACITORS" package="1206" value="47uF 25V" x="4.5" y="43.875" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="445-8047-1-ND" x="4.5" y="43.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1.8" x="4.5" y="43.875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.5" y="46.25" size="0.5" layer="25"/>
+<attribute name="NAME" x="5.625" y="45.375" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="1.00" x="4.5" y="43.875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R28" library="r_0603" package="0603" value="10k" x="-51.75" y="59.5" smashed="yes" rot="R270">
@@ -2288,7 +2288,7 @@ einem neuen Namen ab.</description>
 <element name="Q5" library="TRANSISTORs" package="SO8_POWERPAK" value="SI7489DP" x="25.625" y="43.25" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="SI7489DP-T1-E3CT-ND" x="25.625" y="43.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="2" x="25.625" y="43.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.5" y="40.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="29.125" y="40.625" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="2.16" x="25.625" y="43.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R57" library="r_0603" package="0603" value="100k" x="27.75" y="47.625" smashed="yes" rot="R180">
@@ -2420,25 +2420,25 @@ einem neuen Namen ab.</description>
 <element name="R48" library="r_0603" package="0603" value="10k" x="-6.75" y="46" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="P10.0KHCT-ND" x="-12.875" y="35.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FARNELL" value="" x="-12.875" y="35.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-6" y="47.275" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-6.125" y="47.475" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.10000" x="-12.875" y="35.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q1" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="-9.125" y="46.375" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="1727-4692-1-ND" x="-9.125" y="46.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="-9.125" y="46.375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-7.25" y="48.125" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-11.125" y="45.25" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.15" x="-9.125" y="46.375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="ICs" package="FBGA96_9X14_MRN" value="MT41K256M16HA-125:E" x="-34" y="-17.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="" x="-34" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.5" x="-34" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-30" y="-24.125" size="0.5" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="-38" y="-10.875" size="0.5" layer="25" ratio="6" rot="SR0"/>
 <attribute name="PRICE_PER" value="" x="-34" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R39" library="r_0603" package="0603" value="10k" x="14.375" y="48.125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="P10.0KHCT-ND" x="14.375" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FARNELL" value="" x="14.375" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.125" y="49.625" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.875" y="49.625" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.10000" x="14.375" y="48.125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CN5" library="CONNECTORs" package="SFV15R-1STE1HLF" value="15PIN 0.5MM" x="0" y="50" locked="yes" smashed="yes" rot="MR0">
@@ -2647,7 +2647,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="541-240HCT-ND" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.1" y="-14.35" size="0.5" layer="25"/>
+<attribute name="NAME" x="-41.15" y="-15.6" size="0.5" layer="25" rot="R90"/>
 <attribute name="POWER" value="0.1W, 1/10W" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE_PER" value="0.07000" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="4057" x="-39.6" y="-15.1" size="1.778" layer="27" display="off"/>
@@ -2662,7 +2662,7 @@ einem neuen Namen ab.</description>
 <element name="R2" library="r_0402" package="0402" value="40.2" x="-39.5" y="-17.1" smashed="yes">
 <attribute name="DIGIKEY" value="ERJ-2RKD40R2X-ND" x="-39.5" y="-17.1" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-39.5" y="-17.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.525" y="-16.7" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-38.65" y="-17.7" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07" x="-39.5" y="-17.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="r_0402" package="0402" value="40.2" x="-26.4" y="-15.5" smashed="yes" rot="R180">
@@ -2752,7 +2752,7 @@ einem neuen Namen ab.</description>
 <element name="R18" library="r_0402" package="0402" value="40.2" x="-39.5" y="-16.2" smashed="yes">
 <attribute name="DIGIKEY" value="ERJ-2RKD40R2X-ND" x="-42" y="-25.2" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-42" y="-25.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.375" y="-15.7" size="0.5" layer="25"/>
+<attribute name="NAME" x="-40.5" y="-15.925" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07" x="-42" y="-25.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R19" library="r_0402" package="0402" value="40.2" x="-34" y="-9.8" smashed="yes" rot="MR270">
@@ -2788,7 +2788,7 @@ einem neuen Namen ab.</description>
 <element name="R24" library="r_0402" package="0402" value="40.2" x="-39.5" y="-14" smashed="yes">
 <attribute name="DIGIKEY" value="ERJ-2RKD40R2X-ND" x="-42" y="-20.75" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-42" y="-20.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-40.375" y="-13.5" size="0.5" layer="25"/>
+<attribute name="NAME" x="-40.5" y="-13.625" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07" x="-42" y="-20.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R25" library="r_0402" package="0402" value="40.2" x="-26.4" y="-14.5" smashed="yes" rot="R180">
@@ -2812,7 +2812,7 @@ einem neuen Namen ab.</description>
 <element name="U10" library="ICs" package="FBGA96_9X14_MRN" value="MT41K256M16HA-125:E" x="-46" y="-17.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="" x="-46" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.5" x="-46" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-42" y="-24.125" size="0.5" layer="25" ratio="6" rot="SR180"/>
+<attribute name="NAME" x="-50" y="-10.875" size="0.5" layer="25" ratio="6" rot="SR0"/>
 <attribute name="PRICE_PER" value="" x="-46" y="-17.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C70" library="CAPACITORS" package="1206" value="47uF 10V" x="-48.4" y="-8.2" smashed="yes">
@@ -2996,7 +2996,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-04026C103KAT2ACT-ND" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-39.825" y="-18.4" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-39.95" y="-18.4" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STOCK" value="3487" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-40.8" y="-17.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3076,7 +3076,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-7885-1-ND" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-35.375" y="-5.125" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-34.5" y="-4.75" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.09000" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="50115" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-33.125" y="-4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3279,7 +3279,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="-" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.425" y="-46.9" size="0.5" layer="25"/>
+<attribute name="NAME" x="38.425" y="-46.65" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.07000" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STOCK" value="639" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="37.4" y="-46.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3323,7 +3323,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="-" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="40.775" y="-44.5" size="0.5" layer="25"/>
+<attribute name="NAME" x="42.65" y="-45.375" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.07000" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STOCK" value="639" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="41.65" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3334,7 +3334,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="-" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.525" y="-46.375" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="42.6" y="-46.25" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.07000" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STOCK" value="639" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="41.65" y="-45.875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3532,7 +3532,7 @@ einem neuen Namen ab.</description>
 <element name="U13" library="ICs" package="SO8" value="W25Q128JV" x="-24.625" y="-30.375" smashed="yes">
 <attribute name="DIGIKEY" value="W25Q128JVSIQ-ND" x="-24.625" y="-30.375" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="2" x="-24.625" y="-30.375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.725" y="-27.925" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-28.325" y="-27.725" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="1.53" x="-24.625" y="-30.375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C124" library="c_0402" package="0402" value="0.1uF 10V" x="-22.375" y="-27.25" smashed="yes">
@@ -3570,7 +3570,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="541-20.0KHCT-ND" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-21" y="-29" size="0.5" layer="25"/>
+<attribute name="NAME" x="-20.75" y="-29" size="0.5" layer="25"/>
 <attribute name="POWER" value="0.1W, 1/10W" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE_PER" value="0.07000" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="25018" x="-19.5" y="-29.75" size="1.778" layer="27" display="off"/>
@@ -3601,7 +3601,7 @@ einem neuen Namen ab.</description>
 <element name="CN6" library="CONNECTORs" package="3-1734839-1" value="31 PIN FPC" x="-60" y="-13.5" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="A101346CT-ND" x="-60" y="-13.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="2.05" x="-60" y="-13.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-58.75" y="-24.25" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-64.625" y="-24.5" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="1.37" x="-60" y="-13.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U14" library="ICs" package="SOT23-5" value="NOT" x="-59.025" y="-28.275" smashed="yes" rot="MR90">
@@ -3722,7 +3722,7 @@ einem neuen Namen ab.</description>
 <element name="C132" library="CAPACITORS" package="1206" value="47uF 10V" x="-30" y="-40" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="490-5528-1-ND" x="-30" y="-40" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="2" x="-30" y="-40" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-28.75" y="-38" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-29" y="-42.375" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.65" x="-30" y="-40" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C133" library="c_0402" package="0402" value="4.7uF 6.3V" x="-42" y="-41.6" smashed="yes" rot="MR180">
@@ -3871,7 +3871,7 @@ einem neuen Namen ab.</description>
 <element name="L5" library="INDUCTORS" package="IFSC-1515AH-01" value="10uH 1.3A" x="22.2" y="-60.775" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="541-1406-1-ND" x="22.2" y="-60.775" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="2" x="22.2" y="-60.775" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.7" y="-63.025" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="19.975" y="-58.325" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.42" x="22.2" y="-60.775" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D8" library="DIODES" package="SOD-323" value="PMEG4010BEA" x="18.7" y="-60.775" smashed="yes" rot="R270">
@@ -4533,7 +4533,7 @@ einem neuen Namen ab.</description>
 <element name="D6" library="DIODES" package="SOD523" value="BAS16XV2T1G" x="-49.5" y="33.625" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="SBAS16XV2T1GOSCT-ND" x="-49.5" y="33.625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="0.7" x="-49.5" y="33.625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-50.75" y="35.125" size="0.5" layer="25"/>
+<attribute name="NAME" x="-50.75" y="34.625" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.37" x="-49.5" y="33.625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D7" library="DIODES" package="SOD523" value="BAS16XV2T1G" x="-49.5" y="32.375" smashed="yes" rot="R180">
@@ -4659,7 +4659,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="-" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15.45" y="-63.025" size="0.5" layer="25"/>
+<attribute name="NAME" x="17.175" y="-63.975" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07000" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="639" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="16.325" y="-63.525" size="1.778" layer="27" display="off"/>
@@ -4682,7 +4682,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="-" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.425" y="-47.8" size="0.5" layer="25"/>
+<attribute name="NAME" x="38.325" y="-47.95" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07000" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STOCK" value="639" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="37.4" y="-47.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4734,7 +4734,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10669-1-ND" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-49" y="-35.25" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-50" y="-33.5" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.26000" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="39486" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-49.5" y="-34.375" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4978,25 +4978,25 @@ einem neuen Namen ab.</description>
 <element name="D11" library="OPTO" package="CLX6F-FKC" value="RGB LED" x="25" y="47.5" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="CLX6F-FKC-CKNNQDGBB7A363CT-ND" x="25" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="2.9" x="25" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="23.125" y="49.625" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="23.125" y="48" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.23" x="25" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="Q4" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="28.5" y="55.25" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="1727-4692-1-ND" x="23.625" y="60.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="1" x="23.625" y="60.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="26.75" y="53.375" size="1" layer="26" rot="MR180"/>
+<attribute name="NAME" x="26.75" y="53.375" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.15" x="23.625" y="60.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Q6" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="25" y="55.25" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="1727-4692-1-ND" x="17" y="65.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="1" x="17" y="65.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="23.25" y="53.375" size="1" layer="26" rot="MR180"/>
+<attribute name="NAME" x="23.25" y="53.375" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.15" x="17" y="65.25" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Q7" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="21.5" y="55.25" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="1727-4692-1-ND" x="21.5" y="64.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="1" x="21.5" y="64.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="19.75" y="53.375" size="1" layer="26" rot="MR180"/>
+<attribute name="NAME" x="19.75" y="53.375" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.15" x="21.5" y="64.75" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R109" library="r_0603" package="0603" value="4.99k" x="21.125" y="57.625" smashed="yes" rot="MR0">
@@ -5032,19 +5032,19 @@ einem neuen Namen ab.</description>
 <element name="R112" library="r_0603" package="0603" value="82R" x="26.25" y="41.75" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="P82.0HCT-ND" x="47.25" y="44.875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="" x="47.25" y="44.875" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="26.875" y="40.25" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="26.875" y="40.25" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.10000" x="47.25" y="44.875" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R113" library="r_0603" package="0603" value="62R" x="25" y="41.75" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="P62.0HCT-ND" x="44.5" y="41.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="" x="44.5" y="41.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="25.625" y="40.25" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="25.625" y="40.25" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.10000" x="44.5" y="41.75" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R114" library="r_0603" package="0603" value="30R" x="23.75" y="41.75" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="P30.0HCT-ND" x="46.5" y="46" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="FARNELL" value="" x="46.5" y="46" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="24.375" y="40.25" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="24.375" y="40.25" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.10000" x="46.5" y="46" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="TP1" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-58" y="-32" smashed="yes" rot="MR0">
@@ -5135,7 +5135,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-46.75" y="48" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP30" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="20" y="-30" smashed="yes" rot="MR270">
-<attribute name="NAME" x="19.25" y="-30" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="20" y="-30.625" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP31" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-36" y="40" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-36" y="39.25" size="0.5" layer="26" rot="MR180"/>
@@ -5144,25 +5144,25 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="51.25" y="26" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP33" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="22" y="-30" smashed="yes" rot="MR270">
-<attribute name="NAME" x="21.25" y="-30" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="22" y="-30.625" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP34" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="38" y="54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.25" y="54" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP35" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="22" y="-32" smashed="yes" rot="MR270">
-<attribute name="NAME" x="21.25" y="-32" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="22" y="-32.625" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP36" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="20" y="-32" smashed="yes" rot="MR270">
-<attribute name="NAME" x="19.25" y="-32" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="20" y="-32.625" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP37" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="20" y="-34" smashed="yes" rot="MR270">
-<attribute name="NAME" x="19.25" y="-34" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="20" y="-34.625" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP38" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-30" y="-6" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-30.75" y="-6" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-30" y="-7" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP39" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-34" y="-6" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-32" y="-6.75" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-33.875" y="-6.75" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP40" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="20" y="-64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="19.25" y="-64" size="0.5" layer="26" rot="MR270"/>
@@ -5177,7 +5177,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-6.75" y="46" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP44" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="30" y="50" smashed="yes" rot="MR270">
-<attribute name="NAME" x="29.25" y="50" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="30" y="49.375" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP45" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="34" y="-38" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.25" y="-38" size="0.5" layer="26" rot="MR270"/>
@@ -5189,7 +5189,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="41.25" y="4" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP48" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="32" y="24" smashed="yes" rot="MR270">
-<attribute name="NAME" x="31.25" y="24" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="32" y="23.375" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP49" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="36" y="22" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.25" y="22" size="0.5" layer="26" rot="MR270"/>
@@ -5213,7 +5213,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-18.75" y="52" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP56" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="54" y="50" smashed="yes" rot="MR270">
-<attribute name="NAME" x="53.25" y="50" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="53.25" y="49.75" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP57" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-62" y="-62" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-62.75" y="-62" size="0.5" layer="26" rot="MR270"/>
@@ -5225,16 +5225,16 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-22.75" y="32" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP60" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="34" y="44" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.25" y="44" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="33.375" y="44" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP61" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="34" y="46" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.25" y="46" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="33.375" y="46" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP62" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="38" y="46" smashed="yes" rot="MR270">
-<attribute name="NAME" x="37.25" y="46" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="38" y="45.375" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP63" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="54" y="46" smashed="yes" rot="MR270">
-<attribute name="NAME" x="53.25" y="46" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="53.25" y="46" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP64" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-52" y="52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-52" y="51.25" size="0.5" layer="26" rot="MR180"/>
@@ -5249,7 +5249,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-22.75" y="28" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP69" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="54" y="48" smashed="yes" rot="MR270">
-<attribute name="NAME" x="53.25" y="48" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="53.25" y="47.875" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP70" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="12" y="56" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.25" y="56" size="0.5" layer="26" rot="MR270"/>
@@ -5264,7 +5264,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="15.25" y="44" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP75" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="8" y="48" smashed="yes" rot="MR270">
-<attribute name="NAME" x="7.25" y="48" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="8.125" y="47.25" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP76" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="12" y="54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.25" y="54" size="0.5" layer="26" rot="MR270"/>
@@ -5282,16 +5282,16 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-42" y="43.25" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP81" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="38" y="36" smashed="yes" rot="MR270">
-<attribute name="NAME" x="37.25" y="36" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="38" y="35.25" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP82" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="34" y="40" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.25" y="40" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="33.375" y="40" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP83" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="34" y="42" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.25" y="42" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="33.375" y="42" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP72" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="32" y="30" smashed="yes" rot="MR270">
-<attribute name="NAME" x="31.25" y="30" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="32" y="29.25" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP86" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-52" y="32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-52.75" y="32" size="0.5" layer="26" rot="MR270"/>
@@ -5306,7 +5306,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-8.75" y="44" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP90" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-12" y="30" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-12.75" y="30" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-12" y="29.25" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP91" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-52" y="-56" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-52.75" y="-56" size="0.5" layer="26" rot="MR270"/>
@@ -5315,7 +5315,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-30.75" y="8" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP93" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-62" y="-44" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-62.75" y="-44" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-62" y="-43.25" size="0.5" layer="26" rot="MR0"/>
 </element>
 <element name="TP94" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-32" y="26" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-32.75" y="26" size="0.5" layer="26" rot="MR270"/>
@@ -5333,7 +5333,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-50.75" y="-60" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP99" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-58" y="-24" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-58.75" y="-24" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-57.375" y="-24" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP100" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="-34" y="8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-34.75" y="8" size="0.5" layer="26" rot="MR270"/>
@@ -5345,7 +5345,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="13.25" y="54" size="0.5" layer="26" rot="MR270"/>
 </element>
 <element name="TP103" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="56" y="48" smashed="yes" rot="MR270">
-<attribute name="NAME" x="55.25" y="48" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="56.125" y="47.375" size="0.5" layer="26" rot="MR180"/>
 </element>
 <element name="TP65" library="MISC" package="1MM_TEST_PAD" value="1MM_TEST_POINT" x="28" y="60" smashed="yes" rot="MR90">
 <attribute name="NAME" x="28.75" y="60" size="0.5" layer="26" rot="MR90"/>
