@@ -292,22 +292,6 @@ and SHA-256 Authentication</description>
 </library>
 <library name="CONNECTORs">
 <packages>
-<package name="1122">
-<smd name="+" x="41.75" y="0" dx="7.5" dy="6" layer="1"/>
-<smd name="-" x="-41.75" y="0" dx="7.5" dy="6" layer="1"/>
-<hole x="-27.925" y="-9" drill="3.5"/>
-<hole x="27.925" y="9" drill="3.5"/>
-<hole x="38.475" y="-9" drill="2.4"/>
-<wire x1="46" y1="13" x2="46" y2="-13" width="0.15" layer="21"/>
-<wire x1="46" y1="-13" x2="-46" y2="-13" width="0.15" layer="21"/>
-<wire x1="-46" y1="-13" x2="-46" y2="13" width="0.15" layer="21"/>
-<wire x1="-46" y1="13" x2="46" y2="13" width="0.15" layer="21"/>
-<text x="-46" y="13.125" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="-41" y1="13" x2="-41" y2="4" width="0.15" layer="25"/>
-<wire x1="-41" y1="-4" x2="-41" y2="-13" width="0.15" layer="25"/>
-<wire x1="41" y1="13" x2="41" y2="4" width="0.15" layer="25"/>
-<wire x1="41" y1="-4" x2="41" y2="-13" width="0.15" layer="25"/>
-</package>
 <package name="SFV15R-1STE1HLF">
 <smd name="SH1" x="-5.275" y="-0.625" dx="2.3" dy="2.65" layer="1" rot="R90"/>
 <smd name="SH2" x="5.275" y="-0.625" dx="2.3" dy="2.65" layer="1" rot="R90"/>
@@ -334,18 +318,6 @@ and SHA-256 Authentication</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CELL">
-<pin name="V+" x="0" y="5.08" visible="off" length="short" rot="R270"/>
-<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="0.635" x2="2.54" y2="0.635" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.635" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.635" width="0.1778" layer="94"/>
-<text x="-3.81" y="0" size="1.778" layer="95" rot="R90" align="center">&gt;NAME</text>
-<text x="3.81" y="0" size="1.778" layer="96" rot="R90" align="center">&gt;VALUE</text>
-<pin name="V-" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.1778" layer="94"/>
-</symbol>
 <symbol name="15PIN_HEADER">
 <text x="-5.08" y="25.4" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="22.86" size="1.778" layer="96">&gt;VALUE</text>
@@ -371,28 +343,6 @@ and SHA-256 Authentication</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KEYSTONE1122" prefix="CN">
-<description>Battery Holder (Open) 20700, 21700 1 Cell SMD (SMT) Tab</description>
-<gates>
-<gate name="G$1" symbol="CELL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1122">
-<connects>
-<connect gate="G$1" pin="V+" pad="+"/>
-<connect gate="G$1" pin="V-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="36-1122-ND" constant="no"/>
-<attribute name="HEIGHT" value="22" constant="no"/>
-<attribute name="PRICE_PER" value="4.1" constant="no"/>
-<attribute name="VALUE" value="21700" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SFV15R-1STE1HLF" prefix="CN">
 <description>15 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle</description>
 <gates>
@@ -867,63 +817,6 @@ and SHA-256 Authentication</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MISC">
-<packages>
-<package name="MOUNTHOLE_6X3">
-<hole x="0" y="0" drill="3.3"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="41"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="42"/>
-<circle x="0" y="0" radius="3" width="0.25" layer="22"/>
-<circle x="0" y="0" radius="3" width="0.25" layer="21"/>
-</package>
-<package name="MOUNTHOLE_7X3.5">
-<pad name="1" x="0" y="0" drill="3.5" diameter="7"/>
-</package>
-<package name="MOUNTHOLE_4.5X2">
-<hole x="0" y="0" drill="2.1"/>
-<circle x="0" y="0" radius="2.25" width="0.127" layer="41"/>
-<circle x="0" y="0" radius="2.25" width="0.127" layer="42"/>
-<circle x="0" y="0" radius="2.25" width="0.25" layer="22"/>
-<circle x="0" y="0" radius="2.25" width="0.25" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MOUNTHOLE">
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<text x="0" y="3.556" size="1.27" layer="95" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.016" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOUNTHOLE" prefix="MECH">
-<description>Mechanical mounting hole.</description>
-<gates>
-<gate name="G$1" symbol="MOUNTHOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOUNTHOLE_6X3">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="6mm x 3mm" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="7X3.5" package="MOUNTHOLE_7X3.5">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="7mm x 3.5mm" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="4.5X2" package="MOUNTHOLE_4.5X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -970,21 +863,11 @@ and SHA-256 Authentication</description>
 <part name="Q1" library="TRANSISTORs" deviceset="IRLML6244TRPBF" device="" value="IRLML6244"/>
 <part name="R7" library="r_0603" deviceset="ERJ3EKF1000V" device="" value="100R"/>
 <part name="F1" library="FUSES" deviceset="SF-1206F100-2" device="" value="1A Fast"/>
-<part name="MECH1" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH2" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH5" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="CN1" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
-<part name="CN2" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
-<part name="CN4" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
 <part name="R4" library="r_0603" deviceset="ERJ3EKF47R0V" device="" value="47R"/>
 <part name="C3" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
 <part name="C2" library="CAPACITORS" deviceset="CL10B104KO8WPNC" device="" value="100nF 16V"/>
-<part name="CN3" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
 <part name="CN5" library="CONNECTORs" deviceset="SFV15R-1STE1HLF" device="" value="15PIN 0.5MM"/>
 <part name="GND4" library="NETS" deviceset="GND" device=""/>
-<part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH6" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U$2" library="NETS" deviceset="PGND" device=""/>
 <part name="R13" library="r_0603" deviceset="ERJ3EKF10R0V" device="" value="10R"/>
 </parts>
@@ -1155,30 +1038,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-53.34" y="73.66" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-48.26" y="73.66" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="MECH1" gate="G$1" x="-154.94" y="-236.22" smashed="yes">
-<attribute name="NAME" x="-154.94" y="-232.664" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH4" gate="G$1" x="-147.32" y="-236.22" smashed="yes">
-<attribute name="NAME" x="-147.32" y="-232.664" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH2" gate="G$1" x="-154.94" y="-243.84" smashed="yes">
-<attribute name="NAME" x="-154.94" y="-240.284" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH5" gate="G$1" x="-147.32" y="-243.84" smashed="yes">
-<attribute name="NAME" x="-147.32" y="-240.284" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="CN1" gate="G$1" x="-50.8" y="7.62" smashed="yes">
-<attribute name="NAME" x="-54.61" y="7.62" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-46.99" y="7.62" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="CN2" gate="G$1" x="-50.8" y="-7.62" smashed="yes">
-<attribute name="NAME" x="-54.61" y="-7.62" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-46.99" y="-7.62" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
-<instance part="CN4" gate="G$1" x="-50.8" y="-38.1" smashed="yes">
-<attribute name="NAME" x="-54.61" y="-38.1" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-46.99" y="-38.1" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
 <instance part="R4" gate="G$1" x="-43.18" y="-15.24" smashed="yes">
 <attribute name="NAME" x="-43.18" y="-12.7" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="-43.18" y="-17.78" size="1.27" layer="96" align="center"/>
@@ -1191,22 +1050,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-38.1" y="-7.62" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-33.02" y="-7.62" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN3" gate="G$1" x="-50.8" y="-22.86" smashed="yes">
-<attribute name="NAME" x="-54.61" y="-22.86" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-46.99" y="-22.86" size="1.778" layer="96" rot="R90" align="center"/>
-</instance>
 <instance part="CN5" gate="G$1" x="91.44" y="22.86" smashed="yes">
 <attribute name="NAME" x="86.36" y="48.26" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.36" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="G$1" x="101.6" y="0" smashed="yes">
 <attribute name="VALUE" x="101.6" y="-2.54" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="MECH3" gate="G$1" x="-154.94" y="-251.46" smashed="yes">
-<attribute name="NAME" x="-154.94" y="-247.904" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH6" gate="G$1" x="-147.32" y="-251.46" smashed="yes">
-<attribute name="NAME" x="-147.32" y="-247.904" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="U$2" gate="G$1" x="43.18" y="17.78" smashed="yes">
 <attribute name="VALUE" x="43.18" y="15.24" size="1.778" layer="96" align="center"/>
@@ -1266,7 +1115,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-48.26" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-50.8" y="38.1"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-<pinref part="CN1" gate="G$1" pin="V+"/>
 <wire x1="-50.8" y1="12.7" x2="-50.8" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-50.8" y="15.24"/>
 </segment>
@@ -1300,10 +1148,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="PACK_MID" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="CN3" gate="G$1" pin="V-"/>
 <wire x1="-48.26" y1="-30.48" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-30.48" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="CN4" gate="G$1" pin="V+"/>
 <wire x1="-50.8" y1="-33.02" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-30.48"/>
 </segment>
@@ -1444,7 +1290,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U$28" gate="G$1" pin="PGND"/>
-<pinref part="CN4" gate="G$1" pin="V-"/>
 <wire x1="-50.8" y1="-45.72" x2="-50.8" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1556,10 +1401,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="CN1" gate="G$1" pin="V-"/>
 <wire x1="-48.26" y1="0" x2="-50.8" y2="0" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="0" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="CN2" gate="G$1" pin="V+"/>
 <wire x1="-50.8" y1="-2.54" x2="-50.8" y2="0" width="0.1524" layer="91"/>
 <junction x="-50.8" y="0"/>
 </segment>
@@ -1567,10 +1410,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="CN2" gate="G$1" pin="V-"/>
 <wire x1="-48.26" y1="-15.24" x2="-50.8" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-15.24" x2="-50.8" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="CN3" gate="G$1" pin="V+"/>
 <wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-15.24"/>
 </segment>

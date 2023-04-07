@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND1" color="11" fill="1" visible="no" active="yes"/>
+<layer number="3" name="PWR" color="14" fill="1" visible="no" active="yes"/>
+<layer number="4" name="SIGNAL1" color="47" fill="1" visible="no" active="yes"/>
+<layer number="5" name="SIGNAL2" color="30" fill="1" visible="no" active="yes"/>
+<layer number="6" name="GND2" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="GND3" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="14" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="no" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="no" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="no" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="no" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="no" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="no" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="no" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="Text" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="2Restrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="ref" color="11" fill="1" visible="no" active="yes"/>
+<layer number="115" name="Batteries" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tText" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bMask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="3" fill="0" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="2" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="3" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="4" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="5" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="6" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="8" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="9" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="10" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="11" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="12" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="13" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="14" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="15" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="16" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="17" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="yes"/>
+<layer number="222" name="A10_SCH_PDF" color="5" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="26" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="27" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="28" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="29" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:OR9f2K7wQIeQNQdBysXgHA" pcbguid="" lastpulledtime="2022-04-12T20:48:04Z" lastsyncedchangeguid="" latestrevisionid="3d58eb25-6ebc-489b-9040-19f0f559107c" lastsyncedrevisionid="3d58eb25-6ebc-489b-9040-19f0f559107c" lastboardhashguid="2800a9f1-6c26-942e-e97a-26de74e60b74" lastpushedtime="2022-12-15T18:29:15Z" linktopcb3d="false"/>
+<plain>
+<wire x1="21" y1="22" x2="17" y2="26" width="0" layer="21" curve="90"/>
+<wire x1="21" y1="22" x2="21" y2="-22" width="0" layer="21"/>
+<wire x1="17" y1="-26" x2="21" y2="-22" width="0" layer="21" curve="90"/>
+<wire x1="17" y1="-26" x2="-17" y2="-26" width="0" layer="21"/>
+<wire x1="-21" y1="-22" x2="-17" y2="-26" width="0" layer="21" curve="90"/>
+<wire x1="-21" y1="-22" x2="-21" y2="22" width="0" layer="21"/>
+<wire x1="-17" y1="26" x2="-21" y2="22" width="0" layer="21" curve="90"/>
+<wire x1="-17" y1="26" x2="17" y2="26" width="0" layer="21"/>
+<wire x1="-29.6" y1="68" x2="-32.6" y2="65" width="0" layer="21" curve="90"/>
+<wire x1="-42.6" y1="65" x2="-32.6" y2="65" width="0" layer="21" curve="180"/>
+<wire x1="-42.6" y1="65" x2="-45.6" y2="68" width="0" layer="21" curve="90"/>
+<wire x1="-45.6" y1="68" x2="-55" y2="68" width="0" layer="21"/>
+<wire x1="-55" y1="68" x2="-57.4822" y2="67.9379" width="0" layer="21"/>
+<wire x1="-57.4822" y1="67.9379" x2="-59.9085" y2="67.5409" width="0" layer="21"/>
+<wire x1="-59.9085" y1="67.5409" x2="-62.2566" y2="66.5747" width="0" layer="21"/>
+<wire x1="-62.2566" y1="66.5747" x2="-64.3894" y2="65.0012" width="0" layer="21"/>
+<wire x1="-64.3894" y1="65.0012" x2="-65.3951" y2="63.943" width="0" layer="21"/>
+<wire x1="-65.3951" y1="63.943" x2="-66.3049" y2="62.7003" width="0" layer="21"/>
+<wire x1="-66.3049" y1="62.7003" x2="-67.0444" y2="61.3113" width="0" layer="21"/>
+<wire x1="-67.0444" y1="61.3113" x2="-67.5261" y2="59.9645" width="0" layer="21"/>
+<wire x1="-67.5261" y1="59.9645" x2="-67.9381" y2="57.4948" width="0" layer="21"/>
+<wire x1="-67.9381" y1="57.4948" x2="-68" y2="55" width="0" layer="21"/>
+<wire x1="-68" y1="55" x2="-68" y2="45.6" width="0" layer="21"/>
+<wire x1="-68" y1="45.6" x2="-65" y2="42.6" width="0" layer="21" curve="90"/>
+<wire x1="-65" y1="32.6" x2="-65" y2="42.6" width="0" layer="21" curve="180"/>
+<wire x1="-65" y1="32.6" x2="-68" y2="29.6" width="0" layer="21" curve="90"/>
+<wire x1="-68" y1="-29.625" x2="-65" y2="-32.6" width="0" layer="21" curve="90"/>
+<wire x1="-65" y1="-42.6" x2="-65" y2="-32.6" width="0" layer="21" curve="180"/>
+<wire x1="-65" y1="-42.6" x2="-68" y2="-45.6" width="0" layer="21" curve="90"/>
+<wire x1="-68" y1="-45.6" x2="-68" y2="-55" width="0" layer="21"/>
+<wire x1="-68" y1="-55" x2="-67.9379" y2="-57.4822" width="0" layer="21"/>
+<wire x1="-67.9379" y1="-57.4822" x2="-67.5409" y2="-59.9085" width="0" layer="21"/>
+<wire x1="-67.5409" y1="-59.9085" x2="-66.5747" y2="-62.2566" width="0" layer="21"/>
+<wire x1="-66.5747" y1="-62.2566" x2="-65.0012" y2="-64.3894" width="0" layer="21"/>
+<wire x1="-65.0012" y1="-64.3894" x2="-63.943" y2="-65.3951" width="0" layer="21"/>
+<wire x1="-63.943" y1="-65.3951" x2="-62.7003" y2="-66.3049" width="0" layer="21"/>
+<wire x1="-62.7003" y1="-66.3049" x2="-61.3113" y2="-67.0444" width="0" layer="21"/>
+<wire x1="-61.3113" y1="-67.0444" x2="-59.9645" y2="-67.5261" width="0" layer="21"/>
+<wire x1="-59.9645" y1="-67.5261" x2="-57.4948" y2="-67.9381" width="0" layer="21"/>
+<wire x1="-57.4948" y1="-67.9381" x2="-55" y2="-68" width="0" layer="21"/>
+<wire x1="-55" y1="-68" x2="-45.6" y2="-68" width="0" layer="21"/>
+<wire x1="-45.6" y1="-68" x2="-42.6" y2="-65" width="0" layer="21" curve="90"/>
+<wire x1="-32.6" y1="-65" x2="-42.6" y2="-65" width="0" layer="21" curve="180"/>
+<wire x1="-32.6" y1="-65" x2="-29.625" y2="-68" width="0" layer="21" curve="90"/>
+<wire x1="29.6" y1="-68" x2="32.6" y2="-65" width="0" layer="21" curve="90"/>
+<wire x1="42.6" y1="-65" x2="32.6" y2="-65" width="0" layer="21" curve="180"/>
+<wire x1="42.6" y1="-65" x2="45.6" y2="-68" width="0" layer="21" curve="90"/>
+<wire x1="45.6" y1="-68" x2="55" y2="-68" width="0" layer="21"/>
+<wire x1="55" y1="-68" x2="57.4822" y2="-67.9379" width="0" layer="21"/>
+<wire x1="57.4822" y1="-67.9379" x2="59.9085" y2="-67.5409" width="0" layer="21"/>
+<wire x1="59.9085" y1="-67.5409" x2="62.2566" y2="-66.5747" width="0" layer="21"/>
+<wire x1="62.2566" y1="-66.5747" x2="64.3894" y2="-65.0012" width="0" layer="21"/>
+<wire x1="64.3894" y1="-65.0012" x2="65.3951" y2="-63.943" width="0" layer="21"/>
+<wire x1="65.3951" y1="-63.943" x2="66.3049" y2="-62.7003" width="0" layer="21"/>
+<wire x1="66.3049" y1="-62.7003" x2="67.0444" y2="-61.3113" width="0" layer="21"/>
+<wire x1="67.0444" y1="-61.3113" x2="67.5261" y2="-59.9645" width="0" layer="21"/>
+<wire x1="67.5261" y1="-59.9645" x2="67.9381" y2="-57.4948" width="0" layer="21"/>
+<wire x1="67.9381" y1="-57.4948" x2="68" y2="-55" width="0" layer="21"/>
+<wire x1="68" y1="-55" x2="68" y2="-45.6" width="0" layer="21"/>
+<wire x1="68" y1="-45.6" x2="65" y2="-42.6" width="0" layer="21" curve="90"/>
+<wire x1="65" y1="-32.6" x2="65" y2="-42.6" width="0" layer="21" curve="180"/>
+<wire x1="65" y1="-32.6" x2="68" y2="-29.6" width="0" layer="21" curve="90"/>
+<wire x1="-68" y1="-29.625" x2="-68" y2="29.6" width="0" layer="21"/>
+<wire x1="-29.6" y1="68" x2="29.5" y2="68" width="0" layer="21"/>
+<wire x1="68" y1="29.5" x2="68" y2="-29.6" width="0" layer="21"/>
+<wire x1="29.6" y1="-68" x2="-29.625" y2="-68" width="0" layer="21"/>
+<wire x1="68" y1="29.5" x2="65" y2="32.6" width="0" layer="21" curve="90"/>
+<wire x1="65" y1="42.6" x2="65" y2="32.6" width="0" layer="21" curve="180"/>
+<wire x1="65" y1="42.6" x2="68" y2="45.6" width="0" layer="21" curve="90"/>
+<wire x1="68" y1="45.6" x2="68" y2="55" width="0" layer="21"/>
+<wire x1="68" y1="55" x2="67.9379" y2="57.4822" width="0" layer="21"/>
+<wire x1="67.9379" y1="57.4822" x2="67.5409" y2="59.9085" width="0" layer="21"/>
+<wire x1="67.5409" y1="59.9085" x2="66.5747" y2="62.2566" width="0" layer="21"/>
+<wire x1="66.5747" y1="62.2566" x2="65.0012" y2="64.3894" width="0" layer="21"/>
+<wire x1="65.0012" y1="64.3894" x2="63.943" y2="65.3951" width="0" layer="21"/>
+<wire x1="63.943" y1="65.3951" x2="62.7003" y2="66.3049" width="0" layer="21"/>
+<wire x1="62.7003" y1="66.3049" x2="61.3113" y2="67.0444" width="0" layer="21"/>
+<wire x1="61.3113" y1="67.0444" x2="59.9645" y2="67.5261" width="0" layer="21"/>
+<wire x1="59.9645" y1="67.5261" x2="57.4948" y2="67.9381" width="0" layer="21"/>
+<wire x1="57.4948" y1="67.9381" x2="55" y2="68" width="0" layer="21"/>
+<wire x1="55" y1="68" x2="45.6" y2="68" width="0" layer="21"/>
+<wire x1="45.6" y1="68" x2="42.6" y2="65" width="0" layer="21" curve="90"/>
+<wire x1="32.6" y1="65" x2="42.6" y2="65" width="0" layer="21" curve="180"/>
+<wire x1="32.6" y1="65" x2="29.5" y2="68" width="0" layer="21" curve="90"/>
+<wire x1="57" y1="72" x2="-57" y2="72" width="0.15" layer="51"/>
+<wire x1="-57" y1="72" x2="-72" y2="57" width="0.15" layer="51" curve="90"/>
+<wire x1="-72" y1="57" x2="-72" y2="-57" width="0.15" layer="51"/>
+<wire x1="-72" y1="-57" x2="-57" y2="-72" width="0.15" layer="51" curve="90"/>
+<wire x1="-57" y1="-72" x2="57" y2="-72" width="0.15" layer="51"/>
+<wire x1="57" y1="-72" x2="72" y2="-57" width="0.15" layer="51" curve="90"/>
+<wire x1="72" y1="-57" x2="72" y2="57" width="0.15" layer="51"/>
+<wire x1="72" y1="57" x2="57" y2="72" width="0.15" layer="51" curve="90"/>
+<wire x1="-47.5" y1="-47.5" x2="47.5" y2="-47.5" width="0.125" layer="51"/>
+<wire x1="47.5" y1="-47.5" x2="47.5" y2="6.5" width="0.125" layer="51"/>
+<wire x1="47.5" y1="6.5" x2="-47.5" y2="6.5" width="0.125" layer="51"/>
+<wire x1="-47.5" y1="6.5" x2="-47.5" y2="-47.5" width="0.125" layer="51"/>
+<wire x1="-52.5" y1="10.75" x2="52.5" y2="10.75" width="0.125" layer="51"/>
+<wire x1="52.5" y1="10.75" x2="52.5" y2="-56.5" width="0.125" layer="51"/>
+<wire x1="52.5" y1="-56.5" x2="-52.5" y2="-56.5" width="0.125" layer="51"/>
+<wire x1="-52.5" y1="-56.5" x2="-52.5" y2="10.75" width="0.125" layer="51"/>
+<dimension x1="-52.5" y1="-56.5" x2="-22.5" y2="-40.625" x3="-37.5" y3="-52" textsize="1.778" layer="51" dtype="horizontal"/>
+<wire x1="-5" y1="63" x2="-4" y2="62" width="0" layer="21" curve="90"/>
+<wire x1="-4" y1="62" x2="4" y2="62" width="0" layer="21"/>
+<wire x1="4" y1="62" x2="5" y2="63" width="0" layer="21" curve="90"/>
+<wire x1="5" y1="63" x2="4" y2="64" width="0" layer="21" curve="90"/>
+<wire x1="4" y1="64" x2="-4" y2="64" width="0" layer="21"/>
+<wire x1="-4" y1="64" x2="-5" y2="63" width="0" layer="21" curve="90"/>
+<rectangle x1="-15.25" y1="-33.25" x2="15.25" y2="17.75" layer="52"/>
+<wire x1="122" y1="-125" x2="125" y2="-122" width="0" layer="20" curve="90"/>
+<wire x1="125" y1="-122" x2="125" y2="122" width="0" layer="20"/>
+<wire x1="125" y1="122" x2="122" y2="125" width="0" layer="20" curve="90"/>
+<wire x1="122" y1="125" x2="-122" y2="125" width="0" layer="20"/>
+<wire x1="-122" y1="125" x2="-125" y2="122" width="0" layer="20" curve="90"/>
+<wire x1="-125" y1="122" x2="-125" y2="-122" width="0" layer="20"/>
+<wire x1="-125" y1="-122" x2="-122" y2="-125" width="0" layer="20" curve="90"/>
+<wire x1="-122" y1="-125" x2="122" y2="-125" width="0" layer="20"/>
+<wire x1="55" y1="-75" x2="75" y2="-55" width="0.125" layer="21" curve="90"/>
+<wire x1="75" y1="-55" x2="75" y2="55" width="0.125" layer="21"/>
+<wire x1="75" y1="55" x2="55" y2="75" width="0.125" layer="21" curve="90"/>
+<wire x1="55" y1="75" x2="-55" y2="75" width="0.125" layer="21"/>
+<wire x1="-55" y1="75" x2="-75" y2="55" width="0.125" layer="21" curve="90"/>
+<wire x1="-75" y1="55" x2="-75" y2="-55" width="0.125" layer="21"/>
+<wire x1="-75" y1="-55" x2="-55" y2="-75" width="0.125" layer="21" curve="90"/>
+<wire x1="-55" y1="-75" x2="55" y2="-75" width="0.125" layer="21"/>
+</plain>
+<libraries>
+<library name="r_0603">
+<packages>
+<package name="0603">
+<description>Standard imperial 0603.</description>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1.5" y="0.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.375" y1="0.625" x2="1.375" y2="0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="0.625" x2="1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="-0.625" x2="-1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="-1.375" y1="-0.625" x2="-1.375" y2="0.625" width="0.125" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="TRANSISTORs">
+<packages>
+<package name="SOT23-3">
+<text x="-1.75" y="1.875" size="1" layer="25">&gt;NAME</text>
+<smd name="1" x="-1" y="-1" dx="0.8" dy="1" layer="1"/>
+<smd name="3" x="1" y="-1" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0" y="1" dx="0.8" dy="1" layer="1"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.122" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="MISC">
+<packages>
+<package name="MOUNTHOLE_6X3">
+<hole x="0" y="0" drill="3.3"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="41"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="42"/>
+<circle x="0" y="0" radius="3" width="0.25" layer="22"/>
+<circle x="0" y="0" radius="3" width="0.25" layer="21"/>
+</package>
+<package name="0914">
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.5"/>
+<circle x="0" y="0" radius="0.8" width="0.127" layer="21"/>
+<text x="0" y="1.25" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="ELECTROMECH">
+<packages>
+<package name="CS11043.8F180">
+<smd name="1" x="-3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-4.75" y1="-2.5" x2="4.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="-2.5" x2="4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="2.5" x2="-4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4.75" y1="2.5" x2="-4.75" y2="-2.5" width="0.15" layer="21"/>
+<circle x="-2.25" y="1.5" radius="0.25" width="0.15" layer="21"/>
+<text x="-4.75" y="2.75" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="OPTO">
+<packages>
+<package name="CLX6F-FKC">
+<smd name="1" x="-1.5" y="1" dx="0.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="0" dx="0.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="-1.5" y="-1" dx="0.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="1.5" y="-1" dx="0.5" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="0" dx="0.5" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="1.5" y="1" dx="0.5" dy="1" layer="1" rot="R90"/>
+<wire x1="-2.125" y1="1.75" x2="-2" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-2" y1="1.75" x2="-1.875" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.875" y1="1.75" x2="-1.75" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="-1.625" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.625" y1="1.75" x2="-1.5" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="2.125" y2="1.75" width="0.125" layer="21"/>
+<wire x1="2.125" y1="1.75" x2="2.125" y2="-1.625" width="0.125" layer="21"/>
+<wire x1="2.125" y1="-1.625" x2="2.125" y2="-1.75" width="0.125" layer="21"/>
+<wire x1="2.125" y1="-1.75" x2="-1.5" y2="-1.75" width="0.125" layer="21"/>
+<wire x1="-1.5" y1="-1.75" x2="-2.125" y2="-1.75" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="-1.75" x2="-2.125" y2="1.125" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.125" x2="-2.125" y2="1.25" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.25" x2="-2.125" y2="1.375" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.375" x2="-2.125" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.5" x2="-2.125" y2="1.625" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.625" x2="-2.125" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.75" x2="-2" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-2" y1="1.75" x2="-2.125" y2="1.625" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.625" x2="-2.125" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.5" x2="-1.875" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.875" y1="1.75" x2="-1.75" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="-2.125" y2="1.375" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.375" x2="-2.125" y2="1.25" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.25" x2="-1.625" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.625" y1="1.75" x2="-1.5" y2="1.75" width="0.125" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="-2.125" y2="1.125" width="0.125" layer="21"/>
+<text x="-2.125" y="1.875" size="1" layer="21">&gt;NAME</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="USB" width="0.25" drill="0.25">
+<clearance class="1" value="1"/>
+</class>
+<class number="2" name="DDR" width="0.1016" drill="0.2">
+</class>
+</classes>
+<designrules name="myDRC 8 layers 0.1016mm *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;myDRC 8 layers&lt;/b&gt;
+&lt;p&gt;
+</description>
+<param name="layerSetup" value="(1*2*3*4*5*6*7*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="0.27mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="4mil"/>
+<param name="mdWirePad" value="4mil"/>
+<param name="mdWireVia" value="4mil"/>
+<param name="mdPadPad" value="4mil"/>
+<param name="mdPadVia" value="4mil"/>
+<param name="mdViaVia" value="4mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.25mm"/>
+<param name="mdDrill" value="0.25mm"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="4mil"/>
+<param name="msDrill" value="0.2mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.1"/>
+<param name="rvViaInner" value="0.1"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="3mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="3mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="3mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMaxViaOuter" value="3mil"/>
+<param name="rlMinViaInner" value="3mil"/>
+<param name="rlMaxViaInner" value="3mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="1mm"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="MECH5" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-27.5" y="-65" smashed="yes" rot="R90"/>
+<element name="MECH6" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="27.5" y="-65" smashed="yes" rot="R90"/>
+<element name="MECH7" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-65" y="10" smashed="yes" rot="R90"/>
+<element name="MECH8" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="65" y="-5" smashed="yes" rot="R90"/>
+<element name="MECH9" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-27.5" y="65" smashed="yes"/>
+<element name="MECH10" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="27.5" y="65" smashed="yes"/>
+<element name="SW2" library="ELECTROMECH" package="CS11043.8F180" value="SM TACT" x="100" y="10" smashed="yes">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" x="100" y="10" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="3.8" x="100" y="10" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.25" y="12.75" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.2" x="100" y="10" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW3" library="ELECTROMECH" package="CS11043.8F180" value="SM TACT" x="100" y="30" smashed="yes">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" x="100" y="30" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="3.8" x="100" y="30" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.25" y="32.75" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.2" x="100" y="30" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW4" library="ELECTROMECH" package="CS11043.8F180" value="SM TACT" x="100" y="20" smashed="yes">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" x="100" y="20" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="3.8" x="100" y="20" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.25" y="22.75" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.2" x="100" y="20" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SW5" library="ELECTROMECH" package="CS11043.8F180" value="SM TACT" x="100" y="40" smashed="yes">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" x="100" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="3.8" x="100" y="40" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="95.25" y="42.75" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.2" x="100" y="40" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D11" library="OPTO" package="CLX6F-FKC" value="RGB LED" x="100" y="50" smashed="yes">
+<attribute name="DIGIKEY" value="CLX6F-FKC-CKNNQDGBB7A363CT-ND" x="100" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.9" x="100" y="50" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="99.5" y="51.875" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.23" x="100" y="50" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q4" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="92.625" y="46.5" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="1727-4692-1-ND" x="87.375" y="51.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="87.375" y="51.375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="94.5" y="48.25" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.15" x="87.375" y="51.375" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="Q6" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="92.625" y="50" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="1727-4692-1-ND" x="82.625" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="82.625" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="94.5" y="51.75" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.15" x="82.625" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="Q7" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="92.625" y="53.5" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="1727-4692-1-ND" x="83.125" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="83.125" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="94.5" y="55.25" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.15" x="83.125" y="53.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R109" library="r_0603" package="0603" value="4.99k" x="90.25" y="53.875" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="541-3007-1-ND" x="99.75" y="45.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1" x="99.75" y="45.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="90.25" y="53.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="89.5" y="52.5" size="0.508" layer="25" rot="R90"/>
+<attribute name="POWER" value="0.1W, 1/10W" x="90.25" y="53.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE_PER" value="0.12000" x="99.75" y="45.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="182" x="90.25" y="53.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="90.25" y="53.875" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R110" library="r_0603" package="0603" value="4.99k" x="90.25" y="50.375" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="541-3007-1-ND" x="98.75" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1" x="98.75" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="90.25" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="89.5" y="49" size="0.508" layer="25" rot="R90"/>
+<attribute name="POWER" value="0.1W, 1/10W" x="90.25" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE_PER" value="0.12000" x="98.75" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="182" x="90.25" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="90.25" y="50.375" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R111" library="r_0603" package="0603" value="4.99k" x="90.25" y="46.875" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="541-3007-1-ND" x="101" y="44.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1" x="101" y="44.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="90.25" y="46.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="89.5" y="45.5" size="0.508" layer="25" rot="R90"/>
+<attribute name="POWER" value="0.1W, 1/10W" x="90.25" y="46.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE_PER" value="0.12000" x="101" y="44.375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="STOCK" value="182" x="90.25" y="46.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="±1%" x="90.25" y="46.875" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R112" library="r_0603" package="0603" value="82R" x="106.125" y="48.75" smashed="yes">
+<attribute name="DIGIKEY" value="P82.0HCT-ND" x="103" y="27.75" size="1.778" layer="27" display="off"/>
+<attribute name="FARNELL" value="" x="103" y="27.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="107.625" y="48.125" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.10000" x="103" y="27.75" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R113" library="r_0603" package="0603" value="62R" x="106.125" y="50" smashed="yes">
+<attribute name="DIGIKEY" value="P62.0HCT-ND" x="106.125" y="30.5" size="1.778" layer="27" display="off"/>
+<attribute name="FARNELL" value="" x="106.125" y="30.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="107.625" y="49.375" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.10000" x="106.125" y="30.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R114" library="r_0603" package="0603" value="30R" x="106.125" y="51.25" smashed="yes">
+<attribute name="DIGIKEY" value="P30.0HCT-ND" x="101.875" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="FARNELL" value="" x="101.875" y="28.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="107.625" y="50.625" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.10000" x="101.875" y="28.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP1" library="MISC" package="0914" value="0914-3" x="-58" y="-32" smashed="yes">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-58" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-58" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-58" y="-31.25" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="-58" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-58" y="-32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP2" library="MISC" package="0914" value="0914-3" x="-56" y="-32" smashed="yes">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-56" y="-31.25" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-32" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP3" library="MISC" package="0914" value="0914-3" x="-54" y="-32" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-54" y="-32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-54" y="-32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-54" y="-32.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-54" y="-32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-54" y="-32" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP4" library="MISC" package="0914" value="0914-3" x="-56" y="-34" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-56" y="-34.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-34" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP6" library="MISC" package="0914" value="0914-3" x="-66" y="-22" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-22.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-22" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP7" library="MISC" package="0914" value="0914-3" x="-66" y="-20" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-20" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-20" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-20.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-20" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-20" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP8" library="MISC" package="0914" value="0914-3" x="-66" y="-18" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-18.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-18" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP9" library="MISC" package="0914" value="0914-3" x="-66" y="-16" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-16.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-16" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP5" library="MISC" package="0914" value="0914-3" x="-54" y="-28" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-54" y="-28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-54" y="-28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-54" y="-28.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-54" y="-28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-54" y="-28" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP10" library="MISC" package="0914" value="0914-3" x="-66" y="-14" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-14.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP11" library="MISC" package="0914" value="0914-3" x="-66" y="-12" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-12.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP12" library="MISC" package="0914" value="0914-3" x="-66" y="-10" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-10.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP13" library="MISC" package="0914" value="0914-3" x="-66" y="-8" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-8.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP14" library="MISC" package="0914" value="0914-3" x="-66" y="-6" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-66" y="-6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-66" y="-6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-66" y="-6.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-66" y="-6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-66" y="-6" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP15" library="MISC" package="0914" value="0914-3" x="-58" y="-14" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-58" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-58" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-58" y="-14.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-58" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-58" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP16" library="MISC" package="0914" value="0914-3" x="-56" y="-12" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-56" y="-12.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP17" library="MISC" package="0914" value="0914-3" x="-56" y="-14" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-56" y="-14.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-14" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP18" library="MISC" package="0914" value="0914-3" x="-58" y="-12" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-58" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-58" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-58" y="-12.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-58" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-58" y="-12" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP19" library="MISC" package="0914" value="0914-3" x="-56" y="-10" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-56" y="-10.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP20" library="MISC" package="0914" value="0914-3" x="-56" y="-8" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-56" y="-8.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-8" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP21" library="MISC" package="0914" value="0914-3" x="-58" y="-10" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-58" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-58" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-58" y="-10.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-58" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-58" y="-10" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP22" library="MISC" package="0914" value="0914-3" x="-54" y="44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-54" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-54" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-53.25" y="44" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-54" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-54" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP23" library="MISC" package="0914" value="0914-3" x="-52" y="46" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-52" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-52" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-52" y="45.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-52" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-52" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP24" library="MISC" package="0914" value="0914-3" x="-44" y="56" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-44" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-44" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-43.25" y="56" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-44" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-44" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP25" library="MISC" package="0914" value="0914-3" x="-48" y="54" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-48" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-48" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-47.25" y="54" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-48" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-48" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP26" library="MISC" package="0914" value="0914-3" x="-62" y="50" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-62" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-62" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-61.25" y="50" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-62" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-62" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP27" library="MISC" package="0914" value="0914-3" x="-54" y="48" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-54" y="48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-54" y="48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-54" y="47.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-54" y="48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-54" y="48" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP28" library="MISC" package="0914" value="0914-3" x="-44" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-44" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-44" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-43.25" y="48" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-44" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-44" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP29" library="MISC" package="0914" value="0914-3" x="-46" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-46" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-46" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-45.25" y="48" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-46" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-46" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP30" library="MISC" package="0914" value="0914-3" x="20" y="-30" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="20" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="20" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20" y="-30.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="20" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="20" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP31" library="MISC" package="0914" value="0914-3" x="-36" y="40" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-36" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-36" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-36" y="39.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-36" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-36" y="40" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP32" library="MISC" package="0914" value="0914-3" x="52" y="26" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="52" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="52" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="52.75" y="26" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="52" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="52" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP33" library="MISC" package="0914" value="0914-3" x="22" y="-30" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="22" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="22" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22" y="-30.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="22" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="22" y="-30" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP34" library="MISC" package="0914" value="0914-3" x="38" y="54" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.75" y="54" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="38" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP35" library="MISC" package="0914" value="0914-3" x="22" y="-32" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="22" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="22" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="22" y="-32.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="22" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="22" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP36" library="MISC" package="0914" value="0914-3" x="20" y="-32" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="20" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="20" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20" y="-32.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="20" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="20" y="-32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP37" library="MISC" package="0914" value="0914-3" x="20" y="-34" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="20" y="-34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="20" y="-34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20" y="-34.625" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="20" y="-34" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="20" y="-34" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP38" library="MISC" package="0914" value="0914-3" x="-30" y="-6" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-30" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-30" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-30" y="-7" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-30" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-30" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP39" library="MISC" package="0914" value="0914-3" x="-34" y="-6" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-34" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-34" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-34.125" y="-6.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-34" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-34" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP40" library="MISC" package="0914" value="0914-3" x="20" y="-64" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="20" y="-64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="20" y="-64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="20.75" y="-64" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="20" y="-64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="20" y="-64" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP41" library="MISC" package="0914" value="0914-3" x="10" y="-62" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="10" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="10" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.75" y="-62" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="10" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="10" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP42" library="MISC" package="0914" value="0914-3" x="14" y="-66" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="14" y="-66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="14" y="-66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="14.75" y="-66" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="14" y="-66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="14" y="-66" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP43" library="MISC" package="0914" value="0914-3" x="-6" y="46" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-6" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-6" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-5.25" y="46" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-6" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-6" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP44" library="MISC" package="0914" value="0914-3" x="30" y="50" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="30" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="30" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="30" y="49.375" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="30" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="30" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP45" library="MISC" package="0914" value="0914-3" x="34" y="-38" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="-38" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="-38" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.75" y="-38" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="-38" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="-38" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP46" library="MISC" package="0914" value="0914-3" x="34" y="6" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.75" y="6" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="6" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP47" library="MISC" package="0914" value="0914-3" x="42" y="4" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="42" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="42" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.75" y="4" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="42" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="42" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP48" library="MISC" package="0914" value="0914-3" x="32" y="24" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="32" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="32" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32" y="23.375" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="32" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="32" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP49" library="MISC" package="0914" value="0914-3" x="36" y="22" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="36" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="36" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="36.75" y="22" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="36" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="36" y="22" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP50" library="MISC" package="0914" value="0914-3" x="42" y="12" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="42" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="42" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.75" y="12" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="42" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="42" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP51" library="MISC" package="0914" value="0914-3" x="42" y="16" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="42" y="16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="42" y="16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.75" y="16" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="42" y="16" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="42" y="16" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP52" library="MISC" package="0914" value="0914-3" x="36" y="14" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="36" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="36" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="36.75" y="14" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="36" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="36" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP53" library="MISC" package="0914" value="0914-3" x="42" y="0" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="42" y="0" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="42" y="0" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.75" y="0" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="42" y="0" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="42" y="0" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP54" library="MISC" package="0914" value="0914-3" x="0" y="30" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="0" y="30" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="0" y="30" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="0" y="29.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="0" y="30" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="0" y="30" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP55" library="MISC" package="0914" value="0914-3" x="-18" y="52" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-18" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-18" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-17.25" y="52" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-18" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-18" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP56" library="MISC" package="0914" value="0914-3" x="54" y="50" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="54" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="54" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="54.75" y="49.75" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="54" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="54" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP57" library="MISC" package="0914" value="0914-3" x="-62" y="-62" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-62" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-62" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-61.25" y="-62" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-62" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-62" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP58" library="MISC" package="0914" value="0914-3" x="-62" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-62" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-62" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-61.25" y="48" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-62" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-62" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP59" library="MISC" package="0914" value="0914-3" x="-22" y="32" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-22" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-22" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-21.25" y="32" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-22" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-22" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP60" library="MISC" package="0914" value="0914-3" x="34" y="44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.625" y="44" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP61" library="MISC" package="0914" value="0914-3" x="34" y="46" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.625" y="46" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP62" library="MISC" package="0914" value="0914-3" x="38" y="46" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="38" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="38" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38" y="45.375" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="38" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="38" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP63" library="MISC" package="0914" value="0914-3" x="54" y="46" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="54" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="54" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="54.75" y="46" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="54" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="54" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP64" library="MISC" package="0914" value="0914-3" x="-52" y="52" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-52" y="52" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-52" y="52" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-52" y="51.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-52" y="52" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-52" y="52" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP66" library="MISC" package="0914" value="0914-3" x="-56" y="-62" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-56" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-56" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-55.25" y="-62" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-56" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-56" y="-62" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP67" library="MISC" package="0914" value="0914-3" x="-26" y="14" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-26" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-26" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-25.25" y="14" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-26" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-26" y="14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP68" library="MISC" package="0914" value="0914-3" x="-22" y="28" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-22" y="28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-22" y="28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-21.25" y="28" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-22" y="28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-22" y="28" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP69" library="MISC" package="0914" value="0914-3" x="54" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="54" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="54" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="54.75" y="47.875" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="54" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="54" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP70" library="MISC" package="0914" value="0914-3" x="12" y="56" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="12" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="12" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.75" y="56" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="12" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="12" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP71" library="MISC" package="0914" value="0914-3" x="10" y="56" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="10" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="10" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.75" y="56" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="10" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="10" y="56" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP73" library="MISC" package="0914" value="0914-3" x="-8" y="46" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-8" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-8" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-7.25" y="46" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-8" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-8" y="46" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP74" library="MISC" package="0914" value="0914-3" x="16" y="44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="16" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="16" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.75" y="44" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="16" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="16" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP75" library="MISC" package="0914" value="0914-3" x="8" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="8" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="8" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.875" y="47.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="8" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="8" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP76" library="MISC" package="0914" value="0914-3" x="12" y="54" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="12" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="12" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.75" y="54" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="12" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="12" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP77" library="MISC" package="0914" value="0914-3" x="10" y="54" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="10" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="10" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.75" y="54" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="10" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="10" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP78" library="MISC" package="0914" value="0914-3" x="14" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="14" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="14" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="14.75" y="48" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="14" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="14" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP79" library="MISC" package="0914" value="0914-3" x="12" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="12" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="12" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.75" y="48" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="12" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="12" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP80" library="MISC" package="0914" value="0914-3" x="-42" y="44" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-42" y="44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-42" y="44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-42" y="43.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-42" y="44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-42" y="44" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP81" library="MISC" package="0914" value="0914-3" x="38" y="36" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="38" y="36" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="38" y="36" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38" y="35.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="38" y="36" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="38" y="36" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP82" library="MISC" package="0914" value="0914-3" x="34" y="40" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="40" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="40" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.625" y="40" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="40" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="40" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP83" library="MISC" package="0914" value="0914-3" x="34" y="42" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="34" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="34" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.625" y="42" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="34" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="34" y="42" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP72" library="MISC" package="0914" value="0914-3" x="32" y="30" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="32" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="32" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32" y="29.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="32" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="32" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP86" library="MISC" package="0914" value="0914-3" x="-52" y="32" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-52" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-52" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-51.25" y="32" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-52" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-52" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP87" library="MISC" package="0914" value="0914-3" x="18" y="50" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="18" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="18" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18.75" y="50" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="18" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="18" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP88" library="MISC" package="0914" value="0914-3" x="-12" y="44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-12" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-12" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-11.25" y="44" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-12" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-12" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP89" library="MISC" package="0914" value="0914-3" x="-8" y="44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-8" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-8" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-7.25" y="44" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-8" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-8" y="44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP90" library="MISC" package="0914" value="0914-3" x="-12" y="30" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-12" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-12" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-12" y="29.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-12" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-12" y="30" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP91" library="MISC" package="0914" value="0914-3" x="-52" y="-56" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-52" y="-56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-52" y="-56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-51.25" y="-56" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-52" y="-56" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-52" y="-56" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP92" library="MISC" package="0914" value="0914-3" x="-30" y="8" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-30" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-30" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-29.25" y="8" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-30" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-30" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP93" library="MISC" package="0914" value="0914-3" x="-62" y="-44" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-62" y="-44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-62" y="-44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-62" y="-43.25" size="0.5" layer="25"/>
+<attribute name="PRICE_PER" value="0.79" x="-62" y="-44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-62" y="-44" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP94" library="MISC" package="0914" value="0914-3" x="-32" y="26" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-32" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-32" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-31.25" y="26" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-32" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-32" y="26" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP95" library="MISC" package="0914" value="0914-3" x="-32" y="32" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-32" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-32" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-31.25" y="32" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-32" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-32" y="32" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP96" library="MISC" package="0914" value="0914-3" x="-12" y="52" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-12" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-12" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-11.25" y="52" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-12" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-12" y="52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP97" library="MISC" package="0914" value="0914-3" x="42" y="8" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="42" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="42" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="42.75" y="8" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="42" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="42" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP98" library="MISC" package="0914" value="0914-3" x="-50" y="-60" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-50" y="-60" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-50" y="-60" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-49.25" y="-60" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-50" y="-60" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-50" y="-60" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP99" library="MISC" package="0914" value="0914-3" x="-58" y="-24" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-58" y="-24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-58" y="-24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-58.625" y="-24" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-58" y="-24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-58" y="-24" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP100" library="MISC" package="0914" value="0914-3" x="-34" y="8" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-34" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-34" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-33.25" y="8" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="-34" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-34" y="8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP101" library="MISC" package="0914" value="0914-3" x="-52" y="54" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="ED1399-ND" x="-52" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="-52" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-52" y="53.25" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="-52" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0914-3" x="-52" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="TP102" library="MISC" package="0914" value="0914-3" x="14" y="54" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="14" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="14" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="14.75" y="54" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.79" x="14" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="14" y="54" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP103" library="MISC" package="0914" value="0914-3" x="56" y="48" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="ED1399-ND" x="56" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="56" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="55.875" y="47.375" size="0.5" layer="25" rot="R180"/>
+<attribute name="PRICE_PER" value="0.79" x="56" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="0914-3" x="56" y="48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP65" library="MISC" package="0914" value="0914-3" x="28" y="60" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="ED1399-ND" x="28" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="28" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.25" y="60" size="0.5" layer="25" rot="R90"/>
+<attribute name="PRICE_PER" value="0.79" x="28" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="0914-3" x="28" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="TP84" library="MISC" package="0914" value="0914-3" x="24" y="60" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="ED1399-ND" x="24" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="24" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="23.25" y="60" size="0.5" layer="25" rot="R90"/>
+<attribute name="PRICE_PER" value="0.79" x="24" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="0914-3" x="24" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="TP85" library="MISC" package="0914" value="0914-3" x="20" y="60" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="ED1399-ND" x="20" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.96" x="20" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="19.25" y="60" size="0.5" layer="25" rot="R90"/>
+<attribute name="PRICE_PER" value="0.79" x="20" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="0914-3" x="20" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<contactref element="SW2" pad="3"/>
+<contactref element="SW2" pad="4"/>
+<contactref element="SW3" pad="3"/>
+<contactref element="SW3" pad="4"/>
+<contactref element="SW4" pad="3"/>
+<contactref element="SW4" pad="4"/>
+<contactref element="SW5" pad="3"/>
+<contactref element="SW5" pad="4"/>
+<contactref element="R111" pad="1"/>
+<contactref element="R110" pad="1"/>
+<contactref element="R109" pad="1"/>
+<contactref element="Q4" pad="3"/>
+<contactref element="Q7" pad="3"/>
+<contactref element="Q6" pad="3"/>
+<contactref element="TP96" pad="1"/>
+<contactref element="TP97" pad="1"/>
+<contactref element="TP98" pad="1"/>
+<contactref element="TP99" pad="1"/>
+<contactref element="TP100" pad="1"/>
+<contactref element="TP101" pad="1"/>
+<contactref element="TP102" pad="1"/>
+<contactref element="TP103" pad="1"/>
+<polygon width="0.15" layer="16">
+<vertex x="-125" y="-125"/>
+<vertex x="125" y="-125"/>
+<vertex x="125" y="0"/>
+<vertex x="125" y="125"/>
+<vertex x="0" y="125"/>
+<vertex x="-125" y="125"/>
+</polygon>
+<wire x1="91.625" y1="52.5" x2="90.25" y2="53.125" width="0" layer="19" extent="1-1"/>
+<wire x1="90.25" y1="49.625" x2="91.625" y2="52.5" width="0" layer="19" extent="1-1"/>
+<wire x1="91.625" y1="49" x2="90.25" y2="49.625" width="0" layer="19" extent="1-1"/>
+<wire x1="90.25" y1="46.125" x2="91.625" y2="49" width="0" layer="19" extent="1-1"/>
+<wire x1="91.625" y1="45.5" x2="90.25" y2="46.125" width="0" layer="19" extent="1-1"/>
+<wire x1="96.25" y1="38.5" x2="91.625" y2="45.5" width="0" layer="19" extent="1-1"/>
+<wire x1="103.75" y1="38.5" x2="96.25" y2="38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="103.75" y1="28.5" x2="103.75" y2="38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="96.25" y1="28.5" x2="103.75" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="103.75" y1="18.5" x2="103.75" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="96.25" y1="18.5" x2="103.75" y2="18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="103.75" y1="8.5" x2="103.75" y2="18.5" width="0" layer="19" extent="1-1"/>
+<wire x1="96.25" y1="8.5" x2="103.75" y2="8.5" width="0" layer="19" extent="1-1"/>
+<wire x1="56" y1="48" x2="90.25" y2="46.125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ACT_I2C_SCL">
+<contactref element="TP79" pad="1"/>
+</signal>
+<signal name="ACT_I2C_SDA">
+<contactref element="TP78" pad="1"/>
+</signal>
+<signal name="ACT_NINT">
+<contactref element="TP75" pad="1"/>
+</signal>
+<signal name="PWR_USBC_VBUS">
+<contactref element="TP44" pad="1"/>
+</signal>
+<signal name="STP_SWDIO">
+<contactref element="TP24" pad="1"/>
+</signal>
+<signal name="STUSB_NINT">
+<contactref element="TP82" pad="1"/>
+</signal>
+<signal name="STUSB_ATTACH">
+<contactref element="TP62" pad="1"/>
+</signal>
+<signal name="STUSB_RESET">
+<contactref element="TP63" pad="1"/>
+</signal>
+<signal name="STUSB_SCL">
+<contactref element="TP69" pad="1"/>
+</signal>
+<signal name="STUSB_SDA">
+<contactref element="TP56" pad="1"/>
+</signal>
+<signal name="STUSB_PD0">
+<contactref element="TP81" pad="1"/>
+</signal>
+<signal name="STUSB_PD1">
+<contactref element="TP61" pad="1"/>
+</signal>
+<signal name="STUSB_GPIO">
+<contactref element="TP60" pad="1"/>
+</signal>
+<signal name="STUSB_ORI">
+<contactref element="TP83" pad="1"/>
+</signal>
+<signal name="PWR_FPGA_1V8">
+<contactref element="TP93" pad="1"/>
+</signal>
+<signal name="PWR_FPGA_1V0">
+<contactref element="TP91" pad="1"/>
+</signal>
+<signal name="PWR_DDR_1V5">
+<contactref element="TP92" pad="1"/>
+</signal>
+<signal name="USBC_ORI_SEL">
+<contactref element="TP80" pad="1"/>
+</signal>
+<signal name="PWR_3V3_SLP">
+<contactref element="TP54" pad="1"/>
+</signal>
+<signal name="PWR_SYS_2V5">
+<contactref element="TP94" pad="1"/>
+</signal>
+<signal name="SEN_SPI_NCS">
+<contactref element="TP35" pad="1"/>
+</signal>
+<signal name="SEN_SPI_SCLK">
+<contactref element="TP37" pad="1"/>
+</signal>
+<signal name="SEN_SPI_MOSI">
+<contactref element="TP33" pad="1"/>
+</signal>
+<signal name="SEN_SPI_MISO">
+<contactref element="TP36" pad="1"/>
+</signal>
+<signal name="SEN_PWR_EN">
+<contactref element="TP30" pad="1"/>
+</signal>
+<signal name="PWR_SYS_BUS">
+<contactref element="TP88" pad="1"/>
+</signal>
+<signal name="PWR_USBC_VBUS_SW">
+<contactref element="TP43" pad="1"/>
+<contactref element="TP87" pad="1"/>
+<wire x1="-6" y1="46" x2="18" y2="50" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BMS_I2C_SCL">
+<contactref element="TP76" pad="1"/>
+</signal>
+<signal name="BMS_I2C_SDA">
+<contactref element="TP77" pad="1"/>
+</signal>
+<signal name="BMS_NINT">
+<contactref element="TP70" pad="1"/>
+</signal>
+<signal name="BMS_NPRESENT">
+<contactref element="TP71" pad="1"/>
+</signal>
+<signal name="PWR_VBAT_EN">
+<contactref element="TP73" pad="1"/>
+</signal>
+<signal name="STP_NRESET">
+<contactref element="TP26" pad="1"/>
+</signal>
+<signal name="STP_SWCLK">
+<contactref element="TP25" pad="1"/>
+</signal>
+<signal name="DDR_VTTREF" class="2">
+<contactref element="TP39" pad="1"/>
+</signal>
+<signal name="DDR_VTT">
+<contactref element="TP38" pad="1"/>
+</signal>
+<signal name="SD_CD">
+<contactref element="TP52" pad="1"/>
+</signal>
+<signal name="PWR_SYS_3V3">
+<contactref element="TP95" pad="1"/>
+<contactref element="R112" pad="2"/>
+<contactref element="R113" pad="2"/>
+<contactref element="R114" pad="2"/>
+<wire x1="106.875" y1="50" x2="106.875" y2="51.25" width="0" layer="19" extent="1-1"/>
+<wire x1="106.875" y1="48.75" x2="106.875" y2="50" width="0" layer="19" extent="1-1"/>
+<wire x1="-32" y1="32" x2="106.875" y2="48.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FT_PWR_1V0">
+<contactref element="TP45" pad="1"/>
+</signal>
+<signal name="FPGA_TCK">
+<contactref element="TP6" pad="1"/>
+</signal>
+<signal name="FPGA_TMS">
+<contactref element="TP7" pad="1"/>
+</signal>
+<signal name="FPGA_TDO">
+<contactref element="TP8" pad="1"/>
+</signal>
+<signal name="FPGA_TDI">
+<contactref element="TP9" pad="1"/>
+</signal>
+<signal name="FPGA_NINIT">
+<contactref element="TP1" pad="1"/>
+</signal>
+<signal name="FPGA_NPROG">
+<contactref element="TP2" pad="1"/>
+</signal>
+<signal name="FPGA_CFG">
+<contactref element="TP3" pad="1"/>
+</signal>
+<signal name="FPGA_DONE">
+<contactref element="TP4" pad="1"/>
+</signal>
+<signal name="PS_POR_NRESET">
+<contactref element="TP64" pad="1"/>
+</signal>
+<signal name="FPGA_UART_RX">
+<contactref element="TP10" pad="1"/>
+</signal>
+<signal name="FPGA_UART_TX">
+<contactref element="TP11" pad="1"/>
+</signal>
+<signal name="SD_WP">
+<contactref element="TP53" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_CLK">
+<contactref element="TP12" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_EN">
+<contactref element="TP13" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D0">
+<contactref element="TP14" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D1">
+<contactref element="TP15" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D2">
+<contactref element="TP17" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D3">
+<contactref element="TP16" pad="1"/>
+</signal>
+<signal name="STP_UART_TX">
+<contactref element="TP22" pad="1"/>
+</signal>
+<signal name="STP_UART_RX">
+<contactref element="TP23" pad="1"/>
+</signal>
+<signal name="DEBUG_GPIO_0">
+<contactref element="TP27" pad="1"/>
+</signal>
+<signal name="DEBUG_GPIO_1">
+<contactref element="TP58" pad="1"/>
+</signal>
+<signal name="FPGA_JTAG_NRESET">
+<contactref element="TP5" pad="1"/>
+</signal>
+<signal name="TFT_LED_K">
+<contactref element="TP41" pad="1"/>
+</signal>
+<signal name="TFT_LED_A">
+<contactref element="TP40" pad="1"/>
+</signal>
+<signal name="TFT_BL_PWM">
+<contactref element="TP42" pad="1"/>
+</signal>
+<signal name="PWR_SYS_3V3_EN">
+<contactref element="TP59" pad="1"/>
+</signal>
+<signal name="PWR_SYS_5V">
+<contactref element="TP90" pad="1"/>
+</signal>
+<signal name="PWR_FPGA_1V0_EN">
+<contactref element="TP66" pad="1"/>
+</signal>
+<signal name="PWR_FPGA_1V8_EN">
+<contactref element="TP57" pad="1"/>
+</signal>
+<signal name="PWR_SYS_2V5_EN">
+<contactref element="TP68" pad="1"/>
+</signal>
+<signal name="PWR_DDR_1V5_EN">
+<contactref element="TP67" pad="1"/>
+</signal>
+<signal name="PWR_SYS_STANDBY">
+<contactref element="TP89" pad="1"/>
+</signal>
+<signal name="ACT_NCHG">
+<contactref element="TP74" pad="1"/>
+</signal>
+<signal name="MON_SYS_BUS_CUR">
+<contactref element="TP55" pad="1"/>
+</signal>
+<signal name="BTN_ONOFF">
+<contactref element="SW4" pad="1"/>
+<contactref element="SW4" pad="2"/>
+<contactref element="TP72" pad="1"/>
+<wire x1="96.25" y1="21.5" x2="103.75" y2="21.5" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="30" x2="96.25" y2="21.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="WAKE_SIGNAL">
+<contactref element="TP86" pad="1"/>
+</signal>
+<signal name="CNT_UART_TX">
+<contactref element="TP29" pad="1"/>
+</signal>
+<signal name="CNT_UART_RX">
+<contactref element="TP28" pad="1"/>
+</signal>
+<signal name="BTN_SHUTTER">
+<contactref element="SW2" pad="1"/>
+<contactref element="SW2" pad="2"/>
+<contactref element="TP31" pad="1"/>
+<wire x1="96.25" y1="11.5" x2="103.75" y2="11.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-36" y1="40" x2="96.25" y2="11.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BTN_ZOOM">
+<contactref element="SW3" pad="1"/>
+<contactref element="SW3" pad="2"/>
+<contactref element="TP32" pad="1"/>
+<wire x1="96.25" y1="31.5" x2="103.75" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="52" y1="26" x2="96.25" y2="31.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BTN_MANAUTO">
+<contactref element="SW5" pad="1"/>
+<contactref element="SW5" pad="2"/>
+<contactref element="TP34" pad="1"/>
+<wire x1="96.25" y1="41.5" x2="103.75" y2="41.5" width="0" layer="19" extent="1-1"/>
+<wire x1="38" y1="54" x2="96.25" y2="41.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="FPGA_DEBUG_D4">
+<contactref element="TP18" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D5">
+<contactref element="TP19" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D6">
+<contactref element="TP20" pad="1"/>
+</signal>
+<signal name="FPGA_DEBUG_D7">
+<contactref element="TP21" pad="1"/>
+</signal>
+<signal name="N$58">
+<contactref element="Q7" pad="2"/>
+<contactref element="D11" pad="1"/>
+<wire x1="98.5" y1="51" x2="93.625" y2="53.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$66">
+<contactref element="Q6" pad="2"/>
+<contactref element="D11" pad="2"/>
+<wire x1="98.5" y1="50" x2="93.625" y2="50" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$67">
+<contactref element="Q4" pad="2"/>
+<contactref element="D11" pad="3"/>
+<wire x1="93.625" y1="46.5" x2="98.5" y2="49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_PWM_R">
+<contactref element="Q4" pad="1"/>
+<contactref element="R111" pad="2"/>
+<contactref element="TP65" pad="1"/>
+<wire x1="90.25" y1="47.625" x2="91.625" y2="47.5" width="0" layer="19" extent="1-1"/>
+<wire x1="28" y1="60" x2="90.25" y2="47.625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_PWM_G">
+<contactref element="Q6" pad="1"/>
+<contactref element="R110" pad="2"/>
+<contactref element="TP84" pad="1"/>
+<wire x1="90.25" y1="51.125" x2="91.625" y2="51" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="60" x2="90.25" y2="51.125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_PWM_B">
+<contactref element="Q7" pad="1"/>
+<contactref element="R109" pad="2"/>
+<contactref element="TP85" pad="1"/>
+<wire x1="90.25" y1="54.625" x2="91.625" y2="54.5" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="60" x2="90.25" y2="54.625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$68">
+<contactref element="D11" pad="4"/>
+<contactref element="R112" pad="1"/>
+<wire x1="101.5" y1="49" x2="105.375" y2="48.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$69">
+<contactref element="D11" pad="5"/>
+<contactref element="R113" pad="1"/>
+<wire x1="101.5" y1="50" x2="105.375" y2="50" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$70">
+<contactref element="D11" pad="6"/>
+<contactref element="R114" pad="1"/>
+<wire x1="101.5" y1="51" x2="105.375" y2="51.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SD_D0">
+<contactref element="TP46" pad="1"/>
+</signal>
+<signal name="SD_D1">
+<contactref element="TP47" pad="1"/>
+</signal>
+<signal name="SD_D2">
+<contactref element="TP48" pad="1"/>
+</signal>
+<signal name="SD_D3">
+<contactref element="TP49" pad="1"/>
+</signal>
+<signal name="SD_CLK">
+<contactref element="TP50" pad="1"/>
+</signal>
+<signal name="SD_CMD">
+<contactref element="TP51" pad="1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8181818"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFF181818"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFC7C7C7"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF181818"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+</compatibility>
+</eagle>
