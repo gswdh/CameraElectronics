@@ -316,6 +316,22 @@ and SHA-256 Authentication</description>
 <wire x1="-6.75" y1="2.75" x2="-6.75" y2="-2.75" width="0.125" layer="21"/>
 <text x="-6.75" y="2.875" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="1122">
+<smd name="+" x="41.75" y="0" dx="7.5" dy="6" layer="1"/>
+<smd name="-" x="-41.75" y="0" dx="7.5" dy="6" layer="1"/>
+<hole x="-27.925" y="-9" drill="3.5"/>
+<hole x="27.925" y="9" drill="3.5"/>
+<hole x="38.475" y="-9" drill="2.4"/>
+<wire x1="46" y1="13" x2="46" y2="-13" width="0.15" layer="21"/>
+<wire x1="46" y1="-13" x2="-46" y2="-13" width="0.15" layer="21"/>
+<wire x1="-46" y1="-13" x2="-46" y2="13" width="0.15" layer="21"/>
+<wire x1="-46" y1="13" x2="46" y2="13" width="0.15" layer="21"/>
+<text x="-46" y="13.125" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="-41" y1="13" x2="-41" y2="4" width="0.15" layer="25"/>
+<wire x1="-41" y1="-4" x2="-41" y2="-13" width="0.15" layer="25"/>
+<wire x1="41" y1="13" x2="41" y2="4" width="0.15" layer="25"/>
+<wire x1="41" y1="-4" x2="41" y2="-13" width="0.15" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="15PIN_HEADER">
@@ -340,6 +356,18 @@ and SHA-256 Authentication</description>
 <pin name="13" x="7.62" y="-12.7" visible="pin" length="short" rot="R180"/>
 <pin name="14" x="7.62" y="-15.24" visible="pin" length="short" rot="R180"/>
 <pin name="15" x="7.62" y="-17.78" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="CELL">
+<pin name="V+" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="2.54" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.635" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.635" width="0.1778" layer="94"/>
+<text x="-3.81" y="0" size="1.778" layer="95" rot="R90" align="center">&gt;NAME</text>
+<text x="3.81" y="0" size="1.778" layer="96" rot="R90" align="center">&gt;VALUE</text>
+<pin name="V-" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.1778" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -373,6 +401,28 @@ and SHA-256 Authentication</description>
 <attribute name="HEIGHT" value="1.8" constant="no"/>
 <attribute name="PRICE_PER" value="0.46" constant="no"/>
 <attribute name="VALUE" value="15PIN 0.5MM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KEYSTONE1122" prefix="CN">
+<description>Battery Holder (Open) 20700, 21700 1 Cell SMD (SMT) Tab</description>
+<gates>
+<gate name="G$1" symbol="CELL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1122">
+<connects>
+<connect gate="G$1" pin="V+" pad="+"/>
+<connect gate="G$1" pin="V-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="36-1122-ND" constant="no"/>
+<attribute name="HEIGHT" value="22" constant="no"/>
+<attribute name="PRICE_PER" value="4.1" constant="no"/>
+<attribute name="VALUE" value="21700" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -870,13 +920,15 @@ and SHA-256 Authentication</description>
 <part name="GND4" library="NETS" deviceset="GND" device=""/>
 <part name="U$2" library="NETS" deviceset="PGND" device=""/>
 <part name="R13" library="r_0603" deviceset="ERJ3EKF10R0V" device="" value="10R"/>
+<part name="CN1" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
+<part name="CN2" library="CONNECTORs" deviceset="KEYSTONE1122" device="" value="21700"/>
 </parts>
 <sheets>
 <sheet>
 <description>TITLE</description>
 <plain>
 <text x="0" y="0" size="7.62" layer="97" font="vector" align="center">YYYY.MM.DD - GSWDH LTD.
-CAMERA MAIN PCB
+CAMERA POWER PCB
 
 REVISION 1.x.x
 DESIGN BY GEORGE WALLER, GSWDH LTD.
@@ -1064,6 +1116,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-10.16" y="-78.74" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-5.08" y="-78.74" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
+<instance part="CN1" gate="G$1" x="-50.8" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-54.61" y="-38.1" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-46.99" y="-38.1" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="CN2" gate="G$1" x="-50.8" y="-22.86" smashed="yes">
+<attribute name="NAME" x="-54.61" y="-22.86" size="1.778" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-46.99" y="-22.86" size="1.778" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1152,6 +1212,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-50.8" y1="-30.48" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-33.02" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-30.48"/>
+<pinref part="CN1" gate="G$1" pin="V+"/>
+<pinref part="CN2" gate="G$1" pin="V-"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -1291,6 +1353,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <segment>
 <pinref part="U$28" gate="G$1" pin="PGND"/>
 <wire x1="-50.8" y1="-45.72" x2="-50.8" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="V-"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -1414,6 +1477,7 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-50.8" y1="-15.24" x2="-50.8" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-17.78" x2="-50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-15.24"/>
+<pinref part="CN2" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="PWR_VPACK" class="0">
