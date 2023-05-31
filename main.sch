@@ -8992,11 +8992,8 @@
 <part name="C257" library="c_0402" deviceset="04023C104KAT2A" device="" value="0.1uF 25V"/>
 <part name="GND335" library="NETS" deviceset="GND" device=""/>
 <part name="R96" library="RESISTORS" deviceset="EXB-38V220JV" device="" value="22R"/>
-<part name="D12" library="OPTO" deviceset="B1931TW--20P000314U1930" device="" value="WHITE"/>
 <part name="D13" library="OPTO" deviceset="B1931TW--20P000314U1930" device="" value="WHITE"/>
-<part name="GND336" library="NETS" deviceset="GND" device=""/>
 <part name="GND337" library="NETS" deviceset="GND" device=""/>
-<part name="R97" library="r_0402" deviceset="ERJ-2RKF1200X" device="" value="120"/>
 <part name="R98" library="r_0402" deviceset="ERJ-2RKF1200X" device="" value="120"/>
 </parts>
 <sheets>
@@ -13019,23 +13016,12 @@ RESET</text>
 <attribute name="NAME" x="-297.18" y="68.58" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-297.18" y="66.04" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="D12" gate="G$1" x="-7.62" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="-10.16" y="38.1" size="1.27" layer="95" rot="R270" align="center"/>
-<attribute name="VALUE" x="-12.7" y="38.1" size="1.27" layer="96" rot="R270" align="center"/>
-</instance>
 <instance part="D13" gate="G$1" x="2.54" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="0" y="38.1" size="1.27" layer="95" rot="R270" align="center"/>
 <attribute name="VALUE" x="-2.54" y="38.1" size="1.27" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="GND336" gate="G$1" x="-7.62" y="27.94" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="25.4" size="1.778" layer="96" align="center"/>
-</instance>
 <instance part="GND337" gate="G$1" x="2.54" y="27.94" smashed="yes">
 <attribute name="VALUE" x="2.54" y="25.4" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="R97" gate="G$1" x="-7.62" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="-10.16" y="50.8" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-5.08" y="50.8" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="R98" gate="G$1" x="2.54" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="0" y="50.8" size="1.27" layer="95" rot="R90" align="center"/>
@@ -13469,11 +13455,6 @@ RESET</text>
 <pinref part="C257" gate="G$1" pin="1"/>
 <pinref part="GND334" gate="G$1" pin="GND"/>
 <wire x1="142.24" y1="-200.66" x2="142.24" y2="-203.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D12" gate="G$1" pin="K"/>
-<pinref part="GND336" gate="G$1" pin="GND"/>
-<wire x1="-7.62" y1="30.48" x2="-7.62" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D13" gate="G$1" pin="K"/>
@@ -15163,7 +15144,7 @@ RESET</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="GPIO_AD_35"/>
 <wire x1="-162.56" y1="101.6" x2="-127" y2="101.6" width="0.1524" layer="91"/>
-<label x="-157.48" y="101.6" size="1.778" layer="95"/>
+<label x="-160.02" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_FPGA_1V0_EN" class="0">
@@ -15193,12 +15174,22 @@ RESET</text>
 <wire x1="-162.56" y1="-50.8" x2="-127" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-160.02" y="-50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="147.32" y="-152.4" size="1.778" layer="95"/>
+<wire x1="109.22" y1="-152.4" x2="172.72" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="CN6" gate="G$1" pin="12"/>
+</segment>
 </net>
 <net name="PSS_FPGA_SPI_MOSI" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="GPIO_AD_26"/>
 <wire x1="-162.56" y1="124.46" x2="-127" y2="124.46" width="0.1524" layer="91"/>
 <label x="-160.02" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="147.32" y="-149.86" size="1.778" layer="95"/>
+<wire x1="109.22" y1="-149.86" x2="172.72" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="CN6" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="PSS_FPGA_SPI_MISO" class="0">
@@ -15291,25 +15282,16 @@ RESET</text>
 <label x="-160.02" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DSP_SPI_CS" class="0">
+<net name="DSP_SPI_NCS" class="0">
 <segment>
 <label x="147.32" y="-165.1" size="1.778" layer="95"/>
 <wire x1="109.22" y1="-165.1" x2="172.72" y2="-165.1" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="17"/>
 </segment>
-</net>
-<net name="DSP_SPI_SCLK" class="0">
 <segment>
-<label x="147.32" y="-152.4" size="1.778" layer="95"/>
-<wire x1="109.22" y1="-152.4" x2="172.72" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="CN6" gate="G$1" pin="12"/>
-</segment>
-</net>
-<net name="DSP_SPI_MOSI" class="0">
-<segment>
-<label x="147.32" y="-149.86" size="1.778" layer="95"/>
-<wire x1="109.22" y1="-149.86" x2="172.72" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="CN6" gate="G$1" pin="11"/>
+<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_11"/>
+<wire x1="-162.56" y1="-60.96" x2="-127" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-160.02" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DSP_VCOM" class="0">
@@ -15334,12 +15316,22 @@ RESET</text>
 <wire x1="109.22" y1="-160.02" x2="172.72" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="15"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GPIO_EMC_B1_40"/>
+<wire x1="-71.12" y1="88.9" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="-68.58" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DSP_NRESET" class="0">
 <segment>
 <label x="147.32" y="-162.56" size="1.778" layer="95"/>
 <wire x1="109.22" y1="-162.56" x2="172.72" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="16"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GPIO_EMC_B1_41"/>
+<wire x1="-71.12" y1="86.36" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="-68.58" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -15623,42 +15615,6 @@ RESET</text>
 <wire x1="-129.54" y1="-93.98" x2="-127" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$120" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_00"/>
-<wire x1="-162.56" y1="-33.02" x2="-127" y2="-33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$122" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_01"/>
-<wire x1="-162.56" y1="-35.56" x2="-127" y2="-35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$124" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_03"/>
-<wire x1="-162.56" y1="-40.64" x2="-127" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$125" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_05"/>
-<wire x1="-162.56" y1="-45.72" x2="-127" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$130" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_10"/>
-<wire x1="-162.56" y1="-58.42" x2="-127" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$131" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_SD_B2_11"/>
-<wire x1="-162.56" y1="-60.96" x2="-127" y2="-60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PWR_SEN_N1V3A_EN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="GPIO_DISP_B2_09"/>
@@ -15666,31 +15622,11 @@ RESET</text>
 <label x="-160.02" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$107" class="0">
-<segment>
-<pinref part="D12" gate="G$1" pin="A"/>
-<pinref part="R97" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="45.72" x2="-7.62" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$108" class="0">
 <segment>
 <pinref part="D13" gate="G$1" pin="A"/>
 <pinref part="R98" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PSS_LED_1" class="0">
-<segment>
-<pinref part="R97" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="55.88" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<label x="5.08" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="GPIO_EMC_B1_40"/>
-<wire x1="-71.12" y1="88.9" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
-<label x="-68.58" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PSS_LED_0" class="0">
@@ -15701,9 +15637,9 @@ RESET</text>
 <label x="5.08" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GPIO_EMC_B1_41"/>
-<wire x1="-71.12" y1="86.36" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
-<label x="-68.58" y="86.36" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="GPIO_EMC_B1_39"/>
+<wire x1="-71.12" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<label x="-68.58" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
