@@ -169,7 +169,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:c88P3QEjTCqDTo6JRZzqqA" pcbguid="" lastpulledtime="2022-04-18T10:55:57Z" lastsyncedchangeguid="" latestrevisionid="6df8e6fd-7abb-4bf5-b031-08c45f5f3dac" lastsyncedrevisionid="6df8e6fd-7abb-4bf5-b031-08c45f5f3dac" lastboardhashguid="dfc39099-af05-d7a8-6c4c-2ced0a77702a" lastpushedtime="2023-05-12T16:01:53Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:c88P3QEjTCqDTo6JRZzqqA" pcbguid="" lastpulledtime="2022-04-18T10:55:57Z" lastsyncedchangeguid="" latestrevisionid="124c3dfe-6107-46e8-9b8e-52584e17ebd0" lastsyncedrevisionid="124c3dfe-6107-46e8-9b8e-52584e17ebd0" lastboardhashguid="bc98733b-f1b3-4ee5-0bf6-c8ab476752d5" lastpushedtime="2023-05-31T22:21:04Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-24" y1="31" x2="24" y2="31" width="0" layer="20"/>
 <wire x1="24" y1="31" x2="31" y2="24" width="0" layer="20" curve="-90"/>
@@ -180,22 +180,22 @@
 <wire x1="-31" y1="-24" x2="-31" y2="24" width="0" layer="20"/>
 <wire x1="-31" y1="24" x2="-24" y2="31" width="0" layer="20" curve="-90"/>
 <circle x="0" y="0" radius="28.5" width="0.15" layer="21"/>
-<wire x1="-60" y1="57" x2="-60" y2="42" width="0" layer="20"/>
+<wire x1="-42" y1="60" x2="-49" y2="60" width="0" layer="20"/>
+<wire x1="-49" y1="60" x2="-60" y2="49" width="0" layer="20" curve="90"/>
+<wire x1="-60" y1="49" x2="-60" y2="42" width="0" layer="20"/>
 <wire x1="-60" y1="32" x2="-60" y2="-32" width="0" layer="20"/>
-<wire x1="-60" y1="-42" x2="-60" y2="-57" width="0" layer="20"/>
-<wire x1="-60" y1="-57" x2="-57" y2="-60" width="0" layer="20" curve="90"/>
-<wire x1="-57" y1="-60" x2="-42" y2="-60" width="0" layer="20"/>
+<wire x1="-60" y1="-42" x2="-60" y2="-49" width="0" layer="20"/>
+<wire x1="-60" y1="-49" x2="-49" y2="-60" width="0" layer="20" curve="90"/>
+<wire x1="-49" y1="-60" x2="-42" y2="-60" width="0" layer="20"/>
 <wire x1="-32" y1="-60" x2="32" y2="-60" width="0" layer="20"/>
-<wire x1="42" y1="-60" x2="57" y2="-60" width="0" layer="20"/>
-<wire x1="57" y1="-60" x2="60" y2="-57" width="0" layer="20" curve="90"/>
-<wire x1="60" y1="-57" x2="60" y2="-42" width="0" layer="20"/>
+<wire x1="42" y1="-60" x2="49" y2="-60" width="0" layer="20"/>
+<wire x1="49" y1="-60" x2="60" y2="-49" width="0" layer="20" curve="90"/>
+<wire x1="60" y1="-49" x2="60" y2="-42" width="0" layer="20"/>
 <wire x1="60" y1="-32" x2="60" y2="32" width="0" layer="20"/>
-<wire x1="60" y1="42" x2="60" y2="57" width="0" layer="20"/>
-<wire x1="60" y1="57" x2="57" y2="60" width="0" layer="20" curve="90"/>
-<wire x1="57" y1="60" x2="42" y2="60" width="0" layer="20"/>
+<wire x1="60" y1="42" x2="60" y2="49" width="0" layer="20"/>
+<wire x1="60" y1="49" x2="49" y2="60" width="0" layer="20" curve="90"/>
+<wire x1="49" y1="60" x2="42" y2="60" width="0" layer="20"/>
 <wire x1="32" y1="60" x2="-32" y2="60" width="0" layer="20"/>
-<wire x1="-42" y1="60" x2="-57" y2="60" width="0" layer="20"/>
-<wire x1="-57" y1="60" x2="-60" y2="57" width="0" layer="20" curve="90"/>
 <wire x1="59" y1="-33" x2="60" y2="-32" width="0" layer="20" curve="90"/>
 <wire x1="59" y1="-41" x2="60" y2="-42" width="0" layer="20" curve="-90"/>
 <circle x="59" y="-37" radius="3" width="0.000009375" layer="21"/>
@@ -786,10 +786,10 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="34.25" y="18.75" size="1.016" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.10000" x="32.75" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="MECH3" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-57" y="57" smashed="yes"/>
-<element name="MECH6" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="57" y="57" smashed="yes"/>
-<element name="MECH7" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-57" y="-57" smashed="yes"/>
-<element name="MECH8" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="57" y="-57" smashed="yes"/>
+<element name="MECH3" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-47" y="57" smashed="yes"/>
+<element name="MECH6" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="47" y="57" smashed="yes"/>
+<element name="MECH7" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-47" y="-57" smashed="yes"/>
+<element name="MECH8" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="27" y="-57" smashed="yes"/>
 <element name="CN1" library="CONNECTORs" package="21700_TABBED" value="21700" x="-43" y="10" locked="yes" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="" x="-43" y="10" locked="yes" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEGHT" value="21" x="-43" y="10" locked="yes" size="1.778" layer="28" rot="MR180" display="off"/>
