@@ -6456,14 +6456,14 @@
 <wire x1="1.625" y1="-1.25" x2="1.625" y2="1.25" width="0.1524" layer="21"/>
 <wire x1="1.625" y1="1.25" x2="-1.625" y2="1.25" width="0.1524" layer="21"/>
 <wire x1="-1.625" y1="1.25" x2="-1.625" y2="-1.25" width="0.1524" layer="21"/>
-<smd name="1" x="-1.2" y="-0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="-0.4" y="-0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0.4" y="-0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="1.2" y="-0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="1.2" y="0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="0.4" y="0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="-0.4" y="0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="-1.2" y="0.8" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="-1.2" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.4" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.4" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.2" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.2" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.4" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-0.4" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-1.2" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
 <text x="-1.75" y="-1.25" size="1" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
@@ -8417,13 +8417,11 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <pad name="2" x="2.5" y="-2.5" drill="0.9"/>
 <pad name="3" x="3.85" y="0" drill="1.1"/>
 <pad name="4" x="-3.85" y="0" drill="1.1"/>
-<wire x1="-4.125" y1="4" x2="-1.5" y2="4" width="0.125" layer="21"/>
-<wire x1="-1.5" y1="4" x2="4.125" y2="4" width="0.125" layer="21"/>
-<wire x1="4.125" y1="4" x2="4.125" y2="-2.8" width="0.125" layer="21"/>
-<wire x1="4.125" y1="-2.8" x2="-4.125" y2="-2.8" width="0.125" layer="21"/>
-<wire x1="-4.125" y1="-2.8" x2="-4.125" y2="2.75" width="0.125" layer="21"/>
-<wire x1="-4.125" y1="2.75" x2="-4.125" y2="4" width="0.125" layer="21"/>
-<text x="-4.125" y="4.125" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="-4.125" y1="1.625" x2="4.125" y2="1.625" width="0.125" layer="21"/>
+<wire x1="4.125" y1="1.625" x2="4.125" y2="-6.5" width="0.125" layer="21"/>
+<wire x1="4.125" y1="-6.5" x2="-4.125" y2="-6.5" width="0.125" layer="21"/>
+<wire x1="-4.125" y1="-6.5" x2="-4.125" y2="1.625" width="0.125" layer="21"/>
+<text x="-4.125" y="1.75" size="0.5" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
