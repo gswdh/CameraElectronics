@@ -9444,6 +9444,8 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <part name="SW9" library="ELECTROMECH" deviceset="EG1215AA" device="" value="SLIDE SPDT"/>
 <part name="SW1" library="ELECTROMECH" deviceset="TL6110BF300QP" device="" value="TACT RA"/>
 <part name="GND363" library="NETS" deviceset="GND" device=""/>
+<part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
+<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 </parts>
 <sheets>
 <sheet>
@@ -21132,6 +21134,12 @@ VGRSTL -1.3 15</text>
 </instance>
 <instance part="GND358" gate="G$1" x="-35.56" y="-231.14" smashed="yes">
 <attribute name="VALUE" x="-35.56" y="-233.68" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="MECH3" gate="G$1" x="132.08" y="-266.7" smashed="yes">
+<attribute name="NAME" x="132.08" y="-263.144" size="1.27" layer="95" align="center"/>
+</instance>
+<instance part="MECH4" gate="G$1" x="132.08" y="-274.32" smashed="yes">
+<attribute name="NAME" x="132.08" y="-270.764" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
