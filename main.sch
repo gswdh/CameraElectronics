@@ -15809,10 +15809,6 @@ RESET</text>
 </net>
 <net name="PSS_PMC_FLAG" class="0">
 <segment>
-<wire x1="-243.84" y1="109.22" x2="-208.28" y2="109.22" width="0.1524" layer="91"/>
-<label x="-241.3" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="GPIO_DISP_B2_03"/>
 <wire x1="-162.56" y1="-127" x2="-127" y2="-127" width="0.1524" layer="91"/>
 <label x="-160.02" y="-127" size="1.778" layer="95"/>
@@ -15902,10 +15898,6 @@ RESET</text>
 </segment>
 </net>
 <net name="PWR_SYS_3V3_EN" class="0">
-<segment>
-<wire x1="-210.82" y1="83.82" x2="-241.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="-238.76" y="83.82" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GPIO_SD_B2_06"/>
 <wire x1="-162.56" y1="-48.26" x2="-127" y2="-48.26" width="0.1524" layer="91"/>

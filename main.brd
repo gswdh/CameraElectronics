@@ -170,7 +170,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:QTG16qIyTfKvVo_tceIElg" pcbguid="" lastpulledtime="2022-04-12T20:48:04Z" lastsyncedchangeguid="" latestrevisionid="5ea3b930-28c3-4fba-8891-e1f75dceb56b" lastsyncedrevisionid="5ea3b930-28c3-4fba-8891-e1f75dceb56b" lastboardhashguid="debf136f-c3eb-c1db-21d2-1075abd3d7a4" lastpushedtime="2023-06-20T15:23:51Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:QTG16qIyTfKvVo_tceIElg" pcbguid="" lastpulledtime="2022-04-12T20:48:04Z" lastsyncedchangeguid="" latestrevisionid="efb056a5-b2fd-4cfd-ae31-c59511077625" lastsyncedrevisionid="efb056a5-b2fd-4cfd-ae31-c59511077625" lastboardhashguid="f263ecb2-fc7d-4011-cfdc-f91d296dcbfd" lastpushedtime="2023-06-23T08:14:44Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-60" y1="-42" x2="-60" y2="-49" width="0" layer="20"/>
 <wire x1="-60" y1="-49" x2="-49" y2="-60" width="0" layer="20" curve="90"/>
@@ -264,6 +264,22 @@ camera
 main PCB
 rev 1.0.0
 2023.06.20</text>
+<text x="-51.1" y="14.6" size="1" layer="21" font="vector" align="center">BOOT MODE [1:0]</text>
+<wire x1="-57.6" y1="16.3" x2="-57.6" y2="15.4" width="0.15" layer="21"/>
+<wire x1="-57.6" y1="15.4" x2="-44.8" y2="15.4" width="0.15" layer="21"/>
+<wire x1="-44.8" y1="15.4" x2="-44.8" y2="16.3" width="0.15" layer="21"/>
+<text x="-57.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [3]</text>
+<text x="-56.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [2]</text>
+<text x="-55.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [1]</text>
+<text x="-54.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [0]</text>
+<text x="-53.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [7]</text>
+<text x="-52.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [6]</text>
+<text x="-51.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [5]</text>
+<text x="-50.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [4]</text>
+<text x="-49.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [3]</text>
+<text x="-48.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [2]</text>
+<text x="-47.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [1]</text>
+<text x="-46.3" y="16" size="0.8" layer="22" font="vector" rot="MR90" align="center-left">- [0]</text>
 </plain>
 <libraries>
 <library name="ICs">
@@ -2509,7 +2525,7 @@ einem neuen Namen ab.</description>
 <element name="U5" library="ICs" package="QFP64_SMALL" value="STM32L431RBT" x="44" y="43" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="497-16837-ND" x="44" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1" x="44" y="43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.75" y="36.5" size="0.5" layer="25"/>
+<attribute name="NAME" x="38.35" y="36.3" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="3.98" x="44" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U7" library="ICs" package="QFN32-ACT2861" value="ACT2861" x="44.575" y="15.95" smashed="yes" rot="R180">
@@ -2833,7 +2849,7 @@ einem neuen Namen ab.</description>
 <element name="R65" library="r_0402" package="0402" value="10k" x="42.2" y="35.5" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" x="42.2" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="42.2" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.95" y="36.875" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="41.95" y="34.475" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.07" x="42.2" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D5" library="DIODES" package="DO214AC" value="B360A-13-F" x="26.4" y="30.1" smashed="yes" rot="R180">
@@ -2891,14 +2907,14 @@ einem neuen Namen ab.</description>
 <element name="U17" library="ICs" package="SOT563-6" value="AP62301" x="-4.7" y="-46.85" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="31-AP62301Z6-7CT-ND" x="-4.7" y="-46.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1" x="-4.7" y="-46.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-5.975" y="-45.825" size="0.5" layer="25"/>
+<attribute name="NAME" x="-6.225" y="-47.575" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.4" x="-4.7" y="-46.85" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C49" library="c_0603" package="0603" value="10uF 10V" x="-4.825" y="-48.35" smashed="yes">
 <attribute name="DIGIKEY" value="478-10766-1-ND" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="-" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.45" y="-49.1" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-5.05" y="-49.1" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="38645" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-4.825" y="-48.35" size="1.778" layer="27" display="off"/>
@@ -2977,7 +2993,7 @@ einem neuen Namen ab.</description>
 <element name="U18" library="ICs" package="SOT563-6" value="AP62301" x="-40.3" y="-4.8" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="31-AP62301Z6-7CT-ND" x="-40.3" y="-4.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="-40.3" y="-4.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-39.175" y="-6.425" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-38.275" y="-6.525" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.4" x="-40.3" y="-4.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C53" library="c_0603" package="0603" value="10uF 10V" x="-38.8" y="-4.925" smashed="yes" rot="R90">
@@ -3022,7 +3038,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1576-1-ND" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-38.3" y="4.45" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-43.1" y="2.55" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.39000" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="1951" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-40.675" y="3.45" size="1.778" layer="27" display="off"/>
@@ -3033,7 +3049,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1576-1-ND" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-42.925" y="6.825" size="0.5" layer="25"/>
+<attribute name="NAME" x="-43.125" y="4.875" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.39000" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="1951" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-40.675" y="5.7" size="1.778" layer="27" display="off"/>
@@ -3492,7 +3508,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="5.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.95" y="7.525" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.07000" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-40.5" y="12.625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3503,7 +3519,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10669-1-ND" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="6.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.95" y="8.025" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.26000" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="39486" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-43" y="15.875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3767,7 +3783,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="-0.375" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-10.75" y="0.025" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.07000" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-33" y="71.125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3800,7 +3816,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="2.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.85" y="3.075" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-40.5" y="80.875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3822,7 +3838,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="3.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.85" y="4.175" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-48" y="88.625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3877,7 +3893,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="-1.375" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.75" y="-0.825" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-58" y="96.375" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3943,7 +3959,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="4.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.85" y="5.175" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-38" y="115.125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3954,7 +3970,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10669-1-ND" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="-" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-7.25" y="5.375" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-7.25" y="6.075" size="0.5" layer="26" rot="MR90"/>
 <attribute name="PRICE_PER" value="0.26000" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="STOCK" value="39486" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="104.625" y="37" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3976,7 +3992,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10669-1-ND" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="1.625" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.85" y="2.175" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.26000" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="39486" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-45.5" y="118.875" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -4103,7 +4119,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-1129-1-ND" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-10.75" y="-2.375" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-8.75" y="-1.725" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="7866945" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-40.5" y="140.625" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5014,7 +5030,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-25.1" y="-26.1" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-23.4" y="-25.1" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.15000" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="32394" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-24.275" y="-25.6" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5361,7 +5377,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-1.225" y="-26.3" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-3.075" y="-27.3" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.15000" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="32394" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-2.1" y="-26.8" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5405,7 +5421,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="-" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-3.925" y="-25.9" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-2.275" y="-24.9" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.07000" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="STOCK" value="639" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-3.05" y="-25.4" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5449,20 +5465,20 @@ einem neuen Namen ab.</description>
 <element name="R70" library="r_0402" package="0402" value="10k" x="-23.2" y="-29.4" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" x="-23.2" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-23.2" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-23.5" y="-28.4" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-22.8" y="-30.4" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.07" x="-23.2" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R71" library="r_0402" package="0402" value="10k" x="-24.1" y="-29.4" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="P10.0KLCT-ND" x="-24.1" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-24.1" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-24.5" y="-28.4" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-23.7" y="-30.4" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.07" x="-24.1" y="-29.4" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C113" library="c_0402" package="0402" value="2.2uF 6.3V" x="-31.2" y="-34" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-30.7" y="-34.875" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-31.7" y="-33.125" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.15000" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="32394" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-31.2" y="-34" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5495,7 +5511,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-29.9" y="-33.375" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-30.9" y="-31.325" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.15000" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="32394" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-22.4" y="-32.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5506,7 +5522,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10766-1-ND" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-28.2" y="-35.25" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-28.2" y="-36.15" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="38645" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-29.7" y="-33.6" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5528,7 +5544,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7888-1-ND" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-33.1" y="-35.775" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-33.1" y="-35.475" size="0.5" layer="26" rot="MR90"/>
 <attribute name="PRICE_PER" value="0.07000" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="386465" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-35.9" y="-37.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5561,7 +5577,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-28.325" y="-34.4" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-28.275" y="-34.5" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.15000" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="32394" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-29.2" y="-34.9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5572,7 +5588,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10669-1-ND" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-26.8" y="-34.075" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-27.7" y="-32.325" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.26000" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="39486" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-27.3" y="-33.2" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5703,7 +5719,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7888-1-ND" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-29.1" y="-32.825" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-29.075" y="-30.9" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="386465" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-29.5" y="-31.8" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5788,7 +5804,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10766-1-ND" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="-" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-34.45" y="-35.9" size="0.5" layer="26" rot="MR90"/>
+<attribute name="NAME" x="-35.95" y="-33" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.07000" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="STOCK" value="38645" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-35.2" y="-34.4" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5799,7 +5815,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7888-1-ND" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-24.975" y="-27.6" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-25.025" y="-27.5" size="0.5" layer="26" rot="MR0"/>
 <attribute name="PRICE_PER" value="0.07000" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="386465" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-25.9" y="-28" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5821,7 +5837,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7888-1-ND" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-24.975" y="-28.5" size="0.5" layer="26" rot="MR180"/>
+<attribute name="NAME" x="-26.775" y="-29.3" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.07000" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="386465" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-25.9" y="-28.8" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5843,7 +5859,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7888-1-ND" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="-" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-26.9" y="-33.825" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-25.9" y="-35.575" size="0.5" layer="26" rot="MR90"/>
 <attribute name="PRICE_PER" value="0.07000" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="STOCK" value="386465" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-26.4" y="-34.7" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -5859,7 +5875,7 @@ einem neuen Namen ab.</description>
 <element name="U26" library="ICs" package="SOT563-6" value="AP62301" x="-45.1" y="-51" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="31-AP62301Z6-7CT-ND" x="-38.3" y="-51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="-38.3" y="-51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-46.125" y="-49.85" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-46.025" y="-49.45" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="0.4" x="-38.3" y="-51" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C84" library="c_0603" package="0603" value="10uF 10V" x="-42.2" y="-50.4" smashed="yes" rot="R180">
@@ -5877,7 +5893,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="541-2980-1-ND" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-45.2" y="-53.75" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-48.2" y="-52.45" size="0.5" layer="25" rot="R180"/>
 <attribute name="POWER" value="0.1W, 1/10W" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE_PER" value="0.12000" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
 <attribute name="STOCK" value="50797" x="-46.6" y="-50.8" size="1.778" layer="27" display="off"/>
@@ -5926,7 +5942,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="541-2980-1-ND" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-44.3" y="-55.3" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-42.9" y="-54.1" size="0.5" layer="25" rot="R270"/>
 <attribute name="POWER" value="0.1W, 1/10W" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE_PER" value="0.12000" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="STOCK" value="50797" x="-29.4" y="-57.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6045,7 +6061,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-12252-1-ND" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="-" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-39.525" y="19.25" size="0.5" layer="25" rot="R90"/>
+<attribute name="NAME" x="-39.025" y="19.25" size="0.5" layer="25" rot="R90"/>
 <attribute name="PRICE_PER" value="0.49000" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="STOCK" value="2000" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-44.4" y="21.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6072,7 +6088,7 @@ einem neuen Namen ab.</description>
 <element name="U29" library="ICs" package="SO8" value="LM2663" x="-30.3" y="21.8" smashed="yes">
 <attribute name="DIGIKEY" value="LM2663MX/NOPBCT-ND" x="-30.3" y="21.8" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.5" x="-30.3" y="21.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-26.55" y="19.15" size="0.5" layer="25" rot="R180"/>
+<attribute name="NAME" x="-32.75" y="19.25" size="0.5" layer="25" rot="R180"/>
 <attribute name="PRICE_PER" value="1.79" x="-30.3" y="21.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q3" library="TRANSISTORs" package="SOT23-3" value="2N7002" x="-42.1" y="21.5" smashed="yes">
@@ -6131,7 +6147,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="541-CRCW060356K2FKTACT-ND" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay Dale" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-26.15" y="18.8" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-25.65" y="18.6" size="0.5" layer="25" rot="R270"/>
 <attribute name="POWER" value="0.1W, 1/10W" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE_PER" value="0.12000" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="STOCK" value="305" x="-26.9" y="17.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6141,7 +6157,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-16030-1-ND" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="-" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-27.6" y="18.375" size="0.5" layer="25" rot="R270"/>
+<attribute name="NAME" x="-26.1" y="18.375" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.73000" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="STOCK" value="1000" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP_CO" value="C0G, NP0" x="-28.1" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6228,7 +6244,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-11617-1-ND" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="-" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-29.2" y="-32.325" size="0.5" layer="26" rot="MR270"/>
+<attribute name="NAME" x="-29.2" y="-32.725" size="0.5" layer="26" rot="MR270"/>
 <attribute name="PRICE_PER" value="0.15000" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="STOCK" value="32394" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-28.7" y="-33.2" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -6374,7 +6390,7 @@ einem neuen Namen ab.</description>
 <element name="U31" library="ICs" package="SOT23-6" value="USBLC6-2SC6" x="47.5" y="-48" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="497-11882-1-ND" x="47.5" y="-48" size="0.5" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="1.5" x="47.5" y="-48" size="0.5" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="49.75" y="-46.5" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="45.4" y="-46.35" size="0.5" layer="25"/>
 <attribute name="PRICE_PER" value="0.38" x="47.5" y="-48" size="0.5" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U35" library="ICs" package="SOT23-5" value="TPS70950" x="50.9" y="-36.6" smashed="yes" rot="R180">
@@ -6412,7 +6428,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="399-C0402C105K8PAC7411CT-ND" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-22.725" y="-26.1" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-24.475" y="-27" size="0.508" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.09000" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="35150" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-23.6" y="-26.6" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -6525,7 +6541,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-10072-1-ND" x="-5.6" y="-59.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="-" x="105.9" y="-20.45" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-5.6" y="-59.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-4.1" y="-58.45" size="0.5" layer="26" rot="MR0"/>
+<attribute name="NAME" x="-4.7" y="-58.85" size="0.5" layer="26" rot="MR180"/>
 <attribute name="PRICE_PER" value="0.30000" x="105.9" y="-20.45" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="STOCK" value="3790" x="-5.6" y="-59.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP_CO" value="X5R" x="-5.6" y="-59.2" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -6780,13 +6796,13 @@ einem neuen Namen ab.</description>
 <element name="R109" library="r_0402" package="0402" value="4.7k" x="-7.8" y="-50.6" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="ERJ-2RHD4701X-ND" x="-7.8" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-7.8" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-8.3" y="-51.475" size="0.508" layer="25" rot="R90"/>
+<attribute name="NAME" x="-6.4" y="-49.725" size="0.508" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.07" x="-7.8" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R110" library="r_0402" package="0402" value="4.7k" x="-6.9" y="-50.6" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="ERJ-2RHD4701X-ND" x="-6.9" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
 <attribute name="HEIGHT" value="0.4" x="-6.9" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-6.4" y="-49.725" size="0.508" layer="25" rot="R270"/>
+<attribute name="NAME" x="-5.9" y="-49.725" size="0.508" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="0.07" x="-6.9" y="-50.6" size="0.5" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U38" library="ICs" package="SO8" value="GD25LQ128E" x="-42.8" y="-18.9" smashed="yes">
@@ -6799,7 +6815,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY" value="478-7891-1-ND" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
 <attribute name="HEIGHT" value="-" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
-<attribute name="NAME" x="-39.825" y="-16.4" size="0.508" layer="25" rot="R180"/>
+<attribute name="NAME" x="-40.475" y="-15.3" size="0.508" layer="25"/>
 <attribute name="PRICE_PER" value="0.07000" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
 <attribute name="STOCK" value="639" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
 <attribute name="TEMP_CO" value="X7R" x="-40.5" y="-15.9" size="0.5" layer="27" display="off"/>
@@ -21010,10 +21026,11 @@ einem neuen Namen ab.</description>
 <via x="-2.75" y="-53.3" extent="1-16" drill="0.2"/>
 <wire x1="-44.7" y1="29" x2="-44.7" y2="29.8" width="0.0889" layer="5"/>
 <via x="-44.7" y="29.8" extent="1-16" drill="0.2"/>
-<wire x1="-44.7" y1="29.8" x2="-48" y2="29.8" width="0.0889" layer="1"/>
-<wire x1="-48" y1="29.8" x2="-49.6" y2="28.2" width="0.0889" layer="1"/>
+<wire x1="-44.7" y1="29.8" x2="-46.2" y2="29.8" width="0.0889" layer="1"/>
 <wire x1="-42.9" y1="-10.54855" x2="-42.9" y2="27.2" width="0.0889" layer="5"/>
 <wire x1="-42.9" y1="27.2" x2="-44.7" y2="29" width="0.0889" layer="5"/>
+<wire x1="-46.71" y1="28.225" x2="-46.71" y2="29.29" width="0.0889" layer="1"/>
+<wire x1="-46.71" y1="29.29" x2="-46.2" y2="29.8" width="0.0889" layer="1"/>
 </signal>
 <signal name="ESP_IO5">
 <contactref element="U14" pad="29"/>
