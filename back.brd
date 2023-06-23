@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -150,35 +150,30 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:tskHE9LQRTS9VFLCyZPB9g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="adeba821-9eb3-4ef9-9094-72007f31fb26" lastsyncedrevisionid="adeba821-9eb3-4ef9-9094-72007f31fb26" lastboardhashguid="52dcaa3e-6aac-d1d8-ad93-6122c8cb2153" lastpushedtime="2023-05-04T10:29:34Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:Kmgm5TI6QmyTGZqX6iAvLQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="fbddc86a-6893-4364-8b9c-afb482a62494" lastsyncedrevisionid="fbddc86a-6893-4364-8b9c-afb482a62494" lastboardhashguid="b6e71758-3620-c690-08a7-8e3fce03cbc6" lastpushedtime="2023-06-21T21:30:59Z" linktopcb3d="true"/>
 <plain>
-<wire x1="-63" y1="58" x2="-63" y2="-58" width="0" layer="20"/>
-<wire x1="-63" y1="-58" x2="-58" y2="-63" width="0" layer="20" curve="90"/>
-<wire x1="-58" y1="-63" x2="58" y2="-63" width="0" layer="20"/>
-<wire x1="58" y1="-63" x2="63" y2="-58" width="0" layer="20" curve="90"/>
-<wire x1="63" y1="-58" x2="63" y2="58" width="0" layer="20"/>
-<wire x1="63" y1="58" x2="58" y2="63" width="0" layer="20" curve="90"/>
-<wire x1="58" y1="63" x2="-58" y2="63" width="0" layer="20"/>
-<wire x1="-58" y1="63" x2="-63" y2="58" width="0" layer="20" curve="90"/>
+<wire x1="-63" y1="49" x2="-63" y2="-49" width="0" layer="20"/>
+<wire x1="-63" y1="-49" x2="-49" y2="-63" width="0" layer="20" curve="90"/>
+<wire x1="-49" y1="-63" x2="49" y2="-63" width="0" layer="20"/>
+<wire x1="49" y1="-63" x2="63" y2="-49" width="0" layer="20" curve="90"/>
+<wire x1="63" y1="-49" x2="63" y2="49" width="0" layer="20"/>
+<wire x1="63" y1="49" x2="49" y2="63" width="0" layer="20" curve="90"/>
+<wire x1="49" y1="63" x2="-49" y2="63" width="0" layer="20"/>
+<wire x1="-49" y1="63" x2="-63" y2="49" width="0" layer="20" curve="90"/>
 <circle x="0" y="42" radius="19" width="0.001" layer="20"/>
-<wire x1="-27.5" y1="-17.2" x2="-27.5" y2="-40.7" width="0" layer="20"/>
-<wire x1="-27.5" y1="-40.7" x2="-25.5" y2="-42.7" width="0" layer="20" curve="90"/>
-<wire x1="-25.5" y1="-42.7" x2="25.5" y2="-42.7" width="0" layer="20"/>
-<wire x1="25.5" y1="-42.7" x2="27.5" y2="-40.7" width="0" layer="20" curve="90"/>
-<wire x1="27.5" y1="-40.7" x2="27.5" y2="-17.2" width="0" layer="20"/>
-<wire x1="27.5" y1="-17.2" x2="25.5" y2="-15.2" width="0" layer="20" curve="90"/>
-<wire x1="25.5" y1="-15.2" x2="-25.5" y2="-15.2" width="0" layer="20"/>
-<wire x1="-25.5" y1="-15.2" x2="-27.5" y2="-17.2" width="0" layer="20" curve="90"/>
-<circle x="-45" y="-10" radius="7.5" width="0.001" layer="20"/>
-<circle x="37.5" y="37.5" radius="7.5" width="0.001" layer="20"/>
-<circle x="-20" y="-5.2" radius="5" width="0.001" layer="20"/>
-<circle x="20" y="-5.2" radius="5" width="0.001" layer="20"/>
-<circle x="-20" y="-52.7" radius="5" width="0.001" layer="20"/>
-<circle x="20" y="-52.7" radius="5" width="0.001" layer="20"/>
-<circle x="18" y="60" radius="1.75" width="0.001" layer="20"/>
-<circle x="-18" y="60" radius="1.75" width="0.001" layer="20"/>
-<circle x="-18" y="26" radius="1.75" width="0.001" layer="20"/>
-<circle x="18" y="26" radius="1.75" width="0.001" layer="20"/>
+<wire x1="-27.5" y1="-17" x2="-27.5" y2="-40.5" width="0" layer="20"/>
+<wire x1="-27.5" y1="-40.5" x2="-25.5" y2="-42.5" width="0" layer="20" curve="90"/>
+<wire x1="-25.5" y1="-42.5" x2="25.5" y2="-42.5" width="0" layer="20"/>
+<wire x1="25.5" y1="-42.5" x2="27.5" y2="-40.5" width="0" layer="20" curve="90"/>
+<wire x1="27.5" y1="-40.5" x2="27.5" y2="-17" width="0" layer="20"/>
+<wire x1="27.5" y1="-17" x2="25.5" y2="-15" width="0" layer="20" curve="90"/>
+<wire x1="25.5" y1="-15" x2="-25.5" y2="-15" width="0" layer="20"/>
+<wire x1="-25.5" y1="-15" x2="-27.5" y2="-17" width="0" layer="20" curve="90"/>
+<circle x="36" y="36" radius="5" width="0.001" layer="20"/>
+<circle x="-36" y="-21.25" radius="5" width="0.001" layer="20"/>
+<circle x="36" y="-21.25" radius="5" width="0.001" layer="20"/>
+<circle x="-36" y="-36.25" radius="5" width="0.001" layer="20"/>
+<circle x="36" y="-36.25" radius="5" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="MISC">
@@ -212,7 +207,7 @@ design rules under a new name.
 </description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.1mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.1mm"/>
-<param name="mtIsolate" value="2.8mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtIsolate" value="1.4mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -392,7 +387,7 @@ design rules under a new name.
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC81F1F1F"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFF272727"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFB6B6B6"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFF595959"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF383838"/>

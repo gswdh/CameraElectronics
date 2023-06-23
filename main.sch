@@ -19292,9 +19292,9 @@ VGRSTL -1.3 15</text>
 <attribute name="NAME" x="-20.32" y="-213.36" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-20.32" y="-215.9" size="1.27" layer="96"/>
 </instance>
-<instance part="SW7" gate="G$1" x="-10.16" y="-220.98" smashed="yes">
-<attribute name="NAME" x="-7.62" y="-213.36" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-7.62" y="-215.9" size="1.27" layer="96"/>
+<instance part="SW7" gate="G$1" x="-10.16" y="-187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-12.7" y="-195.58" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-12.7" y="-193.04" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="R114" gate="G$1" x="60.96" y="165.1" smashed="yes">
 <attribute name="NAME" x="60.96" y="167.64" size="1.27" layer="95" align="center"/>
@@ -19479,8 +19479,8 @@ VGRSTL -1.3 15</text>
 <attribute name="NAME" x="-71.12" y="-213.36" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-71.12" y="-215.9" size="1.27" layer="96"/>
 </instance>
-<instance part="GND363" gate="G$1" x="-10.16" y="-233.68" smashed="yes">
-<attribute name="VALUE" x="-10.16" y="-236.22" size="1.778" layer="96" align="center"/>
+<instance part="GND363" gate="G$1" x="-22.86" y="-233.68" smashed="yes">
+<attribute name="VALUE" x="-22.86" y="-236.22" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -19606,13 +19606,10 @@ VGRSTL -1.3 15</text>
 <segment>
 <pinref part="SW1" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="-226.06" x2="-73.66" y2="-228.6" width="0.1524" layer="91"/>
-<pinref part="SW7" gate="G$1" pin="2"/>
 <wire x1="-73.66" y1="-228.6" x2="-60.96" y2="-228.6" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-228.6" x2="-48.26" y2="-228.6" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-228.6" x2="-35.56" y2="-228.6" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-228.6" x2="-22.86" y2="-228.6" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="-228.6" x2="-10.16" y2="-228.6" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="-228.6" x2="-10.16" y2="-226.06" width="0.1524" layer="91"/>
 <pinref part="SW5" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="-226.06" x2="-22.86" y2="-228.6" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-228.6"/>
@@ -19625,8 +19622,7 @@ VGRSTL -1.3 15</text>
 <pinref part="SW2" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="-226.06" x2="-60.96" y2="-228.6" width="0.1524" layer="91"/>
 <junction x="-60.96" y="-228.6"/>
-<wire x1="-10.16" y1="-228.6" x2="-10.16" y2="-231.14" width="0.1524" layer="91"/>
-<junction x="-10.16" y="-228.6"/>
+<wire x1="-22.86" y1="-228.6" x2="-22.86" y2="-231.14" width="0.1524" layer="91"/>
 <pinref part="GND363" gate="G$1" pin="GND"/>
 </segment>
 </net>
@@ -19712,10 +19708,6 @@ VGRSTL -1.3 15</text>
 <label x="15.24" y="-111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-50.8" x2="-45.72" y2="-50.8" width="0.1524" layer="91"/>
-<label x="-43.18" y="-50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CN1" gate="G$1" pin="P23"/>
 <wire x1="-71.12" y1="-106.68" x2="-104.14" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-99.06" y="-106.68" size="1.778" layer="95"/>
@@ -19726,10 +19718,6 @@ VGRSTL -1.3 15</text>
 <pinref part="U14" gate="G$1" pin="TXD0"/>
 <wire x1="63.5" y1="-119.38" x2="12.7" y2="-119.38" width="0.1524" layer="91"/>
 <label x="15.24" y="-119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-2.54" y1="-45.72" x2="-45.72" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-43.18" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="P22"/>
@@ -19748,10 +19736,6 @@ VGRSTL -1.3 15</text>
 <junction x="53.34" y="-116.84"/>
 </segment>
 <segment>
-<wire x1="-2.54" y1="-43.18" x2="-45.72" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-43.18" y="-43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CN1" gate="G$1" pin="P21"/>
 <wire x1="-71.12" y1="-101.6" x2="-104.14" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-99.06" y="-101.6" size="1.778" layer="95"/>
@@ -19766,10 +19750,6 @@ VGRSTL -1.3 15</text>
 <wire x1="101.6" y1="-93.98" x2="149.86" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="101.6" y="-93.98"/>
 <label x="119.38" y="-93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-20.32" y1="-53.34" x2="-45.72" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-43.18" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CN1" gate="G$1" pin="P20"/>
@@ -19974,6 +19954,12 @@ VGRSTL -1.3 15</text>
 <pinref part="CN1" gate="G$1" pin="P44"/>
 <wire x1="-71.12" y1="-160.02" x2="-104.14" y2="-160.02" width="0.1524" layer="91"/>
 <label x="-99.06" y="-160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SW7" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="-182.88" x2="-10.16" y2="-180.34" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-180.34" x2="25.4" y2="-180.34" width="0.1524" layer="91"/>
+<label x="2.54" y="-180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_GPIO_0" class="0">
@@ -20296,7 +20282,7 @@ VGRSTL -1.3 15</text>
 <net name="BTN_THUMB" class="0">
 <segment>
 <pinref part="SW7" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="-215.9" x2="-10.16" y2="-210.82" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-193.04" x2="-10.16" y2="-210.82" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-210.82" x2="25.4" y2="-210.82" width="0.1524" layer="91"/>
 <label x="2.54" y="-210.82" size="1.778" layer="95"/>
 </segment>
@@ -22677,18 +22663,6 @@ VGRSTL -1.3 15</text>
 <pinref part="U23" gate="B" pin="Q"/>
 </segment>
 </net>
-<net name="BTN_ONOFF" class="0">
-<segment>
-<label x="40.64" y="-104.14" size="1.778" layer="95"/>
-<pinref part="TP72" gate="G$1" pin="P$1"/>
-<wire x1="38.1" y1="-104.14" x2="66.04" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="R99" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="-121.92" x2="66.04" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-104.14" x2="99.06" y2="-104.14" width="0.1524" layer="91"/>
-<junction x="66.04" y="-104.14"/>
-<pinref part="U19" gate="G$1" pin="A"/>
-</segment>
-</net>
 <net name="PSS_POR_NRESET" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="PH1"/>
@@ -22908,6 +22882,16 @@ VGRSTL -1.3 15</text>
 <pinref part="U5" gate="G$1" pin="PB3"/>
 <wire x1="-66.04" y1="96.52" x2="-101.6" y2="96.52" width="0.1524" layer="91"/>
 <label x="-99.06" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="40.64" y="-104.14" size="1.778" layer="95"/>
+<pinref part="TP72" gate="G$1" pin="P$1"/>
+<wire x1="38.1" y1="-104.14" x2="66.04" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="R99" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-121.92" x2="66.04" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-104.14" x2="99.06" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="66.04" y="-104.14"/>
+<pinref part="U19" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="BTN_BTMLEFT" class="0">
