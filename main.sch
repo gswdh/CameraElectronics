@@ -22650,7 +22650,7 @@ VGRSTL -1.3 15</text>
 <pinref part="U5" gate="G$1" pin="PA0"/>
 </segment>
 <segment>
-<label x="139.7" y="-106.68" size="1.778" layer="95"/>
+<label x="144.78" y="-106.68" size="1.778" layer="95"/>
 <wire x1="142.24" y1="-106.68" x2="165.1" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="U23" gate="B" pin="Q"/>
 </segment>
