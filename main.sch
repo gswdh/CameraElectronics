@@ -2727,7 +2727,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ACT2861" prefix="U">
+<deviceset name="ACT2861QI301-T" prefix="U">
 <description>30V Buck-Boost Charger with Integrated MOSFETs and OTG</description>
 <gates>
 <gate name="G$1" symbol="ACT2861" x="0" y="0"/>
@@ -2765,10 +2765,10 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="1488-1114-1-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
-<attribute name="PRICE_PER" value="2.76" constant="no"/>
-<attribute name="VALUE" value="ACT2861" constant="no"/>
+<attribute name="MOUSER" value="107-ACT2861QI301-T" constant="no"/>
+<attribute name="PRICE_PER" value="4.66" constant="no"/>
+<attribute name="VALUE" value="ACT2861QI301-T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6856,8 +6856,8 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="FARNELL" value="DESD5V0U1BA-7DICT-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="MOUSER" value="621-DESD5V0U1BA-7" constant="no"/>
 <attribute name="PRICE_PER" value="0.2" constant="no"/>
 <attribute name="VALUE" value="5V" constant="no"/>
 </technology>
@@ -8538,7 +8538,7 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 </classes>
 <parts>
 <part name="U5" library="ICs" deviceset="STM32L431RB" device="T6" value="STM32L431RBT"/>
-<part name="U7" library="ICs" deviceset="ACT2861" device="" value="ACT2861"/>
+<part name="U7" library="ICs" deviceset="ACT2861QI301-T" device="" value="ACT2861QI301-T"/>
 <part name="GND6" library="NETS" deviceset="GND" device=""/>
 <part name="C37" library="CAPACITORS" deviceset="CL10B473KO8NNNC" device="" value="47nF 16V"/>
 <part name="C39" library="CAPACITORS" deviceset="CL10B473KO8NNNC" device="" value="47nF 16V"/>
@@ -20451,9 +20451,9 @@ VGRSTL -1.3 15</text>
 <instance part="GND45" gate="G$1" x="55.88" y="0" smashed="yes">
 <attribute name="VALUE" x="55.88" y="-2.54" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C24" gate="G$1" x="-27.94" y="-17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="-30.48" y="-17.78" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="-25.4" y="-17.78" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="C24" gate="G$1" x="-27.94" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="-30.48" y="-15.24" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-25.4" y="-15.24" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="R30" gate="G$1" x="-27.94" y="-30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-30.48" y="-30.48" size="1.27" layer="95" rot="R90" align="center"/>
@@ -21702,12 +21702,11 @@ VGRSTL -1.3 15</text>
 <net name="ACT_ICOMP" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-25.4" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-10.16" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-25.4" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="-10.16" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-12.7" x2="-27.94" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-27.94" y="-10.16"/>
+<junction x="-27.94" y="2.54"/>
 <pinref part="U7" gate="G$1" pin="ICOMP/GPIO"/>
 <wire x1="5.08" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -21748,7 +21747,7 @@ VGRSTL -1.3 15</text>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
