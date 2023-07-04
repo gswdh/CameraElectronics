@@ -11276,16 +11276,18 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-78.74" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$132" class="0">
+<net name="MIPI_DSI_A_HS_L3_P" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L12P_T1_MRCC_33"/>
 <wire x1="-81.28" y1="66.04" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<label x="-78.74" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$133" class="0">
+<net name="MIPI_DSI_A_HS_L3_N" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L12N_T1_MRCC_33"/>
 <wire x1="-81.28" y1="68.58" x2="-43.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="-78.74" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$134" class="0">
@@ -11364,40 +11366,25 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-78.74" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$146" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO_L19N_T3_VREF_33"/>
-<wire x1="-81.28" y1="33.02" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$147" class="0">
+<net name="MIPI_DSI_A_HS_CK_P" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L19P_T3_33"/>
 <wire x1="-81.28" y1="30.48" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
+<label x="-78.74" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$148" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO_L20N_T3_33"/>
-<wire x1="-81.28" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$149" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="IO_L20P_T3_33"/>
-<wire x1="-81.28" y1="25.4" x2="-43.18" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$150" class="0">
+<net name="MIPI_DSI_A_HS_L2_N" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L21N_T3_DQS_33"/>
 <wire x1="-81.28" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
+<label x="-78.74" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$151" class="0">
+<net name="MIPI_DSI_A_HS_L2_P" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L21P_T3_DQS_33"/>
 <wire x1="-81.28" y1="20.32" x2="-43.18" y2="20.32" width="0.1524" layer="91"/>
+<label x="-78.74" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIPI_DSI_B_HS_L2_N" class="0">
@@ -11421,16 +11408,18 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-78.74" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$156" class="0">
+<net name="MIPI_DSI_B_HS_L1_N" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="IO_L24N_T3_33"/>
-<wire x1="-81.28" y1="7.62" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="IO_L20N_T3_33"/>
+<wire x1="-81.28" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="-78.74" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$157" class="0">
+<net name="MIPI_DSI_B_HS_L1_P" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="IO_L24P_T3_33"/>
-<wire x1="-81.28" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="IO_L20P_T3_33"/>
+<wire x1="-81.28" y1="25.4" x2="-43.18" y2="25.4" width="0.1524" layer="91"/>
+<label x="-78.74" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MIPI_DSI_B_HS_L2_P" class="0">
@@ -11438,6 +11427,27 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U2" gate="G$1" pin="IO_L22P_T3_33"/>
 <wire x1="-81.28" y1="15.24" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
 <label x="-78.74" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MIPI_DSI_B_HS_L0_P" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L24P_T3_33"/>
+<wire x1="-81.28" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<label x="-78.74" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MIPI_DSI_B_HS_L0_N" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L24N_T3_33"/>
+<wire x1="-81.28" y1="7.62" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
+<label x="-78.74" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MIPI_DSI_A_HS_CK_N" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L19N_T3_VREF_33"/>
+<wire x1="-81.28" y1="33.02" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
+<label x="-78.74" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
