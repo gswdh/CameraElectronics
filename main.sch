@@ -18506,6 +18506,11 @@ RESET</text>
 <wire x1="78.74" y1="-78.74" x2="78.74" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="78.74" y="-76.2"/>
 </segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="P21"/>
+<wire x1="15.24" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<label x="20.32" y="10.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="FPGA_JTAG_TMS" class="0">
 <segment>
@@ -18695,9 +18700,9 @@ RESET</text>
 </net>
 <net name="BMS_I2C_SCL" class="0">
 <segment>
-<label x="20.32" y="-35.56" size="1.778" layer="95"/>
-<wire x1="15.24" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="P39"/>
+<label x="20.32" y="-40.64" size="1.778" layer="95"/>
+<wire x1="15.24" y1="-40.64" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="P41"/>
 </segment>
 </net>
 <net name="BMS_I2C_SDA" class="0">
@@ -18705,13 +18710,6 @@ RESET</text>
 <label x="20.32" y="-38.1" size="1.778" layer="95"/>
 <wire x1="15.24" y1="-38.1" x2="48.26" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="P40"/>
-</segment>
-</net>
-<net name="BMS_NINT" class="0">
-<segment>
-<label x="20.32" y="-40.64" size="1.778" layer="95"/>
-<wire x1="15.24" y1="-40.64" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="P41"/>
 </segment>
 </net>
 <net name="BTN_THUMB" class="0">
@@ -18960,11 +18958,6 @@ RESET</text>
 <label x="20.32" y="-15.24" size="1.778" layer="95"/>
 <wire x1="15.24" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="P31"/>
-</segment>
-<segment>
-<pinref part="CN1" gate="G$1" pin="P21"/>
-<wire x1="15.24" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<label x="20.32" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="VDD"/>
@@ -19720,6 +19713,13 @@ RESET</text>
 <pinref part="U28" gate="G$1" pin="SDO"/>
 <wire x1="180.34" y1="-78.74" x2="154.94" y2="-78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="-78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BMS_NINT" class="0">
+<segment>
+<label x="20.32" y="-35.56" size="1.778" layer="95"/>
+<wire x1="15.24" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="P39"/>
 </segment>
 </net>
 </nets>
