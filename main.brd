@@ -170,7 +170,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:QTG16qIyTfKvVo_tceIElg" pcbguid="" lastpulledtime="2022-04-12T20:48:04Z" lastsyncedchangeguid="" latestrevisionid="e7d60f7d-7923-4539-9976-71b4d7db21cd" lastsyncedrevisionid="e7d60f7d-7923-4539-9976-71b4d7db21cd" lastboardhashguid="7cafeb8f-e143-cf76-bfc4-0d0c2fee9e9b" lastpushedtime="2023-07-14T11:23:48Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:QTG16qIyTfKvVo_tceIElg" pcbguid="" lastpulledtime="2022-04-12T20:48:04Z" lastsyncedchangeguid="" latestrevisionid="7019c292-f084-4a95-95ec-3bdc3c137064" lastsyncedrevisionid="7019c292-f084-4a95-95ec-3bdc3c137064" lastboardhashguid="542ff842-ab6d-0b65-978f-52a50790455d" lastpushedtime="2023-07-17T07:36:02Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-60" y1="-42" x2="-60" y2="-49" width="0" layer="20"/>
 <wire x1="-60" y1="-49" x2="-49" y2="-60" width="0" layer="20" curve="90"/>
@@ -7136,6 +7136,94 @@ einem neuen Namen ab.</description>
 <attribute name="TOLERANCE" value="±10%" x="6" y="-23.1" size="0.5" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="6" y="-23.1" size="0.5" layer="28" rot="MR180" display="off"/>
 </element>
+<element name="C263" library="c_0402" package="0402" value="0.1uF 10V" x="-5.2" y="-43.2" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="478-7891-1-ND" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="-" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-6.075" y="-43.7" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.07000" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="STOCK" value="639" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMP_CO" value="X7R" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-5.2" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C272" library="c_0402" package="0402" value="2.2uF 10V" x="-2.8" y="-43.2" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10072-1-ND" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-1.925" y="-42.7" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.30000" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="3790" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-2.8" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C273" library="c_0402" package="0402" value="0.1uF 10V" x="3.6" y="-43.2" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="478-7891-1-ND" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="-" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="2.725" y="-43.7" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.07000" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="STOCK" value="639" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMP_CO" value="X7R" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="3.6" y="-43.2" size="0.5" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C274" library="c_0402" package="0402" value="2.2uF 10V" x="6" y="-43.2" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10072-1-ND" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="6.875" y="-42.7" size="0.508" layer="26" rot="MR0"/>
+<attribute name="PRICE_PER" value="0.30000" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="3790" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="6" y="-43.2" size="0.5" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="C275" library="c_0402" package="0402" value="0.1uF 10V" x="-5.2" y="-51.8" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="478-7891-1-ND" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="-" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-6.075" y="-52.3" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.07000" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="STOCK" value="639" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMP_CO" value="X7R" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-5.2" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C276" library="c_0402" package="0402" value="2.2uF 10V" x="-2.8" y="-51.8" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="478-10072-1-ND" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="-" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-3.675" y="-52.3" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.30000" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="STOCK" value="3790" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-2.8" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C277" library="c_0402" package="0402" value="0.1uF 10V" x="3.6" y="-51.8" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="478-7891-1-ND" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="-" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="2.725" y="-52.3" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.07000" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="STOCK" value="639" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMP_CO" value="X7R" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="3.6" y="-51.8" size="0.5" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="C278" library="c_0402" package="0402" value="2.2uF 10V" x="6" y="-51.8" smashed="yes" rot="MR0">
+<attribute name="DIGIKEY" value="478-10072-1-ND" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="-" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="5.125" y="-52.3" size="0.508" layer="26" rot="MR180"/>
+<attribute name="PRICE_PER" value="0.30000" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="STOCK" value="3790" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMP_CO" value="X5R" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLERANCE" value="±10%" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="6" y="-51.8" size="0.5" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -8047,8 +8135,6 @@ einem neuen Namen ab.</description>
 <wire x1="27.3243" y1="-22.625" x2="27.3243" y2="-23.5757" width="0.5" layer="1"/>
 <wire x1="27.3243" y1="-23.5757" x2="27.3" y2="-23.6" width="0.5" layer="1"/>
 <via x="27.3" y="-23.6" extent="1-16" drill="0.5"/>
-<wire x1="23.5" y1="-14.6" x2="23.7" y2="-14.6" width="0.5" layer="1"/>
-<wire x1="25.25" y1="-16" x2="25.3" y2="-16.05" width="0.5" layer="1"/>
 <via x="49.5243" y="-30.6" extent="1-16" drill="0.2"/>
 <via x="48.3243" y="-2.6" extent="1-16" drill="0.2"/>
 <contactref element="CN1" pad="P1"/>
@@ -9098,6 +9184,30 @@ einem neuen Namen ab.</description>
 <wire x1="5.5" y1="-27.5" x2="5" y2="-27" width="0.3" layer="16"/>
 <wire x1="-12.7" y1="-29" x2="-13.25" y2="-28.45" width="0.3" layer="16"/>
 <wire x1="-13.25" y1="-28.45" x2="-13.25" y2="-27.9" width="0.3" layer="16"/>
+<contactref element="C263" pad="1"/>
+<contactref element="C272" pad="1"/>
+<contactref element="C273" pad="1"/>
+<contactref element="C274" pad="1"/>
+<contactref element="C275" pad="1"/>
+<contactref element="C276" pad="1"/>
+<contactref element="C277" pad="1"/>
+<contactref element="C278" pad="1"/>
+<wire x1="-3.3" y1="-51.8" x2="-3.3" y2="-51.2" width="0.3" layer="16"/>
+<wire x1="-3.3" y1="-51.2" x2="-3.2" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="-5.7" y1="-51.2" x2="-5.7" y2="-51.8" width="0.3" layer="16"/>
+<wire x1="-5.7" y1="-51.2" x2="-5.6" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="6.5" y1="-51.8" x2="6.5" y2="-51.2" width="0.3" layer="16"/>
+<wire x1="6.5" y1="-51.2" x2="6.4" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="3.1" y1="-51.8" x2="3.1" y2="-51.2" width="0.3" layer="16"/>
+<wire x1="3.1" y1="-51.2" x2="3.2" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="-2.4" y1="-43.9" x2="-2.4" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="-2.4" y1="-43.3" x2="-2.3" y2="-43.2" width="0.3" layer="16"/>
+<wire x1="-5.6" y1="-43.9" x2="-5.6" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="-5.6" y1="-43.3" x2="-5.7" y2="-43.2" width="0.3" layer="16"/>
+<wire x1="3.2" y1="-43.9" x2="3.2" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="3.2" y1="-43.3" x2="3.1" y2="-43.2" width="0.3" layer="16"/>
+<wire x1="6.4" y1="-43.9" x2="6.4" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="6.4" y1="-43.3" x2="6.5" y2="-43.2" width="0.3" layer="16"/>
 </signal>
 <signal name="ACT_I2C_SCL">
 <contactref element="U7" pad="7"/>
@@ -16097,10 +16207,12 @@ einem neuen Namen ab.</description>
 <wire x1="4.4" y1="-34.9" x2="3.4" y2="-33.9" width="0.0889" layer="16"/>
 <wire x1="4.4" y1="-34.9" x2="4.4" y2="-35.4" width="0.0889" layer="16"/>
 <wire x1="4.4" y1="-35.4" x2="3.5" y2="-36.3" width="0.0889" layer="16"/>
-<wire x1="3.5" y1="-36.3" x2="3.5" y2="-41.1" width="0.0889" layer="16"/>
-<wire x1="3.5" y1="-41.1" x2="5.2" y2="-42.8" width="0.0889" layer="16"/>
-<wire x1="5.2" y1="-42.8" x2="5.2" y2="-45.9" width="0.0889" layer="16"/>
+<wire x1="3.5" y1="-40.3" x2="3.5" y2="-36.3" width="0.0889" layer="16"/>
 <wire x1="5.2" y1="-45.9" x2="2.8" y2="-48.3" width="0.0889" layer="16"/>
+<wire x1="5" y1="-41.8" x2="5" y2="-43.5" width="0.0889" layer="16"/>
+<wire x1="5" y1="-41.8" x2="3.5" y2="-40.3" width="0.0889" layer="16"/>
+<wire x1="5" y1="-43.5" x2="5.2" y2="-43.7" width="0.0889" layer="16"/>
+<wire x1="5.2" y1="-43.7" x2="5.2" y2="-45.9" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_DM0">
 <contactref element="U2" pad="B1"/>
@@ -16164,26 +16276,30 @@ einem neuen Namen ab.</description>
 <via x="-2.4" y="-50.3" extent="1-16" drill="0.2"/>
 <wire x1="-2.4" y1="-50.3" x2="-2.8" y2="-49.9" width="0.0889" layer="16"/>
 <wire x1="-2.8" y1="-49.9" x2="-2.8" y2="-47" width="0.0889" layer="16"/>
-<wire x1="-2.8" y1="-47" x2="-3.6" y2="-46.2" width="0.0889" layer="16"/>
+<wire x1="-3.6" y1="-46.2" x2="-2.8" y2="-47" width="0.0889" layer="16"/>
 <via x="-5" y="-38" extent="1-16" drill="0.2"/>
-<wire x1="-3.6" y1="-46.2" x2="-3.6" y2="-41.7" width="0.0889" layer="16"/>
-<wire x1="-3.6" y1="-41.7" x2="-5" y2="-40.3" width="0.0889" layer="16"/>
+<wire x1="-3.8" y1="-41.5" x2="-5" y2="-40.3" width="0.0889" layer="16"/>
 <wire x1="-5" y1="-40.3" x2="-5" y2="-38" width="0.0889" layer="16"/>
 <contactref element="U2" pad="G1"/>
 <wire x1="-4.5" y1="-37.5" x2="-5" y2="-38" width="0.0889" layer="1"/>
+<wire x1="-3.8" y1="-43.5" x2="-3.8" y2="-41.5" width="0.0889" layer="16"/>
+<wire x1="-3.8" y1="-43.5" x2="-3.6" y2="-43.7" width="0.0889" layer="16"/>
+<wire x1="-3.6" y1="-43.7" x2="-3.6" y2="-46.2" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_D3">
 <contactref element="U3" pad="F8"/>
 <wire x1="-2" y1="-45.1" x2="-2.4" y2="-44.7" width="0.0889" layer="1"/>
 <via x="-2.4" y="-44.7" extent="1-16" drill="0.2"/>
-<wire x1="-2.4" y1="-44.7" x2="-2" y2="-44.3" width="0.0889" layer="16"/>
+<wire x1="-2" y1="-44.3" x2="-2.4" y2="-44.7" width="0.0889" layer="16"/>
 <contactref element="U2" pad="K3"/>
 <wire x1="-1.5" y1="-35.5" x2="-2" y2="-36" width="0.0889" layer="1"/>
 <via x="-2" y="-36" extent="1-16" drill="0.2"/>
 <wire x1="-2" y1="-36" x2="-2.4" y2="-36.4" width="0.0889" layer="16"/>
-<wire x1="-2.4" y1="-36.4" x2="-2.4" y2="-42.5" width="0.0889" layer="16"/>
-<wire x1="-2" y1="-42.9" x2="-2.4" y2="-42.5" width="0.0889" layer="16"/>
-<wire x1="-2" y1="-44.3" x2="-2" y2="-42.9" width="0.0889" layer="16"/>
+<wire x1="-2.4" y1="-41.6" x2="-2.4" y2="-36.4" width="0.0889" layer="16"/>
+<wire x1="-2.4" y1="-41.6" x2="-1.7" y2="-42.3" width="0.0889" layer="16"/>
+<wire x1="-1.7" y1="-43.4" x2="-2" y2="-43.7" width="0.0889" layer="16"/>
+<wire x1="-1.7" y1="-42.3" x2="-1.7" y2="-43.4" width="0.0889" layer="16"/>
+<wire x1="-2" y1="-43.7" x2="-2" y2="-44.3" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_D4">
 <contactref element="U3" pad="H3"/>
@@ -16238,9 +16354,9 @@ einem neuen Namen ab.</description>
 <contactref element="U2" pad="K1"/>
 <wire x1="-1.5" y1="-37.5" x2="-2" y2="-38" width="0.0889" layer="1"/>
 <via x="-2" y="-38" extent="1-16" drill="0.2"/>
-<wire x1="-1.2" y1="-45.9" x2="-1.2" y2="-42.7" width="0.0889" layer="16"/>
-<wire x1="-1.2" y1="-42.7" x2="-2" y2="-41.9" width="0.0889" layer="16"/>
-<wire x1="-2" y1="-41.9" x2="-2" y2="-38" width="0.0889" layer="16"/>
+<wire x1="-1.2" y1="-45.9" x2="-1.2" y2="-42.5" width="0.0889" layer="16"/>
+<wire x1="-1.2" y1="-42.5" x2="-2" y2="-41.7" width="0.0889" layer="16"/>
+<wire x1="-2" y1="-41.7" x2="-2" y2="-38" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_D8">
 <contactref element="U3" pad="D7"/>
@@ -16248,12 +16364,14 @@ einem neuen Namen ab.</description>
 <via x="-4" y="-45.5" extent="1-16" drill="0.2"/>
 <wire x1="-4" y1="-45.5" x2="-4.4" y2="-45.1" width="0.0889" layer="16"/>
 <via x="-5" y="-37" extent="1-16" drill="0.2"/>
-<wire x1="-5.4" y1="-37.4" x2="-5.4" y2="-41.1" width="0.0889" layer="16"/>
+<wire x1="-5.4" y1="-37.4" x2="-5.4" y2="-40.4" width="0.0889" layer="16"/>
 <wire x1="-5.4" y1="-37.4" x2="-5" y2="-37" width="0.0889" layer="16"/>
-<wire x1="-4.4" y1="-42.1" x2="-5.4" y2="-41.1" width="0.0889" layer="16"/>
-<wire x1="-4.4" y1="-45.1" x2="-4.4" y2="-42.1" width="0.0889" layer="16"/>
 <contactref element="U2" pad="G2"/>
 <wire x1="-4.5" y1="-36.5" x2="-5" y2="-37" width="0.0889" layer="1"/>
+<wire x1="-4.2" y1="-43.5" x2="-4.2" y2="-41.6" width="0.0889" layer="16"/>
+<wire x1="-4.2" y1="-41.6" x2="-5.4" y2="-40.4" width="0.0889" layer="16"/>
+<wire x1="-4.4" y1="-43.7" x2="-4.2" y2="-43.5" width="0.0889" layer="16"/>
+<wire x1="-4.4" y1="-45.1" x2="-4.4" y2="-43.7" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_D9">
 <contactref element="U3" pad="C3"/>
@@ -16324,11 +16442,15 @@ einem neuen Namen ab.</description>
 <contactref element="U3" pad="B8"/>
 <wire x1="-5.2" y1="-45.1" x2="-5.6" y2="-44.7" width="0.0889" layer="1"/>
 <via x="-5.6" y="-44.7" extent="1-16" drill="0.2"/>
-<wire x1="-5.6" y1="-44.7" x2="-6" y2="-44.3" width="0.0889" layer="16"/>
+<wire x1="-6" y1="-44.3" x2="-5.6" y2="-44.7" width="0.0889" layer="16"/>
 <contactref element="U2" pad="F1"/>
 <wire x1="-5.5" y1="-37.5" x2="-6" y2="-38" width="0.0889" layer="1"/>
 <via x="-6" y="-38" extent="1-16" drill="0.2"/>
-<wire x1="-6" y1="-44.3" x2="-6" y2="-38" width="0.0889" layer="16"/>
+<wire x1="-6.2" y1="-42.7" x2="-6.2" y2="-43.5" width="0.0889" layer="16"/>
+<wire x1="-6" y1="-42.5" x2="-6.2" y2="-42.7" width="0.0889" layer="16"/>
+<wire x1="-6.2" y1="-43.5" x2="-6" y2="-43.7" width="0.0889" layer="16"/>
+<wire x1="-6" y1="-38" x2="-6" y2="-42.5" width="0.0889" layer="16"/>
+<wire x1="-6" y1="-43.7" x2="-6" y2="-44.3" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_D15">
 <contactref element="U3" pad="A3"/>
@@ -16428,14 +16550,16 @@ einem neuen Namen ab.</description>
 <via x="-4" y="-40.7" extent="1-16" drill="0.2"/>
 <wire x1="-4" y1="-40.7" x2="-2" y2="-42.7" width="0.0889" layer="4"/>
 <wire x1="-5.5" y1="-36.5" x2="-5.5" y2="-39.2" width="0.0889" layer="5"/>
-<wire x1="6.4" y1="-50.3" x2="6" y2="-50.7" width="0.0889" layer="16"/>
-<wire x1="6" y1="-51.20848125" x2="5.60848125" y2="-51.6" width="0.0889" layer="16"/>
-<wire x1="-1.7" y1="-51.6" x2="-2" y2="-51.3" width="0.0889" layer="16"/>
+<wire x1="-2" y1="-51.3" x2="-1.7" y2="-51.6" width="0.0889" layer="16"/>
 <wire x1="-2" y1="-51.3" x2="-2" y2="-46.9" width="0.0889" layer="16"/>
-<wire x1="6" y1="-50.7" x2="6" y2="-51.20848125" width="0.0889" layer="16"/>
-<wire x1="5.60848125" y1="-51.6" x2="-1.7" y2="-51.6" width="0.0889" layer="16"/>
 <via x="-2" y="-46.9" extent="1-16" drill="0.2"/>
 <wire x1="-2" y1="-42.7" x2="-2" y2="-46.9" width="0.0889" layer="4"/>
+<wire x1="6.9" y1="-52.6" x2="7.2" y2="-52.3" width="0.0889" layer="16"/>
+<wire x1="7.2" y1="-52.3" x2="7.2" y2="-51.1" width="0.0889" layer="16"/>
+<wire x1="7.2" y1="-51.1" x2="6.4" y2="-50.3" width="0.0889" layer="16"/>
+<wire x1="-1.7" y1="-51.6" x2="1.2" y2="-51.6" width="0.0889" layer="16"/>
+<wire x1="1.2" y1="-51.6" x2="2.2" y2="-52.6" width="0.0889" layer="16"/>
+<wire x1="2.2" y1="-52.6" x2="6.9" y2="-52.6" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_NRAS">
 <contactref element="U2" pad="R5"/>
@@ -16450,11 +16574,11 @@ einem neuen Namen ab.</description>
 <wire x1="4.4" y1="-50.7" x2="1.4" y2="-50.7" width="0.0889" layer="16"/>
 <wire x1="1.4" y1="-50.7" x2="1.2" y2="-50.5" width="0.0889" layer="16"/>
 <wire x1="1.2" y1="-49.9" x2="0.8" y2="-49.5" width="0.0889" layer="16"/>
-<wire x1="4.6" y1="-41.7" x2="4.6" y2="-34.6" width="0.0889" layer="16"/>
+<wire x1="4.6" y1="-41" x2="4.6" y2="-34.6" width="0.0889" layer="16"/>
 <wire x1="1.2" y1="-50.5" x2="1.2" y2="-49.9" width="0.0889" layer="16"/>
 <wire x1="5.2" y1="-48" x2="6" y2="-47.2" width="0.0889" layer="16"/>
-<wire x1="6" y1="-43.1" x2="4.6" y2="-41.7" width="0.0889" layer="16"/>
-<wire x1="6" y1="-47.2" x2="6" y2="-43.1" width="0.0889" layer="16"/>
+<wire x1="6" y1="-42.4" x2="4.6" y2="-41" width="0.0889" layer="16"/>
+<wire x1="6" y1="-47.2" x2="6" y2="-42.4" width="0.0889" layer="16"/>
 </signal>
 <signal name="DDR_NWE">
 <contactref element="U2" pad="R4"/>
@@ -16466,10 +16590,12 @@ einem neuen Namen ab.</description>
 <wire x1="4" y1="-35" x2="4" y2="-35.5" width="0.0889" layer="16"/>
 <wire x1="4" y1="-35.5" x2="3.3" y2="-36.2" width="0.0889" layer="16"/>
 <wire x1="2.4" y1="-48.2" x2="2.4" y2="-49.5" width="0.0889" layer="16"/>
-<wire x1="3.3" y1="-36.2" x2="3.3" y2="-41.4" width="0.0889" layer="16"/>
-<wire x1="3.3" y1="-41.4" x2="4.4" y2="-42.5" width="0.0889" layer="16"/>
-<wire x1="4.4" y1="-42.5" x2="4.4" y2="-46.2" width="0.0889" layer="16"/>
+<wire x1="3.3" y1="-40.5" x2="3.3" y2="-36.2" width="0.0889" layer="16"/>
 <wire x1="4.4" y1="-46.2" x2="2.4" y2="-48.2" width="0.0889" layer="16"/>
+<wire x1="3.3" y1="-40.5" x2="4.7" y2="-41.9" width="0.0889" layer="16"/>
+<wire x1="4.7" y1="-43.4" x2="4.4" y2="-43.7" width="0.0889" layer="16"/>
+<wire x1="4.7" y1="-41.9" x2="4.7" y2="-43.4" width="0.0889" layer="16"/>
+<wire x1="4.4" y1="-43.7" x2="4.4" y2="-46.2" width="0.0889" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="U2" pad="M7"/>
@@ -16637,6 +16763,30 @@ einem neuen Namen ab.</description>
 <wire x1="4" y1="-37.7" x2="4" y2="-37" width="0.3" layer="16"/>
 <wire x1="6.6" y1="-37.5" x2="6.5" y2="-37.5" width="0.3" layer="16"/>
 <wire x1="6.5" y1="-37.5" x2="6" y2="-38" width="0.3" layer="16"/>
+<contactref element="C263" pad="2"/>
+<contactref element="C272" pad="2"/>
+<contactref element="C273" pad="2"/>
+<contactref element="C274" pad="2"/>
+<contactref element="C275" pad="2"/>
+<contactref element="C276" pad="2"/>
+<contactref element="C277" pad="2"/>
+<contactref element="C278" pad="2"/>
+<wire x1="-4.7" y1="-51.2" x2="-4.8" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="-4.7" y1="-51.2" x2="-4.7" y2="-51.8" width="0.3" layer="16"/>
+<wire x1="-2.3" y1="-51.2" x2="-2.3" y2="-51.8" width="0.3" layer="16"/>
+<wire x1="-2.3" y1="-51.2" x2="-2.4" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="4.1" y1="-51.2" x2="4.1" y2="-51.8" width="0.3" layer="16"/>
+<wire x1="4.1" y1="-51.2" x2="4" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="5.5" y1="-51.2" x2="5.5" y2="-51.8" width="0.3" layer="16"/>
+<wire x1="5.5" y1="-51.2" x2="5.6" y2="-51.1" width="0.3" layer="16"/>
+<wire x1="-4.7" y1="-43.2" x2="-4.8" y2="-43.2" width="0.3" layer="16"/>
+<wire x1="-4.8" y1="-43.2" x2="-4.8" y2="-43.9" width="0.3" layer="16"/>
+<wire x1="-3.3" y1="-43.2" x2="-3.2" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="-3.2" y1="-43.3" x2="-3.2" y2="-43.9" width="0.3" layer="16"/>
+<wire x1="4" y1="-43.9" x2="4" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="4" y1="-43.3" x2="4.1" y2="-43.2" width="0.3" layer="16"/>
+<wire x1="5.6" y1="-43.9" x2="5.6" y2="-43.3" width="0.3" layer="16"/>
+<wire x1="5.6" y1="-43.3" x2="5.5" y2="-43.2" width="0.3" layer="16"/>
 </signal>
 <signal name="DDR_VREF">
 <contactref element="R7" pad="1"/>

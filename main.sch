@@ -9738,6 +9738,22 @@
 <part name="GND362" library="NETS" deviceset="GND" device=""/>
 <part name="C262" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND364" library="NETS" deviceset="GND" device=""/>
+<part name="C263" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND365" library="NETS" deviceset="GND" device=""/>
+<part name="GND366" library="NETS" deviceset="GND" device=""/>
+<part name="C272" library="c_0402" deviceset="0402ZD225KAT2A" device="" value="2.2uF 10V"/>
+<part name="C273" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND367" library="NETS" deviceset="GND" device=""/>
+<part name="GND368" library="NETS" deviceset="GND" device=""/>
+<part name="C274" library="c_0402" deviceset="0402ZD225KAT2A" device="" value="2.2uF 10V"/>
+<part name="C275" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND369" library="NETS" deviceset="GND" device=""/>
+<part name="GND370" library="NETS" deviceset="GND" device=""/>
+<part name="C276" library="c_0402" deviceset="0402ZD225KAT2A" device="" value="2.2uF 10V"/>
+<part name="C277" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="GND371" library="NETS" deviceset="GND" device=""/>
+<part name="GND372" library="NETS" deviceset="GND" device=""/>
+<part name="C278" library="c_0402" deviceset="0402ZD225KAT2A" device="" value="2.2uF 10V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9799,15 +9815,15 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-38.1" y="264.16" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-38.1" y="261.62" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="A" x="142.24" y="187.96" smashed="yes">
-<attribute name="NAME" x="154.94" y="238.76" size="1.778" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="154.94" y="236.22" size="1.778" layer="96" ratio="6" rot="SR0"/>
+<instance part="U3" gate="A" x="-144.78" y="83.82" smashed="yes">
+<attribute name="NAME" x="-132.08" y="134.62" size="1.778" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="-132.08" y="132.08" size="1.778" layer="96" ratio="6" rot="SR0"/>
 </instance>
 <instance part="GND1" gate="G$1" x="0" y="-269.24" smashed="yes">
 <attribute name="VALUE" x="0" y="-271.78" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND2" gate="G$1" x="142.24" y="121.92" smashed="yes">
-<attribute name="VALUE" x="142.24" y="119.38" size="1.778" layer="96" align="center"/>
+<instance part="GND2" gate="G$1" x="-144.78" y="17.78" smashed="yes">
+<attribute name="VALUE" x="-144.78" y="15.24" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R1" gate="G$1" x="127" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="63.5" size="1.27" layer="95" rot="R90" align="center"/>
@@ -9824,45 +9840,45 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="86.36" y="86.36" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="86.36" y="81.28" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="R7" gate="G$1" x="157.48" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.94" y="127" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="160.02" y="127" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="R7" gate="G$1" x="-129.54" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="-132.08" y="22.86" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-127" y="22.86" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R8" gate="G$1" x="157.48" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.94" y="111.76" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="160.02" y="111.76" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="R8" gate="G$1" x="-129.54" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-132.08" y="7.62" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-127" y="7.62" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND19" gate="G$1" x="157.48" y="101.6" smashed="yes">
-<attribute name="VALUE" x="157.48" y="99.06" size="1.778" layer="96" align="center"/>
+<instance part="GND19" gate="G$1" x="-129.54" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="-129.54" y="-5.08" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND20" gate="G$1" x="165.1" y="101.6" smashed="yes">
-<attribute name="VALUE" x="165.1" y="99.06" size="1.778" layer="96" align="center"/>
+<instance part="GND20" gate="G$1" x="-121.92" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="-121.92" y="-5.08" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C9" gate="G$1" x="165.1" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="162.56" y="111.76" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="167.64" y="111.76" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="C9" gate="G$1" x="-121.92" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="-124.46" y="7.62" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-119.38" y="7.62" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R9" gate="G$1" x="162.56" y="256.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="160.02" y="256.54" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="165.1" y="256.54" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="R9" gate="G$1" x="-124.46" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-127" y="152.4" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-121.92" y="152.4" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="R13" gate="G$1" x="124.46" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.92" y="137.16" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="127" y="137.16" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="R13" gate="G$1" x="-162.56" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-165.1" y="33.02" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-160.02" y="33.02" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND21" gate="G$1" x="124.46" y="127" smashed="yes">
-<attribute name="VALUE" x="124.46" y="124.46" size="1.778" layer="96" align="center"/>
+<instance part="GND21" gate="G$1" x="-162.56" y="22.86" smashed="yes">
+<attribute name="VALUE" x="-162.56" y="20.32" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="GND22" gate="G$1" x="116.84" y="127" smashed="yes">
-<attribute name="VALUE" x="116.84" y="124.46" size="1.778" layer="96" align="center"/>
+<instance part="GND22" gate="G$1" x="-170.18" y="22.86" smashed="yes">
+<attribute name="VALUE" x="-170.18" y="20.32" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="C10" gate="G$1" x="116.84" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="114.3" y="137.16" size="1.27" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="119.38" y="137.16" size="1.27" layer="96" rot="R90" align="center"/>
+<instance part="C10" gate="G$1" x="-170.18" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-172.72" y="33.02" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-167.64" y="33.02" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="C11" gate="G$1" x="116.84" y="175.26" smashed="yes">
-<attribute name="NAME" x="116.84" y="177.8" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="116.84" y="172.72" size="1.27" layer="96" align="center"/>
+<instance part="C11" gate="G$1" x="-170.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="-170.18" y="73.66" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="-170.18" y="68.58" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="U37" gate="G$1" x="180.34" y="27.94" smashed="yes">
 <attribute name="NAME" x="187.96" y="48.26" size="1.778" layer="95"/>
@@ -10301,6 +10317,62 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <instance part="GND364" gate="G$1" x="134.62" y="-73.66" smashed="yes">
 <attribute name="VALUE" x="134.62" y="-76.2" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="C263" gate="G$1" x="-187.96" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-190.5" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-185.42" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND365" gate="G$1" x="-187.96" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-187.96" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND366" gate="G$1" x="-180.34" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-180.34" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C272" gate="G$1" x="-180.34" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-182.88" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-177.8" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C273" gate="G$1" x="-172.72" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-175.26" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-170.18" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND367" gate="G$1" x="-172.72" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-172.72" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND368" gate="G$1" x="-165.1" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-165.1" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C274" gate="G$1" x="-165.1" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-167.64" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-162.56" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C275" gate="G$1" x="-157.48" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-160.02" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-154.94" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND369" gate="G$1" x="-157.48" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-157.48" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND370" gate="G$1" x="-149.86" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-149.86" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C276" gate="G$1" x="-149.86" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-152.4" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-147.32" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="C277" gate="G$1" x="-142.24" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-144.78" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-139.7" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND371" gate="G$1" x="-142.24" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-142.24" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND372" gate="G$1" x="-134.62" y="160.02" smashed="yes">
+<attribute name="VALUE" x="-134.62" y="157.48" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="C278" gate="G$1" x="-134.62" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-137.16" y="170.18" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="-132.08" y="170.18" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10323,14 +10395,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VSSQ"/>
-<wire x1="139.7" y1="129.54" x2="139.7" y2="127" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="25.4" x2="-147.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="22.86" x2="-144.78" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="G$1" pin="GND"/>
-<wire x1="142.24" y1="127" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<junction x="142.24" y="127"/>
+<wire x1="-144.78" y1="22.86" x2="-144.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="22.86" x2="-142.24" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-144.78" y="22.86"/>
 <pinref part="U3" gate="A" pin="VSS"/>
-<wire x1="144.78" y1="127" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="22.86" x2="-142.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -10340,22 +10412,22 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="G$1" pin="GND"/>
-<wire x1="157.48" y1="104.14" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="0" x2="-129.54" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="GND20" gate="G$1" pin="GND"/>
-<wire x1="165.1" y1="106.68" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="2.54" x2="-121.92" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="GND21" gate="G$1" pin="GND"/>
-<wire x1="124.46" y1="129.54" x2="124.46" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="25.4" x2="-162.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="GND22" gate="G$1" pin="GND"/>
-<wire x1="116.84" y1="132.08" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="27.94" x2="-170.18" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="DXN_0"/>
@@ -10657,6 +10729,46 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="GND364" gate="G$1" pin="GND"/>
 <wire x1="134.62" y1="-71.12" x2="134.62" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C263" gate="G$1" pin="1"/>
+<pinref part="GND365" gate="G$1" pin="GND"/>
+<wire x1="-187.96" y1="162.56" x2="-187.96" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND366" gate="G$1" pin="GND"/>
+<wire x1="-180.34" y1="162.56" x2="-180.34" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C272" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C273" gate="G$1" pin="1"/>
+<pinref part="GND367" gate="G$1" pin="GND"/>
+<wire x1="-172.72" y1="162.56" x2="-172.72" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND368" gate="G$1" pin="GND"/>
+<wire x1="-165.1" y1="162.56" x2="-165.1" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C274" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C275" gate="G$1" pin="1"/>
+<pinref part="GND369" gate="G$1" pin="GND"/>
+<wire x1="-157.48" y1="162.56" x2="-157.48" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND370" gate="G$1" pin="GND"/>
+<wire x1="-149.86" y1="162.56" x2="-149.86" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C276" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="C277" gate="G$1" pin="1"/>
+<pinref part="GND371" gate="G$1" pin="GND"/>
+<wire x1="-142.24" y1="162.56" x2="-142.24" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND372" gate="G$1" pin="GND"/>
+<wire x1="-134.62" y1="162.56" x2="-134.62" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="C278" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="FPGA_DONE" class="0">
 <segment>
@@ -10715,8 +10827,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A0"/>
-<wire x1="195.58" y1="231.14" x2="157.48" y2="231.14" width="0.1524" layer="91"/>
-<label x="160.02" y="231.14" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="127" x2="-129.54" y2="127" width="0.1524" layer="91"/>
+<label x="-127" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A1" class="0">
@@ -10727,8 +10839,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A1"/>
-<wire x1="195.58" y1="228.6" x2="157.48" y2="228.6" width="0.1524" layer="91"/>
-<label x="160.02" y="228.6" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="124.46" x2="-129.54" y2="124.46" width="0.1524" layer="91"/>
+<label x="-127" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A2" class="0">
@@ -10739,8 +10851,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A2"/>
-<wire x1="195.58" y1="226.06" x2="157.48" y2="226.06" width="0.1524" layer="91"/>
-<label x="160.02" y="226.06" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="121.92" x2="-129.54" y2="121.92" width="0.1524" layer="91"/>
+<label x="-127" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A3" class="0">
@@ -10751,8 +10863,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A3"/>
-<wire x1="195.58" y1="223.52" x2="157.48" y2="223.52" width="0.1524" layer="91"/>
-<label x="160.02" y="223.52" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="119.38" x2="-129.54" y2="119.38" width="0.1524" layer="91"/>
+<label x="-127" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A4" class="0">
@@ -10763,8 +10875,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A4"/>
-<wire x1="195.58" y1="220.98" x2="157.48" y2="220.98" width="0.1524" layer="91"/>
-<label x="160.02" y="220.98" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="116.84" x2="-129.54" y2="116.84" width="0.1524" layer="91"/>
+<label x="-127" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A5" class="0">
@@ -10775,8 +10887,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A5"/>
-<wire x1="195.58" y1="218.44" x2="157.48" y2="218.44" width="0.1524" layer="91"/>
-<label x="160.02" y="218.44" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="114.3" x2="-129.54" y2="114.3" width="0.1524" layer="91"/>
+<label x="-127" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A6" class="0">
@@ -10787,8 +10899,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A6"/>
-<wire x1="195.58" y1="215.9" x2="157.48" y2="215.9" width="0.1524" layer="91"/>
-<label x="160.02" y="215.9" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="111.76" x2="-129.54" y2="111.76" width="0.1524" layer="91"/>
+<label x="-127" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A7" class="0">
@@ -10799,8 +10911,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A7"/>
-<wire x1="195.58" y1="213.36" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
-<label x="160.02" y="213.36" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="109.22" x2="-129.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="-127" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A8" class="0">
@@ -10811,8 +10923,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A8"/>
-<wire x1="195.58" y1="210.82" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
-<label x="160.02" y="210.82" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="106.68" x2="-129.54" y2="106.68" width="0.1524" layer="91"/>
+<label x="-127" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A9" class="0">
@@ -10823,8 +10935,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A9"/>
-<wire x1="195.58" y1="208.28" x2="157.48" y2="208.28" width="0.1524" layer="91"/>
-<label x="160.02" y="208.28" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="104.14" x2="-129.54" y2="104.14" width="0.1524" layer="91"/>
+<label x="-127" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A10" class="0">
@@ -10835,8 +10947,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A10/AP"/>
-<wire x1="195.58" y1="205.74" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
-<label x="160.02" y="205.74" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="101.6" x2="-129.54" y2="101.6" width="0.1524" layer="91"/>
+<label x="-127" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A11" class="0">
@@ -10847,8 +10959,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A11"/>
-<wire x1="195.58" y1="203.2" x2="157.48" y2="203.2" width="0.1524" layer="91"/>
-<label x="160.02" y="203.2" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="99.06" x2="-129.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="-127" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A12" class="0">
@@ -10859,8 +10971,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A12/BC"/>
-<wire x1="195.58" y1="200.66" x2="157.48" y2="200.66" width="0.1524" layer="91"/>
-<label x="160.02" y="200.66" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="96.52" x2="-129.54" y2="96.52" width="0.1524" layer="91"/>
+<label x="-127" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_A13" class="0">
@@ -10871,8 +10983,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="A13"/>
-<wire x1="195.58" y1="198.12" x2="157.48" y2="198.12" width="0.1524" layer="91"/>
-<label x="160.02" y="198.12" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="93.98" x2="-129.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="-127" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_BA0" class="0">
@@ -10883,8 +10995,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="BA0"/>
-<wire x1="195.58" y1="193.04" x2="157.48" y2="193.04" width="0.1524" layer="91"/>
-<label x="160.02" y="193.04" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="88.9" x2="-129.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="-127" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_BA1" class="0">
@@ -10895,8 +11007,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="BA1"/>
-<wire x1="195.58" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
-<label x="160.02" y="190.5" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="86.36" x2="-129.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="-127" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_BA2" class="0">
@@ -10907,8 +11019,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="BA2"/>
-<wire x1="195.58" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91"/>
-<label x="160.02" y="187.96" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="83.82" x2="-129.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="-127" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NCAS" class="0">
@@ -10919,8 +11031,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="CAS"/>
-<wire x1="88.9" y1="205.74" x2="127" y2="205.74" width="0.1524" layer="91"/>
-<label x="91.44" y="205.74" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="101.6" x2="-160.02" y2="101.6" width="0.1524" layer="91"/>
+<label x="-195.58" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_CKE" class="0">
@@ -10931,8 +11043,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="CKE"/>
-<wire x1="88.9" y1="226.06" x2="127" y2="226.06" width="0.1524" layer="91"/>
-<label x="91.44" y="226.06" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="121.92" x2="-160.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="-195.58" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_CLK_N" class="0">
@@ -10943,14 +11055,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="!CLK"/>
-<wire x1="88.9" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
-<label x="91.44" y="218.44" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="114.3" x2="-160.02" y2="114.3" width="0.1524" layer="91"/>
+<label x="-195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="251.46" x2="162.56" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="248.92" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
-<label x="165.1" y="248.92" size="1.778" layer="95"/>
+<wire x1="-124.46" y1="147.32" x2="-124.46" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="144.78" x2="-96.52" y2="144.78" width="0.1524" layer="91"/>
+<label x="-121.92" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_CLK_P" class="0">
@@ -10961,14 +11073,14 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="CLK"/>
-<wire x1="88.9" y1="220.98" x2="127" y2="220.98" width="0.1524" layer="91"/>
-<label x="91.44" y="220.98" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="116.84" x2="-160.02" y2="116.84" width="0.1524" layer="91"/>
+<label x="-195.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="261.62" x2="162.56" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="264.16" x2="190.5" y2="264.16" width="0.1524" layer="91"/>
-<label x="165.1" y="264.16" size="1.778" layer="95"/>
+<wire x1="-124.46" y1="157.48" x2="-124.46" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="160.02" x2="-96.52" y2="160.02" width="0.1524" layer="91"/>
+<label x="-121.92" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NCS" class="0">
@@ -10979,8 +11091,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="CS"/>
-<wire x1="88.9" y1="228.6" x2="127" y2="228.6" width="0.1524" layer="91"/>
-<label x="91.44" y="228.6" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="124.46" x2="-160.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="-195.58" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_DM0" class="0">
@@ -10991,8 +11103,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="DML"/>
-<wire x1="88.9" y1="185.42" x2="127" y2="185.42" width="0.1524" layer="91"/>
-<label x="91.44" y="185.42" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="81.28" x2="-160.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="-195.58" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_DM1" class="0">
@@ -11003,15 +11115,15 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="DMU"/>
-<wire x1="88.9" y1="182.88" x2="127" y2="182.88" width="0.1524" layer="91"/>
-<label x="91.44" y="182.88" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="78.74" x2="-160.02" y2="78.74" width="0.1524" layer="91"/>
+<label x="-195.58" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_D0" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL0"/>
-<wire x1="195.58" y1="182.88" x2="157.48" y2="182.88" width="0.1524" layer="91"/>
-<label x="160.02" y="182.88" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="78.74" x2="-129.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="-127" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ4_502"/>
@@ -11022,8 +11134,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D1" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL1"/>
-<wire x1="195.58" y1="180.34" x2="157.48" y2="180.34" width="0.1524" layer="91"/>
-<label x="160.02" y="180.34" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="76.2" x2="-129.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="-127" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ14_502"/>
@@ -11034,8 +11146,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D2" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL2"/>
-<wire x1="195.58" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
-<label x="160.02" y="177.8" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="73.66" x2="-129.54" y2="73.66" width="0.1524" layer="91"/>
+<label x="-127" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ9_502"/>
@@ -11046,8 +11158,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D3" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL3"/>
-<wire x1="195.58" y1="175.26" x2="157.48" y2="175.26" width="0.1524" layer="91"/>
-<label x="160.02" y="175.26" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="71.12" x2="-129.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="-127" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ15_502"/>
@@ -11058,8 +11170,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D4" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL4"/>
-<wire x1="195.58" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
-<label x="160.02" y="172.72" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="68.58" x2="-129.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="-127" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ10_502"/>
@@ -11070,8 +11182,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D5" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL5"/>
-<wire x1="195.58" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
-<label x="160.02" y="170.18" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="66.04" x2="-129.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="-127" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ12_502"/>
@@ -11082,8 +11194,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D6" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL6"/>
-<wire x1="195.58" y1="167.64" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
-<label x="160.02" y="167.64" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="63.5" x2="-129.54" y2="63.5" width="0.1524" layer="91"/>
+<label x="-127" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ11_502"/>
@@ -11094,8 +11206,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D7" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQL7"/>
-<wire x1="195.58" y1="165.1" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
-<label x="160.02" y="165.1" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="60.96" x2="-129.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="-127" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ13_502"/>
@@ -11106,8 +11218,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D8" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU0"/>
-<wire x1="195.58" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
-<label x="160.02" y="162.56" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="58.42" x2="-129.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="-127" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ8_502"/>
@@ -11118,8 +11230,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D9" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU1"/>
-<wire x1="195.58" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
-<label x="160.02" y="160.02" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="55.88" x2="-129.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="-127" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ5_502"/>
@@ -11130,8 +11242,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D10" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU2"/>
-<wire x1="195.58" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
-<label x="160.02" y="157.48" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="53.34" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
+<label x="-127" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ6_502"/>
@@ -11142,8 +11254,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D11" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU3"/>
-<wire x1="195.58" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
-<label x="160.02" y="154.94" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="50.8" x2="-129.54" y2="50.8" width="0.1524" layer="91"/>
+<label x="-127" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ0_502"/>
@@ -11154,8 +11266,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D12" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU4"/>
-<wire x1="195.58" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
-<label x="160.02" y="152.4" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="48.26" x2="-129.54" y2="48.26" width="0.1524" layer="91"/>
+<label x="-127" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ3_502"/>
@@ -11166,8 +11278,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D13" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU5"/>
-<wire x1="195.58" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="160.02" y="149.86" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="45.72" x2="-129.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="-127" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ2_502"/>
@@ -11178,8 +11290,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D14" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU6"/>
-<wire x1="195.58" y1="147.32" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
-<label x="160.02" y="147.32" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="43.18" x2="-129.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="-127" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ7_502"/>
@@ -11190,8 +11302,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="DDR_D15" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQU7"/>
-<wire x1="195.58" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
-<label x="160.02" y="144.78" size="1.778" layer="95"/>
+<wire x1="-91.44" y1="40.64" x2="-129.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="-127" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQ1_502"/>
@@ -11207,8 +11319,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="!DQSL"/>
-<wire x1="88.9" y1="198.12" x2="127" y2="198.12" width="0.1524" layer="91"/>
-<label x="91.44" y="198.12" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="93.98" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="-195.58" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_DQS1_N" class="0">
@@ -11219,8 +11331,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="!DQSU"/>
-<wire x1="88.9" y1="193.04" x2="127" y2="193.04" width="0.1524" layer="91"/>
-<label x="91.44" y="193.04" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="88.9" x2="-160.02" y2="88.9" width="0.1524" layer="91"/>
+<label x="-195.58" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_DQS0_P" class="0">
@@ -11231,8 +11343,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="DQSL"/>
-<wire x1="88.9" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
-<label x="91.44" y="200.66" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="96.52" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="-195.58" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_DQS1_P" class="0">
@@ -11243,8 +11355,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="DQSU"/>
-<wire x1="88.9" y1="195.58" x2="127" y2="195.58" width="0.1524" layer="91"/>
-<label x="91.44" y="195.58" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="91.44" x2="-160.02" y2="91.44" width="0.1524" layer="91"/>
+<label x="-195.58" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NRST" class="0">
@@ -11255,8 +11367,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="RESET"/>
-<wire x1="88.9" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
-<label x="91.44" y="231.14" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="127" x2="-160.02" y2="127" width="0.1524" layer="91"/>
+<label x="-195.58" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NRAS" class="0">
@@ -11267,8 +11379,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="RAS"/>
-<wire x1="88.9" y1="208.28" x2="127" y2="208.28" width="0.1524" layer="91"/>
-<label x="91.44" y="208.28" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="104.14" x2="-160.02" y2="104.14" width="0.1524" layer="91"/>
+<label x="-195.58" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NWE" class="0">
@@ -11279,8 +11391,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="WE"/>
-<wire x1="88.9" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
-<label x="91.44" y="210.82" size="1.778" layer="95"/>
+<wire x1="-198.12" y1="106.68" x2="-160.02" y2="106.68" width="0.1524" layer="91"/>
+<label x="-195.58" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_SYS_1V8" class="0">
@@ -11611,8 +11723,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="ODT"/>
-<wire x1="127" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<label x="91.44" y="144.78" size="1.778" layer="95"/>
+<wire x1="-160.02" y1="40.64" x2="-198.12" y2="40.64" width="0.1524" layer="91"/>
+<label x="-195.58" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_DDR3_1V35" class="0">
@@ -11624,19 +11736,19 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="132.08" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="134.62" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
-<label x="160.02" y="134.62" size="1.778" layer="95"/>
+<wire x1="-129.54" y1="27.94" x2="-129.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="30.48" x2="-93.98" y2="30.48" width="0.1524" layer="91"/>
+<label x="-127" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VDDQ"/>
-<wire x1="144.78" y1="246.38" x2="144.78" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="248.92" x2="139.7" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="142.24" x2="-142.24" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="144.78" x2="-147.32" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VDD"/>
-<wire x1="139.7" y1="248.92" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="246.38" x2="139.7" y2="248.92" width="0.1524" layer="91"/>
-<junction x="139.7" y="248.92"/>
-<label x="91.44" y="248.92" size="1.778" layer="95"/>
+<wire x1="-147.32" y1="144.78" x2="-198.12" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="142.24" x2="-147.32" y2="144.78" width="0.1524" layer="91"/>
+<junction x="-147.32" y="144.78"/>
+<label x="-195.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCCO_DDR_502"/>
@@ -11645,8 +11757,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="175.26" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
-<label x="91.44" y="175.26" size="1.778" layer="95"/>
+<wire x1="-175.26" y1="71.12" x2="-198.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="-195.58" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="165.1" y="-78.74" size="1.778" layer="95"/>
@@ -11678,20 +11790,54 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="149.86" y1="-81.28" x2="149.86" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="149.86" y="-78.74"/>
 </segment>
+<segment>
+<label x="-127" y="177.8" size="1.778" layer="95"/>
+<pinref part="C263" gate="G$1" pin="2"/>
+<wire x1="-187.96" y1="177.8" x2="-180.34" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="177.8" x2="-172.72" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="177.8" x2="-165.1" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="177.8" x2="-157.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="177.8" x2="-149.86" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="177.8" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="177.8" x2="-134.62" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="177.8" x2="-104.14" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="175.26" x2="-187.96" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="175.26" x2="-180.34" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-180.34" y="177.8"/>
+<pinref part="C272" gate="G$1" pin="2"/>
+<pinref part="C273" gate="G$1" pin="2"/>
+<wire x1="-172.72" y1="175.26" x2="-172.72" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-172.72" y="177.8"/>
+<pinref part="C274" gate="G$1" pin="2"/>
+<wire x1="-165.1" y1="175.26" x2="-165.1" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-165.1" y="177.8"/>
+<pinref part="C275" gate="G$1" pin="2"/>
+<wire x1="-157.48" y1="175.26" x2="-157.48" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-157.48" y="177.8"/>
+<pinref part="C276" gate="G$1" pin="2"/>
+<wire x1="-149.86" y1="175.26" x2="-149.86" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-149.86" y="177.8"/>
+<pinref part="C277" gate="G$1" pin="2"/>
+<wire x1="-142.24" y1="175.26" x2="-142.24" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-142.24" y="177.8"/>
+<pinref part="C278" gate="G$1" pin="2"/>
+<wire x1="-134.62" y1="175.26" x2="-134.62" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-134.62" y="177.8"/>
+</segment>
 </net>
 <net name="DDR_VREF" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="116.84" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="119.38" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
-<junction x="157.48" y="119.38"/>
-<label x="177.8" y="119.38" size="1.778" layer="95"/>
+<wire x1="-129.54" y1="12.7" x2="-129.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="15.24" x2="-129.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="15.24" x2="-121.92" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-129.54" y="15.24"/>
+<label x="-109.22" y="15.24" size="1.778" layer="95"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="116.84" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
-<junction x="165.1" y="119.38"/>
+<wire x1="-121.92" y1="15.24" x2="-93.98" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="12.7" x2="-121.92" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-121.92" y="15.24"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_VREF0_502"/>
@@ -11705,28 +11851,28 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="VREFCA"/>
-<wire x1="127" y1="167.64" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="63.5" x2="-162.56" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VREFDQ"/>
-<wire x1="124.46" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="127" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="165.1" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
-<junction x="124.46" y="167.64"/>
-<label x="91.44" y="167.64" size="1.778" layer="95"/>
+<wire x1="-162.56" y1="63.5" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="63.5" x2="-198.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="60.96" x2="-162.56" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="60.96" x2="-162.56" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-162.56" y="63.5"/>
+<label x="-195.58" y="63.5" size="1.778" layer="95"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
-<junction x="116.84" y="167.64"/>
+<wire x1="-170.18" y1="38.1" x2="-170.18" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-170.18" y="63.5"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="175.26" x2="124.46" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="175.26" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="71.12" x2="-162.56" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="71.12" x2="-162.56" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="ZQ"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="154.94" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="50.8" x2="-162.56" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="50.8" x2="-162.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PSS_NRST" class="0">
