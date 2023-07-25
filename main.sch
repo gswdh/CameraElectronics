@@ -20901,6 +20901,13 @@ RESET</text>
 <pinref part="CN1" gate="G$1" pin="P39"/>
 </segment>
 </net>
+<net name="PSS_NSRST" class="0">
+<segment>
+<pinref part="CN1" gate="G$1" pin="P27"/>
+<wire x1="15.24" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
+<label x="20.32" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
