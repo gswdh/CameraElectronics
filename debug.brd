@@ -10,7 +10,7 @@
 <grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="11" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GND" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="PWR" color="14" fill="1" visible="no" active="yes"/>
 <layer number="4" name="SIGNAL1" color="47" fill="1" visible="no" active="no"/>
 <layer number="5" name="SIGNAL2" color="30" fill="1" visible="no" active="no"/>
@@ -1066,7 +1066,7 @@ einem neuen Namen ab.</description>
 <via x="53.75" y="-0.75" extent="1-16" drill="0.3"/>
 <wire x1="55.625" y1="3.5" x2="54.625" y2="3.5" width="0.15" layer="1"/>
 <via x="54.625" y="3.5" extent="1-16" drill="0.3"/>
-<polygon width="0.15" layer="2">
+<polygon width="0.15" layer="16">
 <vertex x="-60" y="-25"/>
 <vertex x="60" y="-25"/>
 <vertex x="60" y="25"/>
