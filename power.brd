@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="14" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="14" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="14" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -788,7 +788,7 @@ einem neuen Namen ab.</description>
 <element name="MECH3" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-47" y="57" smashed="yes"/>
 <element name="MECH6" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="47" y="57" smashed="yes"/>
 <element name="MECH7" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="-47" y="-57" smashed="yes"/>
-<element name="MECH8" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="27" y="-57" smashed="yes"/>
+<element name="MECH8" library="MISC" package="MOUNTHOLE_6X3" value="6mm x 3mm" x="47" y="-57" smashed="yes"/>
 <element name="CN1" library="CONNECTORs" package="21700_TABBED" value="21700" x="-43" y="10" locked="yes" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="" x="-43" y="10" locked="yes" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEGHT" value="21" x="-43" y="10" locked="yes" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1098,8 +1098,9 @@ einem neuen Namen ab.</description>
 <signal name="N$43">
 <contactref element="Q2" pad="4"/>
 <contactref element="R9" pad="2"/>
-<wire x1="37.25" y1="37.875" x2="34.765" y2="37.875" width="0.15" layer="1"/>
-<wire x1="34.045" y1="37.155" x2="34.765" y2="37.875" width="0.15" layer="1"/>
+<wire x1="37.25" y1="37.875" x2="35.14" y2="37.875" width="0.15" layer="1"/>
+<wire x1="34.045" y1="37.155" x2="34.42" y2="37.155" width="0.15" layer="1"/>
+<wire x1="35.14" y1="37.875" x2="34.42" y2="37.155" width="0.15" layer="1"/>
 <wire x1="37.25" y1="37.875" x2="38" y2="38.625" width="0.15" layer="1"/>
 </signal>
 <signal name="N$45">
@@ -1369,9 +1370,9 @@ einem neuen Namen ab.</description>
 </polygon>
 <wire x1="52.625" y1="8.375" x2="52.625" y2="7.125" width="0.15" layer="1"/>
 <wire x1="52.625" y1="8.375" x2="52.625" y2="17" width="0.15" layer="1"/>
-<wire x1="38.25" y1="26.875" x2="38.125" y2="27" width="0.15" layer="1"/>
 <wire x1="52.625" y1="17" x2="42.75" y2="26.875" width="0.15" layer="1"/>
 <wire x1="42.75" y1="26.875" x2="38.25" y2="26.875" width="0.15" layer="1"/>
+<wire x1="38.25" y1="26.875" x2="38.125" y2="27" width="0.15" layer="1"/>
 </signal>
 <signal name="BMS_NALERT">
 <contactref element="CN5" pad="7"/>
