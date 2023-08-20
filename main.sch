@@ -13494,6 +13494,27 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-78.74" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="BADC_SPI_NCS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L18P_T2_34"/>
+<wire x1="-43.18" y1="-93.98" x2="-81.28" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-78.74" y="-93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BADC_SPI_SCLK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L22P_T3_34"/>
+<wire x1="-43.18" y1="-114.3" x2="-81.28" y2="-114.3" width="0.1524" layer="91"/>
+<label x="-78.74" y="-114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BADC_SPI_MISO" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L18N_T2_34"/>
+<wire x1="-43.18" y1="-91.44" x2="-81.28" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-78.74" y="-91.44" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -20650,11 +20671,6 @@ RESET</text>
 <wire x1="83.82" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="12"/>
 </segment>
-<segment>
-<pinref part="U28" gate="G$1" pin="SCLK"/>
-<wire x1="180.34" y1="-76.2" x2="154.94" y2="-76.2" width="0.1524" layer="91"/>
-<label x="157.48" y="-76.2" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PSS_SPI_MOSI" class="0">
 <segment>
@@ -20793,20 +20809,6 @@ RESET</text>
 <pinref part="R102" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADC_SPI_NCS" class="0">
-<segment>
-<pinref part="U28" gate="G$1" pin="!CS"/>
-<wire x1="180.34" y1="-73.66" x2="154.94" y2="-73.66" width="0.1524" layer="91"/>
-<label x="157.48" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PSS_SPI_MISO" class="0">
-<segment>
-<pinref part="U28" gate="G$1" pin="SDO"/>
-<wire x1="180.34" y1="-78.74" x2="154.94" y2="-78.74" width="0.1524" layer="91"/>
-<label x="157.48" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BMS_NINT" class="0">
 <segment>
 <label x="20.32" y="-35.56" size="1.778" layer="95"/>
@@ -20819,6 +20821,27 @@ RESET</text>
 <pinref part="CN1" gate="G$1" pin="P27"/>
 <wire x1="15.24" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
 <label x="20.32" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BADC_SPI_NCS" class="0">
+<segment>
+<pinref part="U28" gate="G$1" pin="!CS"/>
+<wire x1="187.96" y1="-73.66" x2="154.94" y2="-73.66" width="0.1524" layer="91"/>
+<label x="157.48" y="-73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BADC_SPI_SCLK" class="0">
+<segment>
+<pinref part="U28" gate="G$1" pin="SCLK"/>
+<wire x1="187.96" y1="-76.2" x2="154.94" y2="-76.2" width="0.1524" layer="91"/>
+<label x="157.48" y="-76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BADC_SPI_MISO" class="0">
+<segment>
+<pinref part="U28" gate="G$1" pin="SDO"/>
+<wire x1="187.96" y1="-78.74" x2="154.94" y2="-78.74" width="0.1524" layer="91"/>
+<label x="157.48" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
