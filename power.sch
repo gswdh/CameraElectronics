@@ -975,10 +975,10 @@ and SHA-256 Authentication</description>
 <sheet>
 <description>TITLE</description>
 <plain>
-<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2023.07.25- GSWDH LTD.
+<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2023.09.01- GSWDH LTD.
 CAMERA POWER PCB
 
-REVISION 1.0.0
+REVISION 1.1.0
 DESIGN BY GEORGE WALLER, GSWDH LTD.
 GEORGEWALLER@GSWDH.CO.UK
 
