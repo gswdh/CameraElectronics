@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -169,7 +169,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:c88P3QEjTCqDTo6JRZzqqA" pcbguid="" lastpulledtime="2022-04-18T10:55:57Z" lastsyncedchangeguid="" latestrevisionid="124c3dfe-6107-46e8-9b8e-52584e17ebd0" lastsyncedrevisionid="124c3dfe-6107-46e8-9b8e-52584e17ebd0" lastboardhashguid="bc98733b-f1b3-4ee5-0bf6-c8ab476752d5" lastpushedtime="2023-05-31T22:21:04Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:c88P3QEjTCqDTo6JRZzqqA" pcbguid="" lastpulledtime="2022-04-18T10:55:57Z" lastsyncedchangeguid="" latestrevisionid="ce983653-1534-4cc2-acaf-b91f21f1f48b" lastsyncedrevisionid="ce983653-1534-4cc2-acaf-b91f21f1f48b" lastboardhashguid="94f5bc72-18ae-67ef-b32d-2e99d89ddb72" lastpushedtime="2023-09-01T09:46:04Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-24" y1="31" x2="24" y2="31" width="0" layer="20"/>
 <wire x1="24" y1="31" x2="31" y2="24" width="0" layer="20" curve="-90"/>
@@ -237,9 +237,13 @@
 <text x="-31" y="45" size="3" layer="21" font="vector" align="center-left">gswdh.co.uk
 camera
 power PCB
-rev 1.0.0
-2023.07.25</text>
+rev 1.1.0
+2023.09.01</text>
 <text x="0" y="-50" size="3" layer="29" font="vector" align="center">gswdh.co.uk</text>
+<hole x="-43" y="32" drill="3"/>
+<hole x="-53" y="-50" drill="3"/>
+<hole x="53" y="-48" drill="3"/>
+<hole x="53" y="50" drill="3"/>
 </plain>
 <libraries>
 <library name="ICs">
@@ -324,56 +328,56 @@ rev 1.0.0
 <wire x1="10.5" y1="35" x2="10.5" y2="-35" width="0.125" layer="21"/>
 <wire x1="10.5" y1="35" x2="-10.5" y2="35" width="0.125" layer="21"/>
 <wire x1="-10.5" y1="-35" x2="10.5" y2="-35" width="0.125" layer="21"/>
-<pad name="N" x="0" y="-35.5" drill="0.5"/>
-<pad name="N1" x="-0.25" y="-35.5" drill="0.5"/>
-<pad name="N2" x="-0.5" y="-35.5" drill="0.5"/>
-<pad name="N3" x="-0.75" y="-35.5" drill="0.5"/>
-<pad name="N4" x="-1" y="-35.5" drill="0.5"/>
-<pad name="N5" x="-1.25" y="-35.5" drill="0.5"/>
-<pad name="N6" x="-1.5" y="-35.5" drill="0.5"/>
-<pad name="N7" x="-1.75" y="-35.5" drill="0.5"/>
-<pad name="N8" x="-2" y="-35.5" drill="0.5"/>
-<pad name="N9" x="-2.25" y="-35.5" drill="0.5"/>
-<pad name="N10" x="-2.5" y="-35.5" drill="0.5"/>
-<pad name="N11" x="-2.75" y="-35.5" drill="0.5"/>
-<pad name="N12" x="-3" y="-35.5" drill="0.5"/>
-<pad name="N13" x="2.75" y="-35.5" drill="0.5"/>
-<pad name="N14" x="2.5" y="-35.5" drill="0.5"/>
-<pad name="N15" x="2.25" y="-35.5" drill="0.5"/>
-<pad name="N16" x="2" y="-35.5" drill="0.5"/>
-<pad name="N17" x="1.75" y="-35.5" drill="0.5"/>
-<pad name="N18" x="1.5" y="-35.5" drill="0.5"/>
-<pad name="N19" x="1.25" y="-35.5" drill="0.5"/>
-<pad name="N20" x="1" y="-35.5" drill="0.5"/>
-<pad name="N21" x="0.75" y="-35.5" drill="0.5"/>
-<pad name="N22" x="0.5" y="-35.5" drill="0.5"/>
-<pad name="N23" x="0.25" y="-35.5" drill="0.5"/>
-<pad name="N24" x="3" y="-35.5" drill="0.5"/>
-<pad name="P1" x="-3" y="35.5" drill="0.5"/>
-<pad name="P2" x="-2.75" y="35.5" drill="0.5"/>
-<pad name="P3" x="-2.5" y="35.5" drill="0.5"/>
-<pad name="P4" x="-2.25" y="35.5" drill="0.5"/>
-<pad name="P5" x="-2" y="35.5" drill="0.5"/>
-<pad name="P6" x="-1.75" y="35.5" drill="0.5"/>
-<pad name="P7" x="-1.5" y="35.5" drill="0.5"/>
-<pad name="P8" x="-1.25" y="35.5" drill="0.5"/>
-<pad name="P9" x="-1" y="35.5" drill="0.5"/>
-<pad name="P10" x="-0.75" y="35.5" drill="0.5"/>
-<pad name="P11" x="-0.5" y="35.5" drill="0.5"/>
-<pad name="P12" x="-0.25" y="35.5" drill="0.5"/>
-<pad name="P13" x="0" y="35.5" drill="0.5"/>
-<pad name="P14" x="0.25" y="35.5" drill="0.5"/>
-<pad name="P15" x="0.5" y="35.5" drill="0.5"/>
-<pad name="P16" x="0.75" y="35.5" drill="0.5"/>
-<pad name="P17" x="1" y="35.5" drill="0.5"/>
-<pad name="P18" x="1.25" y="35.5" drill="0.5"/>
-<pad name="P19" x="1.5" y="35.5" drill="0.5"/>
-<pad name="P20" x="1.75" y="35.5" drill="0.5"/>
-<pad name="P21" x="2" y="35.5" drill="0.5"/>
-<pad name="P22" x="2.25" y="35.5" drill="0.5"/>
-<pad name="P23" x="2.5" y="35.5" drill="0.5"/>
-<pad name="P24" x="2.75" y="35.5" drill="0.5"/>
-<pad name="P25" x="3" y="35.5" drill="0.5"/>
+<pad name="N" x="0" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N1" x="-0.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N2" x="-0.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N3" x="-0.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N4" x="-1" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N5" x="-1.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N6" x="-1.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N7" x="-1.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N8" x="-2" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N9" x="-2.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N10" x="-2.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N11" x="-2.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N12" x="-3" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N13" x="2.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N14" x="2.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N15" x="2.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N16" x="2" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N17" x="1.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N18" x="1.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N19" x="1.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N20" x="1" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N21" x="0.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N22" x="0.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N23" x="0.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N24" x="3" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="P1" x="-3" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P2" x="-2.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P3" x="-2.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P4" x="-2.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P5" x="-2" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P6" x="-1.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P7" x="-1.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P8" x="-1.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P9" x="-1" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P10" x="-0.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P11" x="-0.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P12" x="-0.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P13" x="0" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P14" x="0.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P15" x="0.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P16" x="0.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P17" x="1" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P18" x="1.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P19" x="1.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P20" x="1.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P21" x="2" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P22" x="2.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P23" x="2.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P24" x="2.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P25" x="3" y="35.5" drill="0.5" diameter="3"/>
 <text x="-10.5" y="35.25" size="0.5" layer="21">&gt;NAME</text>
 </package>
 </packages>
@@ -650,10 +654,10 @@ einem neuen Namen ab.</description>
 <attribute name="PRICE_PER" value="0.45" x="40.375" y="63.875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U1" library="ICs" package="TQFN24" value="MAX17320G20+" x="47.75" y="6.125" smashed="yes" rot="R180">
+<attribute name="DIGIKEY" value="175-MAX17320G20+-ND" x="47.75" y="6.125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1" x="57.5" y="34.625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="53.5" y="6.375" size="0.5" layer="25" rot="R270"/>
 <attribute name="PRICE_PER" value="2.44" x="57.5" y="34.625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS" value="204-4302" x="57.5" y="34.625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="CAPACITORS" package="0603" value="100nF 16V" x="44.625" y="0.625" smashed="yes">
 <attribute name="DIGIKEY" value="1276-6582-1-ND" x="38.75" y="-15.75" size="1.778" layer="27" display="off"/>

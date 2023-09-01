@@ -279,9 +279,9 @@ and SHA-256 Authentication</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGIKEY" value="175-MAX17320G20+-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="2.44" constant="no"/>
-<attribute name="RS" value="204-4302" constant="no"/>
 <attribute name="VALUE" value="MAX17320G20+" constant="no"/>
 </technology>
 </technologies>
@@ -321,56 +321,56 @@ and SHA-256 Authentication</description>
 <wire x1="10.5" y1="35" x2="10.5" y2="-35" width="0.125" layer="21"/>
 <wire x1="10.5" y1="35" x2="-10.5" y2="35" width="0.125" layer="21"/>
 <wire x1="-10.5" y1="-35" x2="10.5" y2="-35" width="0.125" layer="21"/>
-<pad name="N" x="0" y="-35.5" drill="0.5"/>
-<pad name="N1" x="-0.25" y="-35.5" drill="0.5"/>
-<pad name="N2" x="-0.5" y="-35.5" drill="0.5"/>
-<pad name="N3" x="-0.75" y="-35.5" drill="0.5"/>
-<pad name="N4" x="-1" y="-35.5" drill="0.5"/>
-<pad name="N5" x="-1.25" y="-35.5" drill="0.5"/>
-<pad name="N6" x="-1.5" y="-35.5" drill="0.5"/>
-<pad name="N7" x="-1.75" y="-35.5" drill="0.5"/>
-<pad name="N8" x="-2" y="-35.5" drill="0.5"/>
-<pad name="N9" x="-2.25" y="-35.5" drill="0.5"/>
-<pad name="N10" x="-2.5" y="-35.5" drill="0.5"/>
-<pad name="N11" x="-2.75" y="-35.5" drill="0.5"/>
-<pad name="N12" x="-3" y="-35.5" drill="0.5"/>
-<pad name="N13" x="2.75" y="-35.5" drill="0.5"/>
-<pad name="N14" x="2.5" y="-35.5" drill="0.5"/>
-<pad name="N15" x="2.25" y="-35.5" drill="0.5"/>
-<pad name="N16" x="2" y="-35.5" drill="0.5"/>
-<pad name="N17" x="1.75" y="-35.5" drill="0.5"/>
-<pad name="N18" x="1.5" y="-35.5" drill="0.5"/>
-<pad name="N19" x="1.25" y="-35.5" drill="0.5"/>
-<pad name="N20" x="1" y="-35.5" drill="0.5"/>
-<pad name="N21" x="0.75" y="-35.5" drill="0.5"/>
-<pad name="N22" x="0.5" y="-35.5" drill="0.5"/>
-<pad name="N23" x="0.25" y="-35.5" drill="0.5"/>
-<pad name="N24" x="3" y="-35.5" drill="0.5"/>
-<pad name="P1" x="-3" y="35.5" drill="0.5"/>
-<pad name="P2" x="-2.75" y="35.5" drill="0.5"/>
-<pad name="P3" x="-2.5" y="35.5" drill="0.5"/>
-<pad name="P4" x="-2.25" y="35.5" drill="0.5"/>
-<pad name="P5" x="-2" y="35.5" drill="0.5"/>
-<pad name="P6" x="-1.75" y="35.5" drill="0.5"/>
-<pad name="P7" x="-1.5" y="35.5" drill="0.5"/>
-<pad name="P8" x="-1.25" y="35.5" drill="0.5"/>
-<pad name="P9" x="-1" y="35.5" drill="0.5"/>
-<pad name="P10" x="-0.75" y="35.5" drill="0.5"/>
-<pad name="P11" x="-0.5" y="35.5" drill="0.5"/>
-<pad name="P12" x="-0.25" y="35.5" drill="0.5"/>
-<pad name="P13" x="0" y="35.5" drill="0.5"/>
-<pad name="P14" x="0.25" y="35.5" drill="0.5"/>
-<pad name="P15" x="0.5" y="35.5" drill="0.5"/>
-<pad name="P16" x="0.75" y="35.5" drill="0.5"/>
-<pad name="P17" x="1" y="35.5" drill="0.5"/>
-<pad name="P18" x="1.25" y="35.5" drill="0.5"/>
-<pad name="P19" x="1.5" y="35.5" drill="0.5"/>
-<pad name="P20" x="1.75" y="35.5" drill="0.5"/>
-<pad name="P21" x="2" y="35.5" drill="0.5"/>
-<pad name="P22" x="2.25" y="35.5" drill="0.5"/>
-<pad name="P23" x="2.5" y="35.5" drill="0.5"/>
-<pad name="P24" x="2.75" y="35.5" drill="0.5"/>
-<pad name="P25" x="3" y="35.5" drill="0.5"/>
+<pad name="N" x="0" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N1" x="-0.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N2" x="-0.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N3" x="-0.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N4" x="-1" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N5" x="-1.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N6" x="-1.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N7" x="-1.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N8" x="-2" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N9" x="-2.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N10" x="-2.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N11" x="-2.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N12" x="-3" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N13" x="2.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N14" x="2.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N15" x="2.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N16" x="2" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N17" x="1.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N18" x="1.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N19" x="1.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N20" x="1" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N21" x="0.75" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N22" x="0.5" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N23" x="0.25" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="N24" x="3" y="-35.5" drill="0.5" diameter="3"/>
+<pad name="P1" x="-3" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P2" x="-2.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P3" x="-2.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P4" x="-2.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P5" x="-2" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P6" x="-1.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P7" x="-1.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P8" x="-1.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P9" x="-1" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P10" x="-0.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P11" x="-0.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P12" x="-0.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P13" x="0" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P14" x="0.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P15" x="0.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P16" x="0.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P17" x="1" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P18" x="1.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P19" x="1.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P20" x="1.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P21" x="2" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P22" x="2.25" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P23" x="2.5" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P24" x="2.75" y="35.5" drill="0.5" diameter="3"/>
+<pad name="P25" x="3" y="35.5" drill="0.5" diameter="3"/>
 <text x="-10.5" y="35.25" size="0.5" layer="21">&gt;NAME</text>
 </package>
 </packages>
