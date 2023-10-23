@@ -323,6 +323,22 @@
 <smd name="TAB" x="0" y="0" dx="2.7" dy="2.7" layer="1" cream="no"/>
 <rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="31"/>
 </package>
+<package name="SO8-208MIL">
+<smd name="1" x="-3.625" y="1.905" dx="1.3" dy="0.5" layer="1"/>
+<smd name="2" x="-3.625" y="0.635" dx="1.3" dy="0.5" layer="1"/>
+<smd name="3" x="-3.625" y="-0.635" dx="1.3" dy="0.5" layer="1"/>
+<smd name="4" x="-3.625" y="-1.905" dx="1.3" dy="0.5" layer="1"/>
+<smd name="5" x="3.625" y="-1.905" dx="1.3" dy="0.5" layer="1" rot="R180"/>
+<smd name="6" x="3.625" y="-0.635" dx="1.3" dy="0.5" layer="1" rot="R180"/>
+<smd name="7" x="3.625" y="0.635" dx="1.3" dy="0.5" layer="1" rot="R180"/>
+<smd name="8" x="3.625" y="1.905" dx="1.3" dy="0.5" layer="1" rot="R180"/>
+<wire x1="-4.5" y1="-2.75" x2="4.5" y2="-2.75" width="0.15" layer="21"/>
+<wire x1="4.5" y1="-2.75" x2="4.5" y2="2.75" width="0.15" layer="21"/>
+<wire x1="4.5" y1="2.75" x2="-4.5" y2="2.75" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="2.75" x2="-4.5" y2="-2.75" width="0.15" layer="21"/>
+<circle x="-2.25" y="1.75" radius="0.25" width="0.15" layer="21"/>
+<text x="-4.5" y="3" size="0.5" layer="25">&gt;NAME</text>
+</package>
 <package name="SO8">
 <text x="-3.75" y="2.75" size="1" layer="25">&gt;NAME</text>
 <smd name="3" x="-2.7" y="-0.625" dx="1.5" dy="0.55" layer="1"/>
@@ -2921,7 +2937,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="497-STUSB4500LQCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="497-18060-1-ND" constant="no"/>
 <attribute name="HEIGHT" value="1" constant="no"/>
 <attribute name="PRICE_PER" value="1.33" constant="no"/>
 <attribute name="VALUE" value="STUSB4500" constant="no"/>
@@ -4255,7 +4271,7 @@
 <gate name="G$1" symbol="FLASH_QSPI" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SIQ" package="SO8">
+<device name="SIQ" package="SO8-208MIL">
 <connects>
 <connect gate="G$1" pin="!CE" pad="1"/>
 <connect gate="G$1" pin="!HOLD!/IO3" pad="7"/>
