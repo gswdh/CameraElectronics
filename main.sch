@@ -12360,41 +12360,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="45.72" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PSS_SPI_SCLK" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO16_501"/>
-<wire x1="81.28" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PSS_SPI_MISO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO17_501"/>
-<wire x1="81.28" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
-<label x="45.72" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SEN_SPI_NCS" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO18_501"/>
-<wire x1="81.28" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="45.72" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DSP_SPI_NCS" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO19_501"/>
-<wire x1="81.28" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
-<label x="45.72" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PSS_SPI_MOSI" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO21_501"/>
-<wire x1="81.28" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
-<label x="45.72" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PSS_DEBUG_UART_RX" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_MIO22_501"/>
@@ -13124,20 +13089,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="45.72" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DSP_D_NC" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO42_501"/>
-<wire x1="81.28" y1="-50.8" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
-<label x="45.72" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DSP_NRESET" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO29_501"/>
-<wire x1="81.28" y1="-17.78" x2="43.18" y2="-17.78" width="0.1524" layer="91"/>
-<label x="45.72" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PWR_VDISP_EN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_MIO49_501"/>
@@ -13338,13 +13289,6 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="R97" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ADC_SPI_NCS" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_MIO20_501"/>
-<wire x1="43.18" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
-<label x="45.72" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="FT_D10" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="IO_L3N_T0_DQS_13"/>
@@ -13525,6 +13469,41 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="U2" gate="G$1" pin="IO_L18N_T2_34"/>
 <wire x1="-43.18" y1="-91.44" x2="-81.28" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-78.74" y="-91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_NRESET" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L3N_T0_DQS_AD1N_35"/>
+<wire x1="-81.28" y1="-144.78" x2="-43.18" y2="-144.78" width="0.1524" layer="91"/>
+<label x="-78.74" y="-144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_D_NC" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L2P_T0_AD8P_35"/>
+<wire x1="-81.28" y1="-142.24" x2="-43.18" y2="-142.24" width="0.1524" layer="91"/>
+<label x="-78.74" y="-142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_SPI_SCLK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L1N_T0_AD0N_35"/>
+<wire x1="-81.28" y1="-134.62" x2="-43.18" y2="-134.62" width="0.1524" layer="91"/>
+<label x="-78.74" y="-134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_SPI_NCS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L3P_T0_DQS_AD1P_35"/>
+<wire x1="-81.28" y1="-147.32" x2="-43.18" y2="-147.32" width="0.1524" layer="91"/>
+<label x="-78.74" y="-147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_SPI_MOSI" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L1P_T0_AD0P_35"/>
+<wire x1="-43.18" y1="-137.16" x2="-81.28" y2="-137.16" width="0.1524" layer="91"/>
+<label x="-78.74" y="-137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -20677,20 +20656,6 @@ RESET</text>
 <junction x="116.84" y="236.22"/>
 </segment>
 </net>
-<net name="PSS_SPI_SCLK" class="0">
-<segment>
-<label x="121.92" y="210.82" size="1.778" layer="95"/>
-<wire x1="83.82" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="CN6" gate="G$1" pin="12"/>
-</segment>
-</net>
-<net name="PSS_SPI_MOSI" class="0">
-<segment>
-<label x="121.92" y="213.36" size="1.778" layer="95"/>
-<wire x1="83.82" y1="213.36" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="CN6" gate="G$1" pin="11"/>
-</segment>
-</net>
 <net name="FPGA_DONE" class="0">
 <segment>
 <wire x1="48.26" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
@@ -20854,6 +20819,20 @@ RESET</text>
 <pinref part="U28" gate="G$1" pin="SDO"/>
 <wire x1="187.96" y1="-78.74" x2="154.94" y2="-78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="-78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DSP_SPI_MOSI" class="0">
+<segment>
+<label x="121.92" y="213.36" size="1.778" layer="95"/>
+<wire x1="83.82" y1="213.36" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="CN6" gate="G$1" pin="11"/>
+</segment>
+</net>
+<net name="DSP_SPI_SCLK" class="0">
+<segment>
+<label x="121.92" y="210.82" size="1.778" layer="95"/>
+<wire x1="83.82" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="CN6" gate="G$1" pin="12"/>
 </segment>
 </net>
 </nets>
