@@ -9839,6 +9839,8 @@
 <part name="GND206" library="NETS" deviceset="GND" device=""/>
 <part name="R187" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
 <part name="R188" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
+<part name="R189" library="r_0402" deviceset="RC0402FR-0710RL" device="" value="10R"/>
+<part name="R190" library="r_0402" deviceset="RC0402FR-0710RL" device="" value="10R"/>
 </parts>
 <sheets>
 <sheet>
@@ -21783,6 +21785,14 @@ RESET</text>
 <attribute name="NAME" x="17.78" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.86" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
+<instance part="R189" gate="G$1" x="-5.08" y="-76.2" smashed="yes">
+<attribute name="NAME" x="-5.08" y="-73.66" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="-5.08" y="-78.74" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="R190" gate="G$1" x="5.08" y="-81.28" smashed="yes">
+<attribute name="NAME" x="5.08" y="-78.74" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="5.08" y="-83.82" size="1.27" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22735,15 +22745,13 @@ RESET</text>
 <label x="152.4" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-101.6" y1="129.54" x2="-66.04" y2="129.54" width="0.1524" layer="91"/>
-<label x="-99.06" y="129.54" size="1.778" layer="95"/>
-<pinref part="U5" gate="G$1" pin="PA7"/>
-</segment>
-<segment>
 <pinref part="R187" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-63.5" x2="12.7" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-78.74" x2="83.82" y2="-78.74" width="0.1524" layer="91"/>
-<label x="53.34" y="-78.74" size="1.778" layer="95"/>
+<wire x1="12.7" y1="-63.5" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-81.28" x2="83.82" y2="-81.28" width="0.1524" layer="91"/>
+<label x="53.34" y="-81.28" size="1.778" layer="95"/>
+<pinref part="R190" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-81.28" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="12.7" y="-81.28"/>
 </segment>
 </net>
 <net name="STUSB_I2C_SDA" class="0">
@@ -22753,15 +22761,13 @@ RESET</text>
 <label x="152.4" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="PB4"/>
-<wire x1="-101.6" y1="93.98" x2="-66.04" y2="93.98" width="0.1524" layer="91"/>
-<label x="-99.06" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R188" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="-63.5" x2="20.32" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-76.2" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
 <label x="53.34" y="-76.2" size="1.778" layer="95"/>
+<pinref part="R189" gate="G$1" pin="2"/>
+<wire x1="0" y1="-76.2" x2="20.32" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="20.32" y="-76.2"/>
 </segment>
 </net>
 <net name="STUSB_PD0" class="0">
@@ -23840,6 +23846,30 @@ RESET</text>
 <label x="-175.26" y="121.92" size="1.778" layer="95"/>
 <wire x1="-177.8" y1="121.92" x2="-142.24" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="PC10"/>
+</segment>
+</net>
+<net name="STM_I2C2_SDA" class="0">
+<segment>
+<pinref part="R189" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="-76.2" x2="-40.64" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-38.1" y="-76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-101.6" y1="129.54" x2="-66.04" y2="129.54" width="0.1524" layer="91"/>
+<label x="-99.06" y="129.54" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="PA7"/>
+</segment>
+</net>
+<net name="STM_I2C2_SCL" class="0">
+<segment>
+<pinref part="R190" gate="G$1" pin="1"/>
+<wire x1="0" y1="-81.28" x2="-40.64" y2="-81.28" width="0.1524" layer="91"/>
+<label x="-38.1" y="-81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PB4"/>
+<wire x1="-101.6" y1="93.98" x2="-66.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="-99.06" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
