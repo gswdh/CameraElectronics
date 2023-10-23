@@ -9480,8 +9480,6 @@
 <part name="SW5" library="ELECTROMECH" deviceset="PTS830GM140_SMTR_LFS" device="" value="TACT"/>
 <part name="SW7" library="ELECTROMECH" deviceset="PTS830GM140_SMTR_LFS" device="" value="TACT"/>
 <part name="GND363" library="NETS" deviceset="GND" device=""/>
-<part name="MECH3" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
-<part name="MECH4" library="MISC" deviceset="MOUNTHOLE" device="" value="6mm x 3mm"/>
 <part name="U2" library="ICs" deviceset="XC7Z014S-1" device="CLG484C" value="XC7Z014S-1CLG484C"/>
 <part name="U3" library="ICs" deviceset="IS43TR16128CL-125KBLI" device="" value="IS43TR16128CL-125KBLI"/>
 <part name="GND1" library="NETS" deviceset="GND" device=""/>
@@ -9825,6 +9823,8 @@
 <part name="GND189" library="NETS" deviceset="GND" device=""/>
 <part name="C123" library="c_0603" deviceset="06036D476MAT2A" device="" value="47uF 6.3V"/>
 <part name="GND205" library="NETS" deviceset="GND" device=""/>
+<part name="C124" library="c_0603" deviceset="06036D476MAT2A" device="" value="47uF 6.3V"/>
+<part name="GND206" library="NETS" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10438,6 +10438,13 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <instance part="GND205" gate="G$1" x="165.1" y="-96.52" smashed="yes">
 <attribute name="VALUE" x="165.1" y="-99.06" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="C124" gate="G$1" x="111.76" y="-200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.22" y="-200.66" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="114.3" y="-200.66" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="GND206" gate="G$1" x="111.76" y="-210.82" smashed="yes">
+<attribute name="VALUE" x="111.76" y="-213.36" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10823,6 +10830,11 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <pinref part="C123" gate="G$1" pin="1"/>
 <pinref part="GND205" gate="G$1" pin="GND"/>
 <wire x1="165.1" y1="-93.98" x2="165.1" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C124" gate="G$1" pin="1"/>
+<pinref part="GND206" gate="G$1" pin="GND"/>
+<wire x1="111.76" y1="-208.28" x2="111.76" y2="-205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FPGA_DONE" class="0">
@@ -12974,9 +12986,13 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <pinref part="C105" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="-193.04" x2="193.04" y2="-193.04" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-193.04" x2="111.76" y2="-193.04" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-193.04" x2="193.04" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-195.58" x2="104.14" y2="-193.04" width="0.1524" layer="91"/>
 <label x="170.18" y="-193.04" size="1.778" layer="95"/>
+<pinref part="C124" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-195.58" x2="111.76" y2="-193.04" width="0.1524" layer="91"/>
+<junction x="111.76" y="-193.04"/>
 </segment>
 </net>
 <net name="PWR_SEN_3V6_EN" class="0">
@@ -21557,12 +21573,6 @@ RESET</text>
 </instance>
 <instance part="GND358" gate="G$1" x="-35.56" y="-231.14" smashed="yes">
 <attribute name="VALUE" x="-35.56" y="-233.68" size="1.778" layer="96" align="center"/>
-</instance>
-<instance part="MECH3" gate="G$1" x="132.08" y="-266.7" smashed="yes">
-<attribute name="NAME" x="132.08" y="-263.144" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="MECH4" gate="G$1" x="132.08" y="-274.32" smashed="yes">
-<attribute name="NAME" x="132.08" y="-270.764" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="U17" gate="G$1" x="76.2" y="-165.1" smashed="yes">
 <attribute name="NAME" x="68.58" y="-144.78" size="1.778" layer="95"/>
