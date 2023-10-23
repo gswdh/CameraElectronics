@@ -17166,6 +17166,15 @@ VGRSTL -1.3 15</text>
 <junction x="-114.3" y="-53.34"/>
 <label x="-142.24" y="-53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U22" gate="G$1" pin="VIN"/>
+<wire x1="35.56" y1="-152.4" x2="17.78" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="C69" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-152.4" x2="-10.16" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-157.48" x2="17.78" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="17.78" y="-152.4"/>
+<label x="-7.62" y="-152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$9" class="0">
 <segment>
@@ -17241,17 +17250,6 @@ VGRSTL -1.3 15</text>
 <wire x1="68.58" y1="-170.18" x2="68.58" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="68.58" y="-167.64"/>
 <pinref part="U22" gate="G$1" pin="FB"/>
-</segment>
-</net>
-<net name="SYS_PWR_3V3" class="0">
-<segment>
-<pinref part="U22" gate="G$1" pin="VIN"/>
-<wire x1="35.56" y1="-152.4" x2="17.78" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="C69" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="-152.4" x2="-10.16" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-157.48" x2="17.78" y2="-152.4" width="0.1524" layer="91"/>
-<junction x="17.78" y="-152.4"/>
-<label x="-7.62" y="-152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TMP_I2C_SCL" class="0">
