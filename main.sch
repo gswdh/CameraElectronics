@@ -6391,32 +6391,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW06031M00FKEC" prefix="R">
-<description>1000000 ±1% 1M Thick Film 0.1W, 1/10W 0603</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="541-2990-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="1" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
-<attribute name="POWER" value="0.1W, 1/10W" constant="no"/>
-<attribute name="PRICE_PER" value="0.07000" constant="no"/>
-<attribute name="STOCK" value="7867" constant="no"/>
-<attribute name="TOLERANCE" value="±1%" constant="no"/>
-<attribute name="VALUE" value="1M" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ERJ3EKF1004V" prefix="R">
 <description>1000000 1.0M 0603 0.1W 1% thick film resistor.</description>
 <gates>
@@ -8576,6 +8550,28 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="RC0402FR-071ML" prefix="R">
+<description>1000000 1 MOhms 0402 ±1% 0.063W, 1/16W thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="311-1.00MLRCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="CRYSTALS">
@@ -9455,7 +9451,7 @@
 <part name="GND332" library="NETS" deviceset="GND" device=""/>
 <part name="C256" library="c_0402" deviceset="0402ZD225KAT2A" device="" value="2.2uF 10V"/>
 <part name="GND333" library="NETS" deviceset="GND" device=""/>
-<part name="R95" library="r_0603" deviceset="CRCW06031M00FKEC" device="" value="1M"/>
+<part name="R95" library="r_0402" deviceset="RC0402FR-071ML" device="" value="1M"/>
 <part name="GND334" library="NETS" deviceset="GND" device=""/>
 <part name="C257" library="c_0402" deviceset="04023C104KAT2A" device="" value="0.1uF 25V"/>
 <part name="GND335" library="NETS" deviceset="GND" device=""/>
@@ -11193,9 +11189,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-127" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PS_DDR_DQ5_502"/>
-<wire x1="81.28" y1="175.26" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="45.72" y="175.26" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="PS_DDR_DQ9_502"/>
+<wire x1="81.28" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
+<label x="45.72" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_D1" class="0">
@@ -11289,9 +11285,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-127" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PS_DDR_DQ9_502"/>
-<wire x1="81.28" y1="165.1" x2="43.18" y2="165.1" width="0.1524" layer="91"/>
-<label x="45.72" y="165.1" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="PS_DDR_DQ5_502"/>
+<wire x1="81.28" y1="175.26" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
+<label x="45.72" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_D9" class="0">
@@ -11380,50 +11376,50 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </net>
 <net name="DDR_DQS0_N" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PS_DDR_DQS_N0_502"/>
-<wire x1="81.28" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<label x="45.72" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U3" gate="A" pin="!DQSL"/>
 <wire x1="-198.12" y1="93.98" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="-195.58" y="93.98" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DDR_DQS1_N" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQS_N1_502"/>
 <wire x1="81.28" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <label x="45.72" y="104.14" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="DDR_DQS1_N" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="!DQSU"/>
 <wire x1="-198.12" y1="88.9" x2="-160.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="-195.58" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PS_DDR_DQS_N0_502"/>
+<wire x1="81.28" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
+<label x="45.72" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DDR_DQS0_P" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PS_DDR_DQS_P0_502"/>
-<wire x1="81.28" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="45.72" y="96.52" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U3" gate="A" pin="DQSL"/>
 <wire x1="-198.12" y1="96.52" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
 <label x="-195.58" y="96.52" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DDR_DQS1_P" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PS_DDR_DQS_P1_502"/>
 <wire x1="81.28" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="45.72" y="93.98" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="DDR_DQS1_P" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="DQSU"/>
 <wire x1="-198.12" y1="91.44" x2="-160.02" y2="91.44" width="0.1524" layer="91"/>
 <label x="-195.58" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PS_DDR_DQS_P0_502"/>
+<wire x1="81.28" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
+<label x="45.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DDR_NRST" class="0">
