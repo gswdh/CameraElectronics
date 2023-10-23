@@ -9821,6 +9821,8 @@
 <part name="GND205" library="NETS" deviceset="GND" device=""/>
 <part name="C124" library="c_0603" deviceset="06036D476MAT2A" device="" value="47uF 6.3V"/>
 <part name="GND206" library="NETS" deviceset="GND" device=""/>
+<part name="R187" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
+<part name="R188" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
 </parts>
 <sheets>
 <sheet>
@@ -21757,6 +21759,14 @@ RESET</text>
 <attribute name="NAME" x="48.26" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="53.34" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
+<instance part="R187" gate="G$1" x="12.7" y="-58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.16" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="15.24" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
+<instance part="R188" gate="G$1" x="20.32" y="-58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="-58.42" size="1.27" layer="95" rot="R90" align="center"/>
+<attribute name="VALUE" x="22.86" y="-58.42" size="1.27" layer="96" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22702,7 +22712,7 @@ RESET</text>
 <label x="-99.06" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="STUSB_SCL" class="0">
+<net name="STUSB_I2C_SCL" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SCL"/>
 <wire x1="147.32" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
@@ -22713,8 +22723,14 @@ RESET</text>
 <label x="-99.06" y="129.54" size="1.778" layer="95"/>
 <pinref part="U5" gate="G$1" pin="PA7"/>
 </segment>
+<segment>
+<pinref part="R187" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-63.5" x2="12.7" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-78.74" x2="83.82" y2="-78.74" width="0.1524" layer="91"/>
+<label x="53.34" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="STUSB_SDA" class="0">
+<net name="STUSB_I2C_SDA" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SDA"/>
 <wire x1="147.32" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
@@ -22724,6 +22740,12 @@ RESET</text>
 <pinref part="U5" gate="G$1" pin="PB4"/>
 <wire x1="-101.6" y1="93.98" x2="-66.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="-99.06" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R188" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-63.5" x2="20.32" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-76.2" x2="83.82" y2="-76.2" width="0.1524" layer="91"/>
+<label x="53.34" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STUSB_PD0" class="0">
@@ -22896,6 +22918,14 @@ RESET</text>
 <wire x1="50.8" y1="-53.34" x2="50.8" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="50.8" y="-50.8"/>
 <label x="53.34" y="-50.8" size="1.778" layer="95"/>
+<pinref part="R187" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-53.34" x2="12.7" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-50.8" x2="20.32" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="27.94" y="-50.8"/>
+<pinref part="R188" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="-50.8" x2="27.94" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="20.32" y="-50.8"/>
 </segment>
 </net>
 <net name="N$37" class="0">

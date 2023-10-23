@@ -226,9 +226,9 @@ camera - soke
 main PCB
 rev 1.1.0
 2023.09.01</text>
-<text x="54" y="47.7" size="1" layer="21" font="vector" rot="R270" align="center-left">RUN</text>
-<text x="55.5" y="47.7" size="1" layer="21" font="vector" rot="R270" align="center-left">FPGA_OK</text>
-<text x="57" y="47.7" size="1" layer="21" font="vector" rot="R270" align="center-left">STATUS</text>
+<text x="49.8" y="56.3" size="1" layer="21" font="vector" rot="R90" align="center-left">RUN</text>
+<text x="41.4" y="53.3" size="1" layer="21" font="vector" rot="R90" align="center-left">FPGA_OK</text>
+<text x="40.3" y="53.3" size="1" layer="21" font="vector" rot="R90" align="center-left">STATUS</text>
 <wire x1="-45" y1="-45.2" x2="-47" y2="-44.6" width="0.125" layer="21"/>
 <text x="-47.4" y="-30.6" size="1" layer="21" font="vector" rot="R180" align="center-left">LED_2</text>
 <wire x1="-45" y1="-46.8" x2="-47" y2="-47.4" width="0.125" layer="21"/>
@@ -6486,41 +6486,41 @@ einem neuen Namen ab.</description>
 <attribute name="TOLERANCE" value="±10%" x="28.5" y="-36.6" size="2" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="28.5" y="-36.6" size="2" layer="27" font="vector" rot="R180" display="off"/>
 </element>
-<element name="D12" library="OPTO" package="0603_POLAR" value="RED LED" x="57" y="49.4" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="732-4978-1-ND" x="57" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1" x="57" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="58.75" y="47.9" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.11" x="57" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="D12" library="OPTO" package="0603_POLAR" value="RED LED" x="45.5" y="57.4" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="732-4978-1-ND" x="45.5" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="45.5" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="43.05" y="58.9" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.11" x="45.5" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="D13" library="OPTO" package="0603_POLAR" value="RED LED" x="55.5" y="49.4" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="732-4978-1-ND" x="58.8" y="45.8" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1" x="58.8" y="45.8" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="58.25" y="47.9" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.11" x="58.8" y="45.8" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="D13" library="OPTO" package="0603_POLAR" value="RED LED" x="47" y="57.4" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="732-4978-1-ND" x="43.7" y="61" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="43.7" y="61" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="43.65" y="58.9" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.11" x="43.7" y="61" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="D14" library="OPTO" package="0603_POLAR" value="RED LED" x="54" y="49.4" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="732-4978-1-ND" x="57.3" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1" x="57.3" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="53.25" y="47.9" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.11" x="57.3" y="49.4" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="D14" library="OPTO" package="0603_POLAR" value="RED LED" x="48.5" y="57.4" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="732-4978-1-ND" x="45.2" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1" x="45.2" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="44.25" y="58.9" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.11" x="45.2" y="57.4" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="R60" library="r_0402" package="0402" value="120" x="57" y="51.9" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="P120LCT-ND" x="63.6" y="48.3" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4" x="63.6" y="48.3" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="56.5" y="51.025" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.07" x="63.6" y="48.3" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="R60" library="r_0402" package="0402" value="120" x="45.5" y="54.9" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="P120LCT-ND" x="38.9" y="58.5" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.4" x="38.9" y="58.5" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="46" y="55.775" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.07" x="38.9" y="58.5" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="R76" library="r_0402" package="0402" value="120" x="55.5" y="51.9" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="P120LCT-ND" x="61.1" y="51.9" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4" x="61.1" y="51.9" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="55" y="51.025" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.07" x="61.1" y="51.9" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="R76" library="r_0402" package="0402" value="120" x="47" y="54.9" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="P120LCT-ND" x="41.4" y="54.9" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.4" x="41.4" y="54.9" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="47.5" y="55.775" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.07" x="41.4" y="54.9" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="R77" library="r_0402" package="0402" value="120" x="54" y="51.9" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="P120LCT-ND" x="61.9" y="49.5" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4" x="61.9" y="49.5" size="2" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="NAME" x="53.5" y="51.025" size="0.5" layer="25" rot="R90"/>
-<attribute name="PRICE_PER" value="0.07" x="61.9" y="49.5" size="2" layer="27" font="vector" rot="R90" display="off"/>
+<element name="R77" library="r_0402" package="0402" value="120" x="48.5" y="54.9" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="P120LCT-ND" x="40.6" y="57.3" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.4" x="40.6" y="57.3" size="2" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="49" y="55.775" size="0.5" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.07" x="40.6" y="57.3" size="2" layer="27" font="vector" rot="R270" display="off"/>
 </element>
 <element name="R97" library="r_0402" package="0402" value="10R" x="-14.5" y="-34.9" smashed="yes">
 <attribute name="DIGIKEY" value="311-10.0LRCT-ND" x="-14.5" y="-34.9" size="1" layer="27" font="vector" display="off"/>
@@ -7211,6 +7211,18 @@ einem neuen Namen ab.</description>
 <attribute name="TEMP_CO" value="X5R" x="-4.7" y="-27.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TOLERANCE" value="±20%" x="-4.7" y="-27.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="6.3V" x="-4.7" y="-27.7" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="R187" library="r_0402" package="0402" value="2.2k" x="44.4" y="34.8" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="311-2.20KLRCT-ND" x="44.4" y="34.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.4" x="44.4" y="34.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="44.9" y="35.675" size="0.508" layer="25" rot="R270"/>
+<attribute name="PRICE_PER" value="0.08" x="44.4" y="34.8" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R188" library="r_0402" package="0402" value="2.2k" x="44.9" y="50.5" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="311-2.20KLRCT-ND" x="44.9" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.4" x="44.9" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="45.3" y="51.525" size="0.508" layer="25" rot="R90"/>
+<attribute name="PRICE_PER" value="0.08" x="44.9" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -8876,12 +8888,12 @@ einem neuen Namen ab.</description>
 <via x="-46.3" y="-32.1" extent="1-16" drill="0.2"/>
 <wire x1="-45.15" y1="-33.6" x2="-46.3" y2="-33.6" width="0.0889" layer="1"/>
 <via x="-46.3" y="-33.6" extent="1-16" drill="0.2"/>
-<wire x1="54" y1="48.65" x2="54" y2="47.5" width="0.0889" layer="1"/>
-<via x="54" y="47.5" extent="1-16" drill="0.2"/>
-<wire x1="55.5" y1="48.65" x2="55.5" y2="47.5" width="0.0889" layer="1"/>
-<via x="55.5" y="47.5" extent="1-16" drill="0.2"/>
-<wire x1="57" y1="48.65" x2="57" y2="47.5" width="0.0889" layer="1"/>
-<via x="57" y="47.5" extent="1-16" drill="0.2"/>
+<wire x1="48.5" y1="58.15" x2="48.5" y2="59.3" width="0.0889" layer="1"/>
+<via x="48.5" y="59.3" extent="1-16" drill="0.2"/>
+<wire x1="47" y1="58.15" x2="47" y2="59.3" width="0.0889" layer="1"/>
+<via x="47" y="59.3" extent="1-16" drill="0.2"/>
+<wire x1="45.5" y1="58.15" x2="45.5" y2="59.3" width="0.0889" layer="1"/>
+<via x="45.5" y="59.3" extent="1-16" drill="0.2"/>
 <wire x1="28.35" y1="41.55" x2="27.725" y2="42.175" width="0.0889" layer="16"/>
 <wire x1="27.725" y1="42.175" x2="27.3" y2="42.175" width="0.0889" layer="16"/>
 <wire x1="17.5" y1="-0.25" x2="17.5" y2="-0.24375" width="0.0889" layer="1"/>
@@ -9806,7 +9818,7 @@ einem neuen Namen ab.</description>
 <wire x1="43.3" y1="-21.6" x2="43.3" y2="-34.6" width="0.0889" layer="1"/>
 <wire x1="43.3" y1="-37.075" x2="43.3" y2="-34.6" width="0.0889" layer="1"/>
 </signal>
-<signal name="STUSB_SCL">
+<signal name="STUSB_I2C_SCL">
 <contactref element="U9" pad="7"/>
 <contactref element="U5" pad="23"/>
 <wire x1="42.675" y1="-36.45" x2="42.675" y2="-33.97645" width="0.0889" layer="1"/>
@@ -9824,8 +9836,12 @@ einem neuen Namen ab.</description>
 <wire x1="45.2" y1="42" x2="43.7" y2="40.5" width="0.0889" layer="4"/>
 <wire x1="43.7" y1="38.4" x2="43.7" y2="40.5" width="0.0889" layer="4"/>
 <wire x1="45.2" y1="42" x2="53" y2="42" width="0.0889" layer="4"/>
+<contactref element="R187" pad="1"/>
+<wire x1="43.25" y1="37.25" x2="43.25" y2="35.85" width="0.0889" layer="1"/>
+<wire x1="43.8" y1="35.3" x2="44.4" y2="35.3" width="0.0889" layer="1"/>
+<wire x1="43.25" y1="35.85" x2="43.8" y2="35.3" width="0.0889" layer="1"/>
 </signal>
-<signal name="STUSB_SDA">
+<signal name="STUSB_I2C_SDA">
 <contactref element="U9" pad="8"/>
 <wire x1="42.175" y1="-36.45" x2="42.175" y2="-34.225" width="0.0889" layer="1"/>
 <wire x1="42.9" y1="-33.5" x2="42.9" y2="-21.4" width="0.0889" layer="1"/>
@@ -9843,6 +9859,9 @@ einem neuen Namen ab.</description>
 <wire x1="52.6" y1="42.4" x2="52.4" y2="42.2" width="0.0889" layer="4"/>
 <wire x1="52.4" y1="42.2" x2="45.2" y2="42.2" width="0.0889" layer="4"/>
 <wire x1="45.2" y1="42.2" x2="44.25" y2="43.15" width="0.0889" layer="4"/>
+<contactref element="R188" pad="1"/>
+<wire x1="44.25" y1="48.75" x2="44.25" y2="49.35" width="0.0889" layer="1"/>
+<wire x1="44.25" y1="49.35" x2="44.9" y2="50" width="0.0889" layer="1"/>
 </signal>
 <signal name="STUSB_PD0">
 <contactref element="U9" pad="20"/>
@@ -10065,6 +10084,10 @@ einem neuen Namen ab.</description>
 <wire x1="-29.3" y1="26.2" x2="-25.7" y2="26.2" width="0.0889" layer="16"/>
 <wire x1="-25.7" y1="26.2" x2="-23.7" y2="24.2" width="0.0889" layer="16"/>
 <wire x1="-23.7" y1="24.2" x2="-23.7" y2="15.3" width="0.0889" layer="16"/>
+<contactref element="R187" pad="2"/>
+<contactref element="R188" pad="2"/>
+<wire x1="44.4" y1="34.3" x2="42.2" y2="34.3" width="0.0889" layer="1"/>
+<wire x1="44.9" y1="51" x2="44" y2="51" width="0.0889" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R48" pad="2"/>
@@ -23026,41 +23049,40 @@ einem neuen Namen ab.</description>
 <signal name="N$67">
 <contactref element="D12" pad="A"/>
 <contactref element="R60" pad="1"/>
-<wire x1="57" y1="51.4" x2="57" y2="50.15" width="0.0889" layer="1"/>
+<wire x1="45.5" y1="55.4" x2="45.5" y2="56.65" width="0.0889" layer="1"/>
 </signal>
 <signal name="N$68">
 <contactref element="D13" pad="A"/>
 <contactref element="R76" pad="1"/>
-<wire x1="55.5" y1="51.4" x2="55.5" y2="50.15" width="0.0889" layer="1"/>
+<wire x1="47" y1="55.4" x2="47" y2="56.65" width="0.0889" layer="1"/>
 </signal>
 <signal name="N$69">
 <contactref element="D14" pad="A"/>
 <contactref element="R77" pad="1"/>
-<wire x1="54" y1="51.4" x2="54" y2="50.15" width="0.0889" layer="1"/>
+<wire x1="48.5" y1="55.4" x2="48.5" y2="56.65" width="0.0889" layer="1"/>
 </signal>
 <signal name="PMC_LED_STATUS">
 <contactref element="R60" pad="2"/>
 <contactref element="U5" pad="53"/>
-<wire x1="45.75" y1="48.75" x2="45.75" y2="50.25" width="0.0889" layer="1"/>
-<wire x1="56.2" y1="53.2" x2="57" y2="52.4" width="0.0889" layer="1"/>
-<wire x1="45.75" y1="50.25" x2="48.7" y2="53.2" width="0.0889" layer="1"/>
-<wire x1="48.7" y1="53.2" x2="56.2" y2="53.2" width="0.0889" layer="1"/>
+<wire x1="46.1" y1="53.8" x2="45.5" y2="54.4" width="0.0889" layer="1"/>
+<wire x1="46.1" y1="53.8" x2="46.1" y2="49.7" width="0.0889" layer="1"/>
+<wire x1="45.75" y1="48.75" x2="45.75" y2="49.35" width="0.0889" layer="1"/>
+<wire x1="46.1" y1="49.7" x2="45.75" y2="49.35" width="0.0889" layer="1"/>
 </signal>
 <signal name="PMC_LED_FPGA_OK">
 <contactref element="R76" pad="2"/>
 <contactref element="U5" pad="52"/>
-<wire x1="46.25" y1="48.75" x2="46.25" y2="50.45" width="0.0889" layer="1"/>
-<wire x1="54.9" y1="53" x2="55.5" y2="52.4" width="0.0889" layer="1"/>
-<wire x1="46.25" y1="50.45" x2="48.8" y2="53" width="0.0889" layer="1"/>
-<wire x1="48.8" y1="53" x2="54.9" y2="53" width="0.0889" layer="1"/>
+<wire x1="46.3" y1="53.7" x2="47" y2="54.4" width="0.0889" layer="1"/>
+<wire x1="46.3" y1="53.7" x2="46.3" y2="48.8" width="0.0889" layer="1"/>
+<wire x1="46.25" y1="48.75" x2="46.3" y2="48.8" width="0.0889" layer="1"/>
 </signal>
 <signal name="PMC_LED_RUN">
 <contactref element="R77" pad="2"/>
 <contactref element="U5" pad="51"/>
-<wire x1="46.75" y1="48.75" x2="46.75" y2="50.65" width="0.0889" layer="1"/>
-<wire x1="53.6" y1="52.8" x2="48.9" y2="52.8" width="0.0889" layer="1"/>
-<wire x1="53.6" y1="52.8" x2="54" y2="52.4" width="0.0889" layer="1"/>
-<wire x1="46.75" y1="50.65" x2="48.9" y2="52.8" width="0.0889" layer="1"/>
+<wire x1="46.5" y1="52.4" x2="48.5" y2="54.4" width="0.0889" layer="1"/>
+<wire x1="46.75" y1="48.75" x2="46.75" y2="49.45" width="0.0889" layer="1"/>
+<wire x1="46.75" y1="49.45" x2="46.5" y2="49.7" width="0.0889" layer="1"/>
+<wire x1="46.5" y1="52.4" x2="46.5" y2="49.7" width="0.0889" layer="1"/>
 </signal>
 <signal name="N$92">
 <contactref element="OSC1" pad="3"/>
