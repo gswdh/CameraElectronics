@@ -1068,9 +1068,9 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <attribute name="NAME" x="-43.18" y="-12.7" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="-43.18" y="-17.78" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="CN4" gate="G$1" x="137.16" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="132.08" y="48.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="132.08" y="45.72" size="1.778" layer="96"/>
+<instance part="CN4" gate="G$1" x="137.16" y="22.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="132.08" y="-2.54" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="132.08" y="0" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -1105,12 +1105,12 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="129.54" y1="17.78" x2="127" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="127" y1="17.78" x2="127" y2="15.24" width="0.1524" layer="91"/>
 <junction x="127" y="15.24"/>
-<pinref part="CN4" gate="G$1" pin="1"/>
-<pinref part="CN4" gate="G$1" pin="2"/>
-<pinref part="CN4" gate="G$1" pin="3"/>
-<pinref part="CN4" gate="G$1" pin="4"/>
-<pinref part="CN4" gate="G$1" pin="5"/>
-<pinref part="CN4" gate="G$1" pin="6"/>
+<pinref part="CN4" gate="G$1" pin="10"/>
+<pinref part="CN4" gate="G$1" pin="11"/>
+<pinref part="CN4" gate="G$1" pin="12"/>
+<pinref part="CN4" gate="G$1" pin="13"/>
+<pinref part="CN4" gate="G$1" pin="14"/>
+<pinref part="CN4" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -1341,8 +1341,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <label x="124.46" y="30.48" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="11"/>
 <wire x1="129.54" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CN4" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="BMS_I2C_SDA" class="0">
@@ -1353,8 +1353,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 </segment>
 <segment>
 <label x="124.46" y="27.94" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="10"/>
 <wire x1="129.54" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="CN4" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1384,10 +1384,10 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="127" y1="33.02" x2="127" y2="35.56" width="0.1524" layer="91"/>
 <junction x="127" y="35.56"/>
 <label x="124.46" y="40.64" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="12"/>
-<pinref part="CN4" gate="G$1" pin="13"/>
-<pinref part="CN4" gate="G$1" pin="14"/>
-<pinref part="CN4" gate="G$1" pin="15"/>
+<pinref part="CN4" gate="G$1" pin="1"/>
+<pinref part="CN4" gate="G$1" pin="2"/>
+<pinref part="CN4" gate="G$1" pin="3"/>
+<pinref part="CN4" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="10.16" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
@@ -1406,8 +1406,8 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="BMS_NALERT" class="0">
 <segment>
 <label x="124.46" y="25.4" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="9"/>
 <wire x1="129.54" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="CN4" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="ALRT"/>
@@ -1418,15 +1418,15 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <net name="BMS_BUS_RSVD_1" class="0">
 <segment>
 <label x="124.46" y="22.86" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="8"/>
 <wire x1="129.54" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="CN4" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="BMS_BUS_RSVD_2" class="0">
 <segment>
 <label x="124.46" y="20.32" size="1.778" layer="95" rot="MR0"/>
-<pinref part="CN4" gate="G$1" pin="7"/>
 <wire x1="129.54" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="CN4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="N$6" class="0">
