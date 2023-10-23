@@ -8647,7 +8647,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KC2016Z33.0000C15XXK" prefix="OSC">
+<deviceset name="KC2016Z33.0000C1KX00" prefix="OSC">
 <description>33 MHz XO (Standard) CMOS Oscillator 1.71V ~ 3.63V Standby (Power Down) 4-SMD, No Lead</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_OSCIALLTOR" x="0" y="0"/>
@@ -8662,7 +8662,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="478-KC2016Z33.0000C15XXKCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="478-KC2016Z33.0000C1KX00CT-ND" constant="no"/>
 <attribute name="HEIGHT" value="0.8" constant="no"/>
 <attribute name="PRICE_PER" value="0.98" constant="no"/>
 <attribute name="VALUE" value="33MHz" constant="no"/>
@@ -9323,7 +9323,7 @@
 <part name="R23" library="RESISTORS" deviceset="CRCW060312K0FKEA" device="" value="12k"/>
 <part name="R24" library="r_0603" deviceset="CRCW06032K00FKTA" device="" value="2k"/>
 <part name="GND102" library="NETS" deviceset="GND" device=""/>
-<part name="OSC1" library="CRYSTALS" deviceset="KC2016Z33.0000C15XXK" device="" value="33MHz"/>
+<part name="OSC1" library="CRYSTALS" deviceset="KC2016Z33.0000C1KX00" device="" value="33MHz"/>
 <part name="C72" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="GND74" library="NETS" deviceset="GND" device=""/>
 <part name="CN1" library="CONNECTORs" deviceset="FH52E-50S-0.5SH" device="" value="50 PIN 0.5MM "/>
@@ -9377,9 +9377,9 @@
 <part name="D6" library="OPTO" deviceset="150060RS75000" device="" value="RED LED"/>
 <part name="D7" library="OPTO" deviceset="150060RS75000" device="" value="RED LED"/>
 <part name="D9" library="OPTO" deviceset="150060RS75000" device="" value="RED LED"/>
-<part name="R59" library="r_0402" deviceset="ERJ-2RKF1200X" device="" value="120"/>
-<part name="R79" library="r_0402" deviceset="ERJ-2RKF1200X" device="" value="120"/>
-<part name="R80" library="r_0402" deviceset="ERJ-2RKF1200X" device="" value="120"/>
+<part name="R59" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
+<part name="R79" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
+<part name="R80" library="r_0402" deviceset="RC0402FR-072K2L" device="" value="2.2k"/>
 <part name="C145" library="c_0603" deviceset="CL10B225KP8NFNC" device="" value="2.2uF 10V"/>
 <part name="GND211" library="NETS" deviceset="GND" device=""/>
 <part name="GND212" library="NETS" deviceset="GND" device=""/>
@@ -13526,6 +13526,34 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <label x="-78.74" y="-137.16" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SEN_SPI_MOSI" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L2N_T0_33"/>
+<wire x1="-43.18" y1="119.38" x2="-81.28" y2="119.38" width="0.1524" layer="91"/>
+<label x="-78.74" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SEN_SPI_NCS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L2P_T0_33"/>
+<wire x1="-43.18" y1="116.84" x2="-81.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="-78.74" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SEN_SPI_MISO" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_L9N_T1_DQS_33"/>
+<wire x1="-43.18" y1="83.82" x2="-81.28" y2="83.82" width="0.1524" layer="91"/>
+<label x="-78.74" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SEN_SPI_SCLK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IO_0_33"/>
+<wire x1="-43.18" y1="127" x2="-81.28" y2="127" width="0.1524" layer="91"/>
+<label x="-78.74" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -16255,21 +16283,21 @@ VGRSTL -1.3 15</text>
 <pinref part="U1" gate="A" pin="SPI_CS"/>
 </segment>
 </net>
-<net name="PSS_SPI_SCLK" class="0">
+<net name="SEN_SPI_SCLK" class="0">
 <segment>
 <wire x1="-114.3" y1="210.82" x2="-154.94" y2="210.82" width="0.1524" layer="91"/>
 <label x="-152.4" y="210.82" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="SPI_SCLK"/>
 </segment>
 </net>
-<net name="PSS_SPI_MOSI" class="0">
+<net name="SEN_SPI_MOSI" class="0">
 <segment>
 <wire x1="-114.3" y1="208.28" x2="-154.94" y2="208.28" width="0.1524" layer="91"/>
 <label x="-152.4" y="208.28" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="SPI_MOSI"/>
 </segment>
 </net>
-<net name="PSS_SPI_MISO" class="0">
+<net name="SEN_SPI_MISO" class="0">
 <segment>
 <wire x1="-114.3" y1="205.74" x2="-154.94" y2="205.74" width="0.1524" layer="91"/>
 <label x="-152.4" y="205.74" size="1.778" layer="95"/>
