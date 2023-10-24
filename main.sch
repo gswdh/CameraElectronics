@@ -10027,10 +10027,10 @@
 <sheet>
 <description>TITLE</description>
 <plain>
-<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2023.09.01 - GSWDH LTD.
+<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2023.10.24 - GSWDH LTD.
 CAMERA MAIN PCB
 
-REVISION 1.1.0
+REVISION 1.2.0
 DESIGN BY GEORGE WALLER, GSWDH LTD.
 GEORGEWALLER@GSWDH.CO.UK
 
@@ -19329,9 +19329,9 @@ RESET</text>
 <attribute name="NAME" x="114.3" y="12.7" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="119.38" y="12.7" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN6" gate="G$1" x="68.58" y="200.66" smashed="yes">
-<attribute name="NAME" x="66.04" y="246.38" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.04" y="243.84" size="1.778" layer="96"/>
+<instance part="CN6" gate="G$1" x="71.12" y="200.66" smashed="yes">
+<attribute name="NAME" x="68.58" y="246.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="243.84" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19717,26 +19717,26 @@ RESET</text>
 <pinref part="CN2" gate="A" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND335" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="160.02" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 <junction x="86.36" y="162.56"/>
-<wire x1="81.28" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="162.56" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 <junction x="86.36" y="165.1"/>
-<wire x1="81.28" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="165.1" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 <junction x="86.36" y="190.5"/>
-<wire x1="81.28" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="190.5" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <junction x="86.36" y="193.04"/>
-<wire x1="81.28" y1="205.74" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="208.28" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="205.74" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="208.28" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="193.04" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
 <junction x="86.36" y="205.74"/>
 <wire x1="86.36" y1="205.74" x2="86.36" y2="208.28" width="0.1524" layer="91"/>
 <junction x="86.36" y="208.28"/>
-<wire x1="81.28" y1="238.76" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="238.76" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="208.28" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="1"/>
 <pinref part="CN6" gate="G$1" pin="13"/>
@@ -19873,7 +19873,7 @@ RESET</text>
 <pinref part="CN1" gate="G$1" pin="P37"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
 <label x="121.92" y="187.96" size="1.778" layer="95"/>
 <pinref part="C255" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
@@ -20899,13 +20899,13 @@ RESET</text>
 <net name="DSP_SPI_NCS" class="0">
 <segment>
 <label x="121.92" y="198.12" size="1.778" layer="95"/>
-<wire x1="81.28" y1="198.12" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="198.12" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="DSP_VCOM" class="0">
 <segment>
-<wire x1="81.28" y1="233.68" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="233.68" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C256" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="172.72" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="3"/>
@@ -20913,7 +20913,7 @@ RESET</text>
 </net>
 <net name="DSP_IREF" class="0">
 <segment>
-<wire x1="81.28" y1="231.14" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="231.14" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="172.72" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="4"/>
@@ -20922,14 +20922,14 @@ RESET</text>
 <net name="DSP_D_NC" class="0">
 <segment>
 <label x="121.92" y="203.2" size="1.778" layer="95"/>
-<wire x1="81.28" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="DSP_NRESET" class="0">
 <segment>
 <label x="121.92" y="200.66" size="1.778" layer="95"/>
-<wire x1="81.28" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="16"/>
 </segment>
 </net>
@@ -20978,7 +20978,7 @@ RESET</text>
 <label x="139.7" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
 <label x="121.92" y="236.22" size="1.778" layer="95"/>
 <pinref part="C257" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="236.22" x2="147.32" y2="236.22" width="0.1524" layer="91"/>
@@ -21155,14 +21155,14 @@ RESET</text>
 <net name="DSP_SPI_MOSI" class="0">
 <segment>
 <label x="121.92" y="213.36" size="1.778" layer="95"/>
-<wire x1="81.28" y1="213.36" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="213.36" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="DSP_SPI_SCLK" class="0">
 <segment>
 <label x="121.92" y="210.82" size="1.778" layer="95"/>
-<wire x1="81.28" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="12"/>
 </segment>
 </net>
