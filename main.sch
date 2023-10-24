@@ -10017,11 +10017,11 @@
 <part name="C283" library="c_1206" deviceset="C1206X475K5RAC7800" device="" value="4.7uF 50V"/>
 <part name="GND383" library="NETS" deviceset="GND" device=""/>
 <part name="GND384" library="NETS" deviceset="GND" device=""/>
-<part name="CN7" library="CONNECTORs" deviceset="3-1734839-1" device="" value="31 PIN FPC"/>
 <part name="C16" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="C155" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="C281" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
 <part name="C284" library="c_0402" deviceset="0402ZC104KAT2A" device="" value="0.1uF 10V"/>
+<part name="CN6" library="CONNECTORs" deviceset="3-1734839-1" device="" value="31 PIN FPC"/>
 </parts>
 <sheets>
 <sheet>
@@ -19329,9 +19329,9 @@ RESET</text>
 <attribute name="NAME" x="114.3" y="12.7" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="119.38" y="12.7" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="CN7" gate="G$1" x="68.58" y="200.66" smashed="yes" rot="MR180">
-<attribute name="NAME" x="66.04" y="154.94" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="66.04" y="157.48" size="1.778" layer="96" rot="MR180"/>
+<instance part="CN6" gate="G$1" x="68.58" y="200.66" smashed="yes">
+<attribute name="NAME" x="66.04" y="246.38" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.04" y="243.84" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -19738,13 +19738,13 @@ RESET</text>
 <junction x="86.36" y="208.28"/>
 <wire x1="81.28" y1="238.76" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="208.28" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="1"/>
-<pinref part="CN7" gate="G$1" pin="2"/>
-<pinref part="CN7" gate="G$1" pin="12"/>
-<pinref part="CN7" gate="G$1" pin="13"/>
-<pinref part="CN7" gate="G$1" pin="18"/>
-<pinref part="CN7" gate="G$1" pin="19"/>
-<pinref part="CN7" gate="G$1" pin="31"/>
+<pinref part="CN6" gate="G$1" pin="1"/>
+<pinref part="CN6" gate="G$1" pin="13"/>
+<pinref part="CN6" gate="G$1" pin="14"/>
+<pinref part="CN6" gate="G$1" pin="19"/>
+<pinref part="CN6" gate="G$1" pin="20"/>
+<pinref part="CN6" gate="G$1" pin="30"/>
+<pinref part="CN6" gate="G$1" pin="31"/>
 </segment>
 <segment>
 <pinref part="U36" gate="G$1" pin="GND"/>
@@ -19879,7 +19879,7 @@ RESET</text>
 <wire x1="93.98" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="172.72" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
 <junction x="93.98" y="187.96"/>
-<pinref part="CN7" gate="G$1" pin="11"/>
+<pinref part="CN6" gate="G$1" pin="21"/>
 </segment>
 <segment>
 <label x="-71.12" y="236.22" size="1.778" layer="95"/>
@@ -20900,7 +20900,7 @@ RESET</text>
 <segment>
 <label x="121.92" y="198.12" size="1.778" layer="95"/>
 <wire x1="81.28" y1="198.12" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="15"/>
+<pinref part="CN6" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="DSP_VCOM" class="0">
@@ -20908,7 +20908,7 @@ RESET</text>
 <wire x1="81.28" y1="233.68" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C256" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="172.72" x2="109.22" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="29"/>
+<pinref part="CN6" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="DSP_IREF" class="0">
@@ -20916,21 +20916,21 @@ RESET</text>
 <wire x1="81.28" y1="231.14" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="172.72" x2="101.6" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="28"/>
+<pinref part="CN6" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="DSP_D_NC" class="0">
 <segment>
 <label x="121.92" y="203.2" size="1.778" layer="95"/>
 <wire x1="81.28" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="17"/>
+<pinref part="CN6" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="DSP_NRESET" class="0">
 <segment>
 <label x="121.92" y="200.66" size="1.778" layer="95"/>
 <wire x1="81.28" y1="200.66" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="16"/>
+<pinref part="CN6" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -20984,7 +20984,7 @@ RESET</text>
 <wire x1="116.84" y1="236.22" x2="147.32" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="172.72" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
 <junction x="116.84" y="236.22"/>
-<pinref part="CN7" gate="G$1" pin="30"/>
+<pinref part="CN6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FPGA_DONE" class="0">
@@ -21156,14 +21156,14 @@ RESET</text>
 <segment>
 <label x="121.92" y="213.36" size="1.778" layer="95"/>
 <wire x1="81.28" y1="213.36" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="21"/>
+<pinref part="CN6" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="DSP_SPI_SCLK" class="0">
 <segment>
 <label x="121.92" y="210.82" size="1.778" layer="95"/>
 <wire x1="81.28" y1="210.82" x2="147.32" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="20"/>
+<pinref part="CN6" gate="G$1" pin="12"/>
 </segment>
 </net>
 </nets>
