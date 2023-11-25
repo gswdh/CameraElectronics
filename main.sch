@@ -20125,6 +20125,11 @@ RESET</text>
 <wire x1="116.84" y1="17.78" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <junction x="116.84" y="30.48"/>
 </segment>
+<segment>
+<label x="20.32" y="-15.24" size="1.778" layer="95"/>
+<wire x1="15.24" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="P31"/>
+</segment>
 </net>
 <net name="FPGA_JTAG_TMS" class="0">
 <segment>
@@ -20579,11 +20584,6 @@ RESET</text>
 <wire x1="-71.12" y1="-160.02" x2="-45.72" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-203.2" x2="-71.12" y2="-160.02" width="0.1524" layer="91"/>
 <junction x="-71.12" y="-160.02"/>
-</segment>
-<segment>
-<label x="20.32" y="-15.24" size="1.778" layer="95"/>
-<wire x1="15.24" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="P31"/>
 </segment>
 <segment>
 <pinref part="U28" gate="G$1" pin="VDD"/>
