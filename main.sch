@@ -14867,16 +14867,18 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <wire x1="-177.8" y1="292.1" x2="-203.2" y2="266.7" width="0.1524" layer="97" curve="90"/>
 <text x="0" y="-279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
 <text x="0" y="279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
-<text x="25.4" y="-264.16" size="5.08" layer="91">VDDIO
+<text x="139.7" y="-149.86" size="5.08" layer="91">VDDIO
 1ms (min)
-VDD13AD+VDD13D
+VDD13AD+
+VDD13D
 1ms (min)
 VDD33A
 1ms (min)
-Supply Array (VTXL etc.)
+Supply Array 
+(VTXL etc.)
 1ms (min)
 SYS_RST_N</text>
-<text x="106.68" y="-266.7" size="5.08" layer="91">Voltage (V) Peak Current (mA)
+<text x="78.74" y="-264.16" size="5.08" layer="91">Voltage (V) Peak Current (mA)
 VDD33A 3.3 80
 VDD13D 1.3 250
 VDDIO 3.3 3
@@ -18296,6 +18298,11 @@ VGRSTL -1.3 15</text>
 <wire x1="-132.08" y1="-50.8" x2="-93.98" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-129.54" y="-50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CN7" gate="G$1" pin="HOT_PLUG_DECT"/>
+<wire x1="109.22" y1="-81.28" x2="71.12" y2="-81.28" width="0.1524" layer="91"/>
+<label x="73.66" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USB_NRST" class="0">
 <segment>
@@ -18916,7 +18923,7 @@ VGRSTL -1.3 15</text>
 <wire x1="10.16" y1="-116.84" x2="10.16" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$95" class="0">
+<net name="ETH_LED_ACT" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="LED0/PHY_AD0"/>
 <wire x1="7.62" y1="-106.68" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
@@ -18924,9 +18931,15 @@ VGRSTL -1.3 15</text>
 <wire x1="10.16" y1="-106.68" x2="53.34" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-104.14" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="10.16" y="-106.68"/>
+<label x="27.94" y="-106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN7" gate="G$1" pin="CONFIG1"/>
+<wire x1="109.22" y1="-73.66" x2="71.12" y2="-73.66" width="0.1524" layer="91"/>
+<label x="73.66" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$96" class="0">
+<net name="ETH_LED_LNK" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="LED1/PHY_AD1"/>
 <wire x1="7.62" y1="-109.22" x2="25.4" y2="-109.22" width="0.1524" layer="91"/>
@@ -18934,6 +18947,12 @@ VGRSTL -1.3 15</text>
 <wire x1="25.4" y1="-109.22" x2="53.34" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-114.3" x2="25.4" y2="-109.22" width="0.1524" layer="91"/>
 <junction x="25.4" y="-109.22"/>
+<label x="27.94" y="-109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CN7" gate="G$1" pin="CONFIG2"/>
+<wire x1="109.22" y1="-76.2" x2="71.12" y2="-76.2" width="0.1524" layer="91"/>
+<label x="73.66" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$97" class="0">
