@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="11" fill="1" visible="no" active="yes"/>
@@ -169,7 +169,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:fSLqUUoyRPS3Y_nTmPxjag" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e6377d3b-3d46-4d91-8665-f750c05ee5dd" lastsyncedrevisionid="e6377d3b-3d46-4d91-8665-f750c05ee5dd" lastboardhashguid="592efbe1-0410-9761-83a9-80d70b0fd50a" lastpushedtime="2023-10-24T12:27:45Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXl1Y2wxNDk2" projecturn="a.YnVzaW5lc3M6bXl1Y2wxNDk2IzIwMjExMjA3NDc0MjU0MzI2" f3durn="urn:adsk.wipprod:dm.lineage:fSLqUUoyRPS3Y_nTmPxjag" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d7a7c983-fb24-4705-bd6c-139b3cd3fb53" lastsyncedrevisionid="d7a7c983-fb24-4705-bd6c-139b3cd3fb53" lastboardhashguid="f4c80b79-bbe1-e5b1-3553-b7d58f142774" lastpushedtime="2023-11-30T13:24:19Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-49" y1="60" x2="-60" y2="49" width="0" layer="20" curve="90"/>
 <wire x1="-60" y1="-49" x2="-49" y2="-60" width="0" layer="20" curve="90"/>
@@ -186,13 +186,18 @@ rev 1.2.0
 <wire x1="-60" y1="49" x2="-60" y2="-49" width="0" layer="20"/>
 <wire x1="-49" y1="-60" x2="49" y2="-60" width="0" layer="20"/>
 <wire x1="60" y1="-49" x2="60" y2="49" width="0" layer="20"/>
-<circle x="0" y="0" radius="29" width="0.0001" layer="20"/>
 <wire x1="57" y1="29" x2="57" y2="21" width="0" layer="20"/>
 <wire x1="57" y1="21" x2="58" y2="20" width="0" layer="20" curve="90"/>
 <wire x1="58" y1="20" x2="59" y2="21" width="0" layer="20" curve="90"/>
 <wire x1="59" y1="21" x2="59" y2="29" width="0" layer="20"/>
 <wire x1="59" y1="29" x2="58" y2="30" width="0" layer="20" curve="90"/>
 <wire x1="58" y1="30" x2="57" y2="29" width="0" layer="20" curve="90"/>
+<wire x1="-30.55918125" y1="12.44556875" x2="-31.4" y2="10.1" width="0" layer="20"/>
+<wire x1="-24.747209375" y1="15.11871875" x2="-30.55918125" y2="12.44556875" width="0" layer="20" curve="90.600938"/>
+<wire x1="-32.1711" y1="7.333209375" x2="-28.95" y2="1.81" width="0" layer="20" curve="90.600864"/>
+<wire x1="-32.1711" y1="7.333209375" x2="-31.53" y2="9.73" width="0" layer="20"/>
+<wire x1="-28.95" y1="1.81" x2="-24.747209375" y2="15.11871875" width="0" layer="20" curve="332.156305"/>
+<wire x1="-31.4" y1="10.1" x2="-31.53" y2="9.73" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="ICs">
@@ -677,19 +682,19 @@ einem neuen Namen ab.</description>
 <element name="CN1" library="CONNECTORs" package="1122" value="21700" x="-44.5" y="8" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="36-1122-ND" x="-44.5" y="8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="HEIGHT" value="22" x="-44.5" y="8" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-39.5" y="-2.25" size="0.5" layer="22" rot="MR270"/>
+<attribute name="NAME" x="-57.25" y="-33.5" size="0.5" layer="22" rot="MR180"/>
 <attribute name="PRICE_PER" value="4.1" x="-44.5" y="8" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="CN2" library="CONNECTORs" package="1122" value="21700" x="0" y="-46.5" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="36-1122-ND" x="0" y="-46.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="HEIGHT" value="22" x="0" y="-46.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-18.25" y="-49.375" size="0.5" layer="22" rot="MR180"/>
+<attribute name="NAME" x="-41.125" y="-58.25" size="0.5" layer="22" rot="MR270"/>
 <attribute name="PRICE_PER" value="4.1" x="0" y="-46.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="CN3" library="CONNECTORs" package="1122" value="21700" x="44.5" y="8" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="36-1122-ND" x="44.5" y="8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="22" x="44.5" y="8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="48.375" y="10.875" size="0.5" layer="22" rot="MR90"/>
+<attribute name="NAME" x="56.375" y="-33.125" size="0.5" layer="22" rot="MR180"/>
 <attribute name="PRICE_PER" value="4.1" x="44.5" y="8" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R2" library="r_0603" package="0603" value="47R" x="22.75" y="44.625" smashed="yes" rot="R270">
@@ -952,8 +957,8 @@ einem neuen Namen ab.</description>
 <via x="34.75" y="33.25" extent="1-16" drill="0.5"/>
 <via x="34.75" y="32.5" extent="1-16" drill="0.5"/>
 <polygon width="0.15" layer="1" thermals="no" rank="6">
-<vertex x="-60" y="60"/>
-<vertex x="60" y="60"/>
+<vertex x="-60" y="70.83"/>
+<vertex x="60" y="70.83"/>
 <vertex x="60" y="-60"/>
 <vertex x="-60" y="-60"/>
 </polygon>
