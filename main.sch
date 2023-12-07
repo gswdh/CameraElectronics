@@ -21644,7 +21644,9 @@ RESET</text>
 <attribute name="NAME" x="-124.46" y="185.42" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-119.38" y="185.42" size="1.27" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="GND68" gate="G$1" x="-121.92" y="175.26" smashed="yes"/>
+<instance part="GND68" gate="G$1" x="-121.92" y="175.26" smashed="yes">
+<attribute name="VALUE" x="-121.92" y="172.72" size="1.778" layer="96" align="center"/>
+</instance>
 <instance part="C29" gate="G$1" x="-114.3" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="-116.84" y="185.42" size="1.27" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="-111.76" y="185.42" size="1.27" layer="96" rot="R90" align="center"/>
@@ -24255,6 +24257,11 @@ RESET</text>
 <wire x1="-17.78" y1="154.94" x2="15.24" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-17.78" y="154.94"/>
 <pinref part="U19" gate="G$1" pin="A"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PD2"/>
+<wire x1="-142.24" y1="104.14" x2="-177.8" y2="104.14" width="0.1524" layer="91"/>
+<label x="-175.26" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_FPGA_1V0" class="0">

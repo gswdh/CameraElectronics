@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND1" color="11" fill="1" visible="no" active="yes"/>
@@ -17977,6 +17977,10 @@ einem neuen Namen ab.</description>
 <wire x1="10.7" y1="11.7" x2="11.7" y2="12.7" width="0.1" layer="16"/>
 <wire x1="11.7" y1="24.575" x2="12.0625" y2="24.9375" width="0.1" layer="16"/>
 <wire x1="11.7" y1="12.7" x2="11.7" y2="24.575" width="0.1" layer="16"/>
+<contactref element="U5" pad="54"/>
+<wire x1="30.2" y1="55.4" x2="41.725" y2="55.4" width="0.0889" layer="1"/>
+<wire x1="45.25" y1="51.875" x2="45.25" y2="48.75" width="0.0889" layer="1"/>
+<wire x1="41.725" y1="55.4" x2="45.25" y2="51.875" width="0.0889" layer="1"/>
 </signal>
 <signal name="BTN_BTMRIGHT">
 <contactref element="SW5" pad="2"/>
