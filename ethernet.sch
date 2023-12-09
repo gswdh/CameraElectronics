@@ -206,6 +206,23 @@
 <wire x1="-5.7" y1="9.25" x2="-5.7" y2="-3.5" width="0.1524" layer="21"/>
 <text x="-5.5" y="9.5" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="MTJ-880X1">
+<hole x="-5.715" y="-1" drill="3.17"/>
+<hole x="5.715" y="-1" drill="3.17"/>
+<pad name="1" x="-4.445" y="5.35" drill="0.9"/>
+<pad name="2" x="-3.175" y="7.89" drill="0.9"/>
+<pad name="3" x="-1.905" y="5.35" drill="0.9"/>
+<pad name="4" x="-0.635" y="7.89" drill="0.9"/>
+<pad name="5" x="0.635" y="5.35" drill="0.9"/>
+<pad name="6" x="1.905" y="7.89" drill="0.9"/>
+<pad name="7" x="3.175" y="5.35" drill="0.9"/>
+<pad name="8" x="4.445" y="7.89" drill="0.9"/>
+<wire x1="-7.5" y1="-9" x2="7.5" y2="-9" width="0.125" layer="21"/>
+<wire x1="7.5" y1="-9" x2="7.5" y2="9" width="0.125" layer="21"/>
+<wire x1="7.5" y1="9" x2="-7.5" y2="9" width="0.125" layer="21"/>
+<wire x1="-7.5" y1="9" x2="-7.5" y2="-9" width="0.125" layer="21"/>
+<text x="-7.5" y="9.125" size="0.5" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M_DISP_PORT_CONNECTOR">
@@ -231,6 +248,22 @@
 <wire x1="-12.7" y1="35.56" x2="12.7" y2="35.56" width="0.254" layer="94"/>
 <text x="-12.7" y="40.64" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="38.1" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="8P8C">
+<pin name="A+" x="-10.16" y="12.7" length="middle"/>
+<pin name="A-" x="-10.16" y="10.16" length="middle"/>
+<pin name="B+" x="-10.16" y="5.08" length="middle"/>
+<pin name="B-" x="-10.16" y="2.54" length="middle"/>
+<pin name="C+" x="-10.16" y="-2.54" length="middle"/>
+<pin name="C-" x="-10.16" y="-5.08" length="middle"/>
+<pin name="D+" x="-10.16" y="-10.16" length="middle"/>
+<pin name="D-" x="-10.16" y="-12.7" length="middle"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<text x="-5.08" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -265,6 +298,34 @@
 <attribute name="HEIGHT" value="6" constant="no"/>
 <attribute name="PRICE_PER" value="1.81" constant="no"/>
 <attribute name="VALUE" value="Mini Displayport" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTJ-880X1" prefix="CN">
+<description>Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded</description>
+<gates>
+<gate name="G$1" symbol="8P8C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTJ-880X1">
+<connects>
+<connect gate="G$1" pin="A+" pad="1"/>
+<connect gate="G$1" pin="A-" pad="2"/>
+<connect gate="G$1" pin="B+" pad="3"/>
+<connect gate="G$1" pin="B-" pad="6"/>
+<connect gate="G$1" pin="C+" pad="4"/>
+<connect gate="G$1" pin="C-" pad="5"/>
+<connect gate="G$1" pin="D+" pad="7"/>
+<connect gate="G$1" pin="D-" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="2057-MTJ-880X1-ND" constant="no"/>
+<attribute name="HEIGHT" value="13" constant="no"/>
+<attribute name="PRICE_PER" value="0.38" constant="no"/>
+<attribute name="VALUE" value="8P8C" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -312,7 +373,8 @@
 </classes>
 <parts>
 <part name="CN7" library="CONNECTORs" deviceset="2129320-3" device="" value="Mini Displayport"/>
-<part name="GND40" library="NETS" deviceset="GND" device=""/>
+<part name="CN1" library="CONNECTORs" deviceset="MTJ-880X1" device="" value="8P8C"/>
+<part name="GND1" library="NETS" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -359,105 +421,128 @@ CONFIDENTIAL. FOR THE INTENDED READER ONLY.</text>
 <text x="0" y="279.4" size="7.62" layer="97" font="vector" align="center">UNCONTROLLED WHEN PRINTED</text>
 </plain>
 <instances>
-<instance part="CN7" gate="G$1" x="-93.98" y="0" smashed="yes">
-<attribute name="NAME" x="-106.68" y="40.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-106.68" y="38.1" size="1.778" layer="96"/>
+<instance part="CN7" gate="G$1" x="-50.8" y="7.62" smashed="yes">
+<attribute name="NAME" x="-63.5" y="48.26" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-63.5" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="GND40" gate="G$1" x="-93.98" y="-50.8" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-93.98" y="-53.34" size="1.778" layer="96" rot="MR0" align="center"/>
+<instance part="CN1" gate="G$1" x="55.88" y="15.24" smashed="yes">
+<attribute name="NAME" x="50.8" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="G$1" x="-50.8" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-43.18" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
-<segment>
-<pinref part="GND40" gate="G$1" pin="GND"/>
-<wire x1="-93.98" y1="-48.26" x2="-93.98" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-45.72" x2="-96.52" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="CN7" gate="G$1" pin="SH"/>
-<wire x1="-96.52" y1="-45.72" x2="-96.52" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-45.72" x2="-91.44" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="-93.98" y="-45.72"/>
-<pinref part="CN7" gate="G$1" pin="GND"/>
-<wire x1="-91.44" y1="-45.72" x2="-91.44" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PWR_SYS_3V3" class="0">
-<segment>
-<pinref part="CN7" gate="G$1" pin="HOT_PLUG_DECT"/>
-<wire x1="-76.2" y1="-25.4" x2="-38.1" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-40.64" y="-25.4" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="ETH_TD_0_P" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_2_N"/>
-<wire x1="-38.1" y1="2.54" x2="-76.2" y2="2.54" width="0.1524" layer="91"/>
-<label x="-40.64" y="2.54" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="2.54" y="10.16" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="A+"/>
+<wire x1="20.32" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_0_N" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_2_P"/>
-<wire x1="-38.1" y1="5.08" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
-<label x="-40.64" y="5.08" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="12.7" x2="-33.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="2.54" y="12.7" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="A-"/>
+<wire x1="20.32" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="22.86" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_1_P" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_1_N"/>
-<wire x1="-38.1" y1="10.16" x2="-76.2" y2="10.16" width="0.1524" layer="91"/>
-<label x="-40.64" y="10.16" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="17.78" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
+<label x="2.54" y="17.78" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="B+"/>
+<wire x1="20.32" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<label x="22.86" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_1_N" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_1_P"/>
-<wire x1="-38.1" y1="12.7" x2="-76.2" y2="12.7" width="0.1524" layer="91"/>
-<label x="-40.64" y="12.7" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="2.54" y="20.32" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="B-"/>
+<wire x1="20.32" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
+<label x="22.86" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_2_P" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_3_N"/>
-<wire x1="-38.1" y1="-5.08" x2="-76.2" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-40.64" y="-5.08" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="2.54" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
+<label x="2.54" y="2.54" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="C+"/>
+<wire x1="20.32" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+<label x="22.86" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_2_N" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_3_P"/>
-<wire x1="-38.1" y1="-2.54" x2="-76.2" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-40.64" y="-2.54" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
+<label x="2.54" y="5.08" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="C-"/>
+<wire x1="20.32" y1="10.16" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
+<label x="22.86" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_3_P" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_0_N"/>
-<wire x1="-38.1" y1="17.78" x2="-76.2" y2="17.78" width="0.1524" layer="91"/>
-<label x="-40.64" y="17.78" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="25.4" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
+<label x="2.54" y="25.4" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="D+"/>
+<wire x1="20.32" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<label x="22.86" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ETH_TD_3_N" class="0">
 <segment>
 <pinref part="CN7" gate="G$1" pin="ML_LANE_0_P"/>
-<wire x1="-38.1" y1="20.32" x2="-76.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="-40.64" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<wire x1="5.08" y1="27.94" x2="-33.02" y2="27.94" width="0.1524" layer="91"/>
+<label x="2.54" y="27.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="CN1" gate="G$1" pin="D-"/>
+<wire x1="20.32" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
+<label x="22.86" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ETH_LED_ACT" class="0">
+<net name="GND" class="0">
 <segment>
-<pinref part="CN7" gate="G$1" pin="CONFIG1"/>
-<wire x1="-76.2" y1="-17.78" x2="-38.1" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-40.64" y="-17.78" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="ETH_LED_LNK" class="0">
-<segment>
-<pinref part="CN7" gate="G$1" pin="CONFIG2"/>
-<wire x1="-76.2" y1="-20.32" x2="-38.1" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-40.64" y="-20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="CN7" gate="G$1" pin="SH"/>
+<wire x1="-53.34" y1="-33.02" x2="-53.34" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-35.56" x2="-50.8" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="CN7" gate="G$1" pin="GND"/>
+<wire x1="-50.8" y1="-35.56" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-35.56" x2="-48.26" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-35.56" x2="-50.8" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-35.56"/>
+<pinref part="GND1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
