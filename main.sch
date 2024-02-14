@@ -10207,7 +10207,7 @@
 <sheet>
 <description>TITLE</description>
 <plain>
-<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2023.11.28 - GSWDH LTD.
+<text x="0" y="0" size="7.62" layer="97" font="vector" align="center">2024.02.14 - GSWDH LTD.
 CAMERA MAIN PCB
 
 REVISION 1.2.0
