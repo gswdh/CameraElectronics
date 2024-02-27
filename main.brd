@@ -13173,8 +13173,7 @@ einem neuen Namen ab.</description>
 <wire x1="3.7" y1="-21.537775" x2="3.69045" y2="-21.528225" width="0.0889" layer="4"/>
 <wire x1="3.69045" y1="-21.528225" x2="3.69045" y2="-21.271775" width="0.0889" layer="4"/>
 <wire x1="3.69045" y1="-21.271775" x2="3.7" y2="-21.262225" width="0.0889" layer="4"/>
-<wire x1="3.7" y1="-21.262225" x2="3.7" y2="-21.2" width="0.0889" layer="4"/>
-<wire x1="3.7" y1="-21.2" x2="3.7" y2="-20.737775" width="0.0889" layer="4"/>
+<wire x1="3.7" y1="-21.262225" x2="3.7" y2="-20.737775" width="0.0889" layer="4"/>
 </signal>
 <signal name="SEN_B_D0_P">
 <contactref element="U1" pad="B15"/>
@@ -15994,7 +15993,7 @@ einem neuen Namen ab.</description>
 <wire x1="2.5" y1="14" x2="2.6" y2="14.1" width="0.1" layer="4"/>
 <wire x1="2.3" y1="14.4" x2="2.1" y2="14.4" width="0.1" layer="4"/>
 <wire x1="2.3" y1="14.4" x2="2.6" y2="14.1" width="0.1" layer="4"/>
-<wire x1="21.1" y1="4.2" x2="21.1" y2="0.7" width="0.0889" layer="4"/>
+<wire x1="21.1" y1="0.7" x2="21.1" y2="4.2" width="0.0889" layer="4"/>
 </signal>
 <signal name="EVF_MIPI_A_D1_N">
 <contactref element="CN4" pad="30"/>
@@ -16063,7 +16062,7 @@ einem neuen Namen ab.</description>
 <wire x1="2.3849" y1="15.43051875" x2="2.3849" y2="15.1" width="0.1" layer="16"/>
 <wire x1="2.3849" y1="15.1" x2="2.4" y2="15.0849" width="0.1" layer="16"/>
 <wire x1="2.4" y1="15.0849" x2="2.4" y2="14.8" width="0.1" layer="16"/>
-<wire x1="21.3" y1="4.3" x2="21.3" y2="0.6" width="0.0889" layer="4"/>
+<wire x1="21.3" y1="0.6" x2="21.3" y2="4.3" width="0.0889" layer="4"/>
 </signal>
 <signal name="EVF_MIPI_A_D2_P">
 <contactref element="CN4" pad="32"/>
